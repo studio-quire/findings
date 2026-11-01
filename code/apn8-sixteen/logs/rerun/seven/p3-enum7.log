@@ -1,0 +1,21 @@
+GL(4,2) 20160, V5824 5824, classes 1680(cent 12) 1344(cent 15) 1344(cent 15) 1344(cent 15) 112(cent 180)
+  class 0: 142/1584 tasks, 601 s in class, orbits 3577
+  class 0: 260/1584 tasks, 1202 s in class, orbits 3579
+  class 0: 586/1584 tasks, 1803 s in class, orbits 3579
+class 0 done, 2159 s, orbits so far 3579 (this run: 1584 tasks, 9903360 cliques, thread-s canon 42757, w 9)
+  class 1: 1114/1128 tasks, 600 s in class, orbits 3730
+class 1 done, 2760 s, orbits so far 3730 (this run: 1128 tasks, 3654801 cliques, thread-s canon 11848, w 1)
+class 2 done, 2980 s, orbits so far 3730 (this run: 784 tasks, 1348739 cliques, thread-s canon 4328, w 0)
+class 3 done, 3039 s, orbits so far 3730 (this run: 440 tasks, 360725 cliques, thread-s canon 1162, w 0)
+class 4 done, 3045 s, orbits so far 3731 (this run: 76 tasks, 21080 cliques, thread-s canon 79, w 0)
+w spot checks: 15238, mismatches 0
+reduced cliques by extension w (largest clique in the common neighbourhood):
+  w=2: reduced 340542, weighted 324399600, orbits 83, orbit sum 324399600 MATCH
+  w=3: reduced 5536992, weighted 5253897600, orbits 1277, orbit sum 5253897600 MATCH
+  w=4: reduced 5838846, weighted 5457160800, orbits 1375, orbit sum 5457160800 MATCH
+  w=5: reduced 1312029, weighted 1167415200, orbits 305, orbit sum 1167415200 MATCH
+  w=6: reduced 1322286, weighted 1134163800, orbits 332, orbit sum 1134163800 MATCH
+  w=10: reduced 938010, weighted 785729336, orbits 359, orbit sum 785729336 MATCH
+orbits 3731
+wrote 3731 configurations, 3045 s
+# exit 0

@@ -1,0 +1,4 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+count4 (a): k-cliques of V5824 by plain enumeration: 1:5824 2:4583936 3:606183424 4:14122766336 5:58471168000  [112 s]
+count4 (b): triangles 606183424, 4-cliques 14122766336 (by edges)  [14 s]
+count4: 5-cliques = eight-check's 58471168000 OK; (a) and (b) agree OK

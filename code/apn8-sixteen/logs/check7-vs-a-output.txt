@@ -1,0 +1,15 @@
+mapa: 3731 of A's, 3731 distinct of ours, none unmapped: True
+|Aut| (A's name, our canon of A's rep, our classification) equal on 3731 of 3731
+w vs type: {(2, 'ext9'): 83, (3, 'ext10'): 1277, (4, 'ext11'): 1375, (5, 'ext12'): 305, (6, 'ext13'): 332, (10, 'spr'): 359}
+  one to one: True
+A: 9 outputs, 114702 NEAR lines, 0 repeated (config, basis); by dim {4: 1, 5: 1634, 6: 108026, 7: 5041}; on 2787 configurations
+== asc: 3731 records (0 repeated, 0 solutions); B 114702 cores on 2787 configurations; (configuration, dim) pairs 3063, unequal 0 []
+  dim 4: A 1 on 1, B 1 on 1, same configurations True
+  dim 5: A 1634 on 156, B 1634 on 156, same configurations True
+  dim 6: A 108026 on 2785, B 108026 on 2785, same configurations True
+  dim 7: A 5041 on 121, B 5041 on 121, same configurations True
+== desc: 3731 records (0 repeated, 0 solutions); B 114702 cores on 2787 configurations; (configuration, dim) pairs 3063, unequal 0 []
+  dim 4: A 1 on 1, B 1 on 1, same configurations True
+  dim 5: A 1634 on 156, B 1634 on 156, same configurations True
+  dim 6: A 108026 on 2785, B 108026 on 2785, same configurations True
+  dim 7: A 5041 on 121, B 5041 on 121, same configurations True

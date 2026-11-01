@@ -1,0 +1,10 @@
+GL(4,2) 20160, V5824 5824, classes 1680(cent 12) 1344(cent 15) 1344(cent 15) 1344(cent 15) 112(cent 180)
+3731 configurations, keys distinct; 0 already done
+  500 done this run, 0 s
+  1000 done this run, 0 s
+  1500 done this run, 0 s
+  2000 done this run, 0 s
+  2500 done this run, 0 s
+  3000 done this run, 1 s
+  3500 done this run, 1 s
+holes: 3731 done this run, 0 with a cover off the list, 1 s

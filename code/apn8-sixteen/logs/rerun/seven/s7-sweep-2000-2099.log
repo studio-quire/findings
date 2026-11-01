@@ -1,0 +1,169 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+search: 3731 configurations (configuration list); point order ascending; D phase coset sweep
+config 2000 (ext11): nodes 1 28 784 14140 82399 49549 387 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2943637 full 0+0 bentext 0  [1.7 s, total 2 s]
+config 2001 (ext11): nodes 1 28 784 14251 82497 50484 368 0 0  cores 0 0 0 0 0 0 11 0 0  triesD 0 sweep 32492384 full 0+0 bentext 0  [3.0 s, total 5 s]
+config 2002 (ext11): nodes 1 28 784 14257 82740 50392 421 0 0  cores 0 0 0 0 0 0 17 0 0  triesD 0 sweep 50175555 full 0+0 bentext 0  [3.7 s, total 8 s]
+config 2003 (ext11): nodes 1 28 784 14230 84013 51486 380 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.0 s, total 9 s]
+config 2004 (ext11): nodes 1 28 784 14128 82592 49499 411 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.0 s, total 10 s]
+config 2005 (ext11): nodes 1 28 784 14194 83037 50265 363 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 3065016 full 0+0 bentext 0  [2.1 s, total 13 s]
+config 2006 (ext11): nodes 1 28 784 14155 82538 50884 391 0 0  cores 0 0 0 0 0 0 17 0 0  triesD 0 sweep 48817094 full 0+0 bentext 0  [3.5 s, total 16 s]
+config 2007 (ext11): nodes 1 28 784 14122 83422 51981 444 0 0  cores 0 0 0 0 0 0 26 0 0  triesD 0 sweep 74914040 full 0+0 bentext 0  [4.5 s, total 21 s]
+config 2008 (ext11): nodes 1 28 784 14149 84458 54140 469 0 0  cores 0 0 0 0 0 0 10 0 0  triesD 0 sweep 29542143 full 0+0 bentext 0  [3.1 s, total 24 s]
+config 2009 (ext11): nodes 1 28 784 14188 82777 50648 387 0 0  cores 0 0 0 0 0 0 4 0 0  triesD 0 sweep 11151576 full 0+0 bentext 0  [2.4 s, total 26 s]
+config 2010 (ext11): nodes 1 28 784 14209 83825 50602 382 0 0  cores 0 0 0 0 0 0 16 0 0  triesD 0 sweep 45804138 full 0+0 bentext 0  [3.2 s, total 29 s]
+config 2011 (ext11): nodes 1 28 784 14155 83138 52728 462 0 0  cores 0 0 0 0 0 0 6 0 0  triesD 0 sweep 17424290 full 0+0 bentext 0  [3.0 s, total 32 s]
+config 2012 (ext11): nodes 1 28 784 14242 85489 53351 491 0 0  cores 0 0 0 0 0 0 8 0 0  triesD 0 sweep 23647493 full 0+0 bentext 0  [4.0 s, total 36 s]
+config 2013 (ext11): nodes 1 28 784 14179 83207 51757 471 0 0  cores 0 0 0 0 0 0 12 0 0  triesD 0 sweep 34428827 full 0+0 bentext 0  [3.3 s, total 40 s]
+config 2014 (ext11): nodes 1 28 784 14155 82822 50626 394 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 41 s]
+config 2015 (ext11): nodes 1 28 784 14098 83626 51370 382 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [3.0 s, total 44 s]
+config 2016 (ext11): nodes 1 28 784 14164 82996 50435 405 0 0  cores 0 0 0 0 0 0 2 0 0  triesD 0 sweep 5527573 full 0+0 bentext 0  [3.9 s, total 48 s]
+config 2017 (ext11): nodes 1 28 784 14164 83757 51164 382 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.5 s, total 50 s]
+config 2018 (ext11): nodes 1 28 784 14140 82797 51201 395 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 51 s]
+config 2019 (ext11): nodes 1 28 784 14245 85684 53741 395 0 0  cores 0 0 0 0 0 0 22 0 0  triesD 0 sweep 62257142 full 0+0 bentext 0  [6.0 s, total 57 s]
+config 2020 (ext11): nodes 1 28 784 14122 82394 52223 445 0 0  cores 0 0 0 0 0 0 21 0 0  triesD 0 sweep 62776118 full 0+0 bentext 0  [5.3 s, total 63 s]
+config 2021 (ext11): nodes 1 28 784 14179 84500 54308 471 0 0  cores 0 0 0 0 0 1 42 0 0  triesD 0 sweep 135155085 full 0+0 bentext 0  [13.1 s, total 76 s]
+config 2022 (ext11): nodes 1 28 784 14173 85541 53762 443 0 0  cores 0 0 0 0 0 0 26 0 0  triesD 0 sweep 74709941 full 0+0 bentext 0  [6.8 s, total 83 s]
+config 2023 (ext11): nodes 1 28 784 14146 83009 52045 424 0 0  cores 0 0 0 0 0 0 13 0 0  triesD 0 sweep 37768976 full 0+0 bentext 0  [4.5 s, total 87 s]
+config 2024 (ext11): nodes 1 28 784 14143 84002 53282 456 0 0  cores 0 0 0 0 0 0 9 0 0  triesD 0 sweep 26858491 full 0+0 bentext 0  [4.3 s, total 91 s]
+config 2025 (ext11): nodes 1 28 784 14182 84758 55288 442 0 0  cores 0 0 0 0 0 0 23 0 0  triesD 0 sweep 67226911 full 0+0 bentext 0  [6.4 s, total 98 s]
+config 2026 (ext11): nodes 1 28 784 14143 82857 50584 353 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 100 s]
+config 2027 (ext11): nodes 1 28 784 14203 82124 50868 361 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 101 s]
+config 2028 (ext11): nodes 1 28 784 14098 82161 48962 398 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 103 s]
+config 2029 (ext11): nodes 1 28 784 14170 83999 53826 416 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 105 s]
+config 2030 (ext11): nodes 1 28 784 14077 81980 50906 428 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 107 s]
+config 2031 (ext11): nodes 1 28 784 14137 83227 51467 482 0 0  cores 0 0 0 0 0 0 35 0 0  triesD 0 sweep 101231237 full 0+0 bentext 0  [8.5 s, total 115 s]
+config 2032 (ext11): nodes 1 28 784 14122 83763 50732 411 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2799271 full 0+0 bentext 0  [4.1 s, total 119 s]
+config 2033 (ext11): nodes 1 28 784 14146 83344 52544 385 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.6 s, total 121 s]
+config 2034 (ext11): nodes 1 28 784 14215 84340 53282 394 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 123 s]
+config 2035 (ext11): nodes 1 28 784 14137 83261 52313 413 0 0  cores 0 0 0 0 0 0 3 0 0  triesD 0 sweep 8260487 full 0+0 bentext 0  [3.6 s, total 126 s]
+config 2036 (ext11): nodes 1 28 784 14254 83709 51325 413 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 128 s]
+config 2037 (ext11): nodes 1 28 784 14128 82742 51678 457 0 0  cores 0 0 0 0 0 0 16 0 0  triesD 0 sweep 46488233 full 0+0 bentext 0  [5.3 s, total 133 s]
+config 2038 (ext11): nodes 1 28 784 14146 83756 52397 376 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 135 s]
+config 2039 (ext11): nodes 1 28 784 14167 83983 51630 382 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2783806 full 0+0 bentext 0  [4.2 s, total 139 s]
+config 2040 (ext11): nodes 1 28 784 14116 84089 51809 386 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 141 s]
+config 2041 (ext11): nodes 1 28 784 14158 83194 50570 368 0 0  cores 0 0 0 0 0 0 2 0 0  triesD 0 sweep 5969453 full 0+0 bentext 0  [4.4 s, total 145 s]
+config 2042 (ext11): nodes 1 28 784 14191 82807 51950 434 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 147 s]
+config 2043 (ext11): nodes 1 28 784 14116 84296 54172 434 0 0  cores 0 0 0 0 0 0 12 0 0  triesD 0 sweep 35548455 full 0+0 bentext 0  [5.3 s, total 152 s]
+config 2044 (ext11): nodes 1 28 784 14122 83325 50898 387 0 0  cores 0 0 0 0 0 0 17 0 0  triesD 0 sweep 49966588 full 0+0 bentext 0  [5.6 s, total 158 s]
+config 2045 (ext11): nodes 1 28 784 14044 82288 53320 432 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 160 s]
+config 2046 (ext11): nodes 1 28 784 14056 82147 49188 412 0 0  cores 0 0 0 0 0 0 7 0 0  triesD 0 sweep 19453752 full 0+0 bentext 0  [4.8 s, total 164 s]
+config 2047 (ext11): nodes 1 28 784 14170 82071 49974 387 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2674410 full 0+0 bentext 0  [3.4 s, total 168 s]
+config 2048 (ext11): nodes 1 28 784 14155 81160 49222 337 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 170 s]
+config 2049 (ext11): nodes 1 28 784 14149 83125 51107 358 0 0  cores 0 0 0 0 0 0 13 0 0  triesD 0 sweep 38204086 full 0+0 bentext 0  [5.7 s, total 175 s]
+config 2050 (ext11): nodes 1 28 784 14113 80964 49122 357 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 177 s]
+config 2051 (ext11): nodes 1 28 784 14140 83583 51663 410 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 3137916 full 0+0 bentext 0  [4.6 s, total 182 s]
+config 2052 (ext11): nodes 1 28 784 14038 83268 51115 464 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2600650 full 0+0 bentext 0  [4.3 s, total 186 s]
+config 2053 (ext11): nodes 1 28 784 14170 82347 52334 430 0 0  cores 0 0 0 0 0 0 13 0 0  triesD 0 sweep 39677961 full 0+0 bentext 0  [5.7 s, total 192 s]
+config 2054 (ext11): nodes 1 28 784 14284 82438 51079 439 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [2.3 s, total 194 s]
+config 2055 (ext11): nodes 1 28 784 14311 82852 49923 457 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 196 s]
+config 2056 (ext11): nodes 1 28 784 14239 83617 50373 365 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 3012561 full 0+0 bentext 0  [4.4 s, total 200 s]
+config 2057 (ext11): nodes 1 28 784 14197 82326 49982 364 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 3099205 full 0+0 bentext 0  [4.2 s, total 204 s]
+config 2058 (ext11): nodes 1 28 784 14122 81353 49726 370 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.6 s, total 206 s]
+config 2059 (ext11): nodes 1 28 784 14197 81195 50204 383 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 3153717 full 0+0 bentext 0  [4.1 s, total 210 s]
+config 2060 (ext11): nodes 1 28 784 14296 83553 53214 482 0 0  cores 0 0 0 0 0 0 28 0 0  triesD 0 sweep 81247113 full 0+0 bentext 0  [8.4 s, total 218 s]
+config 2061 (ext11): nodes 1 28 784 14104 83027 50229 424 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2702192 full 0+0 bentext 0  [4.1 s, total 222 s]
+config 2062 (ext11): nodes 1 28 784 14122 80894 48004 375 0 0  cores 0 0 0 0 0 0 2 0 0  triesD 0 sweep 5676228 full 0+0 bentext 0  [4.1 s, total 227 s]
+config 2063 (ext11): nodes 1 28 784 14119 81046 49881 377 0 0  cores 0 0 0 0 0 0 5 0 0  triesD 0 sweep 14749455 full 0+0 bentext 0  [4.9 s, total 231 s]
+config 2064 (ext11): nodes 1 28 784 14107 81933 51087 364 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 233 s]
+config 2065 (ext11): nodes 1 28 784 14137 82080 50997 379 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 3026726 full 0+0 bentext 0  [3.5 s, total 237 s]
+config 2066 (ext11): nodes 1 28 784 14080 83570 54518 429 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2822667 full 0+0 bentext 0  [3.7 s, total 240 s]
+config 2067 (ext11): nodes 1 28 784 14095 83747 52750 450 0 0  cores 0 0 0 0 0 0 15 0 0  triesD 0 sweep 43363715 full 0+0 bentext 0  [5.1 s, total 245 s]
+config 2068 (ext11): nodes 1 28 784 14149 82641 50969 457 0 0  cores 0 0 0 0 0 0 14 0 0  triesD 0 sweep 40676301 full 0+0 bentext 0  [5.8 s, total 251 s]
+config 2069 (ext11): nodes 1 28 784 14194 83260 50234 426 0 0  cores 0 0 0 0 0 0 8 0 0  triesD 0 sweep 23666444 full 0+0 bentext 0  [5.2 s, total 256 s]
+config 2070 (ext11): nodes 1 28 784 14125 82867 51334 441 0 0  cores 0 0 0 0 0 0 11 0 0  triesD 0 sweep 32095596 full 0+0 bentext 0  [5.8 s, total 262 s]
+config 2071 (ext11): nodes 1 28 784 14236 82354 50920 413 0 0  cores 0 0 0 0 0 0 3 0 0  triesD 0 sweep 8495870 full 0+0 bentext 0  [4.7 s, total 267 s]
+config 2072 (ext11): nodes 1 28 784 14164 83799 49827 394 0 0  cores 0 0 0 0 0 0 6 0 0  triesD 0 sweep 17309539 full 0+0 bentext 0  [4.8 s, total 272 s]
+config 2073 (ext11): nodes 1 28 784 14146 82488 51082 396 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2841741 full 0+0 bentext 0  [3.1 s, total 275 s]
+config 2074 (ext11): nodes 1 28 784 14086 83760 54586 458 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 277 s]
+config 2075 (ext11): nodes 1 28 784 14197 84194 50895 405 0 0  cores 0 0 0 0 0 0 5 0 0  triesD 0 sweep 14812156 full 0+0 bentext 0  [5.3 s, total 282 s]
+config 2076 (ext11): nodes 1 28 784 14065 82562 52189 424 0 0  cores 0 0 0 0 0 0 11 0 0  triesD 0 sweep 30318841 full 0+0 bentext 0  [5.3 s, total 287 s]
+config 2077 (ext11): nodes 1 28 784 14200 81464 50543 398 0 0  cores 0 0 0 0 0 0 2 0 0  triesD 0 sweep 5986477 full 0+0 bentext 0  [4.9 s, total 292 s]
+config 2078 (ext11): nodes 1 28 784 14185 83274 50641 432 0 0  cores 0 0 0 0 0 0 14 0 0  triesD 0 sweep 40894715 full 0+0 bentext 0  [5.4 s, total 298 s]
+config 2079 (ext11): nodes 1 28 784 14245 81501 49844 367 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.5 s, total 299 s]
+config 2080 (ext11): nodes 1 28 784 14131 84768 53197 417 0 0  cores 0 0 0 0 0 0 11 0 0  triesD 0 sweep 31485778 full 0+0 bentext 0  [4.8 s, total 304 s]
+config 2081 (ext11): nodes 1 28 784 14149 83539 52007 376 0 0  cores 0 0 0 0 0 0 2 0 0  triesD 0 sweep 5693908 full 0+0 bentext 0  [4.1 s, total 308 s]
+config 2082 (ext11): nodes 1 28 784 14179 84127 52132 379 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 310 s]
+config 2083 (ext11): nodes 1 28 784 14155 82691 50750 386 0 0  cores 0 0 0 0 0 0 5 0 0  triesD 0 sweep 13808694 full 0+0 bentext 0  [4.3 s, total 314 s]
+config 2084 (ext11): nodes 1 28 784 14146 83564 51854 397 0 0  cores 0 0 0 0 0 0 2 0 0  triesD 0 sweep 5761772 full 0+0 bentext 0  [3.9 s, total 318 s]
+config 2085 (ext11): nodes 1 28 784 14128 82802 50655 384 0 0  cores 0 0 0 0 0 0 3 0 0  triesD 0 sweep 8799816 full 0+0 bentext 0  [4.4 s, total 323 s]
+config 2086 (ext11): nodes 1 28 784 14305 82841 50557 388 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 0 sweep 2894616 full 0+0 bentext 0  [3.8 s, total 326 s]
+config 2087 (ext11): nodes 1 28 784 14194 83780 52031 358 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 328 s]
+config 2088 (ext11): nodes 1 28 784 14170 83042 50340 369 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 330 s]
+config 2089 (ext11): nodes 1 28 784 14146 83672 51741 380 0 0  cores 0 0 0 0 0 0 2 0 0  triesD 0 sweep 5504707 full 0+0 bentext 0  [3.6 s, total 333 s]
+config 2090 (ext11): nodes 1 28 784 14167 82907 49972 354 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.8 s, total 335 s]
+config 2091 (ext11): nodes 1 28 784 14056 83931 55155 472 0 0  cores 0 0 0 0 0 0 6 0 0  triesD 0 sweep 17174527 full 0+0 bentext 0  [4.4 s, total 340 s]
+config 2092 (ext11): nodes 1 28 784 14158 83338 50946 380 0 0  cores 0 0 0 0 0 0 5 0 0  triesD 0 sweep 14438385 full 0+0 bentext 0  [4.5 s, total 344 s]
+config 2093 (ext11): nodes 1 28 784 14167 83685 51670 495 0 0  cores 0 0 0 0 0 0 14 0 0  triesD 0 sweep 40010591 full 0+0 bentext 0  [5.3 s, total 349 s]
+config 2094 (ext11): nodes 1 28 784 14206 85788 53214 444 0 0  cores 0 0 0 0 0 0 12 0 0  triesD 0 sweep 34452043 full 0+0 bentext 0  [4.3 s, total 354 s]
+config 2095 (ext11): nodes 1 28 784 14140 82920 50114 414 0 0  cores 0 0 0 0 0 0 5 0 0  triesD 0 sweep 13924874 full 0+0 bentext 0  [3.8 s, total 358 s]
+config 2096 (ext11): nodes 1 28 784 14164 82592 52872 508 0 0  cores 0 0 0 0 0 0 23 0 0  triesD 0 sweep 67875674 full 0+0 bentext 0  [8.2 s, total 366 s]
+config 2097 (ext11): nodes 1 28 784 14143 83539 52462 442 0 0  cores 0 0 0 0 0 0 8 0 0  triesD 0 sweep 23452755 full 0+0 bentext 0  [5.8 s, total 372 s]
+config 2098 (ext11): nodes 1 28 784 14149 84001 52793 399 0 0  cores 0 0 0 0 0 0 9 0 0  triesD 0 sweep 25531152 full 0+0 bentext 0  [5.3 s, total 377 s]
+config 2099 (ext11): nodes 1 28 784 14146 84223 52826 463 0 0  cores 0 0 0 0 0 0 0 0 0  triesD 0 sweep 0 full 0+0 bentext 0  [1.7 s, total 379 s]
+lines in D: 2150:100
+spr (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+spr (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+spr (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+spr (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+spr (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+spr (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+spr (this run) bent-extension nodes 0, full-span records 0
+ext13 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext13 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext13 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext13 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext13 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext13 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext13 (this run) bent-extension nodes 0, full-span records 0
+ext12 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext12 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext12 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext12 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext12 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext12 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext12 (this run) bent-extension nodes 0, full-span records 0
+ext11 (this run) nodes by dim: 100 2800 78400 1415992 8315473 5148488 41000 0 0
+ext11 (this run) tries by dim: 2800 78400 2195200 39647776 232833244 144157636 1129828 0 0
+ext11 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext11 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 1 649 0 0
+ext11 (this run) cores by dim: 0 0 0 0 0 1 649 0 0  fingerprint 16bc6badd1db8a32
+ext11 (this run) sweep: legal spans by dim 0 0 0 0 0 0 44 0 0, 1896243286 element checks, 0 solutions
+ext11 (this run) bent-extension nodes 0, full-span records 0
+ext10 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext10 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext10 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext10 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext10 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext10 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext10 (this run) bent-extension nodes 0, full-span records 0
+ext9 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext9 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext9 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext9 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext9 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext9 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext9 (this run) bent-extension nodes 0, full-span records 0
+ext8 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext8 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext8 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext8 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext8 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext8 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext8 (this run) bent-extension nodes 0, full-span records 0
+max (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+max (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+max (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+max (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+max (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+max (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+max (this run) bent-extension nodes 0, full-span records 0
+search (incl. resumed) nodes by dim: 100 2800 78400 1415992 8315473 5148488 41000 0 0
+search (incl. resumed) tries by dim: 2800 78400 2195200 39647776 232833244 144157636 1129828 0 0
+search (incl. resumed) of which at points of D: 0 0 0 0 0 0 0 0 0
+search (incl. resumed) nodes with every off-D point covered, by dim: 0 0 0 0 0 1 649 0 0
+search (incl. resumed) cores by dim: 0 0 0 0 0 1 649 0 0  fingerprint 16bc6badd1db8a32
+search (incl. resumed) sweep: legal spans by dim 0 0 0 0 0 0 44 0 0, 1896243286 element checks, 0 solutions
+search (incl. resumed) bent-extension nodes 0, full-span records 0
+distinct p1 spans this run: 650
+solutions: 0
+# exit 0

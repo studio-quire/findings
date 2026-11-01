@@ -1,0 +1,12 @@
+# command: cmd /c "python apn\seven_check_slices.py crosssample 10 7"
+search8 exit 0
+search8 exit 0
+search8 exit 0
+search8 exit 0
+search8 exit 0
+search8 exit 0
+search8 exit 0
+search8 exit 0
+search8 exit 0
+search8 exit 0
+cross sample done: [4728, 7104, 9240, 14808, 31824, 35928, 38808, 52656, 57288, 63984]

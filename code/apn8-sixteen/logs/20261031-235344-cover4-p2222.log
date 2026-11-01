@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\cover4.exe runs\i10\split\p2222.txt -1 5 > runs\i10\split\p2222_s5.out 2>&1"

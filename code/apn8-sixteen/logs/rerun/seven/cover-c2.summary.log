@@ -1,0 +1,12 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 467, tasks 13076, threads 20, split -1
+tasks 2000/13076  196 s  nodes 10769670  solutions 0  full 0
+tasks 4000/13076  375 s  nodes 21534409  solutions 0  full 0
+tasks 6000/13076  586 s  nodes 32310304  solutions 0  full 0
+tasks 8000/13076  809 s  nodes 43111041  solutions 0  full 0
+tasks 10000/13076  972 s  nodes 53980330  solutions 0  full 0
+tasks 12000/13076  1121 s  nodes 64770548  solutions 0  full 0
+done: covers 467, tasks 13076, nodes 70571705, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1280 s
+nodes by span dimension 1..8: 13076 366128 6609857 39279309 24111886 191444 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 3841
+# exit 0

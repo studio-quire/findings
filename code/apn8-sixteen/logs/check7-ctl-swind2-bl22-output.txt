@@ -1,0 +1,27 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+ctlbatch options: start from a codimension-2 subspace of T (in-D test, two steps) D phase by the sweep guided (only cores inside T get a D phase)
+  12443 lines read, 256 taken; ext 253: re-found 253, NOT 0, fail 0; nonext 255: re-found 255, NOT 0, fail 0; no spread 0, no embedding 0
+  12921 lines read, 480 taken; ext 471: re-found 471, NOT 0, fail 0; nonext 459: re-found 459, NOT 0, fail 0; no spread 0, no embedding 11
+ctl ext nodes by dim: 0 0 0 0 0 0 471 0 0
+ctl ext tries by dim: 0 0 0 0 0 0 0 0 0
+ctl ext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl ext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 471 0 0
+ctl ext cores by dim: 0 0 0 0 0 0 471 0 0  fingerprint bd6c3989e9d770f2
+ctl ext sweep: legal spans by dim 0 0 0 0 0 0 0 471 471, 2563336430 element checks, 471 solutions
+ctl ext bent-extension nodes 0, full-span records 0
+  started from S0 of dimension: 6:471
+ctlbatch runs\known\apn_8bit.txt ext: 471 controls; re-found 471; NOT found 0; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:304 3:143 4:24
+  reps hit: 223
+ctl nonext nodes by dim: 0 0 0 0 0 0 459 0 0
+ctl nonext tries by dim: 0 0 0 0 0 0 0 0 0
+ctl nonext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl nonext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 459 0 0
+ctl nonext cores by dim: 0 0 0 0 0 0 459 0 0  fingerprint ff4fff71f85140eb
+ctl nonext sweep: legal spans by dim 0 0 0 0 0 0 0 459 459, 2491039506 element checks, 459 solutions
+ctl nonext bent-extension nodes 0, full-span records 0
+  started from S0 of dimension: 6:459
+ctlbatch runs\known\apn_8bit.txt nonext: 459 controls; re-found 459; NOT found 0; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:307 3:140 4:12
+  reps hit: 459
+skipped: no spread 0, no member 4-tuple of the class (k = 4, nonext) 11, S0 already the whole space 19

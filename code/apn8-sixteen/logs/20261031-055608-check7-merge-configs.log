@@ -1,0 +1,3 @@
+# command: cmd /c "python apn\seven_check_slices.py merge & python apn\seven_check_slices.py configs"
+merge exit 0
+configs exit 0

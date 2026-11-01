@@ -1,0 +1,11 @@
+control line 33: k = 2, oracle 51, nodes [1, 28, 812, 14315, 85155, 54247, 454, 1, 1], full spans 1, T re-found: YES [717 s]
+control line 105: k = 2, oracle 53, nodes [1, 29, 814, 14588, 85294, 54410, 454, 1, 1], full spans 1, T re-found: YES [1207 s]
+control line 152: k = 2, oracle 52, nodes [1, 29, 800, 14571, 85188, 54258, 441, 1, 1], full spans 1, T re-found: YES [901 s]
+control line 434: k = 2, oracle 53, nodes [1, 28, 804, 14661, 86838, 56633, 456, 1, 1], full spans 1, T re-found: YES [921 s]
+control line 501: k = 2, oracle 57, nodes [1, 29, 819, 14569, 83919, 49776, 375, 1, 1], full spans 1, T re-found: YES [539 s]
+control line 518: k = 2, oracle 50, nodes [1, 29, 804, 14776, 86436, 52949, 445, 1, 1], full spans 1, T re-found: YES [1040 s]
+control line 569: k = 2, oracle 52, nodes [1, 28, 805, 14819, 86427, 53694, 460, 1, 1], full spans 1, T re-found: YES [940 s]
+control line 601: k = 2, oracle 56, nodes [1, 28, 808, 14804, 86078, 53059, 474, 1, 1], full spans 1, T re-found: YES [1013 s]
+control line 603: k = 2, oracle 51, nodes [1, 29, 799, 14406, 83018, 51163, 456, 1, 1], full spans 1, T re-found: YES [826 s]
+control line 661: k = 2, oracle 52, nodes [1, 29, 819, 14557, 85788, 53629, 392, 1, 1], full spans 1, T re-found: YES [473 s]
+controls: 10 run, 10 re-found, 0 skipped (not quadratic APN-shaped or no room)

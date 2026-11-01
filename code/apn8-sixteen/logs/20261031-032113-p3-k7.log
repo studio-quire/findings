@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\pspread3h.exe enum 7 runs\i10\p7.txt --ckpt runs\i10\p7.ckpt --wcheck 1000 >> runs\i10\p7.out 2>&1"

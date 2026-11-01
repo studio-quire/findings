@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\cover4.exe runs\i10\cover-c\c4x.txt > runs\i10\cover-c\c4x.out 2>&1"

@@ -1,0 +1,2 @@
+# command: cmd /c "python apn\seven_check_slices.py selftest"
+selftest exit 0

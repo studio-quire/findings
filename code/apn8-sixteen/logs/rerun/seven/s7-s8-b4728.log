@@ -1,0 +1,93 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+search: 74976 configurations (eight-check's configurations x 8); point order ascending; D phase point branching
+config 4728 (family): nodes 1 28 784 14107 83360 53200 409 0 0  cores 0 0 0 0 0 0 7 0 0  triesD 2513728 sweep 0 full 0+0 bentext 0  [2.0 s, total 2 s]
+config 4729 (family): nodes 1 28 784 14149 81986 51113 405 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 416640 sweep 0 full 0+0 bentext 0  [1.9 s, total 4 s]
+config 4730 (family): nodes 1 28 784 14218 84210 53611 558 0 0  cores 0 0 0 0 0 0 53 0 0  triesD 18609920 sweep 0 full 0+0 bentext 0  [5.2 s, total 9 s]
+config 4731 (family): nodes 1 28 784 14206 83281 51474 421 0 0  cores 0 0 0 0 0 0 8 0 0  triesD 3041472 sweep 0 full 0+0 bentext 0  [2.4 s, total 12 s]
+config 4732 (family): nodes 1 28 784 14230 84499 52416 398 0 0  cores 0 0 0 0 0 0 1 0 0  triesD 333312 sweep 0 full 0+0 bentext 0  [1.8 s, total 13 s]
+config 4733 (family): nodes 1 28 784 14224 84510 52116 397 0 0  cores 0 0 0 0 0 0 8 0 0  triesD 2860928 sweep 0 full 0+0 bentext 0  [2.3 s, total 16 s]
+config 4734 (family): nodes 1 28 784 14164 84028 51929 617 0 0  cores 0 0 0 0 0 1 44 0 0  triesD 17532740 sweep 0 full 0+0 bentext 0  [7.2 s, total 23 s]
+config 4735 (family): nodes 1 28 784 14200 85353 53481 501 0 0  cores 0 0 0 0 0 0 43 0 0  triesD 15207360 sweep 0 full 0+0 bentext 0  [5.3 s, total 28 s]
+config 4736 (family): nodes 1 28 784 13972 84318 52621 413 0 0  cores 0 0 0 0 0 0 7 0 0  triesD 2513728 sweep 0 full 0+0 bentext 0  [2.5 s, total 31 s]
+config 4737 (family): nodes 1 28 784 13978 83158 51545 406 0 0  cores 0 0 0 0 0 0 14 0 0  triesD 4944128 sweep 0 full 0+0 bentext 0  [2.9 s, total 34 s]
+config 4738 (family): nodes 1 28 784 14083 83200 51746 457 0 0  cores 0 0 0 0 0 0 43 0 0  triesD 15235136 sweep 0 full 0+0 bentext 0  [4.4 s, total 38 s]
+config 4739 (family): nodes 1 28 784 14146 80837 51945 842 0 0  cores 0 0 0 0 0 8 62 0 0  triesD 37333107 sweep 0 full 0+0 bentext 0  [21.5 s, total 59 s]
+config 4740 (family): nodes 1 28 784 14233 82913 49979 423 0 0  cores 0 0 0 0 0 0 14 0 0  triesD 4985792 sweep 0 full 0+0 bentext 0  [3.2 s, total 63 s]
+config 4741 (family): nodes 1 28 784 14242 83242 53558 425 0 0  cores 0 0 0 0 0 0 7 0 0  triesD 2430400 sweep 0 full 0+0 bentext 0  [2.4 s, total 65 s]
+config 4742 (family): nodes 1 28 784 14059 86490 53994 1127 0 0  cores 0 0 0 0 0 10 82 0 0  triesD 48847128 sweep 0 full 0+0 bentext 0  [25.6 s, total 91 s]
+config 4743 (family): nodes 1 28 784 14200 85353 53481 501 0 0  cores 0 0 0 0 0 0 43 0 0  triesD 15207360 sweep 0 full 0+0 bentext 0  [4.7 s, total 95 s]
+config 4744 (family): nodes 1 28 784 14035 82940 52935 409 0 0  cores 0 0 0 0 0 0 2 0 0  triesD 777728 sweep 0 full 0+0 bentext 0  [2.1 s, total 97 s]
+config 4745 (family): nodes 1 28 784 14059 80706 49929 398 0 0  cores 0 0 0 0 0 0 5 0 0  triesD 1805440 sweep 0 full 0+0 bentext 0  [2.6 s, total 100 s]
+config 4746 (family): nodes 1 28 784 14137 82509 51140 701 0 0  cores 0 0 0 0 0 1 54 0 0  triesD 22103878 sweep 0 full 0+0 bentext 0  [7.7 s, total 108 s]
+config 4747 (family): nodes 1 28 784 14191 82774 51008 418 0 0  cores 0 0 0 0 0 0 11 0 0  triesD 3902528 sweep 0 full 0+0 bentext 0  [2.5 s, total 110 s]
+config 4748 (family): nodes 1 28 784 14224 84145 53509 470 0 0  cores 0 0 0 0 0 0 3 0 0  triesD 1111040 sweep 0 full 0+0 bentext 0  [2.2 s, total 112 s]
+config 4749 (family): nodes 1 28 784 14236 83958 51666 433 0 0  cores 0 0 0 0 0 0 4 0 0  triesD 1458240 sweep 0 full 0+0 bentext 0  [2.3 s, total 115 s]
+config 4750 (family): nodes 1 28 784 14155 83967 54548 572 0 0  cores 0 0 0 0 0 0 53 0 0  triesD 18748800 sweep 0 full 0+0 bentext 0  [5.7 s, total 120 s]
+config 4751 (family): nodes 1 28 784 14200 85353 53481 501 0 0  cores 0 0 0 0 0 0 43 0 0  triesD 15207360 sweep 0 full 0+0 bentext 0  [5.1 s, total 126 s]
+lines in D: 2150:24
+spr (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+spr (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+spr (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+spr (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+spr (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+spr (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+spr (this run) bent-extension nodes 0, full-span records 0
+ext13 (this run) nodes by dim: 24 672 18816 339648 2007090 1256425 12202 0 0
+ext13 (this run) tries by dim: 672 18816 526848 9510144 56198520 71260364 221341121 0 0
+ext13 (this run) of which at points of D: 0 0 0 0 0 36081024 221046869 0 0
+ext13 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 20 1693 0 0
+ext13 (this run) cores by dim: 0 0 0 0 0 20 612 0 0  fingerprint 9ed24d813ee31159
+ext13 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext13 (this run) bent-extension nodes 0, full-span records 0
+ext12 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext12 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext12 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext12 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext12 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext12 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext12 (this run) bent-extension nodes 0, full-span records 0
+ext11 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext11 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext11 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext11 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext11 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext11 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext11 (this run) bent-extension nodes 0, full-span records 0
+ext10 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext10 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext10 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext10 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext10 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext10 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext10 (this run) bent-extension nodes 0, full-span records 0
+ext9 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext9 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext9 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext9 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext9 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext9 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext9 (this run) bent-extension nodes 0, full-span records 0
+ext8 (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+ext8 (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+ext8 (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+ext8 (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ext8 (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ext8 (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ext8 (this run) bent-extension nodes 0, full-span records 0
+max (this run) nodes by dim: 0 0 0 0 0 0 0 0 0
+max (this run) tries by dim: 0 0 0 0 0 0 0 0 0
+max (this run) of which at points of D: 0 0 0 0 0 0 0 0 0
+max (this run) nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+max (this run) cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+max (this run) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+max (this run) bent-extension nodes 0, full-span records 0
+search (incl. resumed) nodes by dim: 24 672 18816 339648 2007090 1256425 12202 0 0
+search (incl. resumed) tries by dim: 672 18816 526848 9510144 56198520 71260364 221341121 0 0
+search (incl. resumed) of which at points of D: 0 0 0 0 0 36081024 221046869 0 0
+search (incl. resumed) nodes with every off-D point covered, by dim: 0 0 0 0 0 20 1693 0 0
+search (incl. resumed) cores by dim: 0 0 0 0 0 20 612 0 0  fingerprint 9ed24d813ee31159
+search (incl. resumed) sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+search (incl. resumed) bent-extension nodes 0, full-span records 0
+distinct p1 spans this run: 1627
+solutions: 0
+# exit 0

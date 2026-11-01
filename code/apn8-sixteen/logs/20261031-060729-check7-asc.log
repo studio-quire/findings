@@ -1,0 +1,8 @@
+# command: cmd /c "python apn\seven_check_slices.py search asc"
+asc-r0: configurations 0..466
+search exit 0
+asc-r1: configurations 467..933
+search exit 0
+asc-r2: configurations 934..1400
+search exit 0
+asc-r3: configurations 1401..1867

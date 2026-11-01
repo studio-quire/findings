@@ -1,0 +1,1 @@
+# command: cmd /c "runs\venv\Scripts\python.exe apn\seven_check_numpy.py control runs\known\apn_8bit.txt 1 20 7 > runs\check7\numpy-ctl-bl22.out 2>&1 & runs\venv\Scripts\python.exe apn\seven_check_numpy.py control runs\known\new_apns.txt 1 10 7 > runs\check7\numpy-ctl-new.out 2>&1"

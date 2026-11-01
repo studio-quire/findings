@@ -1,0 +1,30 @@
+== search A
+pspread3 enum 7: p7.txt vs data/p7.txt: IDENTICAL
+pspread3 enum 7: log vs p7.out (class totals, w lines, orbits; timings and the spot checks' number aside): IDENTICAL (16 lines; ['w spot checks: 15238, mismatches 0', 'w spot checks: 15245, mismatches 0'])
+pspread3 selftest 7: ['selftest: 3731 configurations, 0 mismatches']
+pspread3 holes 7: holes7.txt vs logs/holes7.txt as sets of lines: IDENTICAL
+pspread3 holes 7: log vs holes7.out (timings and paths aside): IDENTICAL (10 vs 10 lines)
+cover-c2.log vs cover3's c2.out: nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 3841 vs 3841, equal as sets True
+cover-c2-split5.log vs cover3's c2.out: nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 3841 vs 3841, equal as sets True; ['phase 1 done 836 s: frontier 56 items at dim 5']
+== search B
+count4 vs count4.out (timings aside): IDENTICAL
+parta: 37 slices re-made; slice files differing from the originals (the CLASS line's secs aside) or with a non-empty maxc file: 0; outputs differing (timings aside): 0
+merge: orbits.txt vs data/orbits7.txt: IDENTICAL
+merge: output vs merge.out (timings aside): IDENTICAL
+configs: configs7.txt vs data/configs7.txt: IDENTICAL
+configs: output vs configs.out (timings and paths aside): DIFFER (7467 vs 7467 lines; 1 differ: [('written 3731 configurations to configs7.txt', 'written 3731 configurations to configs.txt')])
+mapa: output vs mapa.out: IDENTICAL
+asc: re-run R lines 211 (configurations 0..3730, 0 repeated), unequal to the original's 0 []
+   core files: 2339 cores on those configurations, sets differing from the original's on 0 []
+desc: re-run R lines 100 (configurations 1000..1099, 0 repeated), unequal to the original's 0 []
+   core files: 904 cores on those configurations, sets differing from the original's on 0 []
+sweep: re-run R lines 109 (configurations 0..2099, 0 repeated), unequal to the original's 1 [1]
+   config 1: fields differing ['swChecks'] (the sweep's cache, for its dimension-5 cores: by design)
+phase1: re-run R lines 100 (configurations 1000..1099, 0 repeated), unequal to the original's 0 []
+s8-b4728: re-run R lines 24 (configurations 4728..4751, 0 repeated), unequal to the original's 0 []
+ctl ind-bl22: ctl-ind-bl22.txt vs the original: IDENTICAL
+ctl ind-bl22: output vs ctl-ind-bl22.out (timings and paths aside): DIFFER (27 vs 26 lines; only in the re-run ['ctlbatch options: start from a hyperplane of T (in-D test)'], only in the original [])
+ctlrot: rep lines vs ctlrot-0.out: IDENTICAL ['rep 99 (ext): line 12504, re-found, 0 other spaces', 'rep 102 (ext): line 12507, re-found, 0 other spaces', 'rep 3707 (nonext): line 12512, re-found, 0 other spaces', 'rep 3729 (nonext): line 12494, re-found, 0 other spaces']
+numpy config 3 vs numpy-3.out (time aside): IDENTICAL ['config 3: nodes [1, 28, 784, 14230, 85703, 56926, 583, 0, 0] p1 [0, 0, 0, 0, 0, 0, 37, 0, 0] triesD [0, 0, 0, 0, 0, 0, 14249088, 0, 0] cores [0, 0, 0, 0, 0, 0, 37, 0, 0] fp 8154ad84415bd3dd full 0 allcovered-below-8 0']
+numpy control: first control vs numpy-ctl-bl22.out's first (time aside): IDENTICAL ['control line 15: k = 3, oracle 43, nodes [1, 29, 819, 14327, 85189, 51057, 440, 1, 1], full spans 1, T re-found: YES']
+selftest vs selftest.out: IDENTICAL

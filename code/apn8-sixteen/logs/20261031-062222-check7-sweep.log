@@ -1,0 +1,2 @@
+# command: cmd /c "python apn\seven_check_slices.py search sweep"
+sweep-r0: configurations 0..466

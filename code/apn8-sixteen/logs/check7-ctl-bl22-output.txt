@@ -1,0 +1,25 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+ctlbatch options: guided (only cores inside T get a D phase)
+  12443 lines read, 256 taken; ext 768: re-found 768, NOT 0, fail 0; nonext 768: re-found 768, NOT 0, fail 0; no spread 0, no embedding 0
+  12921 lines read, 480 taken; ext 1440: re-found 1440, NOT 0, fail 0; nonext 1397: re-found 1397, NOT 0, fail 0; no spread 0, no embedding 43
+ctl ext nodes by dim: 1440 41137 1145488 20839773 125082384 82206599 1525245 10211 1440
+ctl ext tries by dim: 41137 1177489 32723653 594290466 3559921094 2331420314 38602109 41764 0
+ctl ext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl ext nodes with every off-D point covered, by dim: 0 0 0 0 0 1904 159505 8770 1440
+ctl ext cores by dim: 0 0 0 0 0 1904 159505 8770 1440  fingerprint 5c9efc63f93141d5
+ctl ext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl ext bent-extension nodes 0, full-span records 1440
+ctlbatch runs\known\apn_8bit.txt ext: 1440 controls; re-found 1440; NOT found 0; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:924 3:438 4:78
+  reps hit: 305
+ctl nonext nodes by dim: 1397 40053 1111427 20181853 119726775 74796632 623568 1469 1397
+ctl nonext tries by dim: 40053 1146613 31747791 574724177 3405324870 2120562225 17162644 40501 0
+ctl nonext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl nonext nodes with every off-D point covered, by dim: 0 0 0 0 1 218 16243 72 1397
+ctl nonext cores by dim: 0 0 0 0 1 218 16243 72 1397  fingerprint 0a678f75efb7d303
+ctl nonext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl nonext bent-extension nodes 0, full-span records 1397
+ctlbatch runs\known\apn_8bit.txt nonext: 1397 controls; re-found 1397; NOT found 0; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:924 3:438 4:35
+  reps hit: 1389
+skipped: no spread 0, no member 4-tuple of the class (k = 4, nonext) 43, S0 already the whole space 0

@@ -1,0 +1,3 @@
+control line 15: k = 3, oracle 43, nodes [1, 29, 819, 14327, 85189, 51057, 440, 1, 1], full spans 1, T re-found: YES [449 s]
+controls: 1 run, 1 re-found, 0 skipped (not quadratic APN-shaped or no room)
+# exit 0

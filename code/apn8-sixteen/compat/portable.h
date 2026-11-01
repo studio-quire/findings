@@ -5,6 +5,7 @@
 //   __popcnt64(x), _tzcnt_u64(x)             the same on 64 bits (tzcnt of 0 = 64)
 //   _BitScanReverse(&i, m)                   index of the highest set bit; returns 0 (i untouched) if m = 0
 //   _pdep_u32(src, mask)                     BMI2 parallel deposit, in software (no -mbmi2 needed)
+//   _pext_u64(src, mask)                     BMI2 parallel extract on 64 bits, in software (seven_check.cpp)
 //   __argc, __argv                          MSVC CRT globals, read by review_engine.cpp and review_inv2.cpp
 //                                            from a static initialiser (so before main)
 #pragma once
@@ -39,14 +40,22 @@ static inline unsigned quire_pdep32(unsigned src, unsigned mask) {
         if (src & bit) r |= mask & (0u - mask);
     return r;
 }
+static inline unsigned long long quire_pext64(unsigned long long src, unsigned long long mask) {
+    unsigned long long r = 0;
+    for (unsigned long long bit = 1; mask; bit <<= 1, mask &= mask - 1)
+        if (src & mask & (0ull - mask)) r |= bit;
+    return r;
+}
 #undef __popcnt64
 #undef _tzcnt_u64
 #undef _BitScanReverse
 #undef _pdep_u32
+#undef _pext_u64
 #define __popcnt64(x) quire_popcnt64((unsigned long long)(x))
 #define _tzcnt_u64(x) quire_tzcnt64((unsigned long long)(x))
 #define _BitScanReverse(i, m) quire_bsr((i), (unsigned long)(m))
 #define _pdep_u32(s, m) quire_pdep32((unsigned)(s), (unsigned)(m))
+#define _pext_u64(s, m) quire_pext64((unsigned long long)(s), (unsigned long long)(m))
 
 #if defined(__APPLE__)
 #include <crt_externs.h>

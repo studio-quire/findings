@@ -1,0 +1,69 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 467, tasks 13076, threads 20, split 5
+tasks 2000/13076  141 s  nodes 10769766  solutions 0  full 0
+tasks 4000/13076  261 s  nodes 21534397  solutions 0  full 0
+tasks 6000/13076  390 s  nodes 32310492  solutions 0  full 0
+tasks 8000/13076  529 s  nodes 43108472  solutions 0  full 0
+tasks 10000/13076  644 s  nodes 53981425  solutions 0  full 0
+tasks 12000/13076  770 s  nodes 64770308  solutions 0  full 0
+phase 1 done 836 s: frontier 56 items at dim 5
+frontier 1/56  859 s  nodes 70569530  solutions 0  full 0
+frontier 2/56  861 s  nodes 70569552  solutions 0  full 0
+frontier 3/56  863 s  nodes 70569574  solutions 0  full 0
+frontier 4/56  867 s  nodes 70569602  solutions 0  full 0
+frontier 5/56  868 s  nodes 70569632  solutions 0  full 0
+frontier 6/56  871 s  nodes 70569660  solutions 0  full 0
+frontier 7/56  873 s  nodes 70569694  solutions 0  full 0
+frontier 8/56  875 s  nodes 70569729  solutions 0  full 0
+frontier 9/56  879 s  nodes 70569772  solutions 0  full 0
+frontier 10/56  882 s  nodes 70569812  solutions 0  full 0
+frontier 11/56  885 s  nodes 70569852  solutions 0  full 0
+frontier 12/56  888 s  nodes 70569897  solutions 0  full 0
+frontier 13/56  888 s  nodes 70569917  solutions 0  full 0
+frontier 14/56  888 s  nodes 70569955  solutions 0  full 0
+frontier 15/56  892 s  nodes 70570001  solutions 0  full 0
+frontier 16/56  895 s  nodes 70570022  solutions 0  full 0
+frontier 17/56  895 s  nodes 70570070  solutions 0  full 0
+frontier 18/56  899 s  nodes 70570105  solutions 0  full 0
+frontier 19/56  900 s  nodes 70570125  solutions 0  full 0
+frontier 20/56  901 s  nodes 70570177  solutions 0  full 0
+frontier 21/56  901 s  nodes 70570206  solutions 0  full 0
+frontier 22/56  902 s  nodes 70570234  solutions 0  full 0
+frontier 23/56  906 s  nodes 70570251  solutions 0  full 0
+frontier 24/56  909 s  nodes 70570305  solutions 0  full 0
+frontier 25/56  910 s  nodes 70570367  solutions 0  full 0
+frontier 26/56  911 s  nodes 70570405  solutions 0  full 0
+frontier 27/56  911 s  nodes 70570466  solutions 0  full 0
+frontier 28/56  913 s  nodes 70570488  solutions 0  full 0
+frontier 29/56  913 s  nodes 70570526  solutions 0  full 0
+frontier 30/56  914 s  nodes 70570552  solutions 0  full 0
+frontier 31/56  917 s  nodes 70570568  solutions 0  full 0
+frontier 32/56  921 s  nodes 70570594  solutions 0  full 0
+frontier 33/56  922 s  nodes 70570630  solutions 0  full 0
+frontier 34/56  922 s  nodes 70570662  solutions 0  full 0
+frontier 35/56  927 s  nodes 70570733  solutions 0  full 0
+frontier 36/56  928 s  nodes 70570791  solutions 0  full 0
+frontier 37/56  933 s  nodes 70570823  solutions 0  full 0
+frontier 38/56  940 s  nodes 70570847  solutions 0  full 0
+frontier 39/56  941 s  nodes 70570881  solutions 0  full 0
+frontier 40/56  943 s  nodes 70570911  solutions 0  full 0
+frontier 41/56  944 s  nodes 70570950  solutions 0  full 0
+frontier 42/56  944 s  nodes 70570994  solutions 0  full 0
+frontier 43/56  946 s  nodes 70571029  solutions 0  full 0
+frontier 44/56  948 s  nodes 70571068  solutions 0  full 0
+frontier 45/56  951 s  nodes 70571098  solutions 0  full 0
+frontier 46/56  952 s  nodes 70571148  solutions 0  full 0
+frontier 47/56  954 s  nodes 70571185  solutions 0  full 0
+frontier 48/56  955 s  nodes 70571230  solutions 0  full 0
+frontier 49/56  956 s  nodes 70571276  solutions 0  full 0
+frontier 50/56  958 s  nodes 70571313  solutions 0  full 0
+frontier 51/56  965 s  nodes 70571366  solutions 0  full 0
+frontier 52/56  971 s  nodes 70571419  solutions 0  full 0
+frontier 53/56  974 s  nodes 70571469  solutions 0  full 0
+frontier 54/56  979 s  nodes 70571536  solutions 0  full 0
+frontier 55/56  1004 s  nodes 70571621  solutions 0  full 0
+frontier 56/56  1005 s  nodes 70571705  solutions 0  full 0
+done: covers 467, tasks 13076, nodes 70571705, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1005 s
+nodes by span dimension 1..8: 13076 366128 6609857 39279309 24111886 191444 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 3841
+# exit 0

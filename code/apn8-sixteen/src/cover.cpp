@@ -12,7 +12,11 @@
 // (printed with its rank counts). All points covered below dim 8 = FULL (the rest would be bent; printed, extend
 // separately). No symmetry is used: all 28 forms on the first solid are tried.
 //
-// usage: cover <input> [maxlines]
+// usage: cover <input> [maxlines|-1] [splitdim]
+// splitdim D (2026-10-31, for seven's p7-2222, whose dim-4 core held one thread for most of a day): phase 1 runs the
+// tasks but stops at every node with all solids radicals, holes left and span dimension D, keeping its span as a
+// frontier item; phase 2 runs the frontier items in parallel. Same tree, same counts (a frontier node is counted
+// once, in phase 2).
 #include <cstdio>
 #include <cstdlib>
 #include <cstdint>
@@ -21,6 +25,7 @@
 #include <vector>
 #include <atomic>
 #include <mutex>
+#include <algorithm>
 #include <intrin.h>
 #include <omp.h>
 
@@ -159,7 +164,8 @@ struct Search {
     int ncov = 1;          // points in cov, 0 included
     int covered = 0;       // solids that are radicals
     long long nodes = 0, sols = 0, fulls = 0, nonapn = 0, nears = 0, bydim[9] = {0};
-    std::vector<std::string>* lines;
+    int split = -1;                       // phase 1: stop at hole-level nodes of this dim
+    std::vector<std::vector<u64>>* frontier = nullptr;
 
     // -2 reject, -1 ok (bent or rank 6 in holes), s >= 0 rank 4 with radical solid s
     int classify(u64 B, Rad& r) const {
@@ -219,6 +225,12 @@ struct Search {
     }
 
     void dfs() {
+        if (split >= 0 && dim == split && covered == (1 << C->k) - 1 && ncov < 256) {
+            std::vector<u64> g;
+            for (int k = 0; k < dim; k++) g.push_back(elems[1 << k]);
+            frontier->push_back(std::move(g));
+            return;
+        }
         nodes++; bydim[dim]++;
         if (ncov == 256) {
             if (dim == 8) { sols++; report("SOLUTION"); } else { fulls++; report("FULL"); }
@@ -252,7 +264,7 @@ struct Search {
 };
 
 int main(int argc, char** argv) {
-    if (argc < 2) { fprintf(stderr, "usage: cover <input> [maxlines]\n"); return 2; }
+    if (argc < 2) { fprintf(stderr, "usage: cover <input> [maxlines|-1] [splitdim]\n"); return 2; }
     long maxl = argc > 2 ? atol(argv[2]) : -1;
     D4 = alt_nondeg(4); D6 = alt_nondeg(6);
     printf("nondegenerate alternating forms: dim 4 %zu (expect 28), dim 6 %zu (expect 13888)\n", D4.size(), D6.size());
@@ -272,13 +284,21 @@ int main(int argc, char** argv) {
         if (cv[i].seeds.empty()) for (int j = 0; j < 28; j++) tasks.push_back({i, j});
         else tasks.push_back({i, -1});
     }
-    printf("covers %zu, tasks %zu, threads %d\n", cv.size(), tasks.size(), omp_get_max_threads()); fflush(stdout);
+    int splitdim = argc > 3 ? atoi(argv[3]) : -1;
+    printf("covers %zu, tasks %zu, threads %d, split %d\n", cv.size(), tasks.size(), omp_get_max_threads(), splitdim); fflush(stdout);
     std::atomic<long long> nodes(0), sols(0), fulls(0), nonapn(0), badseed(0), done(0), nears(0), bydim[9];
     for (auto& b : bydim) b = 0;
     double t0 = omp_get_wtime();
+    std::vector<std::pair<int, std::vector<u64>>> front;   // (cover, span generators)
+    auto add_counts = [&](const Search& se) {
+        nodes += se.nodes; sols += se.sols; fulls += se.fulls; nonapn += se.nonapn; nears += se.nears;
+        for (int k = 0; k < 9; k++) bydim[k] += se.bydim[k];
+    };
     #pragma omp parallel for schedule(dynamic, 1)
     for (long t = 0; t < (long)tasks.size(); t++) {
         Search se; se.C = &cv[tasks[t].first]; se.elems[0] = 0;
+        std::vector<std::vector<u64>> fr;
+        se.split = splitdim; se.frontier = &fr;
         bool ok = true;
         PS sc; int sn, sd;
         for (u64 B : se.C->seeds) if (!se.push(B, sc, sn, sd)) { ok = false; break; }
@@ -289,13 +309,37 @@ int main(int argc, char** argv) {
         } else if (tasks[t].second >= 0) {
             if (se.push(se.C->sforms[0][tasks[t].second], sc, sn, sd)) se.dfs();
         } else se.dfs();
-        nodes += se.nodes; sols += se.sols; fulls += se.fulls; nonapn += se.nonapn; nears += se.nears;
-        for (int k = 0; k < 9; k++) bydim[k] += se.bydim[k];
+        add_counts(se);
         long long d = ++done;
+        std::lock_guard<std::mutex> g(g_mu);
+        for (auto& v : fr) front.push_back({tasks[t].first, std::move(v)});
         if (d % 2000 == 0) {
-            std::lock_guard<std::mutex> g(g_mu);
             printf("tasks %lld/%zu  %.0f s  nodes %lld  solutions %lld  full %lld\n", d, tasks.size(), omp_get_wtime() - t0, nodes.load(), sols.load(), fulls.load());
             fflush(stdout);
+        }
+    }
+    if (splitdim >= 0) {
+        std::sort(front.begin(), front.end());   // deterministic order
+        std::vector<int> per(cv.size(), 0);
+        for (auto& f : front) per[f.first]++;
+        printf("phase 1 done %.0f s: frontier %zu items at dim %d\n", omp_get_wtime() - t0, front.size(), splitdim);
+        for (size_t i = 0; i < cv.size(); i++) if (per[i] >= 100) printf("  frontier %s %d\n", cv[i].tag.c_str(), per[i]);
+        fflush(stdout);
+        std::atomic<long long> fdone(0);
+        long long step = std::max<long long>(1, (long long)front.size() / 200);
+        #pragma omp parallel for schedule(dynamic, 1)
+        for (long t = 0; t < (long)front.size(); t++) {
+            Search se; se.C = &cv[front[t].first]; se.elems[0] = 0;
+            PS sc; int sn, sd;
+            for (u64 B : front[t].second) if (!se.push(B, sc, sn, sd)) { fprintf(stderr, "frontier push failed\n"); exit(1); }
+            se.dfs();
+            add_counts(se);
+            long long d = ++fdone;
+            if (d % step == 0) {
+                std::lock_guard<std::mutex> g(g_mu);
+                printf("frontier %lld/%zu  %.0f s  nodes %lld  solutions %lld  full %lld\n", d, front.size(), omp_get_wtime() - t0, nodes.load(), sols.load(), fulls.load());
+                fflush(stdout);
+            }
         }
     }
     printf("done: covers %zu, tasks %zu, nodes %lld, solutions %lld, full (dim < 8) %lld, dim 8 non-APN %lld, bad seeds %lld, %.0f s\n",

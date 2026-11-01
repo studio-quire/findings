@@ -1,0 +1,104 @@
+# python src/holes_tally.py logs/holes7.txt data/p7.txt fix-7.txt 3726 0
+configurations 3731, hole-set classes 3726 (Kurz 3726)
+maximal (hole set contains no solid, w = 0): 0
+configurations per hole set: {1: 3721, 2: 5}
+|Aut H| distribution vs Langevin-Hou: identical (27 orders)
+point sets: 17833337132662061531136 vs Langevin-Hou 17833337132662061531136: MATCH
+labelled partial spreads (sum |GL| / |Aut P|): 17840479724727007444992
+problems: 0
+# python src/cover_tally.py logs/seven-output-c0.txt logs/seven-output-c1.txt logs/seven-output-c2.txt logs/seven-output-c3.txt logs/seven-output-c5.txt logs/seven-output-c6.txt logs/seven-output-c7.txt logs/seven-output-c4x.txt logs/seven-output-p2222-s5.txt
+9/9 outputs done, 40043 s
+  covers: 3,731
+  tasks: 104,468
+  nodes: 568,755,235
+  solutions: 0
+  full (dim < 8): 0
+  dim 8 non-APN: 0
+  bad seeds: 0
+nodes by span dimension 1..8: 104,468 / 2,925,104 / 52,909,076 / 313,666,564 / 196,375,985 / 2,762,176 / 11,862 / 0
+near misses 114702 by dim {4: 1, 5: 1634, 6: 108026, 7: 5041}
+configurations with near misses 2787 by w {'10': 356, '2': 49, '3': 783, '4': 1020, '5': 266, '6': 313}
+near misses by w {'10': 78687, '2': 333, '3': 8388, '4': 13290, '5': 4001, '6': 10003}
+lowest near-miss dim 4 ['p7-2222-a168-w4']
+most: [('p7-3728-a60-w10', 2333), ('p7-3580-a108-w10', 2100), ('p7-3555-a72-w10', 1956), ('p7-1726-a36-w10', 1773), ('p7-1731-a144-w10', 1515)]
+# python src/seven_check_mass.py fix-7.txt
+|GL(8,2)| = 5348063769211699200
+(a) hole classes 3726, containing no solid 0   [Kurz r = 7: 3726, 0]  OK
+    Langevin-Hou: 3726 classes over 27 fixator orders; ours: 3726 over 27
+(b) classes per |Aut H| against Langevin-Hou: 0 orders differ []; their qte = classes * |GL| / order: OK
+    sum_H |GL|/|Aut H| = 17833337132662061531136; Langevin-Hou Total = 17833337132662061531136  OK
+(c) labelled 7-partial spreads: from covers 17840479724727007444992; from configurations 17840479724727007444992; from Part A's W4 (14122766336) 17840479724727007444992; count4's plain 4-clique count 14122766336 = W4  OK
+configurations 3731: {'spr': 359, 'ext13': 332, 'ext12': 305, 'ext11': 1375, 'ext10': 1277, 'ext9': 83}
+# python src/seven_check_tally.py prog data/configs7.txt 3731 logs/check7-asc-R.txt
+3731 configurations, 0 duplicate records, 0 missing [], 0 out of range
+[all] 3731 configurations: nodes [3731, 104468, 2925104, 52895372, 312847548, 195494917, 2767276, 11780, 0]; p1 [0, 0, 0, 0, 1, 16256, 843914, 11780, 0]; cores [0, 0, 0, 0, 1, 1634, 108026, 5041, 0]; tries in D [0, 0, 0, 0, 7166208, 1266187487, 97176231257, 1888261132, 0] (total 100,337,846,084); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[spr] 359 configurations: nodes [359, 10052, 281456, 5092754, 30542121, 20493368, 728835, 11602, 0]; p1 [0, 0, 0, 0, 0, 1276, 197778, 11602, 0]; cores [0, 0, 0, 0, 0, 1276, 72453, 4958, 0]; tries in D [0, 0, 0, 0, 0, 670512640, 72317968576, 1861103104, 0] (total 74,849,584,320); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext13] 332 configurations: nodes [332, 9296, 260288, 4717733, 27996798, 17677453, 174351, 109, 0]; p1 [0, 0, 0, 0, 0, 72, 14615, 109, 0]; cores [0, 0, 0, 0, 0, 72, 9858, 73, 0]; tries in D [0, 0, 0, 0, 0, 36664320, 5267037888, 18887680, 0] (total 5,322,589,888); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext12] 305 configurations: nodes [305, 8540, 239120, 4337606, 25704913, 16056004, 136504, 4, 0]; p1 [0, 0, 0, 0, 0, 48, 7007, 4, 0]; cores [0, 0, 0, 0, 0, 48, 3951, 2, 0]; tries in D [0, 0, 0, 0, 0, 23831808, 2469689152, 791616, 0] (total 2,494,312,576); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext11] 1375 configurations: nodes [1375, 38500, 1078000, 19490344, 115186341, 71517256, 1178178, 59, 0]; p1 [0, 0, 0, 0, 1, 14794, 612821, 59, 0]; cores [0, 0, 0, 0, 1, 172, 13111, 6, 0]; tries in D [0, 0, 0, 0, 7166208, 419297247, 13987871972, 6714834, 0] (total 14,421,050,261); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext10] 1277 configurations: nodes [1277, 35756, 1001168, 18081788, 106531590, 65541915, 517180, 4, 0]; p1 [0, 0, 0, 0, 0, 66, 11362, 4, 0]; cores [0, 0, 0, 0, 0, 66, 8322, 0, 0]; tries in D [0, 0, 0, 0, 0, 115881472, 3015740661, 402810, 0] (total 3,132,024,943); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext9] 83 configurations: nodes [83, 2324, 65072, 1175147, 6885785, 4208921, 32228, 2, 0]; p1 [0, 0, 0, 0, 0, 0, 331, 2, 0]; cores [0, 0, 0, 0, 0, 0, 331, 2, 0]; tries in D [0, 0, 0, 0, 0, 0, 117923008, 361088, 0] (total 118,284,096); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+SOLUTION lines: 0
+# python src/seven_check_tally.py prog data/configs7.txt 3731 logs/check7-desc-R.txt
+3731 configurations, 0 duplicate records, 0 missing [], 0 out of range
+[all] 3731 configurations: nodes [3731, 104468, 2925104, 52669145, 310556440, 193373519, 2772459, 11924, 0]; p1 [0, 0, 0, 0, 1, 15125, 858354, 11924, 0]; cores [0, 0, 0, 0, 1, 1634, 108026, 5041, 0]; tries in D [0, 0, 0, 0, 6569024, 1287225172, 97014924117, 1925042487, 0] (total 100,233,760,800); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[spr] 359 configurations: nodes [359, 10052, 281456, 5091278, 30500640, 20615546, 744780, 11759, 0]; p1 [0, 0, 0, 0, 0, 1276, 196874, 11759, 0]; cores [0, 0, 0, 0, 0, 1276, 72453, 4958, 0]; tries in D [0, 0, 0, 0, 0, 671540352, 71956352832, 1899059008, 0] (total 74,526,952,192); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext13] 332 configurations: nodes [332, 9296, 260288, 4692341, 27745581, 17424810, 173178, 112, 0]; p1 [0, 0, 0, 0, 0, 72, 14425, 112, 0]; cores [0, 0, 0, 0, 0, 72, 9858, 73, 0]; tries in D [0, 0, 0, 0, 0, 36580992, 5209666560, 19957056, 0] (total 5,266,204,608); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext12] 305 configurations: nodes [305, 8540, 239120, 4308569, 25448157, 15786133, 134180, 2, 0]; p1 [0, 0, 0, 0, 0, 48, 7046, 2, 0]; cores [0, 0, 0, 0, 0, 48, 3951, 2, 0]; tries in D [0, 0, 0, 0, 0, 24220672, 2490771136, 319424, 0] (total 2,515,311,232); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext11] 1375 configurations: nodes [1375, 38500, 1078000, 19400269, 114239742, 70494607, 1179275, 45, 0]; p1 [0, 0, 0, 0, 1, 13663, 628195, 45, 0]; cores [0, 0, 0, 0, 1, 172, 13111, 6, 0]; tries in D [0, 0, 0, 0, 6569024, 425613652, 14224771971, 4790391, 0] (total 14,661,745,038); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext10] 1277 configurations: nodes [1277, 35756, 1001168, 18008279, 105787196, 64882012, 509547, 4, 0]; p1 [0, 0, 0, 0, 0, 66, 11483, 4, 0]; cores [0, 0, 0, 0, 0, 66, 8322, 0, 0]; tries in D [0, 0, 0, 0, 0, 129269504, 3015702482, 555520, 0] (total 3,145,527,506); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext9] 83 configurations: nodes [83, 2324, 65072, 1168409, 6835124, 4170411, 31499, 2, 0]; p1 [0, 0, 0, 0, 0, 0, 331, 2, 0]; cores [0, 0, 0, 0, 0, 0, 331, 2, 0]; tries in D [0, 0, 0, 0, 0, 0, 117659136, 361088, 0] (total 118,020,224); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+SOLUTION lines: 0
+# python src/seven_check_tally.py prog data/configs7.txt 3731 logs/check7-sweep-R.txt
+3731 configurations, 0 duplicate records, 0 missing [], 0 out of range
+[all] 3731 configurations: nodes [3731, 104468, 2925104, 52895372, 312847548, 195480295, 2031388, 5041, 0]; p1 [0, 0, 0, 0, 1, 1634, 108026, 5041, 0]; cores [0, 0, 0, 0, 1, 1634, 108026, 5041, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 14622, 735888, 6739, 0], checks 571,009,882,593; bent extensions 0; full 0; sweep solutions 0
+[spr] 359 configurations: nodes [359, 10052, 281456, 5092754, 30542121, 20493368, 603510, 4958, 0]; p1 [0, 0, 0, 0, 0, 1276, 72453, 4958, 0]; cores [0, 0, 0, 0, 0, 1276, 72453, 4958, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 125325, 6644, 0], checks 426,370,604,502; bent extensions 0; full 0; sweep solutions 0
+[ext13] 332 configurations: nodes [332, 9296, 260288, 4717733, 27996798, 17677453, 169594, 73, 0]; p1 [0, 0, 0, 0, 0, 72, 9858, 73, 0]; cores [0, 0, 0, 0, 0, 72, 9858, 73, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 4757, 36, 0], checks 30,149,762,238; bent extensions 0; full 0; sweep solutions 0
+[ext12] 305 configurations: nodes [305, 8540, 239120, 4337606, 25704913, 16056004, 133448, 2, 0]; p1 [0, 0, 0, 0, 0, 48, 3951, 2, 0]; cores [0, 0, 0, 0, 0, 48, 3951, 2, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 3056, 2, 0], checks 12,141,448,913; bent extensions 0; full 0; sweep solutions 0
+[ext11] 1375 configurations: nodes [1375, 38500, 1078000, 19490344, 115186341, 71502634, 578468, 6, 0]; p1 [0, 0, 0, 0, 1, 172, 13111, 6, 0]; cores [0, 0, 0, 0, 1, 172, 13111, 6, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 14622, 599710, 53, 0], checks 76,378,626,491; bent extensions 0; full 0; sweep solutions 0
+[ext10] 1277 configurations: nodes [1277, 35756, 1001168, 18081788, 106531590, 65541915, 514140, 0, 0]; p1 [0, 0, 0, 0, 0, 66, 8322, 0, 0]; cores [0, 0, 0, 0, 0, 66, 8322, 0, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 3040, 4, 0], checks 25,005,302,704; bent extensions 0; full 0; sweep solutions 0
+[ext9] 83 configurations: nodes [83, 2324, 65072, 1175147, 6885785, 4208921, 32228, 2, 0]; p1 [0, 0, 0, 0, 0, 0, 331, 2, 0]; cores [0, 0, 0, 0, 0, 0, 331, 2, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 964,137,745; bent extensions 0; full 0; sweep solutions 0
+SOLUTION lines: 0
+# python src/seven_check_tally.py prog data/configs7.txt 3731 logs/check7-phase1-R.txt
+3731 configurations, 0 duplicate records, 0 missing [], 0 out of range
+[all] 3731 configurations: nodes [3731, 104468, 2925104, 52669145, 310556440, 193360028, 2022131, 5041, 0]; p1 [0, 0, 0, 0, 1, 1634, 108026, 5041, 0]; cores [0, 0, 0, 0, 1, 1634, 108026, 5041, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[spr] 359 configurations: nodes [359, 10052, 281456, 5091278, 30500640, 20615546, 620359, 4958, 0]; p1 [0, 0, 0, 0, 0, 1276, 72453, 4958, 0]; cores [0, 0, 0, 0, 0, 1276, 72453, 4958, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext13] 332 configurations: nodes [332, 9296, 260288, 4692341, 27745581, 17424810, 168611, 73, 0]; p1 [0, 0, 0, 0, 0, 72, 9858, 73, 0]; cores [0, 0, 0, 0, 0, 72, 9858, 73, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext12] 305 configurations: nodes [305, 8540, 239120, 4308569, 25448157, 15786133, 131085, 2, 0]; p1 [0, 0, 0, 0, 0, 48, 3951, 2, 0]; cores [0, 0, 0, 0, 0, 48, 3951, 2, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext11] 1375 configurations: nodes [1375, 38500, 1078000, 19400269, 114239742, 70481116, 564191, 6, 0]; p1 [0, 0, 0, 0, 1, 172, 13111, 6, 0]; cores [0, 0, 0, 0, 1, 172, 13111, 6, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext10] 1277 configurations: nodes [1277, 35756, 1001168, 18008279, 105787196, 64882012, 506386, 0, 0]; p1 [0, 0, 0, 0, 0, 66, 8322, 0, 0]; cores [0, 0, 0, 0, 0, 66, 8322, 0, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[ext9] 83 configurations: nodes [83, 2324, 65072, 1168409, 6835124, 4170411, 31499, 2, 0]; p1 [0, 0, 0, 0, 0, 0, 331, 2, 0]; cores [0, 0, 0, 0, 0, 0, 331, 2, 0]; tries in D [0, 0, 0, 0, 0, 0, 0, 0, 0] (total 0); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+SOLUTION lines: 0
+# python src/seven_check_tally.py prog - 240 logs/check7-s8-R.txt
+240 configurations, 0 duplicate records, 240 missing [0, 1, 2, 3, 4, 5, 6, 7, 8, 9], 240 out of range
+[all] 240 configurations: nodes [240, 6720, 188160, 3401106, 20184575, 12679118, 125400, 229, 0]; p1 [0, 0, 0, 0, 0, 97, 11439, 229, 0]; cores [0, 0, 0, 0, 0, 97, 5529, 190, 0]; tries in D [0, 0, 0, 0, 0, 193140416, 2043129905, 38261629, 0] (total 2,274,531,950); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+[?] 240 configurations: nodes [240, 6720, 188160, 3401106, 20184575, 12679118, 125400, 229, 0]; p1 [0, 0, 0, 0, 0, 97, 11439, 229, 0]; cores [0, 0, 0, 0, 0, 97, 5529, 190, 0]; tries in D [0, 0, 0, 0, 0, 193140416, 2043129905, 38261629, 0] (total 2,274,531,950); sweep legal spans [0, 0, 0, 0, 0, 0, 0, 0, 0], checks 0; bent extensions 0; full 0; sweep solutions 0
+SOLUTION lines: 0
+# python src/seven_check_tally.py orders logs
+runs: asc 3731, desc 3731, sweep 3731, phase1 3731; reference phase1
+  asc: cores by dimension and fingerprint on 3731 configurations: 0 disagreements []
+  desc: cores by dimension and fingerprint on 3731 configurations: 0 disagreements []
+  sweep: cores by dimension and fingerprint on 3731 configurations: 0 disagreements []
+  asc nodes by dimension = sweep's phase-1 nodes + sweep's legal spans: 0 disagreements over 3731
+  core files: not in this folder (give the folder holding asc-r*.cores and desc-r*.cores)
+# python src/seven_check_tally.py numpy logs
+numpy: 18 configurations compared, 0 differ, 0 waiting for asc; tries in D over those compared 2,037,841,792
+# python src/seven_check_tally.py reps logs data/configs7.txt
+configurations reached by the control batches: 3553 of 3731; unreached 178 {'spr': 16, 'ext13': 25, 'ext12': 15, 'ext11': 61, 'ext10': 59, 'ext9': 2}
+the same list as check7-reps-unreached.txt: True
+# python src/seven_check_vs_a.py
+mapa: 3731 of A's, 3731 distinct of ours, none unmapped: True
+|Aut| (A's name, our canon of A's rep, our classification) equal on 3731 of 3731
+w vs type: {(2, 'ext9'): 83, (3, 'ext10'): 1277, (4, 'ext11'): 1375, (5, 'ext12'): 305, (6, 'ext13'): 332, (10, 'spr'): 359}
+  one to one: True
+A: 9 outputs, 114702 NEAR lines, 0 repeated (config, basis); by dim {4: 1, 5: 1634, 6: 108026, 7: 5041}; on 2787 configurations
+== asc: 3731 records (0 repeated, 0 solutions); B 114702 cores on 2787 configurations; (configuration, dim) pairs 3063, unequal 0 []
+  dim 4: A 1 on 1, B 1 on 1, same configurations True
+  dim 5: A 1634 on 156, B 1634 on 156, same configurations True
+  dim 6: A 108026 on 2785, B 108026 on 2785, same configurations True
+  dim 7: A 5041 on 121, B 5041 on 121, same configurations True
+== desc: 3731 records (0 repeated, 0 solutions); B 114702 cores on 2787 configurations; (configuration, dim) pairs 3063, unequal 0 []
+  dim 4: A 1 on 1, B 1 on 1, same configurations True
+  dim 5: A 1634 on 156, B 1634 on 156, same configurations True
+  dim 6: A 108026 on 2785, B 108026 on 2785, same configurations True
+  dim 7: A 5041 on 121, B 5041 on 121, same configurations True

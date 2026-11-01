@@ -1,0 +1,26 @@
+# command: cmd /c "python apn\seven_check_slices.py search sweep"
+sweep-r0: configurations 0..466
+
+
+
+
+
+
+search exit 0
+sweep-r1: configurations 467..933
+search exit 0
+sweep-r2: configurations 934..1400
+search exit 0
+sweep-r3: configurations 1401..1867
+
+
+search exit 0
+sweep-r4: configurations 1868..2334
+search exit 0
+sweep-r5: configurations 2335..2801
+search exit 0
+sweep-r6: configurations 2802..3268
+search exit 0
+sweep-r7: configurations 3269..3730
+search exit 0
+sweep: all 3731 done

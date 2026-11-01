@@ -1,0 +1,54 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+ctlbatch options: start from a codimension-2 subspace of T (in-D test, two steps) guided (only cores inside T get a D phase)
+  36811 lines read, 256 taken; ext 256: re-found 256, NOT 0, fail 0; nonext 256: re-found 256, NOT 0, fail 0; no spread 0, no embedding 0
+  73252 lines read, 512 taken; ext 512: re-found 512, NOT 0, fail 0; nonext 512: re-found 512, NOT 0, fail 0; no spread 0, no embedding 0
+  111432 lines read, 768 taken; ext 768: re-found 768, NOT 0, fail 0; nonext 768: re-found 768, NOT 0, fail 0; no spread 0, no embedding 0
+  152123 lines read, 1024 taken; ext 1024: re-found 1024, NOT 0, fail 0; nonext 1024: re-found 1024, NOT 0, fail 0; no spread 0, no embedding 0
+  198312 lines read, 1280 taken; ext 1280: re-found 1280, NOT 0, fail 0; nonext 1280: re-found 1280, NOT 0, fail 0; no spread 0, no embedding 0
+  238725 lines read, 1536 taken; ext 1536: re-found 1536, NOT 0, fail 0; nonext 1536: re-found 1536, NOT 0, fail 0; no spread 0, no embedding 0
+  279161 lines read, 1792 taken; ext 1792: re-found 1792, NOT 0, fail 0; nonext 1792: re-found 1792, NOT 0, fail 0; no spread 0, no embedding 0
+  328009 lines read, 2048 taken; ext 2048: re-found 2048, NOT 0, fail 0; nonext 2048: re-found 2048, NOT 0, fail 0; no spread 0, no embedding 0
+  369685 lines read, 2304 taken; ext 2304: re-found 2304, NOT 0, fail 0; nonext 2304: re-found 2304, NOT 0, fail 0; no spread 0, no embedding 0
+  416800 lines read, 2560 taken; ext 2560: re-found 2560, NOT 0, fail 0; nonext 2560: re-found 2560, NOT 0, fail 0; no spread 0, no embedding 0
+  458940 lines read, 2816 taken; ext 2816: re-found 2816, NOT 0, fail 0; nonext 2816: re-found 2816, NOT 0, fail 0; no spread 0, no embedding 0
+  503267 lines read, 3072 taken; ext 3072: re-found 3072, NOT 0, fail 0; nonext 3072: re-found 3072, NOT 0, fail 0; no spread 0, no embedding 0
+  548285 lines read, 3328 taken; ext 3328: re-found 3328, NOT 0, fail 0; nonext 3328: re-found 3328, NOT 0, fail 0; no spread 0, no embedding 0
+  596250 lines read, 3584 taken; ext 3584: re-found 3584, NOT 0, fail 0; nonext 3584: re-found 3584, NOT 0, fail 0; no spread 0, no embedding 0
+  642816 lines read, 3840 taken; ext 3840: re-found 3840, NOT 0, fail 0; nonext 3840: re-found 3840, NOT 0, fail 0; no spread 0, no embedding 0
+  694710 lines read, 4096 taken; ext 4096: re-found 4096, NOT 0, fail 0; nonext 4096: re-found 4096, NOT 0, fail 0; no spread 0, no embedding 0
+  750945 lines read, 4352 taken; ext 4352: re-found 4352, NOT 0, fail 0; nonext 4352: re-found 4352, NOT 0, fail 0; no spread 0, no embedding 0
+  807134 lines read, 4608 taken; ext 4608: re-found 4608, NOT 0, fail 0; nonext 4608: re-found 4608, NOT 0, fail 0; no spread 0, no embedding 0
+  866485 lines read, 4864 taken; ext 4864: re-found 4864, NOT 0, fail 0; nonext 4864: re-found 4864, NOT 0, fail 0; no spread 0, no embedding 0
+  928472 lines read, 5120 taken; ext 5120: re-found 5120, NOT 0, fail 0; nonext 5120: re-found 5120, NOT 0, fail 0; no spread 0, no embedding 0
+  1039998 lines read, 5376 taken; ext 5376: re-found 5376, NOT 0, fail 0; nonext 5376: re-found 5376, NOT 0, fail 0; no spread 0, no embedding 0
+  1187718 lines read, 5632 taken; ext 5632: re-found 5632, NOT 0, fail 0; nonext 5632: re-found 5632, NOT 0, fail 0; no spread 0, no embedding 0
+  1330614 lines read, 5888 taken; ext 5888: re-found 5888, NOT 0, fail 0; nonext 5888: re-found 5888, NOT 0, fail 0; no spread 0, no embedding 0
+  1544976 lines read, 6144 taken; ext 6144: re-found 6144, NOT 0, fail 0; nonext 6144: re-found 6144, NOT 0, fail 0; no spread 0, no embedding 0
+  1779086 lines read, 6400 taken; ext 6400: re-found 6400, NOT 0, fail 0; nonext 6400: re-found 6400, NOT 0, fail 0; no spread 0, no embedding 0
+  2096037 lines read, 6656 taken; ext 6656: re-found 6656, NOT 0, fail 0; nonext 6656: re-found 6656, NOT 0, fail 0; no spread 0, no embedding 0
+  2516537 lines read, 6912 taken; ext 6912: re-found 6912, NOT 0, fail 0; nonext 6912: re-found 6912, NOT 0, fail 0; no spread 0, no embedding 0
+  3530517 lines read, 7168 taken; ext 7168: re-found 7168, NOT 0, fail 0; nonext 7168: re-found 7168, NOT 0, fail 0; no spread 0, no embedding 0
+  3775599 lines read, 7199 taken; ext 7199: re-found 7199, NOT 0, fail 0; nonext 7199: re-found 7199, NOT 0, fail 0; no spread 0, no embedding 0
+ctl ext nodes by dim: 0 0 0 0 0 0 7199 7199 7199
+ctl ext tries by dim: 0 0 0 0 0 0 2488757376 1107318016 0
+ctl ext of which at points of D: 0 0 0 0 0 0 2488757376 1107318016 0
+ctl ext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 7199 7199 7199
+ctl ext cores by dim: 0 0 0 0 0 0 7199 0 0  fingerprint b5bf6bcef33ac3ae
+ctl ext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl ext bent-extension nodes 0, full-span records 7199
+  started from S0 of dimension: 6:7199
+ctlbatch runs\known\new_apns.txt ext: 7199 controls; re-found 7199; NOT found 0; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:7136 3:63
+  reps hit: 341
+ctl nonext nodes by dim: 0 0 0 0 0 0 7199 7199 7199
+ctl nonext tries by dim: 0 0 0 0 0 0 2497951232 1105984768 0
+ctl nonext of which at points of D: 0 0 0 0 0 0 2497951232 1105984768 0
+ctl nonext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 7199 7199 7199
+ctl nonext cores by dim: 0 0 0 0 0 0 7199 0 0  fingerprint 4d83a4b41e06ffeb
+ctl nonext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl nonext bent-extension nodes 0, full-span records 7199
+  started from S0 of dimension: 6:7199
+ctlbatch runs\known\new_apns.txt nonext: 7199 controls; re-found 7199; NOT found 0; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:7136 3:63
+  reps hit: 2974
+skipped: no spread 0, no member 4-tuple of the class (k = 4, nonext) 0, S0 already the whole space 0

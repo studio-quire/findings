@@ -1,0 +1,24 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+ctlbatch options: guided (only cores inside T get a D phase)
+  8180 lines read, 13 taken; ext 78: re-found 72, NOT 0, fail 6; nonext 78: re-found 72, NOT 0, fail 6; no spread 0, no embedding 0
+ctl ext nodes by dim: 72 2065 57409 1043149 6239304 4047844 62464 387 72
+ctl ext tries by dim: 2065 59297 1640220 29670944 177279648 114942303 1596396 2087 0
+ctl ext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl ext nodes with every off-D point covered, by dim: 0 0 0 0 0 143 5976 315 72
+ctl ext cores by dim: 0 0 0 0 0 143 5976 315 72  fingerprint bbb8a467daaee6a3
+ctl ext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl ext bent-extension nodes 0, full-span records 72
+ctlbatch runs\known\yuwangli_qam.txt ext: 78 controls; re-found 72; NOT found 0; setup failures 6; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:72
+  reps hit: 63
+ctl nonext nodes by dim: 72 2064 57262 1038926 6156116 3828149 30809 72 72
+ctl nonext tries by dim: 2064 59016 1636781 29678180 175145220 108346461 857097 2088 0
+ctl nonext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl nonext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 499 0 72
+ctl nonext cores by dim: 0 0 0 0 0 0 499 0 72  fingerprint 7f06d173613426a9
+ctl nonext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl nonext bent-extension nodes 0, full-span records 72
+ctlbatch runs\known\yuwangli_qam.txt nonext: 78 controls; re-found 72; NOT found 0; setup failures 6; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:72
+  reps hit: 72
+skipped: no spread 0, no member 4-tuple of the class (k = 4, nonext) 0, S0 already the whole space 0

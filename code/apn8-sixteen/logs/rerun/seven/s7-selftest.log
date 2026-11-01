@@ -1,0 +1,6 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+selftest: ND4 28 (28), ND6 13888 (13888), GL4 20160 (20160), V5824 5824
+lines in D over the configurations: 2150:3731
+brute force: 28 forms with radical exactly R_5 of the last config (expect 28); sweep Pfaffian test vs rank8 on every 16th form, sweep kernel and the Gray walk vs radical() on every 256th: 0 disagreements
+selftest: 3731 configurations, 896507276 generated forms checked, 0 failures
+# exit 0

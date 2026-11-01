@@ -1,0 +1,76 @@
+# command: cmd /c "python apn\seven_check_slices.py parta"
+class 0 slice 0 of 16
+parta exit 0
+class 0 slice 1 of 16
+parta exit 0
+class 0 slice 2 of 16
+parta exit 0
+class 0 slice 3 of 16
+parta exit 0
+class 0 slice 4 of 16
+parta exit 0
+class 0 slice 5 of 16
+parta exit 0
+class 0 slice 6 of 16
+parta exit 0
+class 0 slice 7 of 16
+parta exit 0
+class 0 slice 8 of 16
+parta exit 0
+class 0 slice 9 of 16
+parta exit 0
+class 0 slice 10 of 16
+parta exit 0
+class 0 slice 11 of 16
+parta exit 0
+class 0 slice 12 of 16
+parta exit 0
+class 0 slice 13 of 16
+parta exit 0
+class 0 slice 14 of 16
+parta exit 0
+class 0 slice 15 of 16
+parta exit 0
+class 1 slice 0 of 8
+parta exit 0
+class 1 slice 1 of 8
+parta exit 0
+class 1 slice 2 of 8
+parta exit 0
+class 1 slice 3 of 8
+parta exit 0
+class 1 slice 4 of 8
+parta exit 0
+class 1 slice 5 of 8
+parta exit 0
+class 1 slice 6 of 8
+parta exit 0
+class 1 slice 7 of 8
+parta exit 0
+class 2 slice 0 of 8
+parta exit 0
+class 2 slice 1 of 8
+parta exit 0
+class 2 slice 2 of 8
+parta exit 0
+class 2 slice 3 of 8
+parta exit 0
+class 2 slice 4 of 8
+parta exit 0
+class 2 slice 5 of 8
+parta exit 0
+class 2 slice 6 of 8
+parta exit 0
+class 2 slice 7 of 8
+parta exit 0
+class 3 slice 0 of 4
+parta exit 0
+class 3 slice 1 of 4
+parta exit 0
+class 3 slice 2 of 4
+parta exit 0
+class 3 slice 3 of 4
+parta exit 0
+class 4 slice 0 of 1
+parta exit 0
+parta: all slices done

@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\seven_check_map.exe mapa runs\check7\configs.txt runs\i10\p7.txt > runs\check7\mapa.out 2>&1"
