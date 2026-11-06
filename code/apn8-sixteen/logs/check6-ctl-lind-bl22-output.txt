@@ -1,0 +1,29 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+ctlbatch options: linear search start from a hyperplane of T (in-D test)
+  12443 lines read, 256 taken; ext 768: re-found 768, NOT 0, fail 0; nonext 768: re-found 768, NOT 0, fail 0; no spread 0, no embedding 0
+  12921 lines read, 480 taken; ext 1440: re-found 1440, NOT 0, fail 0; nonext 1383: re-found 1383, NOT 0, fail 0; no spread 0, no embedding 57
+ctl ext nodes by dim: 0 0 0 0 0 0 0 0 0
+ctl ext tries by dim: 0 0 0 0 0 0 0 0 0
+ctl ext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl ext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctl ext cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctl ext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl ext bent-extension nodes 0, full-span records 0
+  lin: nodes by dim 0 0 0 0 0 0 0 1440 1440; cores by dim 0 0 0 0 0 0 0 0 0; x4 nodes 0; candidates tried in D phases 3019897440; solutions 1440
+  started from S0 of dimension: 7:1440
+ctlbatch runs\known\apn_8bit.txt ext: 1440 controls; re-found 1440; NOT found 0; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:924 3:438 4:78
+  reps hit: 129
+ctl nonext nodes by dim: 0 0 0 0 0 0 0 0 0
+ctl nonext tries by dim: 0 0 0 0 0 0 0 0 0
+ctl nonext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl nonext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctl nonext cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctl nonext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl nonext bent-extension nodes 0, full-span records 0
+  lin: nodes by dim 0 0 0 0 0 0 0 1383 1383; cores by dim 0 0 0 0 0 0 0 0 0; x4 nodes 0; candidates tried in D phases 2900359833; solutions 1383
+  started from S0 of dimension: 7:1383
+ctlbatch runs\known\apn_8bit.txt nonext: 1383 controls; re-found 1383; NOT found 0; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count: 2:924 3:438 4:21
+  reps hit: 209
+skipped: no spread 0, no member 4-tuple of the class (k = 4, nonext) 57, S0 already the whole space 0

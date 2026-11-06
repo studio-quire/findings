@@ -1,0 +1,56 @@
+configurations 341 of 341, 225 with a shared frame
+totals: nodes 169008542, by dimension 1..8 [9548, 267344, 5307371, 45933458, 80431617, 36891380, 167824, 0], solutions and full and non-APN and bad seeds 0, candidates 27883874524, sent to push 29898477
+
+A against B (lin less x4):
+shared frames: 225 configurations
+  dim 1: equal on 225; A 6300, B 6300, difference 0
+  dim 2: equal on 225; A 176400, B 176400, difference 0
+  dim 3: equal on 225; A 3505158, B 3505158, difference 0
+  dim 4: equal on 50; A 30397781, B 30326928, difference 70853
+  dim 5: equal on 134; A 53655848, B 53557224, difference 98624
+  dim 6: equal on 225; A 33474668, B 33474668, difference 0
+  dim 7: equal on 225; A 165339, B 165339, difference 0
+  dim 8: equal on 225; A 0, B 0, difference 0
+frames differ: 116 configurations
+  dim 1: equal on 116; A 3248, B 3248, difference 0
+  dim 2: equal on 116; A 90944, B 90944, difference 0
+  dim 3: equal on 30; A 1802213, B 1800728, difference 1485
+  dim 4: equal on 13; A 15535677, B 15464591, difference 71086
+  dim 5: equal on 30; A 26775769, B 26759604, difference 16165
+  dim 6: equal on 24; A 3416712, B 3405476, difference 11236
+  dim 7: equal on 6; A 2485, B 2359, difference 126
+  dim 8: equal on 116; A 0, B 0, difference 0
+
+where the phases sit (B, all 341):
+  first phase: nodes above dim 6 on 0 configurations; dim 6 equal to the 6-dimensional near misses on 341
+  hole stage by dimension 1..8: [0, 0, 0, 0, 158844, 29051559, 167698, 0]; at dim 5 only on [(24, 18211), (31, 23365), (103, 41690), (130, 75578)], the configurations with 4-dimensional near misses [31, 24, 103, 130]
+  point order, B ascending against B descending:
+    dim 1: first phase equal on 341 of 341; whole tree on 341 of 341, 225 of the shared
+    dim 2: first phase equal on 341 of 341; whole tree on 341 of 341, 225 of the shared
+    dim 3: first phase equal on 20 of 341; whole tree on 20 of 341, 15 of the shared
+    dim 4: first phase equal on 10 of 341; whole tree on 10 of 341, 8 of the shared
+    dim 5: first phase equal on 23 of 341; whole tree on 21 of 341, 15 of the shared
+    dim 6: first phase equal on 341 of 341; whole tree on 59 of 341, 37 of the shared
+    dim 7: first phase equal on 341 of 341; whole tree on 32 of 341, 19 of the shared
+    dim 8: first phase equal on 341 of 341; whole tree on 341 of 341, 225 of the shared
+
+nodes below the near misses on shared frames: dim 6 28058597 of 29062795 (96.5%), dim 7 165339 of 167824 (98.5%)
+
+A against the point branching, 17 configurations (lin less x4 equal to it on all: True): A less it, dims 1..8
+  0 shared: [0, 0, 0, 0, 0, 0, 0, 0]
+  18 shared: [0, 0, 0, -1116, 0, 0, 0, 0]
+  24 shared (1 near misses of dim 4): [0, 0, 0, 0, 0, 0, 0, 0]
+  31 shared (1 near misses of dim 4): [0, 0, 0, 1324, 0, 0, 0, 0]
+  41 shared: [0, 0, 0, 5260, 0, 0, 0, 0]
+  74: [0, 0, 0, -506, 0, -60, -1, 0]
+  103 shared (2 near misses of dim 4): [0, 0, 0, 0, 0, 0, 0, 0]
+  130 shared (3 near misses of dim 4): [0, 0, 0, 0, 0, 0, 0, 0]
+  131 shared: [0, 0, 0, 0, 0, 0, 0, 0]
+  132 shared: [0, 0, 0, 1826, 0, 0, 0, 0]
+  133 shared: [0, 0, 0, -3784, 7878, 0, 0, 0]
+  224 shared: [0, 0, 0, 326, 2290, 0, 0, 0]
+  248: [0, 0, 0, -400, 0, -20, 1, 0]
+  272 shared: [0, 0, 0, -783, 0, 0, 0, 0]
+  293 shared: [0, 0, 0, 1786, 0, 0, 0, 0]
+  339: [0, 0, 87, 2085, 3624, 1908, -10, 0]
+  340: [0, 0, -30, 7006, 0, 1479, -2, 0]

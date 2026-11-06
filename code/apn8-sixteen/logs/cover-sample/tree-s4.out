@@ -1,0 +1,24 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 4, tasks 112, threads 20, split 4, hole stage affine tree, profiling a frontier range (counts partial)
+phase 1 done 18 s: frontier 7 items at dim 4
+profiling frontier items [0, 7)
+sampling 100 frontier items per cover (seed 41): 7 items
+ITEM p6-114-a36-w11 gens 0000102 7000000 d5e3355 3b11fac nodes 0 0 0 1 18211 1195918 168 0 sols 0 full 0 nonapn 0
+frontier 1/7  12219 s  nodes 1214298  solutions 0  full 0
+ITEM p6-310-a180-w11 gens 0000084 5800000 58c5166 6930fd2 nodes 0 0 0 1 26024 2619064 19548 0 sols 0 full 0 nonapn 0
+frontier 2/7  12983 s  nodes 3878935  solutions 0  full 0
+ITEM p6-304-a24-w11 gens 0000087 b800000 384c8e6 4920b73 nodes 0 0 0 1 21857 1641831 265 0 sols 0 full 0 nonapn 0
+frontier 3/7  13401 s  nodes 5542889  solutions 0  full 0
+ITEM p6-304-a24-w11 gens 0000103 f000000 8522211 bb10fec nodes 0 0 0 1 19833 1651412 214 0 sols 0 full 0 nonapn 0
+frontier 4/7  13402 s  nodes 7214349  solutions 0  full 0
+ITEM p6-101-a24-w11 gens 0000102 7000000 384c8e6 3b11fac nodes 0 0 0 1 23365 2078736 550 0 sols 0 full 0 nonapn 0
+frontier 5/7  25556 s  nodes 9317001  solutions 0  full 0
+ITEM p6-310-a180-w11 gens 0000106 6800000 688d9a2 32114ec nodes 0 0 0 1 24756 2598576 19568 0 sols 0 full 0 nonapn 0
+frontier 6/7  26431 s  nodes 11959902  solutions 0  full 0
+ITEM p6-310-a180-w11 gens 0000182 3000000 30488c4 5b21b3e nodes 0 0 0 1 24798 2687849 18953 0 sols 0 full 0 nonapn 0
+frontier 7/7  26597 s  nodes 14691503  solutions 0  full 0
+phase 2: 7 items, 26578.72 s, 75939.209 s per item per thread
+done: covers 4, tasks 112, nodes 14691503, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 26597 s
+nodes by span dimension 1..8: 0 0 0 7 158844 14473386 59266 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 193671
+hole-stage candidates 11866974280, passing the filter (sent to push) 14885639

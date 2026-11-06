@@ -1,0 +1,44 @@
+NOTFOUND ext line 15 choice 0 rep 76
+NOTFOUND nonext line 15 choice 1 rep 217
+NOTFOUND ext line 16 choice 0 rep 13
+NOTFOUND nonext line 16 choice 1 rep 139
+NOTFOUND ext line 12190 choice 0 rep 105
+NOTFOUND nonext line 12190 choice 1 rep 263
+NOTFOUND ext line 12191 choice 0 rep 76
+NOTFOUND nonext line 12191 choice 1 rep 185
+NOTFOUND ext line 12192 choice 0 rep 123
+NOTFOUND nonext line 12192 choice 1 rep 316
+NOTFOUND ext line 12193 choice 0 rep 9
+NOTFOUND nonext line 12193 choice 1 rep 238
+NOTFOUND ext line 12194 choice 0 rep 46
+NOTFOUND nonext line 12194 choice 1 rep 160
+NOTFOUND ext line 12195 choice 0 rep 112
+NOTFOUND nonext line 12195 choice 1 rep 291
+NOTFOUND ext line 12196 choice 0 rep 101
+NOTFOUND nonext line 12196 choice 1 rep 213
+NOTFOUND ext line 12197 choice 0 rep 96
+NOTFOUND nonext line 12197 choice 1 rep 135
+NOTFOUND ext line 12198 choice 0 rep 112
+NOTFOUND nonext line 12198 choice 1 rep 266
+NOTFOUND ext line 12199 choice 0 rep 123
+NOTFOUND nonext line 12199 choice 1 rep 188
+NOTFOUND ext line 12200 choice 0 rep 112
+NOTFOUND nonext line 12200 choice 1 rep 319
+NOTFOUND ext line 12201 choice 0 rep 23
+NOTFOUND nonext line 12201 choice 1 rep 241
+NOTFOUND ext line 12202 choice 0 rep 104
+NOTFOUND nonext line 12202 choice 1 rep 163
+NOTFOUND ext line 12203 choice 0 rep 60
+NOTFOUND nonext line 12203 choice 1 rep 294
+NOTFOUND ext line 12204 choice 0 rep 40
+NOTFOUND nonext line 12204 choice 1 rep 216
+NOTFOUND ext line 12205 choice 0 rep 59
+NOTFOUND nonext line 12205 choice 1 rep 138
+NOTFOUND ext line 12206 choice 0 rep 69
+NOTFOUND nonext line 12206 choice 1 rep 269
+NOTFOUND ext line 12207 choice 0 rep 37
+NOTFOUND nonext line 12207 choice 1 rep 191
+SUMMARY runs\known\apn_8bit.txt ext controls 20 refound 0 notfound 20 fail 0 extra 0 nonapn 0 reps 0
+REPS ext
+SUMMARY runs\known\apn_8bit.txt nonext controls 20 refound 0 notfound 20 fail 0 extra 0 nonapn 0 reps 0
+REPS nonext

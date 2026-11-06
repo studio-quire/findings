@@ -1,0 +1,20 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+K_a: 0 failures
+config 0: 200 cores sampled, 1223 accepted in full scans, failures so far 0
+config 21: 200 cores sampled, 1420 accepted in full scans, failures so far 0
+config 42: 200 cores sampled, 1622 accepted in full scans, failures so far 0
+config 63: 200 cores sampled, 1622 accepted in full scans, failures so far 0
+config 85: 200 cores sampled, 1819 accepted in full scans, failures so far 0
+config 106: 200 cores sampled, 3120 accepted in full scans, failures so far 0
+config 127: 200 cores sampled, 3419 accepted in full scans, failures so far 0
+config 149: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+config 170: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+config 191: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+config 213: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+config 234: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+config 255: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+config 277: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+config 298: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+config 319: 200 cores sampled, 3597 accepted in full scans, failures so far 0
+linselftest: 209920397 checks (3641 legal), 0 failures
+# exit 0

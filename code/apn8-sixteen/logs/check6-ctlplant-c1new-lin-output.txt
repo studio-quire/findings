@@ -1,0 +1,484 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 0: re-found, 1 spaces [34 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 807 15863 134535 231473 20163 8 1; D-phase candidates 42289049915
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 1: re-found, 1 spaces [33 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 784 15811 134840 233997 20653 9 1; D-phase candidates 42786098399
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 2: re-found, 1 spaces [33 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 797 15760 136413 230514 21699 11 1; D-phase candidates 44105297541
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 3: re-found, 1 spaces [51 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 800 15931 138108 251516 57336 20 1; D-phase candidates 53603058773
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 4: re-found, 1 spaces [33 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15847 136971 236613 22186 12 1; D-phase candidates 46531586388
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 5: re-found, 1 spaces [29 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 804 15799 134521 226778 19609 15 1; D-phase candidates 40865103074
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 6: re-found, 1 spaces [33 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 803 16025 135566 234649 21441 9 1; D-phase candidates 44939848779
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 7: re-found, 1 spaces [30 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 799 16029 135997 234484 21210 11 1; D-phase candidates 44472184106
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 8: re-found, 1 spaces [31 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 784 15669 136238 234610 21209 11 1; D-phase candidates 44472184106
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 9: re-found, 1 spaces [37 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 784 15746 136743 244285 23937 11 1; D-phase candidates 50082065494
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 10: re-found, 1 spaces [47 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15973 136321 241179 59082 24 1; D-phase candidates 49235308792
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 11: re-found, 1 spaces [50 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 807 16029 138978 246885 65624 35 1; D-phase candidates 51462892494
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 12: re-found, 1 spaces [32 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15797 134003 231584 20844 9 1; D-phase candidates 43104881793
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 13: re-found, 1 spaces [31 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 800 15701 135008 227855 20005 10 1; D-phase candidates 41953505755
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 14: re-found, 1 spaces [33 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 784 15866 134938 235340 21936 7 1; D-phase candidates 44935719138
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 15: re-found, 1 spaces [33 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 806 15943 133804 226759 20500 9 1; D-phase candidates 42997886953
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 16: re-found, 1 spaces [31 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 800 15982 134904 232589 21107 9 1; D-phase candidates 43486560716
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 17: re-found, 1 spaces [30 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 803 15802 138314 229582 20512 17 1; D-phase candidates 43006275557
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 18: re-found, 1 spaces [50 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 801 15754 138177 236112 74997 29 1; D-phase candidates 50736372234
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 19: re-found, 1 spaces [45 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15464 134994 230837 69180 29 1; D-phase candidates 48009462303
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 20: re-found, 1 spaces [31 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 802 16213 137558 239939 23439 8 1; D-phase candidates 44675931650
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 21: re-found, 1 spaces [29 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 801 15816 134404 232920 20568 12 1; D-phase candidates 42393955114
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 22: re-found, 1 spaces [26 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15630 132753 229946 20294 3 1; D-phase candidates 42018553427
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 23: re-found, 1 spaces [26 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 802 16049 135533 230477 21823 8 1; D-phase candidates 42767405332
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 24: re-found, 1 spaces [32 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 784 15816 137725 246402 30034 43 1; D-phase candidates 57667854810
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 25: re-found, 1 spaces [24 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 806 16019 136196 237082 22874 6 1; D-phase candidates 44503945868
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 26: re-found, 1 spaces [35 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 809 15783 135259 237069 64226 25 1; D-phase candidates 51826326292
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 27: re-found, 1 spaces [24 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15981 135094 236064 22860 6 1; D-phase candidates 44503945868
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 28: re-found, 1 spaces [22 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15542 133777 226211 19306 4 1; D-phase candidates 40108031199
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 29: re-found, 1 spaces [42 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 803 15919 138211 244453 60388 26 1; D-phase candidates 53092113384
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 30: re-found, 1 spaces [27 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15665 134569 235230 32457 13 1; D-phase candidates 45218281935
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 31: re-found, 1 spaces [25 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15660 135553 231661 20369 4 1; D-phase candidates 42450537848
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 32: re-found, 1 spaces [28 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 806 15850 136377 238731 23908 10 1; D-phase candidates 49704596688
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 33: re-found, 1 spaces [24 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 784 15786 137984 242659 21454 10 1; D-phase candidates 44988083252
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 34: re-found, 1 spaces [25 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 803 16018 137207 237587 23303 10 1; D-phase candidates 44919134188
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 35: re-found, 1 spaces [27 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 800 15494 132904 227126 20504 9 1; D-phase candidates 42997886953
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 36: re-found, 1 spaces [28 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 799 15931 135652 237784 22431 14 1; D-phase candidates 47051679836
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 37: re-found, 1 spaces [39 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15885 135930 230791 78972 25 1; D-phase candidates 48256150327
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 38: re-found, 1 spaces [24 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15554 135491 236965 23926 9 1; D-phase candidates 46007606181
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 39: re-found, 1 spaces [37 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 802 15755 139378 252186 63850 31 1; D-phase candidates 52920128043
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 40: re-found, 1 spaces [37 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 805 15997 136794 237937 68804 41 1; D-phase candidates 48424900433
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 41: re-found, 1 spaces [24 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 798 15920 139446 245802 26777 14 1; D-phase candidates 48792972610
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 42: re-found, 1 spaces [21 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 29 785 15658 134637 236454 21177 14 1; D-phase candidates 44249893714
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plant 43: re-found, 1 spaces [28 s]
+ctlplant nodes by dim: 0 0 0 0 0 0 0 0 0
+ctlplant tries by dim: 0 0 0 0 0 0 0 0 0
+ctlplant of which at points of D: 0 0 0 0 0 0 0 0 0
+ctlplant nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctlplant cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctlplant sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctlplant bent-extension nodes 0, full-span records 0
+ctlplant lin: nodes by dim 1 28 805 15764 137365 234638 64508 22 1; D-phase candidates 48858531867
+ctlplant: 1 controls, re-found 1, NOT found 0, failures 0, other spaces 0; by d0: 7:1; representatives 1

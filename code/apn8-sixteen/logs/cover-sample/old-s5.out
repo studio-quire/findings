@@ -1,0 +1,539 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 255, tasks 7140, threads 20, split 5, hole stage old (lines x forms), profiling a frontier range (counts partial)
+tasks 2000/7140  349 s  nodes 29581007  solutions 0  full 0
+tasks 4000/7140  767 s  nodes 58184952  solutions 0  full 0
+tasks 6000/7140  1164 s  nodes 87399805  solutions 0  full 0
+phase 1 done 1358 s: frontier 103823 items at dim 5
+profiling frontier items [0, 103823)
+sampling 1 frontier items per cover (seed 51): 210 items
+  frontier p6-90-a36-w11 5623
+  frontier p6-91-a2-w11 389
+  frontier p6-92-a2-w11 317
+  frontier p6-93-a1-w11 409
+  frontier p6-94-a1-w7 408
+  frontier p6-95-a1-w7 370
+  frontier p6-96-a6-w11 749
+  frontier p6-97-a1-w5 639
+  frontier p6-98-a6-w11 914
+  frontier p6-99-a1-w11 331
+  frontier p6-100-a6-w11 1397
+  frontier p6-101-a24-w11 946
+  frontier p6-102-a4-w6 226
+  frontier p6-103-a6-w11 858
+  frontier p6-104-a1-w11 346
+  frontier p6-105-a1-w11 464
+  frontier p6-106-a2-w11 407
+  frontier p6-107-a2-w7 893
+  frontier p6-108-a6-w11 1417
+  frontier p6-109-a4-w11 936
+  frontier p6-110-a6-w11 879
+  frontier p6-111-a2-w11 307
+  frontier p6-112-a8-w11 278
+  frontier p6-113-a6-w11 812
+  frontier p6-114-a36-w11 1224
+  frontier p6-115-a24-w11 2628
+  frontier p6-116-a2-w11 386
+  frontier p6-117-a4-w11 744
+  frontier p6-118-a2-w11 379
+  frontier p6-119-a1-w7 251
+  frontier p6-120-a1-w7 286
+  frontier p6-121-a2-w7 519
+  frontier p6-122-a2-w7 469
+  frontier p6-123-a3-w5 879
+  frontier p6-124-a24-w11 556
+  frontier p6-125-a2-w7 428
+  frontier p6-126-a24-w7 846
+  frontier p6-127-a2-w7 478
+  frontier p6-128-a1-w7 251
+  frontier p6-129-a4-w11 202
+  frontier p6-130-a4-w11 196
+  frontier p6-153-a1-w11 440
+  frontier p6-162-a2-w11 850
+  frontier p6-166-a1-w11 576
+  frontier p6-172-a2-w11 408
+  frontier p6-178-a1-w7 467
+  frontier p6-180-a1-w5 486
+  frontier p6-189-a1-w6 531
+  frontier p6-194-a1-w6 509
+  frontier p6-199-a2-w11 286
+  frontier p6-214-a2-w11 366
+  frontier p6-216-a1-w7 506
+  frontier p6-218-a4-w11 877
+  frontier p6-227-a2-w6 663
+  frontier p6-231-a2-w11 369
+  frontier p6-232-a2-w7 432
+  frontier p6-233-a1-w11 633
+  frontier p6-234-a2-w11 607
+  frontier p6-244-a2-w11 395
+  frontier p6-253-a3-w4 489
+  frontier p6-264-a2-w11 317
+  frontier p6-275-a1-w7 473
+  frontier p6-278-a18-w11 885
+  frontier p6-279-a2-w11 294
+  frontier p6-280-a6-w11 1004
+  frontier p6-281-a12-w11 969
+  frontier p6-282-a2-w11 424
+  frontier p6-283-a6-w11 1298
+  frontier p6-284-a12-w11 2145
+  frontier p6-285-a1-w11 429
+  frontier p6-286-a4-w6 602
+  frontier p6-291-a48-w11 1772
+  frontier p6-293-a18-w11 131
+  frontier p6-294-a18-w11 888
+  frontier p6-295-a18-w11 3396
+  frontier p6-296-a1-w11 440
+  frontier p6-297-a1-w11 429
+  frontier p6-298-a4-w7 556
+  frontier p6-299-a8-w11 1722
+  frontier p6-300-a8-w11 458
+  frontier p6-301-a1-w11 649
+  frontier p6-302-a1-w11 748
+  frontier p6-303-a1-w11 371
+  frontier p6-304-a24-w11 2132
+  frontier p6-305-a2-w11 282
+  frontier p6-306-a2-w11 906
+  frontier p6-307-a12-w11 1693
+  frontier p6-308-a24-w11 1382
+  frontier p6-309-a300-w11 4140
+  frontier p6-310-a180-w11 450
+  frontier p6-311-a12-w11 1602
+  frontier p6-312-a30-w11 1290
+  frontier p6-313-a1-w5 496
+  frontier p6-317-a1-w11 492
+  frontier p6-319-a1-w11 377
+  frontier p6-322-a1-w11 372
+  frontier p6-324-a2-w11 864
+  frontier p6-331-a2-w11 631
+  frontier p6-332-a4-w11 980
+  frontier p6-333-a6-w11 861
+  frontier p6-334-a2-w11 243
+  frontier p6-335-a2-w11 561
+  frontier p6-337-a6-w11 2221
+  frontier p6-338-a72-w11 3360
+  frontier p6-339-a120-w11 1240
+  frontier p6-340-a2160-w11 15220
+ITEM p6-101-a24-w11 gens 0000107 d800000 ad2eab3 9f86fa1 acdb86f nodes 0 0 0 0 1 56 0 0 sols 0 full 0 nonapn 0
+frontier 1/210  1504 s  nodes 57  solutions 0  full 0
+ITEM p6-95-a1-w7 gens 0000184 4800000 688d9a2 72314fe 4fbf597 nodes 0 0 0 0 1 65 0 0 sols 0 full 0 nonapn 0
+frontier 2/210  1518 s  nodes 123  solutions 0  full 0
+ITEM p6-89-a1-w7 gens 0002003 d800000 8522211 3b11fac acdb3c1 nodes 0 0 0 0 1 70 0 0 sols 0 full 0 nonapn 0
+frontier 3/210  1533 s  nodes 194  solutions 0  full 0
+ITEM p6-102-a4-w6 gens 0000086 3800000 70c99c4 4920b52 d6ff599 nodes 0 0 0 0 1 91 0 0 sols 0 full 0 nonapn 0
+frontier 4/210  1575 s  nodes 286  solutions 0  full 0
+ITEM p6-107-a2-w7 gens 0002102 b000000 9d66277 4da6fdf 3a3157a nodes 0 0 0 0 1 52 0 0 sols 0 full 0 nonapn 0
+frontier 5/210  1579 s  nodes 339  solutions 0  full 0
+ITEM p6-86-a1-w6 gens 0000183 8400000 688d9a2 4920b52 cb116ae nodes 0 0 0 0 1 76 0 0 sols 0 full 0 nonapn 0
+frontier 6/210  1598 s  nodes 416  solutions 0  full 0
+ITEM p6-96-a6-w11 gens 0000102 7000000 70c99c4 3b11fac 3e2cf4f nodes 0 0 0 0 1 114 0 0 sols 0 full 0 nonapn 0
+frontier 7/210  1601 s  nodes 531  solutions 0  full 0
+ITEM p6-97-a1-w5 gens 0000085 c400000 5cc5377 76b7073 9ffa6bb nodes 0 0 0 0 1 120 0 0 sols 0 full 0 nonapn 0
+frontier 8/210  1607 s  nodes 652  solutions 0  full 0
+ITEM p6-90-a36-w11 gens 0000184 3800000 c5a3311 5b21b5f 4b11eae nodes 0 0 0 0 1 77 0 0 sols 0 full 0 nonapn 0
+frontier 9/210  1611 s  nodes 730  solutions 0  full 0
+ITEM p6-98-a6-w11 gens 0000184 4800000 fdefbf7 72314fe 485a96d nodes 0 0 0 0 1 112 0 0 sols 0 full 0 nonapn 0
+frontier 10/210  1618 s  nodes 843  solutions 0  full 0
+ITEM p6-99-a1-w11 gens 0000086 3800000 688d9a2 4920b52 c6bd71e nodes 0 0 0 0 1 136 0 0 sols 0 full 0 nonapn 0
+frontier 11/210  1645 s  nodes 980  solutions 0  full 0
+ITEM p6-106-a2-w11 gens 0000086 3800000 d5e3355 4920b52 fd470fb nodes 0 0 0 0 1 90 0 0 sols 0 full 0 nonapn 0
+frontier 12/210  1648 s  nodes 1071  solutions 0  full 0
+ITEM p6-109-a4-w11 gens 0000086 3800000 30488c4 4920b52 6bd651e nodes 0 0 0 0 1 94 0 0 sols 0 full 0 nonapn 0
+frontier 13/210  1659 s  nodes 1166  solutions 0  full 0
+ITEM p6-105-a1-w11 gens 0000086 3800000 b96e8e6 4920b52 c4d23e9 nodes 0 0 0 0 1 103 0 0 sols 0 full 0 nonapn 0
+frontier 14/210  1673 s  nodes 1270  solutions 0  full 0
+ITEM p6-94-a1-w7 gens 0000086 3800000 384c8e6 4920b52 bbe12d7 nodes 0 0 0 0 1 168 0 0 sols 0 full 0 nonapn 0
+frontier 15/210  1686 s  nodes 1439  solutions 0  full 0
+ITEM p6-100-a6-w11 gens 0000086 4800000 9562255 c921b73 3a3157a nodes 0 0 0 0 1 169 0 0 sols 0 full 0 nonapn 0
+frontier 16/210  1697 s  nodes 1609  solutions 0  full 0
+ITEM p6-91-a2-w11 gens 0000184 4800000 4c85333 72314fe 6b1e294 nodes 0 0 0 0 1 121 0 0 sols 0 full 0 nonapn 0
+frontier 17/210  1701 s  nodes 1731  solutions 0  full 0
+ITEM p6-93-a1-w11 gens 0000086 3800000 9562255 4920b52 4dfd72a nodes 0 0 0 0 1 114 1 0 sols 0 full 0 nonapn 0
+frontier 18/210  1703 s  nodes 1847  solutions 0  full 0
+ITEM p6-110-a6-w11 gens 0000184 4800000 4885122 72314fe 374ccfd nodes 0 0 0 0 1 94 0 0 sols 0 full 0 nonapn 0
+frontier 19/210  1704 s  nodes 1942  solutions 0  full 0
+ITEM p6-116-a2-w11 gens 0000182 b000000 c9a7122 5b21b5f 4b37d59 nodes 0 0 0 0 1 73 0 0 sols 0 full 0 nonapn 0
+frontier 20/210  1711 s  nodes 2016  solutions 0  full 0
+ITEM p6-111-a2-w11 gens 0000184 4800000 8d26233 72314fe e9f8ced nodes 0 0 0 0 1 111 0 0 sols 0 full 0 nonapn 0
+frontier 21/210  1728 s  nodes 2128  solutions 0  full 0
+ITEM p6-119-a1-w7 gens 0000085 5800000 b16a8c4 e931fd2 a6359b5 nodes 0 0 0 0 1 103 0 0 sols 0 full 0 nonapn 0
+frontier 22/210  1801 s  nodes 2232  solutions 0  full 0
+ITEM p6-117-a4-w11 gens 0002101 9400000 9d66277 96864a1 d64ff41 nodes 0 0 0 0 1 114 0 0 sols 0 full 0 nonapn 0
+frontier 23/210  1802 s  nodes 2347  solutions 0  full 0
+ITEM p6-114-a36-w11 gens 0000086 3800000 384c8e6 4920b52 c53a75a nodes 0 0 0 0 1 137 0 0 sols 0 full 0 nonapn 0
+frontier 24/210  1806 s  nodes 2485  solutions 0  full 0
+ITEM p6-125-a2-w7 gens 0000085 5800000 74c9bd5 e931fd2 eb4d14f nodes 0 0 0 0 1 72 0 0 sols 0 full 0 nonapn 0
+frontier 25/210  1807 s  nodes 2558  solutions 0  full 0
+ITEM p6-126-a24-w7 gens 0002001 d800000 688d9a2 32114ac c66fdc1 nodes 0 0 0 0 1 63 0 0 sols 0 full 0 nonapn 0
+frontier 26/210  1809 s  nodes 2622  solutions 0  full 0
+ITEM p6-104-a1-w11 gens 0000086 3800000 e9af9a2 4920b52 e60fe51 nodes 0 0 0 0 1 154 0 0 sols 0 full 0 nonapn 0
+frontier 27/210  1821 s  nodes 2777  solutions 0  full 0
+ITEM p6-121-a2-w7 gens 0000085 5800000 9d66277 e931fd2 3cf3d59 nodes 0 0 0 0 1 100 0 0 sols 0 full 0 nonapn 0
+frontier 28/210  1828 s  nodes 2878  solutions 0  full 0
+ITEM p6-127-a2-w7 gens 0000085 5800000 fdefbf7 e931fd2 6e5a52e nodes 0 0 0 0 1 76 0 0 sols 0 full 0 nonapn 0
+frontier 29/210  1835 s  nodes 2955  solutions 0  full 0
+ITEM p6-113-a6-w11 gens 0000102 7000000 8d26233 3b11fac cb94d3e nodes 0 0 0 0 1 156 0 0 sols 0 full 0 nonapn 0
+frontier 30/210  1847 s  nodes 3112  solutions 0  full 0
+ITEM p6-122-a2-w7 gens 0000107 e800000 9d66277 b21048d 4e37c25 nodes 0 0 0 0 1 115 0 0 sols 0 full 0 nonapn 0
+frontier 31/210  1867 s  nodes 3228  solutions 0  full 0
+ITEM p6-88-a1-w5 gens 0002181 4800000 384c8e6 b21048d 33216f4 nodes 0 0 0 0 1 178 0 0 sols 0 full 0 nonapn 0
+frontier 32/210  1900 s  nodes 3407  solutions 0  full 0
+ITEM p6-120-a1-w7 gens 0000182 b000000 4885122 5b21b5f a7616a7 nodes 0 0 0 0 1 92 0 0 sols 0 full 0 nonapn 0
+frontier 33/210  1910 s  nodes 3500  solutions 0  full 0
+ITEM p6-129-a4-w11 gens 0000107 e800000 d9e7166 b21048d 8ecedff nodes 0 0 0 0 1 84 0 0 sols 0 full 0 nonapn 0
+frontier 34/210  1919 s  nodes 3585  solutions 0  full 0
+ITEM p6-124-a24-w11 gens 0000107 e800000 58c5166 b21048d 3d3713d nodes 0 0 0 0 1 90 0 0 sols 0 full 0 nonapn 0
+frontier 35/210  1934 s  nodes 3676  solutions 0  full 0
+ITEM p6-115-a24-w11 gens 0000183 6800000 ad2eab3 e931fd2 da11dcb nodes 0 0 0 0 1 120 0 0 sols 0 full 0 nonapn 0
+frontier 36/210  1934 s  nodes 3797  solutions 0  full 0
+ITEM p6-123-a3-w5 gens 0002001 fc00000 a52aa91 c921b73 5e5e58a nodes 0 0 0 0 1 94 0 0 sols 0 full 0 nonapn 0
+frontier 37/210  1946 s  nodes 3892  solutions 0  full 0
+ITEM p6-132-a1-w5 gens 0002007 f000000 d9e7166 5fa7fd2 9c7e5bc nodes 0 0 0 0 1 101 0 0 sols 0 full 0 nonapn 0
+frontier 38/210  1951 s  nodes 3994  solutions 0  full 0
+ITEM p6-108-a6-w11 gens 0002001 f000000 8522211 3697021 b320695 nodes 0 0 0 0 1 263 2 0 sols 0 full 0 nonapn 0
+frontier 39/210  1956 s  nodes 4260  solutions 0  full 0
+ITEM p6-136-a1-w6 gens 0000183 9c00000 9562255 6db6b7e ca3176b nodes 0 0 0 0 1 99 0 0 sols 0 full 0 nonapn 0
+frontier 40/210  1967 s  nodes 4360  solutions 0  full 0
+ITEM p6-128-a1-w7 gens 0000182 b000000 8522211 5b21b5f fc95f1e nodes 0 0 0 0 1 124 1 0 sols 0 full 0 nonapn 0
+frontier 41/210  1996 s  nodes 4486  solutions 0  full 0
+ITEM p6-139-a1-w5 gens 0002007 c800000 d9e7166 6930ff3 844fdd7 nodes 0 0 0 0 1 115 0 0 sols 0 full 0 nonapn 0
+frontier 42/210  2030 s  nodes 4602  solutions 0  full 0
+ITEM p6-133-a1-w5 gens 0000103 4c00000 b16a8c4 3f97b21 b130f16 nodes 0 0 0 0 1 164 0 0 sols 0 full 0 nonapn 0
+frontier 43/210  2053 s  nodes 4767  solutions 0  full 0
+ITEM p6-130-a4-w11 gens 0000182 b000000 8d26233 5b21b5f 4cd22e3 nodes 0 0 0 0 1 183 0 0 sols 0 full 0 nonapn 0
+frontier 44/210  2070 s  nodes 4951  solutions 0  full 0
+ITEM p6-92-a2-w11 gens 0000102 7000000 a52aa91 3b11fac b2b32ee nodes 0 0 0 0 1 235 0 0 sols 0 full 0 nonapn 0
+frontier 45/210  2075 s  nodes 5187  solutions 0  full 0
+ITEM p6-142-a1-w7 gens 0000085 c800000 b96e8e6 76b7073 5dfd50e nodes 0 0 0 0 1 113 0 0 sols 0 full 0 nonapn 0
+frontier 46/210  2080 s  nodes 5301  solutions 0  full 0
+ITEM p6-103-a6-w11 gens 0002007 a400000 9562255 9f86fa1 96ead15 nodes 0 0 0 0 1 415 0 0 sols 0 full 0 nonapn 0
+frontier 47/210  2093 s  nodes 5717  solutions 0  full 0
+ITEM p6-148-a1-w7 gens 0000102 a400000 8522211 96864a1 712be15 nodes 0 0 0 0 1 97 0 0 sols 0 full 0 nonapn 0
+frontier 48/210  2098 s  nodes 5815  solutions 0  full 0
+ITEM p6-140-a1-w5 gens 0002001 ac00000 d9e7166 e931fd2 a55f841 nodes 0 0 0 0 1 81 0 0 sols 0 full 0 nonapn 0
+frontier 49/210  2103 s  nodes 5897  solutions 0  full 0
+ITEM p6-150-a1-w5 gens 0002081 4800000 30488c4 3f97b21 acf63da nodes 0 0 0 0 1 100 0 0 sols 0 full 0 nonapn 0
+frontier 50/210  2107 s  nodes 5998  solutions 0  full 0
+ITEM p6-137-a1-w7 gens 0002003 3400000 384c8e6 d6a64f3 ad4f2eb nodes 0 0 0 0 1 191 0 0 sols 0 full 0 nonapn 0
+frontier 51/210  2110 s  nodes 6190  solutions 0  full 0
+ITEM p6-138-a1-w5 gens 0002003 7400000 5cc5377 4da6fdf f310a96 nodes 0 0 0 0 1 169 0 0 sols 0 full 0 nonapn 0
+frontier 52/210  2111 s  nodes 6360  solutions 0  full 0
+ITEM p6-152-a2-w11 gens 0002083 d800000 ad2eab3 ad97b0d ea3d55a nodes 0 0 0 0 1 67 0 0 sols 0 full 0 nonapn 0
+frontier 53/210  2119 s  nodes 6428  solutions 0  full 0
+ITEM p6-151-a1-w7 gens 0002105 7000000 74c9bd5 3b11fac 75e1d95 nodes 0 0 0 0 1 108 0 0 sols 0 full 0 nonapn 0
+frontier 54/210  2133 s  nodes 6537  solutions 0  full 0
+ITEM p6-134-a1-w7 gens 0002181 4c00000 6c8dbb3 3697021 357f2c1 nodes 0 0 0 0 1 127 0 0 sols 0 full 0 nonapn 0
+frontier 55/210  2139 s  nodes 6665  solutions 0  full 0
+ITEM p6-112-a8-w11 gens 0000086 3800000 384c8e6 4920b52 ac628f1 nodes 0 0 0 0 1 210 0 0 sols 0 full 0 nonapn 0
+frontier 56/210  2161 s  nodes 6876  solutions 0  full 0
+ITEM p6-156-a1-w7 gens 0002007 9400000 d5e3355 f2304df d917e4f nodes 0 0 0 0 1 71 0 0 sols 0 full 0 nonapn 0
+frontier 57/210  2164 s  nodes 6948  solutions 0  full 0
+ITEM p6-144-a1-w7 gens 0002181 4800000 58c5166 84874ac e7e16d4 nodes 0 0 0 0 1 97 0 0 sols 0 full 0 nonapn 0
+frontier 58/210  2165 s  nodes 7046  solutions 0  full 0
+ITEM p6-145-a4-w7 gens 0002102 6c00000 4c85333 3697021 d4cbdc1 nodes 0 0 0 0 1 97 0 0 sols 0 full 0 nonapn 0
+frontier 59/210  2171 s  nodes 7144  solutions 0  full 0
+ITEM p6-154-a1-w5 gens 0002001 d400000 30488c4 a49700d c6ebe41 nodes 0 0 0 0 1 74 0 0 sols 0 full 0 nonapn 0
+frontier 60/210  2173 s  nodes 7219  solutions 0  full 0
+ITEM p6-146-a1-w5 gens 0002184 8c00000 9562255 8d87fac 712be15 nodes 0 0 0 0 1 155 0 0 sols 0 full 0 nonapn 0
+frontier 61/210  2176 s  nodes 7375  solutions 0  full 0
+ITEM p6-164-a1-w7 gens 0000107 7400000 70c99c4 d6a64f3 4fdd68e nodes 0 0 0 0 1 52 0 0 sols 0 full 0 nonapn 0
+frontier 62/210  2189 s  nodes 7428  solutions 0  full 0
+ITEM p6-158-a1-w7 gens 0000086 3c00000 b16a8c4 d6a64f3 b30a3d4 nodes 0 0 0 0 1 75 0 0 sols 0 full 0 nonapn 0
+frontier 63/210  2189 s  nodes 7504  solutions 0  full 0
+ITEM p6-157-a1-w5 gens 0002105 7000000 8d26233 5b21b5f 9fdc8cf nodes 0 0 0 0 1 91 0 0 sols 0 full 0 nonapn 0
+frontier 64/210  2209 s  nodes 7596  solutions 0  full 0
+ITEM p6-155-a1-w7 gens 0002001 b000000 9562255 a49700d 3a3cb1b nodes 0 0 0 0 1 64 0 0 sols 0 full 0 nonapn 0
+frontier 65/210  2211 s  nodes 7661  solutions 0  full 0
+ITEM p6-153-a1-w11 gens 0002084 3400000 d9e7166 5b21b5f 8dfcb4f nodes 0 0 0 0 1 121 0 0 sols 0 full 0 nonapn 0
+frontier 66/210  2230 s  nodes 7783  solutions 0  full 0
+ITEM p6-174-a1-w7 gens 0002105 a400000 384c8e6 3b11fac ba3cbdb nodes 0 0 0 0 1 85 0 0 sols 0 full 0 nonapn 0
+frontier 67/210  2295 s  nodes 7869  solutions 0  full 0
+ITEM p6-141-a1-w6 gens 0000084 e400000 8d26233 72314fe ff4e5aa nodes 0 0 0 0 1 158 0 0 sols 0 full 0 nonapn 0
+frontier 68/210  2305 s  nodes 8028  solutions 0  full 0
+ITEM p6-162-a2-w11 gens 0000085 3400000 c5a3311 84874ac 37e0895 nodes 0 0 0 0 1 144 0 0 sols 0 full 0 nonapn 0
+frontier 69/210  2307 s  nodes 8173  solutions 0  full 0
+ITEM p6-161-a4-w11 gens 0000185 c400000 74c9bd5 c4a74fe c6ebe41 nodes 0 0 0 0 1 135 0 0 sols 0 full 0 nonapn 0
+frontier 70/210  2310 s  nodes 8309  solutions 0  full 0
+ITEM p6-179-a1-w6 gens 0002102 6800000 5cc5377 9f86fa1 713a696 nodes 0 0 0 0 1 79 0 0 sols 0 full 0 nonapn 0
+frontier 71/210  2311 s  nodes 8389  solutions 0  full 0
+ITEM p6-159-a2-w11 gens 0002083 e800000 f1eb9c4 6db6b7e 4b1750e nodes 0 0 0 0 1 92 0 0 sols 0 full 0 nonapn 0
+frontier 72/210  2324 s  nodes 8482  solutions 0  full 0
+ITEM p6-178-a1-w7 gens 0002084 e800000 8d26233 c4a74fe e7dcd57 nodes 0 0 0 0 1 97 0 0 sols 0 full 0 nonapn 0
+frontier 73/210  2328 s  nodes 8580  solutions 0  full 0
+ITEM p6-163-a1-w7 gens 0000102 9c00000 b96e8e6 4920b52 ea3d55a nodes 0 0 0 0 1 155 0 0 sols 0 full 0 nonapn 0
+frontier 74/210  2333 s  nodes 8736  solutions 0  full 0
+ITEM p6-118-a2-w11 gens 0000107 e800000 70c99c4 b21048d 9fdc6ed nodes 0 0 0 0 1 246 0 0 sols 0 full 0 nonapn 0
+frontier 75/210  2340 s  nodes 8983  solutions 0  full 0
+ITEM p6-166-a1-w11 gens 0002101 3800000 e5abb91 4920b52 d4cbdc1 nodes 0 0 0 0 1 146 0 0 sols 0 full 0 nonapn 0
+frontier 76/210  2350 s  nodes 9130  solutions 0  full 0
+ITEM p6-181-a1-w5 gens 0002102 9c00000 8d26233 a49700d fcdae5b nodes 0 0 0 0 1 105 0 0 sols 0 full 0 nonapn 0
+frontier 77/210  2360 s  nodes 9236  solutions 0  full 0
+ITEM p6-186-a2-w6 gens 0000084 fc00000 e9af9a2 84874ac 37dc316 nodes 0 0 0 0 1 59 0 0 sols 0 full 0 nonapn 0
+frontier 78/210  2370 s  nodes 9296  solutions 0  full 0
+ITEM p6-169-a1-w5 gens 0002187 f000000 fdefbf7 e4b705f 3ef689b nodes 0 0 0 0 1 89 0 0 sols 0 full 0 nonapn 0
+frontier 79/210  2380 s  nodes 9386  solutions 0  full 0
+ITEM p6-173-a2-w11 gens 0002106 9c00000 e5abb91 4920b52 ea3d55a nodes 0 0 0 0 1 87 0 0 sols 0 full 0 nonapn 0
+frontier 80/210  2383 s  nodes 9474  solutions 0  full 0
+ITEM p6-175-a1-w6 gens 0002007 c800000 c9a7122 e931fd2 6efa59a nodes 0 0 0 0 1 143 0 0 sols 0 full 0 nonapn 0
+frontier 81/210  2388 s  nodes 9618  solutions 0  full 0
+ITEM p6-167-a2-w11 gens 0000103 4800000 8d26233 ad97b0d 8dfcb4f nodes 0 0 0 0 1 109 0 0 sols 0 full 0 nonapn 0
+frontier 82/210  2410 s  nodes 9728  solutions 0  full 0
+ITEM p6-195-a1-w6 gens 0002182 5c00000 9562255 32114ac 75fc696 nodes 0 0 0 0 1 60 0 0 sols 0 full 0 nonapn 0
+frontier 83/210  2417 s  nodes 9789  solutions 0  full 0
+ITEM p6-172-a2-w11 gens 0000085 a400000 3c4caf7 a49700d 37e0895 nodes 0 0 0 0 1 110 0 0 sols 0 full 0 nonapn 0
+frontier 84/210  2424 s  nodes 9900  solutions 0  full 0
+ITEM p6-187-a1-w5 gens 0002084 5800000 688d9a2 ad97b0d 6efa59a nodes 0 0 0 0 1 89 0 0 sols 0 full 0 nonapn 0
+frontier 85/210  2433 s  nodes 9990  solutions 0  full 0
+ITEM p6-194-a1-w6 gens 0002182 4c00000 5cc5377 76b7073 c6c6d41 nodes 0 0 0 0 1 42 0 0 sols 0 full 0 nonapn 0
+frontier 86/210  2433 s  nodes 10033  solutions 0  full 0
+ITEM p6-190-a1-w7 gens 0002106 d400000 9d66277 3697021 ba3cbdb nodes 0 0 0 0 1 91 0 0 sols 0 full 0 nonapn 0
+frontier 87/210  2433 s  nodes 10125  solutions 0  full 0
+ITEM p6-188-a1-w5 gens 0002083 6800000 ad2eab3 c921b73 d906e4d nodes 0 0 0 0 1 107 0 0 sols 0 full 0 nonapn 0
+frontier 88/210  2455 s  nodes 10233  solutions 0  full 0
+ITEM p6-200-a1-w6 gens 0000106 4800000 ad2eab3 9f86fa1 8464d5e nodes 0 0 0 0 1 41 0 0 sols 0 full 0 nonapn 0
+frontier 89/210  2457 s  nodes 10275  solutions 0  full 0
+ITEM p6-170-a1-w5 gens 0002007 d800000 c9a7122 b21048d d917e4f nodes 0 0 0 0 1 203 0 0 sols 0 full 0 nonapn 0
+frontier 90/210  2460 s  nodes 10479  solutions 0  full 0
+ITEM p6-191-a2-w6 gens 0000107 fc00000 4885122 f2304df 37dc316 nodes 0 0 0 0 1 115 0 0 sols 0 full 0 nonapn 0
+frontier 91/210  2490 s  nodes 10595  solutions 0  full 0
+ITEM p6-182-a1-w5 gens 0000107 3c00000 8522211 b21048d 8de08cd nodes 0 0 0 0 1 141 0 0 sols 0 full 0 nonapn 0
+frontier 92/210  2501 s  nodes 10737  solutions 0  full 0
+ITEM p6-196-a1-w6 gens 0000183 e800000 8d26233 ffb6b52 4fe058c nodes 0 0 0 0 1 103 0 0 sols 0 full 0 nonapn 0
+frontier 93/210  2509 s  nodes 10841  solutions 0  full 0
+ITEM p6-204-a1-w5 gens 0002084 5800000 9d66277 3697021 ca045ab nodes 0 0 0 0 1 91 0 0 sols 0 full 0 nonapn 0
+frontier 94/210  2515 s  nodes 10933  solutions 0  full 0
+ITEM p6-176-a1-w7 gens 0002001 3400000 d9e7166 b21048d 8de08cd nodes 0 0 0 0 1 200 0 0 sols 0 full 0 nonapn 0
+frontier 95/210  2516 s  nodes 11134  solutions 0  full 0
+ITEM p6-209-a1-w11 gens 0002086 5800000 688d9a2 4920b52 9c617b4 nodes 0 0 0 0 1 74 0 0 sols 0 full 0 nonapn 0
+frontier 96/210  2524 s  nodes 11209  solutions 0  full 0
+ITEM p6-180-a1-w5 gens 0002181 9400000 a52aa91 3f97b21 37dc316 nodes 0 0 0 0 1 122 0 0 sols 0 full 0 nonapn 0
+frontier 97/210  2525 s  nodes 11332  solutions 0  full 0
+ITEM p6-216-a1-w7 gens 0000185 fc00000 8522211 ffb6b52 9c617b4 nodes 0 0 0 0 1 35 0 0 sols 0 full 0 nonapn 0
+frontier 98/210  2544 s  nodes 11368  solutions 0  full 0
+ITEM p6-215-a1-w5 gens 0000084 f000000 9d66277 84874ac 3d5bf41 nodes 0 0 0 0 1 72 0 0 sols 0 full 0 nonapn 0
+frontier 99/210  2551 s  nodes 11441  solutions 0  full 0
+ITEM p6-210-a1-w6 gens 0002181 3800000 9d66277 76b7073 e75e8ab nodes 0 0 0 0 1 60 0 0 sols 0 full 0 nonapn 0
+frontier 100/210  2560 s  nodes 11502  solutions 0  full 0
+ITEM p6-199-a2-w11 gens 0002086 e400000 e5abb91 84874ac ff5b241 nodes 0 0 0 0 1 74 0 0 sols 0 full 0 nonapn 0
+frontier 101/210  2561 s  nodes 11577  solutions 0  full 0
+ITEM p6-214-a2-w11 gens 0000103 b000000 6c8dbb3 3b11fac 311b275 nodes 0 0 0 0 1 104 0 0 sols 0 full 0 nonapn 0
+frontier 102/210  2573 s  nodes 11682  solutions 0  full 0
+ITEM p6-143-a1-w11 gens 0000087 6c00000 688d9a2 6db6b7e 6ed7e1b nodes 0 0 0 0 1 233 0 0 sols 0 full 0 nonapn 0
+frontier 103/210  2577 s  nodes 11916  solutions 0  full 0
+ITEM p6-198-a1-w6 gens 0002106 4c00000 a52aa91 db20b7e eb1e59f nodes 0 0 0 0 1 142 0 0 sols 0 full 0 nonapn 0
+frontier 104/210  2584 s  nodes 12059  solutions 0  full 0
+ITEM p6-184-a1-w5 gens 0002081 8400000 e5abb91 a49700d 37dc316 nodes 0 0 0 0 1 110 0 0 sols 0 full 0 nonapn 0
+frontier 105/210  2591 s  nodes 12170  solutions 0  full 0
+ITEM p6-189-a1-w6 gens 0002007 4c00000 e9af9a2 5b21b5f d4c6e41 nodes 0 0 0 0 1 106 0 0 sols 0 full 0 nonapn 0
+frontier 106/210  2592 s  nodes 12277  solutions 0  full 0
+ITEM p6-224-a1-w6 gens 0000085 e800000 fdefbf7 4920b52 355f7ea nodes 0 0 0 0 1 71 0 0 sols 0 full 0 nonapn 0
+frontier 107/210  2596 s  nodes 12349  solutions 0  full 0
+ITEM p6-217-a2-w7 gens 0000185 5800000 fdefbf7 3697021 a57ed6a nodes 0 0 0 0 1 105 0 0 sols 0 full 0 nonapn 0
+frontier 108/210  2605 s  nodes 12455  solutions 0  full 0
+ITEM p6-218-a4-w11 gens 0002086 b800000 ad2eab3 6db6b7e eb1e59f nodes 0 0 0 0 1 111 0 0 sols 0 full 0 nonapn 0
+frontier 109/210  2640 s  nodes 12567  solutions 0  full 0
+ITEM p6-226-a1-w11 gens 0002086 8c00000 688d9a2 32114ac 5a25f2b nodes 0 0 0 0 1 101 0 0 sols 0 full 0 nonapn 0
+frontier 110/210  2652 s  nodes 12669  solutions 0  full 0
+ITEM p6-233-a1-w11 gens 0002001 6c00000 3448ad5 a49700d 9465f1f nodes 0 0 0 0 1 70 0 0 sols 0 full 0 nonapn 0
+frontier 111/210  2656 s  nodes 12740  solutions 0  full 0
+ITEM p6-223-a4-w6 gens 0000184 7000000 30488c4 9f86fa1 355f7ea nodes 0 0 0 0 1 107 0 0 sols 0 full 0 nonapn 0
+frontier 112/210  2657 s  nodes 12848  solutions 0  full 0
+ITEM p6-227-a2-w6 gens 0002001 fc00000 e9af9a2 c921b73 ff5b241 nodes 0 0 0 0 1 64 0 0 sols 0 full 0 nonapn 0
+frontier 113/210  2668 s  nodes 12913  solutions 0  full 0
+ITEM p6-205-a1-w7 gens 0002101 e400000 70c99c4 84874ac ca045ab nodes 0 0 0 0 1 120 0 0 sols 0 full 0 nonapn 0
+frontier 114/210  2693 s  nodes 13034  solutions 0  full 0
+ITEM p6-229-a1-w5 gens 0000087 c800000 fdefbf7 3697021 8c605f5 nodes 0 0 0 0 1 73 0 0 sols 0 full 0 nonapn 0
+frontier 115/210  2700 s  nodes 13108  solutions 0  full 0
+ITEM p6-225-a1-w7 gens 0000086 3400000 9d66277 5b21b5f 6f7a8c1 nodes 0 0 0 0 1 134 0 0 sols 0 full 0 nonapn 0
+frontier 116/210  2715 s  nodes 13243  solutions 0  full 0
+ITEM p6-235-a1-w5 gens 0002106 d400000 f1eb9c4 c921b73 355f7ea nodes 0 0 0 0 1 95 0 0 sols 0 full 0 nonapn 0
+frontier 117/210  2718 s  nodes 13339  solutions 0  full 0
+ITEM p6-207-a1-w7 gens 0000102 4800000 c9a7122 c921b73 311b275 nodes 0 0 0 0 1 210 1 0 sols 0 full 0 nonapn 0
+frontier 118/210  2729 s  nodes 13551  solutions 0  full 0
+ITEM p6-245-a1-w7 gens 0000103 4c00000 4885122 32114ac ff5b241 nodes 0 0 0 0 1 90 0 0 sols 0 full 0 nonapn 0
+frontier 119/210  2741 s  nodes 13642  solutions 0  full 0
+ITEM p6-234-a2-w11 gens 0000184 a400000 4885122 32114ac 4e608f5 nodes 0 0 0 0 1 79 0 0 sols 0 full 0 nonapn 0
+frontier 120/210  2753 s  nodes 13722  solutions 0  full 0
+ITEM p6-247-a1-w7 gens 0002084 8400000 d9e7166 d6a64f3 b93f21f nodes 0 0 0 0 1 70 0 0 sols 0 full 0 nonapn 0
+frontier 121/210  2761 s  nodes 13793  solutions 0  full 0
+ITEM p6-244-a2-w11 gens 0002001 7400000 4885122 9f86fa1 ad7a5c1 nodes 0 0 0 0 1 116 0 0 sols 0 full 0 nonapn 0
+frontier 122/210  2765 s  nodes 13910  solutions 0  full 0
+ITEM p6-232-a2-w7 gens 0002081 5c00000 d9e7166 8d87fac 311b275 nodes 0 0 0 0 1 88 0 0 sols 0 full 0 nonapn 0
+frontier 123/210  2775 s  nodes 13999  solutions 0  full 0
+ITEM p6-246-a1-w11 gens 0002181 d800000 b16a8c4 e4b705f da057ea nodes 0 0 0 0 1 95 1 0 sols 0 full 0 nonapn 0
+frontier 124/210  2776 s  nodes 14096  solutions 0  full 0
+ITEM p6-231-a2-w11 gens 0002005 f000000 4c85333 84874ac b13bab4 nodes 0 0 0 0 1 94 0 0 sols 0 full 0 nonapn 0
+frontier 125/210  2777 s  nodes 14191  solutions 0  full 0
+ITEM p6-220-a2-w11 gens 0000183 6c00000 6c8dbb3 72314fe b93f21f nodes 0 0 0 0 1 199 0 0 sols 0 full 0 nonapn 0
+frontier 126/210  2783 s  nodes 14391  solutions 0  full 0
+ITEM p6-249-a1-w11 gens 0000106 5800000 58c5166 a49700d e75e8ab nodes 0 0 0 0 1 99 0 0 sols 0 full 0 nonapn 0
+frontier 127/210  2788 s  nodes 14491  solutions 0  full 0
+ITEM p6-230-a1-w7 gens 0002106 d800000 8d26233 84874ac 777f22b nodes 0 0 0 0 1 158 0 0 sols 0 full 0 nonapn 0
+frontier 128/210  2789 s  nodes 14650  solutions 0  full 0
+ITEM p6-236-a1-w6 gens 0002105 b000000 ad2eab3 5b21b5f 311b275 nodes 0 0 0 0 1 85 0 0 sols 0 full 0 nonapn 0
+frontier 129/210  2791 s  nodes 14736  solutions 0  full 0
+ITEM p6-251-a1-w7 gens 0000183 e800000 b96e8e6 b21048d 3a2d3fb nodes 0 0 0 0 1 138 0 0 sols 0 full 0 nonapn 0
+frontier 130/210  2838 s  nodes 14875  solutions 0  full 0
+ITEM p6-255-a1-w11 gens 0002007 e400000 ad2eab3 ad97b0d 96cdd17 nodes 0 0 0 0 1 99 0 0 sols 0 full 0 nonapn 0
+frontier 131/210  2852 s  nodes 14975  solutions 0  full 0
+ITEM p6-258-a2-w7 gens 0002083 7000000 8522211 96864a1 ba0db3a nodes 0 0 0 0 1 91 0 0 sols 0 full 0 nonapn 0
+frontier 132/210  2855 s  nodes 15067  solutions 0  full 0
+ITEM p6-273-a4-w11 gens 0000183 b000000 9d66277 3697021 944fa41 nodes 0 0 0 0 1 66 0 0 sols 0 full 0 nonapn 0
+frontier 133/210  2868 s  nodes 15134  solutions 0  full 0
+ITEM p6-208-a3-w7 gens 0000103 4c00000 3448ad5 76b7073 ff5b241 nodes 0 0 0 0 1 167 0 0 sols 0 full 0 nonapn 0
+frontier 134/210  2873 s  nodes 15302  solutions 0  full 0
+ITEM p6-257-a1-w11 gens 0000184 d400000 74c9bd5 db20b7e 333bb56 nodes 0 0 0 0 1 112 0 0 sols 0 full 0 nonapn 0
+frontier 135/210  2875 s  nodes 15415  solutions 0  full 0
+ITEM p6-253-a3-w4 gens 0000103 8400000 3448ad5 c921b73 75d68c1 nodes 0 0 0 0 1 83 0 0 sols 0 full 0 nonapn 0
+frontier 136/210  2909 s  nodes 15499  solutions 0  full 0
+ITEM p6-252-a2-w7 gens 0002181 9400000 8522211 96864a1 ba0db3a nodes 0 0 0 0 1 101 0 0 sols 0 full 0 nonapn 0
+frontier 137/210  2913 s  nodes 15601  solutions 0  full 0
+ITEM p6-238-a1-w11 gens 0000106 5800000 58c5166 72314fe f31bf75 nodes 0 0 0 0 1 127 0 0 sols 0 full 0 nonapn 0
+frontier 138/210  2917 s  nodes 15729  solutions 0  full 0
+ITEM p6-280-a6-w11 gens 0000107 e400000 a52aa91 72314fe 31a1bd4 nodes 0 0 0 0 1 34 0 0 sols 0 full 0 nonapn 0
+frontier 139/210  2919 s  nodes 15764  solutions 0  full 0
+ITEM p6-263-a2-w6 gens 0002182 b800000 ad2eab3 3b11fac 712a3e2 nodes 0 0 0 0 1 114 1 0 sols 0 full 0 nonapn 0
+frontier 140/210  2924 s  nodes 15880  solutions 0  full 0
+ITEM p6-259-a1-w11 gens 0000107 5c00000 5cc5377 3b11fac 75e03ec nodes 0 0 0 0 1 145 0 0 sols 0 full 0 nonapn 0
+frontier 141/210  2930 s  nodes 16026  solutions 0  full 0
+ITEM p6-265-a2-w5 gens 0002101 ac00000 3448ad5 96864a1 f10bb62 nodes 0 0 0 0 1 69 0 0 sols 0 full 0 nonapn 0
+frontier 142/210  2935 s  nodes 16096  solutions 0  full 0
+ITEM p6-268-a2-w6 gens 0002083 8c00000 b96e8e6 3697021 a5fd6af nodes 0 0 0 0 1 140 0 0 sols 0 full 0 nonapn 0
+frontier 143/210  2964 s  nodes 16237  solutions 0  full 0
+ITEM p6-284-a12-w11 gens 0002105 4800000 9562255 3b11fac 8e187fb nodes 0 0 0 0 1 50 0 0 sols 0 full 0 nonapn 0
+frontier 144/210  2982 s  nodes 16288  solutions 0  full 0
+ITEM p6-264-a2-w11 gens 0002181 3800000 70c99c4 96864a1 3a3c523 nodes 0 0 0 0 1 148 0 0 sols 0 full 0 nonapn 0
+frontier 145/210  2985 s  nodes 16437  solutions 0  full 0
+ITEM p6-270-a6-w11 gens 0002083 3800000 a52aa91 a49700d d4c6d4d nodes 0 0 0 0 1 132 0 0 sols 0 full 0 nonapn 0
+frontier 146/210  2994 s  nodes 16570  solutions 0  full 0
+ITEM p6-271-a6-w11 gens 0000085 8c00000 6c8dbb3 5b21b5f ba3d5a3 nodes 0 0 0 0 1 149 0 0 sols 0 full 0 nonapn 0
+frontier 147/210  3017 s  nodes 16720  solutions 0  full 0
+ITEM p6-254-a2-w7 gens 0000084 3800000 3448ad5 a49700d 6ee13ad nodes 0 0 0 0 1 133 0 0 sols 0 full 0 nonapn 0
+frontier 148/210  3017 s  nodes 16854  solutions 0  full 0
+ITEM p6-278-a18-w11 gens 0002182 b000000 384c8e6 c921b73 9e7b68b nodes 0 0 0 0 1 102 0 0 sols 0 full 0 nonapn 0
+frontier 149/210  3023 s  nodes 16957  solutions 0  full 0
+ITEM p6-274-a1-w11 gens 0002106 c800000 4885122 bb10f8d 4a3470a nodes 0 0 0 0 1 98 0 0 sols 0 full 0 nonapn 0
+frontier 150/210  3023 s  nodes 17056  solutions 0  full 0
+ITEM p6-277-a6-w11 gens 0002084 b000000 b16a8c4 ad97b0d aeda42f nodes 0 0 0 0 1 136 0 0 sols 0 full 0 nonapn 0
+frontier 151/210  3050 s  nodes 17193  solutions 0  full 0
+ITEM p6-276-a1-w7 gens 0000085 3800000 384c8e6 6db6b7e 34a96af nodes 0 0 0 0 1 130 0 0 sols 0 full 0 nonapn 0
+frontier 152/210  3056 s  nodes 17324  solutions 0  full 0
+ITEM p6-285-a1-w11 gens 0002102 7000000 58c5166 5b21b5f ea1cd2e nodes 0 0 0 0 1 113 0 0 sols 0 full 0 nonapn 0
+frontier 153/210  3076 s  nodes 17438  solutions 0  full 0
+ITEM p6-288-a2-w7 gens 0002007 9400000 c9a7122 e931fd2 c6c6d2e nodes 0 0 0 0 1 77 0 0 sols 0 full 0 nonapn 0
+frontier 154/210  3129 s  nodes 17516  solutions 0  full 0
+ITEM p6-286-a4-w6 gens 0002001 fc00000 30488c4 c921b73 4b265f9 nodes 0 0 0 0 1 148 0 0 sols 0 full 0 nonapn 0
+frontier 155/210  3149 s  nodes 17665  solutions 0  full 0
+ITEM p6-293-a18-w11 gens 0002081 7000000 30488c4 96864a1 d4589ec nodes 0 0 0 0 1 117 1 0 sols 0 full 0 nonapn 0
+frontier 156/210  3153 s  nodes 17784  solutions 0  full 0
+ITEM p6-261-a1-w6 gens 0000085 a400000 5cc5377 e931fd2 c6ebdcf nodes 0 0 0 0 1 140 0 0 sols 0 full 0 nonapn 0
+frontier 157/210  3159 s  nodes 17925  solutions 0  full 0
+ITEM p6-283-a6-w11 gens 0000183 d400000 ad2eab3 d6a64f3 4a53c2f nodes 0 0 0 0 1 97 0 0 sols 0 full 0 nonapn 0
+frontier 158/210  3159 s  nodes 18023  solutions 0  full 0
+ITEM p6-298-a4-w7 gens 0000103 f000000 8d26233 bb10fec 7399e9d nodes 0 0 0 0 1 90 0 0 sols 0 full 0 nonapn 0
+frontier 159/210  3182 s  nodes 18114  solutions 0  full 0
+ITEM p6-296-a1-w11 gens 0000087 b800000 d5e3355 4920b73 b0b23aa nodes 0 0 0 0 1 126 0 0 sols 0 full 0 nonapn 0
+frontier 160/210  3182 s  nodes 18241  solutions 0  full 0
+ITEM p6-275-a1-w7 gens 0002106 6c00000 6c8dbb3 6930ff3 68d2d65 nodes 0 0 0 0 1 233 0 0 sols 0 full 0 nonapn 0
+frontier 161/210  3191 s  nodes 18475  solutions 0  full 0
+ITEM p6-299-a8-w11 gens 0000087 b800000 4885122 4920b73 bbcf296 nodes 0 0 0 0 1 107 0 0 sols 0 full 0 nonapn 0
+frontier 162/210  3191 s  nodes 18583  solutions 0  full 0
+ITEM p6-282-a2-w11 gens 0002081 d400000 9d66277 a49700d fd72742 nodes 0 0 0 0 1 113 0 0 sols 0 full 0 nonapn 0
+frontier 163/210  3193 s  nodes 18697  solutions 0  full 0
+ITEM p6-269-a3-w11 gens 0002105 b800000 8522211 a49700d 5de16cd nodes 0 0 0 0 1 159 0 0 sols 0 full 0 nonapn 0
+frontier 164/210  3196 s  nodes 18857  solutions 0  full 0
+ITEM p6-295-a18-w11 gens 0002086 3400000 4885122 f23049f 3efb841 nodes 0 0 0 0 1 73 0 0 sols 0 full 0 nonapn 0
+frontier 165/210  3211 s  nodes 18931  solutions 0  full 0
+ITEM p6-297-a1-w11 gens 0000184 4800000 58c5166 f23049f 94ed92b nodes 0 0 0 0 1 87 0 0 sols 0 full 0 nonapn 0
+frontier 166/210  3225 s  nodes 19019  solutions 0  full 0
+ITEM p6-300-a8-w11 gens 0000184 4800000 c9a7122 f23049f a77fc27 nodes 0 0 0 0 1 105 0 0 sols 0 full 0 nonapn 0
+frontier 167/210  3229 s  nodes 19125  solutions 0  full 0
+ITEM p6-292-a2-w7 gens 0000087 3c00000 9562255 32114ac 3ee0e97 nodes 0 0 0 0 1 179 0 0 sols 0 full 0 nonapn 0
+frontier 168/210  3243 s  nodes 19305  solutions 0  full 0
+ITEM p6-301-a1-w11 gens 0000087 b800000 c5a3311 4920b73 38e50bc nodes 0 0 0 0 1 53 0 0 sols 0 full 0 nonapn 0
+frontier 169/210  3249 s  nodes 19359  solutions 0  full 0
+ITEM p6-294-a18-w11 gens 0000185 e800000 9562255 c4a74fe b399b4a nodes 0 0 0 0 1 153 0 0 sols 0 full 0 nonapn 0
+frontier 170/210  3263 s  nodes 19513  solutions 0  full 0
+ITEM p6-307-a12-w11 gens 0000087 b800000 58c5166 4920b73 35f2c43 nodes 0 0 0 0 1 62 0 0 sols 0 full 0 nonapn 0
+frontier 171/210  3265 s  nodes 19576  solutions 0  full 0
+ITEM p6-302-a1-w11 gens 0002101 c400000 ad2eab3 ffb6b21 3a31d5a nodes 0 0 0 0 1 87 0 0 sols 0 full 0 nonapn 0
+frontier 172/210  3271 s  nodes 19664  solutions 0  full 0
+ITEM p6-309-a300-w11 gens 0000084 6800000 8522211 5b21b3e 3d6ef6a nodes 0 0 0 0 1 72 0 0 sols 0 full 0 nonapn 0
+frontier 173/210  3286 s  nodes 19737  solutions 0  full 0
+ITEM p6-303-a1-w11 gens 0000184 4800000 9d66277 f23049f 967d72f nodes 0 0 0 0 1 110 0 0 sols 0 full 0 nonapn 0
+frontier 174/210  3301 s  nodes 19848  solutions 0  full 0
+ITEM p6-314-a6-w11 gens 0002182 b000000 4885122 e931ff3 9c617bd nodes 0 0 0 0 1 74 0 0 sols 0 full 0 nonapn 0
+frontier 175/210  3322 s  nodes 19923  solutions 0  full 0
+ITEM p6-304-a24-w11 gens 0002001 b800000 f1eb9c4 ad97b3e cb116ae nodes 0 0 0 0 1 74 0 0 sols 0 full 0 nonapn 0
+frontier 176/210  3331 s  nodes 19998  solutions 0  full 0
+ITEM p6-279-a2-w11 gens 0002106 7400000 c5a3311 3b11fac 38e12a4 nodes 0 0 0 0 1 183 0 0 sols 0 full 0 nonapn 0
+frontier 177/210  3339 s  nodes 20182  solutions 0  full 0
+ITEM p6-306-a2-w11 gens 0000086 e800000 3448ad5 b2104cd a5cb86f nodes 0 0 0 0 1 120 0 0 sols 0 full 0 nonapn 0
+frontier 178/210  3355 s  nodes 20303  solutions 0  full 0
+ITEM p6-315-a1-w5 gens 0002081 ac00000 70c99c4 6db6b4d 6b2ed7e nodes 0 0 0 0 1 88 0 0 sols 0 full 0 nonapn 0
+frontier 179/210  3361 s  nodes 20392  solutions 0  full 0
+ITEM p6-289-a2-w7 gens 0002003 6c00000 fdefbf7 96864a1 713a6ae nodes 0 0 0 0 1 266 0 0 sols 0 full 0 nonapn 0
+frontier 180/210  3372 s  nodes 20659  solutions 0  full 0
+ITEM p6-320-a1-w11 gens 0002005 d400000 6c8dbb3 db20b1f a574d7e nodes 0 0 0 0 1 90 0 0 sols 0 full 0 nonapn 0
+frontier 181/210  3394 s  nodes 20750  solutions 0  full 0
+ITEM p6-281-a12-w11 gens 0002007 f000000 a52aa91 3b11fac a6b247f nodes 0 0 0 0 1 187 0 0 sols 0 full 0 nonapn 0
+frontier 182/210  3394 s  nodes 20938  solutions 0  full 0
+ITEM p6-317-a1-w11 gens 0002083 d800000 a52aa91 84874be eb0e5bf nodes 0 0 0 0 1 102 0 0 sols 0 full 0 nonapn 0
+frontier 183/210  3400 s  nodes 21041  solutions 0  full 0
+ITEM p6-311-a12-w11 gens 0002003 8400000 4c85333 3b11fcd 5a115ea nodes 0 0 0 0 1 91 0 0 sols 0 full 0 nonapn 0
+frontier 184/210  3416 s  nodes 21133  solutions 0  full 0
+ITEM p6-305-a2-w11 gens 0000184 4800000 a52aa91 f23049f 5fcface nodes 0 0 0 0 1 108 0 0 sols 0 full 0 nonapn 0
+frontier 185/210  3417 s  nodes 21242  solutions 0  full 0
+ITEM p6-321-a1-w5 gens 0002101 e400000 c9a7122 c921b52 6b2ed7e nodes 0 0 0 0 1 95 0 0 sols 0 full 0 nonapn 0
+frontier 186/210  3427 s  nodes 21338  solutions 0  full 0
+ITEM p6-313-a1-w5 gens 0000085 3400000 c5a3311 84874be 355f7c1 nodes 0 0 0 0 1 94 0 0 sols 0 full 0 nonapn 0
+frontier 187/210  3456 s  nodes 21433  solutions 0  full 0
+ITEM p6-326-a1-w11 gens 0002105 3400000 f1eb9c4 ffb6b21 ad605f5 nodes 0 0 0 0 1 73 0 0 sols 0 full 0 nonapn 0
+frontier 188/210  3456 s  nodes 21507  solutions 0  full 0
+ITEM p6-310-a180-w11 gens 0000183 5800000 58c5166 6930fd2 9c7fabc nodes 0 0 0 0 1 115 0 0 sols 0 full 0 nonapn 0
+frontier 189/210  3457 s  nodes 21623  solutions 0  full 0
+ITEM p6-312-a30-w11 gens 0000084 5800000 c5a3311 6930fd2 a707525 nodes 0 0 0 0 1 107 0 0 sols 0 full 0 nonapn 0
+frontier 190/210  3459 s  nodes 21731  solutions 0  full 0
+ITEM p6-319-a1-w11 gens 0002001 c400000 9562255 b2104cd 313b2b4 nodes 0 0 0 0 1 145 0 0 sols 0 full 0 nonapn 0
+frontier 191/210  3465 s  nodes 21877  solutions 0  full 0
+ITEM p6-327-a1-w5 gens 0002187 3400000 58c5166 4920b73 da3570b nodes 0 0 0 0 1 72 0 0 sols 0 full 0 nonapn 0
+frontier 192/210  3466 s  nodes 21950  solutions 0  full 0
+ITEM p6-333-a6-w11 gens 0002001 c800000 4885122 b2104cd f13bb35 nodes 0 0 0 0 1 61 0 0 sols 0 full 0 nonapn 0
+frontier 193/210  3475 s  nodes 22012  solutions 0  full 0
+ITEM p6-336-a6-w11 gens 0002003 3400000 fdefbf7 bb10fec 962894b nodes 0 0 0 0 1 74 0 0 sols 0 full 0 nonapn 0
+frontier 194/210  3507 s  nodes 22087  solutions 0  full 0
+ITEM p6-331-a2-w11 gens 0002005 9400000 8522211 72314be cb066c1 nodes 0 0 0 0 1 98 0 0 sols 0 full 0 nonapn 0
+frontier 195/210  3514 s  nodes 22186  solutions 0  full 0
+ITEM p6-322-a1-w11 gens 0002187 fc00000 b16a8c4 72314be da3570b nodes 0 0 0 0 1 183 1 0 sols 0 full 0 nonapn 0
+frontier 196/210  3539 s  nodes 22371  solutions 0  full 0
+ITEM p6-325-a1-w5 gens 0002081 e400000 c5a3311 ffb6b21 846ed4a nodes 0 0 0 0 1 92 0 0 sols 0 full 0 nonapn 0
+frontier 197/210  3542 s  nodes 22464  solutions 0  full 0
+ITEM p6-323-a1-w5 gens 0002003 b800000 d5e3355 6930fd2 357573f nodes 0 0 0 0 1 165 0 0 sols 0 full 0 nonapn 0
+frontier 198/210  3543 s  nodes 22630  solutions 0  full 0
+ITEM p6-291-a48-w11 gens 0002084 b000000 8522211 3697021 4fe18ef nodes 0 0 0 0 1 382 5 0 sols 0 full 0 nonapn 0
+frontier 199/210  3561 s  nodes 23018  solutions 0  full 0
+ITEM p6-316-a1-w6 gens 0002184 b800000 30488c4 3f97b52 c64e88b nodes 0 0 0 0 1 127 0 0 sols 0 full 0 nonapn 0
+frontier 200/210  3587 s  nodes 23146  solutions 0  full 0
+ITEM p6-308-a24-w11 gens 0002187 3000000 58c5166 32114ec 6a10bda nodes 0 0 0 0 1 310 0 0 sols 0 full 0 nonapn 0
+frontier 201/210  3598 s  nodes 23457  solutions 0  full 0
+ITEM p6-328-a1-w11 gens 0002086 b800000 4885122 4920b73 b90f2fe nodes 0 0 0 0 1 207 0 0 sols 0 full 0 nonapn 0
+frontier 202/210  3600 s  nodes 23665  solutions 0  full 0
+ITEM p6-338-a72-w11 gens 0000185 e400000 8522211 72314be 71a7c59 nodes 0 0 0 0 1 180 0 0 sols 0 full 0 nonapn 0
+frontier 203/210  3614 s  nodes 23846  solutions 0  full 0
+ITEM p6-334-a2-w11 gens 0002081 ac00000 8d26233 c4a74ec 333a635 nodes 0 0 0 0 1 96 0 0 sols 0 full 0 nonapn 0
+frontier 204/210  3627 s  nodes 23943  solutions 0  full 0
+ITEM p6-324-a2-w11 gens 0002182 c800000 8522211 3b11fcd 392fa3f nodes 0 0 0 0 1 142 0 0 sols 0 full 0 nonapn 0
+frontier 205/210  3670 s  nodes 24086  solutions 0  full 0
+ITEM p6-339-a120-w11 gens 0000087 3000000 58c5166 5b21b3e 6a9cdca nodes 0 0 0 0 1 103 0 0 sols 0 full 0 nonapn 0
+frontier 206/210  3678 s  nodes 24190  solutions 0  full 0
+ITEM p6-340-a2160-w11 gens 0002184 9c00000 3c4caf7 b211ced 4b116af nodes 0 0 0 0 1 115 1 0 sols 0 full 0 nonapn 0
+frontier 207/210  3707 s  nodes 24307  solutions 0  full 0
+ITEM p6-335-a2-w11 gens 0000183 d400000 4885122 e931ff3 75d63fa nodes 0 0 0 0 1 152 0 0 sols 0 full 0 nonapn 0
+frontier 208/210  3763 s  nodes 24460  solutions 0  full 0
+ITEM p6-337-a6-w11 gens 0000084 3000000 ad2eab3 3697073 e6334bb nodes 0 0 0 0 1 172 0 0 sols 0 full 0 nonapn 0
+frontier 209/210  3806 s  nodes 24633  solutions 0  full 0
+ITEM p6-332-a4-w11 gens 0002084 b000000 688d9a2 76b7021 59165cf nodes 0 0 0 0 1 303 0 0 sols 0 full 0 nonapn 0
+frontier 210/210  4036 s  nodes 24937  solutions 0  full 0
+phase 2: 210 items, 2677.28 s, 254.979 s per item per thread
+done: covers 255, tasks 7140, nodes 24937, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4036 s
+nodes by span dimension 1..8: 0 0 0 0 210 24712 15 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 6095523
+hole-stage candidates 10161780160, passing the filter (sent to push) 10161780160

@@ -1,0 +1,73 @@
+--- src/cover.cpp
++++ cover5s.cpp
+@@ -29,7 +29,8 @@
+ // of enumerating it. --gray runs the enumeration, --old the original lines x forms.
+ //
+ // Options after the positional ones: --old | --gray; --only TAG (just that cover); --frange A B (profiling: phase 1
+-// explores nothing below the solid stage except to collect the frontier, phase 2 runs frontier items [A, B) only).
++// explores nothing below the solid stage except to collect the frontier, phase 2 runs frontier items [A, B) only);
++// --fsample N SEED (the same, with N items per cover at random, and an ITEM line per item to compare the modes on).
+ #include <cstdio>
+ #include <cstdlib>
+ #include <cstdint>
+@@ -39,6 +40,7 @@
+ #include <atomic>
+ #include <mutex>
+ #include <algorithm>
++#include <random>
+ #include <intrin.h>
+ #include <omp.h>
+ 
+@@ -458,12 +460,13 @@
+ };
+ 
+ int main(int argc, char** argv) {
+-    if (argc < 2) { fprintf(stderr, "usage: cover <input> [maxlines|-1] [splitdim] [--old|--gray] [--only TAG] [--frange A B]\n"); return 2; }
+-    std::vector<char*> pos; int hm = 0; const char* only = nullptr; long fa = -1, fb = -1;
++    if (argc < 2) { fprintf(stderr, "usage: cover <input> [maxlines|-1] [splitdim] [--old|--gray] [--only TAG] [--frange A B] [--fsample N SEED]\n"); return 2; }
++    std::vector<char*> pos; int hm = 0; const char* only = nullptr; long fa = -1, fb = -1, fsample = 0; unsigned long long fseed = 0;
+     for (int i = 1; i < argc; i++) {
+         if (!strcmp(argv[i], "--old")) hm = 2;
+         else if (!strcmp(argv[i], "--gray")) hm = 1;
+         else if (!strcmp(argv[i], "--only") && i + 1 < argc) only = argv[++i];
++        else if (!strcmp(argv[i], "--fsample") && i + 2 < argc) { fsample = atol(argv[i + 1]); fseed = strtoull(argv[i + 2], nullptr, 10); fa = 0; fb = 2000000000L; i += 2; }
+         else if (!strcmp(argv[i], "--frange") && i + 2 < argc) { fa = atol(argv[i + 1]); fb = atol(argv[i + 2]); i += 2; }
+         else pos.push_back(argv[i]);
+     }
+@@ -536,6 +539,22 @@
+             nodes = 0; for (auto& b : bydim) b = 0; cand = 0; passed = 0;
+             printf("profiling frontier items [%ld, %ld)\n", fa, fb);
+         }
++        if (fsample > 0) {   // fsample items per cover, chosen from the sorted frontier by a fixed seed, so every mode runs the same ones
++            std::vector<std::pair<int, std::vector<u64>>> pick;
++            std::mt19937_64 rng(fseed);
++            for (size_t i = 0, j; i < front.size(); i = j) {
++                for (j = i; j < front.size() && front[j].first == front[i].first; j++) {}
++                std::vector<size_t> idx;
++                for (size_t q = i; q < j; q++) idx.push_back(q);
++                for (size_t q = idx.size(); q > 1; q--) std::swap(idx[q - 1], idx[rng() % q]);
++                idx.resize(std::min<size_t>(idx.size(), fsample));
++                std::sort(idx.begin(), idx.end());
++                for (size_t q : idx) pick.push_back(front[q]);
++            }
++            front = std::move(pick);
++            nodes = 0; for (auto& b : bydim) b = 0; cand = 0; passed = 0;
++            printf("sampling %ld frontier items per cover (seed %llu): %zu items\n", fsample, (unsigned long long)fseed, front.size());
++        }
+         double t1 = omp_get_wtime();
+         for (size_t i = 0; i < cv.size(); i++) if (per[i] >= 100) printf("  frontier %s %d\n", cv[i].tag.c_str(), per[i]);
+         fflush(stdout);
+@@ -548,6 +567,13 @@
+             for (u64 B : front[t].second) if (!se.push(B, sc, sn, sd)) { fprintf(stderr, "frontier push failed\n"); exit(1); }
+             se.dfs();
+             add_counts(se);
++            if (fsample > 0) {   // per item, for comparing modes
++                std::string g; char hx[32];
++                for (u64 b : front[t].second) { snprintf(hx, sizeof hx, " %07llx", (unsigned long long)to_coef(b)); g += hx; }
++                std::string by; for (int k = 1; k < 9; k++) { snprintf(hx, sizeof hx, " %lld", se.bydim[k]); by += hx; }
++                std::lock_guard<std::mutex> lk(g_mu);
++                printf("ITEM %s gens%s nodes%s sols %lld full %lld nonapn %lld\n", se.C->tag.c_str(), g.c_str(), by.c_str(), se.sols, se.fulls, se.nonapn);
++            }
+             long long d = ++fdone;
+             if (d % step == 0) {
+                 std::lock_guard<std::mutex> g(g_mu);

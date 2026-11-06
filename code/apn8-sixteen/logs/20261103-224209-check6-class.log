@@ -1,0 +1,9 @@
+# command: cmd /c "python apn\six_check_slices.py parta && python apn\six_check_slices.py merge && python apn\six_check_slices.py configs"
+parta exit 0
+parta exit 0
+parta exit 0
+parta exit 0
+parta exit 0
+parta: all slices done
+merge exit 0
+configs exit 0

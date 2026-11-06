@@ -1,0 +1,1 @@
+# command: cmd /c "python apn\six_check_tally.py cores runs\check6\p1asc.cores runs\check6\p1desc.cores > runs\check6\tally-p1.out 2>&1"

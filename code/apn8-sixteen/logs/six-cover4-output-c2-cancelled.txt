@@ -1,0 +1,91 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 43, tasks 1204, threads 20, split 5
+phase 1 done 53910 s: frontier 72221 items at dim 5
+  frontier p6-90-a36-w11 5623
+  frontier p6-91-a2-w11 389
+  frontier p6-92-a2-w11 317
+  frontier p6-93-a1-w11 409
+  frontier p6-94-a1-w7 408
+  frontier p6-95-a1-w7 370
+  frontier p6-96-a6-w11 749
+  frontier p6-97-a1-w5 639
+  frontier p6-98-a6-w11 914
+  frontier p6-99-a1-w11 331
+  frontier p6-100-a6-w11 1397
+  frontier p6-101-a24-w11 24311
+  frontier p6-102-a4-w6 226
+  frontier p6-103-a6-w11 858
+  frontier p6-104-a1-w11 346
+  frontier p6-105-a1-w11 464
+  frontier p6-106-a2-w11 407
+  frontier p6-107-a2-w7 893
+  frontier p6-108-a6-w11 1417
+  frontier p6-109-a4-w11 936
+  frontier p6-110-a6-w11 879
+  frontier p6-111-a2-w11 307
+  frontier p6-112-a8-w11 278
+  frontier p6-113-a6-w11 812
+  frontier p6-114-a36-w11 19435
+  frontier p6-115-a24-w11 2628
+  frontier p6-116-a2-w11 386
+  frontier p6-117-a4-w11 744
+  frontier p6-118-a2-w11 379
+  frontier p6-119-a1-w7 251
+  frontier p6-120-a1-w7 286
+  frontier p6-121-a2-w7 519
+  frontier p6-122-a2-w7 469
+  frontier p6-123-a3-w5 879
+  frontier p6-124-a24-w11 556
+  frontier p6-125-a2-w7 428
+  frontier p6-126-a24-w7 846
+  frontier p6-127-a2-w7 478
+  frontier p6-128-a1-w7 251
+frontier 361/72221  61707 s  nodes 18250725  solutions 0  full 0
+frontier 722/72221  63053 s  nodes 18313469  solutions 0  full 0
+frontier 1083/72221  64071 s  nodes 18367631  solutions 0  full 0
+frontier 1444/72221  65135 s  nodes 18424205  solutions 0  full 0
+frontier 1805/72221  66107 s  nodes 18475304  solutions 0  full 0
+frontier 2166/72221  67311 s  nodes 18538859  solutions 0  full 0
+frontier 2527/72221  68412 s  nodes 18597275  solutions 0  full 0
+frontier 2888/72221  69470 s  nodes 18651829  solutions 0  full 0
+frontier 3249/72221  70453 s  nodes 18705368  solutions 0  full 0
+frontier 3610/72221  71566 s  nodes 18763989  solutions 0  full 0
+frontier 3971/72221  72590 s  nodes 18819761  solutions 0  full 0
+frontier 4332/72221  73769 s  nodes 18881522  solutions 0  full 0
+frontier 4693/72221  74810 s  nodes 18937243  solutions 0  full 0
+frontier 5054/72221  75832 s  nodes 18991785  solutions 0  full 0
+frontier 5415/72221  76808 s  nodes 19043498  solutions 0  full 0
+frontier 5776/72221  77665 s  nodes 19091063  solutions 0  full 0
+frontier 6137/72221  79402 s  nodes 19132699  solutions 0  full 0
+frontier 6498/72221  80763 s  nodes 19175166  solutions 0  full 0
+frontier 6859/72221  82037 s  nodes 19215664  solutions 0  full 0
+frontier 7220/72221  83227 s  nodes 19253768  solutions 0  full 0
+frontier 7581/72221  84533 s  nodes 19291654  solutions 0  full 0
+frontier 7942/72221  86622 s  nodes 19340751  solutions 0  full 0
+frontier 8303/72221  88688 s  nodes 19391460  solutions 0  full 0
+frontier 8664/72221  90175 s  nodes 19428336  solutions 0  full 0
+frontier 9025/72221  117668 s  nodes 19469179  solutions 0  full 0
+frontier 9386/72221  119523 s  nodes 19515558  solutions 0  full 0
+frontier 9747/72221  121112 s  nodes 19564314  solutions 0  full 0
+frontier 10108/72221  122490 s  nodes 19609567  solutions 0  full 0
+frontier 10469/72221  123785 s  nodes 19650599  solutions 0  full 0
+frontier 10830/72221  125074 s  nodes 19690141  solutions 0  full 0
+frontier 11191/72221  126774 s  nodes 19736196  solutions 0  full 0
+frontier 11552/72221  128838 s  nodes 19780887  solutions 0  full 0
+frontier 11913/72221  131038 s  nodes 19831143  solutions 0  full 0
+frontier 12274/72221  132593 s  nodes 19864412  solutions 0  full 0
+frontier 12635/72221  136882 s  nodes 19899113  solutions 0  full 0
+frontier 12996/72221  140439 s  nodes 19931651  solutions 0  full 0
+frontier 13357/72221  143575 s  nodes 19964321  solutions 0  full 0
+frontier 13718/72221  146372 s  nodes 19992368  solutions 0  full 0
+frontier 14079/72221  149300 s  nodes 20025743  solutions 0  full 0
+frontier 14440/72221  152103 s  nodes 20058185  solutions 0  full 0
+frontier 14801/72221  154789 s  nodes 20093442  solutions 0  full 0
+frontier 15162/72221  157724 s  nodes 20127720  solutions 0  full 0
+frontier 15523/72221  160268 s  nodes 20162318  solutions 0  full 0
+frontier 15884/72221  162700 s  nodes 20194824  solutions 0  full 0
+frontier 16245/72221  164948 s  nodes 20227335  solutions 0  full 0
+frontier 16606/72221  166822 s  nodes 20262777  solutions 0  full 0
+frontier 16967/72221  169313 s  nodes 20296787  solutions 0  full 0
+frontier 17328/72221  172816 s  nodes 20328789  solutions 0  full 0
+frontier 17689/72221  176594 s  nodes 20361939  solutions 0  full 0

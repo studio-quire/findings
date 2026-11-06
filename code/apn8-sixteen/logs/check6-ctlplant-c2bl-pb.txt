@@ -1,0 +1,10 @@
+FOUND plant 0 line 12512 k 3 d0 6 -> rep 125 (spr): 1 spaces (1 APN); tries in D 33502129552, lin D-phase candidates 0, lin nodes by dim 0 0 0 0 0 0 0 0 0  [11023 s]
+SUMMARY pb controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 1 line 12604 k 3 d0 6 -> rep 119 (spr): 1 spaces (1 APN); tries in D 15141758688, lin D-phase candidates 0, lin nodes by dim 0 0 0 0 0 0 0 0 0  [3289 s]
+SUMMARY pb controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 2 line 12633 k 4 d0 6 -> rep 124 (spr): 1 spaces (1 APN); tries in D 19079240998, lin D-phase candidates 0, lin nodes by dim 0 0 0 0 0 0 0 0 0  [5132 s]
+SUMMARY pb controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 3 line 12645 k 4 d0 6 -> rep 81 (spr): 1 spaces (1 APN); tries in D 12863595779, lin D-phase candidates 0, lin nodes by dim 0 0 0 0 0 0 0 0 0  [2609 s]
+SUMMARY pb controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 4 line 12647 k 4 d0 6 -> rep 94 (spr): 1 spaces (1 APN); tries in D 14108931604, lin D-phase candidates 0, lin nodes by dim 0 0 0 0 0 0 0 0 0  [2445 s]
+SUMMARY pb controls 1 refound 1 notfound 0 fail 0 extra 0

@@ -1,0 +1,15 @@
+GL(4,2) 20160, V5824 5824, classes 1680(cent 12) 1344(cent 15) 1344(cent 15) 1344(cent 15) 112(cent 180)
+class 0 done, 11 s, orbits so far 295 (this run: 1584 tasks, 316416 cliques, thread-s canon 219, w 2)
+class 1 done, 16 s, orbits so far 340 (this run: 1128 tasks, 161408 cliques, thread-s canon 101, w 0)
+class 2 done, 19 s, orbits so far 340 (this run: 784 tasks, 80276 cliques, thread-s canon 49, w 0)
+class 3 done, 20 s, orbits so far 340 (this run: 440 tasks, 28600 cliques, thread-s canon 19, w 0)
+class 4 done, 20 s, orbits so far 341 (this run: 76 tasks, 1920 cliques, thread-s canon 2, w 0)
+w spot checks: 551, mismatches 0
+reduced cliques by extension w (largest clique in the common neighbourhood):
+  w=4: reduced 993, weighted 806400, orbits 1, orbit sum 806400 MATCH
+  w=5: reduced 142071, weighted 155232000, orbits 68, orbit sum 155232000 MATCH
+  w=6: reduced 97245, weighted 104630400, orbits 48, orbit sum 104630400 MATCH
+  w=7: reduced 185718, weighted 188596800, orbits 92, orbit sum 188596800 MATCH
+  w=11: reduced 162593, weighted 156917824, orbits 132, orbit sum 156917824 MATCH
+orbits 341
+wrote 341 configurations, 20 s

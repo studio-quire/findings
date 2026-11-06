@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\six_check.exe lin runs\check6\configs.txt runs\check6\tmp\lin340.prog 340 340 > runs\check6\tmp\lin340.out 2>&1"

@@ -1,0 +1,18 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+search: 341 configurations (configuration list); point order ascending; D phase point branching
+config 0 (spr): nodes 1 28 784 15595 135700 243565 157776 70 0  cores 0 0 0 0 0 883 24267 0 0  triesD 12696768995 sweep 0 full 0+0 bentext 0  [3499.4 s, total 3499 s]
+config 132 (ext13): nodes 1 28 784 15595 134229 233923 67079 25 0  cores 0 0 0 0 0 425 20389 0 0  triesD 9587172299 sweep 0 full 0+0 bentext 0  [1714.9 s, total 1715 s]
+config 224 (ext12): nodes 1 28 784 15583 133464 228245 20095 12 0  cores 0 0 0 0 0 1 20025 0 0  triesD 8322888401 sweep 0 full 0+0 bentext 0  [1237.1 s, total 1237 s]
+config 272 (ext11): nodes 1 28 784 15532 134642 236372 20978 8 0  cores 0 0 0 0 0 4 20552 0 0  triesD 8510083920 sweep 0 full 0+0 bentext 0  [1105.0 s, total 1105 s]
+config 18 (spr): nodes 1 28 784 15550 134621 235910 56715 18 0  cores 0 0 0 0 0 346 20675 0 0  triesD 9483551041 sweep 0 full 0+0 bentext 0  [2007.7 s, total 2008 s]
+config 41 (spr): nodes 1 28 784 15499 132368 231671 146383 88 0  cores 0 0 0 0 0 850 21441 0 0  triesD 11362651692 sweep 0 full 0+0 bentext 0  [2230.2 s, total 2230 s]
+config 74 (spr): nodes 1 28 784 15502 134158 234558 23822 13 0  cores 0 0 0 0 0 12 21950 0 0  triesD 9160163092 sweep 0 full 0+0 bentext 0  [837.8 s, total 838 s]
+config 133 (ext13): nodes 1 28 784 15634 137800 236356 25329 14 0  cores 0 0 0 0 0 22 22104 0 0  triesD 9220964645 sweep 0 full 0+0 bentext 0  [956.7 s, total 957 s]
+config 248 (ext12): nodes 1 28 784 15484 132151 221148 19667 5 0  cores 0 0 0 0 0 6 18761 0 0  triesD 7846349692 sweep 0 full 0+0 bentext 0  [829.2 s, total 829 s]
+config 293 (ext11): nodes 1 28 784 15613 132310 227367 19735 9 0  cores 0 0 0 0 0 3 19286 0 0  triesD 8013543896 sweep 0 full 0+0 bentext 0  [964.9 s, total 965 s]
+config 339 (ext11): nodes 1 28 784 15445 131132 220661 66057 24 0  cores 0 0 0 0 0 496 18999 0 0  triesD 9139895391 sweep 0 full 0+0 bentext 0  [1630.4 s, total 1630 s]
+config 24 (spr): nodes 1 28 784 15424 137624 284381 1389371 1575 0  cores 0 0 0 0 1 1224 42452 0 0  triesD 44199364147 sweep 0 full 0+0 bentext 0  [6415.3 s, total 6415 s]
+config 31 (spr): nodes 1 28 784 15631 135059 280036 2252206 1984 0  cores 0 0 0 0 1 946 43598 0 0  triesD 69603079993 sweep 0 full 0+0 bentext 0  [7459.4 s, total 7459 s]
+config 103 (spr): nodes 1 28 784 15604 140041 314459 3541200 2000 0  cores 0 0 0 0 2 2132 44052 0 0  triesD 89803868551 sweep 0 full 0+0 bentext 0  [16135.3 s, total 16135 s]
+config 130 (spr): nodes 1 28 784 15676 140447 371451 8030885 59642 0  cores 0 0 0 0 3 450 58810 0 0  triesD 238394725864 sweep 0 full 0+0 bentext 0  [33470.1 s, total 33470 s]
+config 131 (spr): nodes 1 28 784 16252 159310 374750 2186059 43037 0  cores 0 0 0 0 0 15220 100440 0 0  triesD 91153662791 sweep 0 full 0+0 bentext 0  [29650.1 s, total 29650 s]

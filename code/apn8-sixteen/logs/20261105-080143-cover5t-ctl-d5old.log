@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\cover5t.exe runs\cover5\ctl\d5.txt -1 -1 --old > runs\cover5\ctl\d5-old.out 2>&1"

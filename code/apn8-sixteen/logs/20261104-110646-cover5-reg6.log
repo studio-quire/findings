@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\cover5.exe runs\i6\p11.txt > runs\cover5\reg6.out 2>&1"

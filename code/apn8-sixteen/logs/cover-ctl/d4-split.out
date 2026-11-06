@@ -1,0 +1,440 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 8, tasks 8, threads 20, split 5, hole stage affine tree
+phase 1 done 0 s: frontier 571421 items at dim 5
+  frontier ctl4-6-k4 47595
+  frontier ctl4-53-k4 60105
+  frontier ctl4-65-k4 59885
+  frontier ctl4-73-k4 90254
+  frontier ctl4-104-k4 85524
+  frontier ctl4-169-k4 95994
+  frontier ctl4-177-k4 65378
+  frontier ctl4-204-k4 66686
+frontier 2857/571421  149 s  nodes 805421  solutions 0  full 0
+frontier 5714/571421  349 s  nodes 1600644  solutions 0  full 0
+frontier 8571/571421  552 s  nodes 2439943  solutions 0  full 0
+frontier 11428/571421  689 s  nodes 3218710  solutions 0  full 0
+SOLUTION ctl4-6-k4 dim 8 ranks 8:186 6:65 4:4 basis 1d3de73 67e1b79 0681600 0414038 48cdffe a75e330 96fb212 413b8a3
+frontier 14285/571421  782 s  nodes 3996091  solutions 1  full 0
+frontier 17142/571421  879 s  nodes 4814333  solutions 1  full 0
+frontier 19999/571421  974 s  nodes 5614500  solutions 1  full 0
+frontier 22856/571421  1083 s  nodes 6436656  solutions 1  full 0
+frontier 25713/571421  1195 s  nodes 7275182  solutions 1  full 0
+frontier 28570/571421  1315 s  nodes 8109049  solutions 1  full 0
+frontier 31427/571421  1429 s  nodes 8920150  solutions 1  full 0
+frontier 34284/571421  1574 s  nodes 9737016  solutions 1  full 0
+frontier 37141/571421  1781 s  nodes 10576735  solutions 1  full 0
+frontier 39998/571421  1976 s  nodes 11421371  solutions 1  full 0
+frontier 42855/571421  2157 s  nodes 12231399  solutions 1  full 0
+frontier 45712/571421  2332 s  nodes 13021118  solutions 1  full 0
+frontier 48569/571421  2552 s  nodes 13964189  solutions 1  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 075a000 670113d f0bd2c3 43ae0b2
+frontier 51426/571421  2808 s  nodes 15087716  solutions 2  full 0
+frontier 54283/571421  3086 s  nodes 16256410  solutions 2  full 0
+frontier 57140/571421  3367 s  nodes 17444506  solutions 2  full 0
+frontier 59997/571421  3647 s  nodes 18654199  solutions 2  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 1b6bb00 b000001 4a5ac34 06f4317
+frontier 62854/571421  3940 s  nodes 19885810  solutions 3  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 69ae000 5c01669 d78c653 2021703
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 6d20000 cd00665 f7ad758 1379c54
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 468db00 7900475 d1bd9f9 114910b
+frontier 65711/571421  4235 s  nodes 21118702  solutions 6  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 4b31680 0401821 ede4e48 2cbe0b2
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 4b31680 9501415 d2ac1d9 b2bde28
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 5412d80 5c01060 eb59a30 49c69af
+frontier 68568/571421  4532 s  nodes 22373445  solutions 9  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 7111b00 2a01548 dbd7ead e88c608
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 7111b00 d701b6d 715a1b5 a29ef23
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 70bfb00 2501605 1e4b995 914a573
+frontier 71425/571421  4815 s  nodes 23566856  solutions 12  full 0
+frontier 74282/571421  5092 s  nodes 24727910  solutions 12  full 0
+frontier 77139/571421  5379 s  nodes 25927962  solutions 12  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a a469680 0b00f14 69aecdd cfbecb0
+frontier 79996/571421  5643 s  nodes 27064745  solutions 13  full 0
+frontier 82853/571421  5915 s  nodes 28213026  solutions 13  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a b48c000 5701524 69aecdd 84c4317
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a b48c000 0401821 33138a5 13f7b5b
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 9501680 0401821 72c5d08 b75aad5
+frontier 85710/571421  6202 s  nodes 29421967  solutions 16  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a b522000 344a51f a2d7787 b4c55fb
+frontier 88567/571421  7368 s  nodes 30661910  solutions 17  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a b632000 5c01c38 69aecdd be6bd64
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 977b680 c601150 dc8c418 6d6b57f
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a 97bd680 ec01e29 3711820 6af7b37
+frontier 91424/571421  7873 s  nodes 31877073  solutions 20  full 0
+SOLUTION ctl4-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a e412d80 6800419 3358c58 12d5fc7
+frontier 94281/571421  8374 s  nodes 33088916  solutions 21  full 0
+frontier 97138/571421  9024 s  nodes 34270820  solutions 21  full 0
+frontier 99995/571421  10106 s  nodes 35426986  solutions 21  full 0
+frontier 102852/571421  11114 s  nodes 36576114  solutions 21  full 0
+frontier 105709/571421  11990 s  nodes 37703061  solutions 21  full 0
+frontier 108566/571421  12712 s  nodes 38864600  solutions 21  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 05ae000 b941e41 36f7b37 d88c210
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 0cef600 ca80871 375bab5 5c8e70f
+frontier 111423/571421  13257 s  nodes 40107146  solutions 23  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 2b4ec00 ce80429 3861410 b5e55fb
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 0a1b600 5c00a51 3123167 eebebd3
+frontier 114280/571421  13794 s  nodes 41312754  solutions 25  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 1593a00 d801270 dd21060 e3b61eb
+frontier 117137/571421  14304 s  nodes 42470966  solutions 26  full 0
+frontier 119994/571421  14810 s  nodes 43626914  solutions 26  full 0
+frontier 122851/571421  15334 s  nodes 44855360  solutions 26  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 6c4a000 d540e21 71f1c60 daf6ddb
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 6c8e000 8001c39 34c6317 308e393
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 6dac000 47c1421 e3726e5 debebd3
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 6dac000 ce80429 3123167 54a5008
+frontier 125708/571421  15812 s  nodes 45973486  solutions 30  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 6619600 77c1e71 54efadd 85e7377
+frontier 128565/571421  16351 s  nodes 47209655  solutions 31  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 4ba1a00 c3c0651 6f10840 67fe7e3
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 58c6000 47c1421 60a718b dc8fcbd
+frontier 131422/571421  16861 s  nodes 48377767  solutions 33  full 0
+frontier 134279/571421  17261 s  nodes 49546492  solutions 33  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 766cc00 fa80e78 06330e5 5802107
+frontier 137136/571421  17562 s  nodes 50734347  solutions 34  full 0
+frontier 139993/571421  18104 s  nodes 51986743  solutions 34  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 8e51600 afc0819 4a0fe9d 5802107
+frontier 142850/571421  18372 s  nodes 53240811  solutions 35  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc b08c000 b000a50 ede7377 4389d67
+frontier 145707/571421  18626 s  nodes 54420848  solutions 36  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc 9dbac00 d141c51 5c8e70f a0b1811
+frontier 148564/571421  18905 s  nodes 55617499  solutions 37  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc b710000 ce80429 afc3beb 14755cb
+frontier 151421/571421  19128 s  nodes 56782919  solutions 38  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc c136c00 47c1421 ee79270 2a6f737
+frontier 154278/571421  19393 s  nodes 57978001  solutions 39  full 0
+frontier 157135/571421  19669 s  nodes 59235004  solutions 39  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc cb67a00 0401c39 da79270 5802107
+frontier 159992/571421  19921 s  nodes 60394952  solutions 40  full 0
+frontier 162849/571421  20190 s  nodes 61636660  solutions 40  full 0
+frontier 165706/571421  20417 s  nodes 62761060  solutions 40  full 0
+SOLUTION ctl4-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc daf6000 5c00a51 06330e5 eebebd3
+frontier 168563/571421  20737 s  nodes 64312782  solutions 41  full 0
+frontier 171420/571421  20968 s  nodes 66405712  solutions 41  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 2f9ad80 44c0d05 57948a9 bfddfc7
+frontier 174277/571421  21191 s  nodes 68416520  solutions 42  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 0bdf680 b400c58 ec8c418 eb9f3f3
+frontier 177134/571421  21420 s  nodes 70474507  solutions 43  full 0
+frontier 179991/571421  21674 s  nodes 72718651  solutions 43  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 1d6ed80 384184d 85afbb3 b75b57f
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 316a000 ec01821 62b40e9 41aa5c0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 3520000 b84121c 76f3d64 b4c659b
+frontier 182848/571421  21935 s  nodes 75049987  solutions 46  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 11ebb00 18c015c d6b40e9 816a084
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 152db00 a8c0754 704e91c db131e3
+frontier 185705/571421  22179 s  nodes 77227876  solutions 48  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 3278000 fc80130 a7565ad 45a8544
+frontier 188562/571421  22426 s  nodes 79438752  solutions 49  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 3eb5680 d040474 d4cf21c a755816
+frontier 191419/571421  22677 s  nodes 81670117  solutions 50  full 0
+frontier 194276/571421  22917 s  nodes 83811323  solutions 50  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 6d6a000 dc01479 b1aecdd c2b8d04
+frontier 197133/571421  23164 s  nodes 86012657  solutions 51  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 6a32000 44c1524 15e9150 d9e5c38
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 6ef4000 604100c a1eb1d5 316bfab
+frontier 199990/571421  23413 s  nodes 88193292  solutions 53  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 4a3fb00 dc01820 ef138a5 3569e28
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 4e75b00 b000e49 808e49d 6239cd1
+frontier 202847/571421  23751 s  nodes 90474983  solutions 55  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 5968000 7880971 09a58c9 ca3dc8b
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 5de4000 ec01479 df5bab5 82f4182
+frontier 205704/571421  24008 s  nodes 92529362  solutions 57  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 779ad80 7c81150 1083b85 87d75fb
+frontier 208561/571421  24265 s  nodes 94741798  solutions 58  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 5353680 8401479 ec8c418 163dc8b
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 5a32000 40c1735 eebd478 ca3dc8b
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 5ebe000 3001479 5129cd1 d923820
+frontier 211418/571421  24503 s  nodes 96874426  solutions 61  full 0
+frontier 214275/571421  24735 s  nodes 98973686  solutions 61  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 8c0b680 8001271 79e9150 a2b3816
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 a083b00 b000e49 d6b40e9 e12bdd7
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 ad24d80 fc81341 3d2bc54 8121166
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 ad6cd80 3001479 dd6aad5 c3985c1
+frontier 217132/571421  24990 s  nodes 101261597  solutions 65  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 8d61680 70c0d04 e00a474 9c07e73
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 8da5680 5801478 81aecdd f48bce7
+frontier 219989/571421  25250 s  nodes 103568535  solutions 67  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 afd0d80 5801061 492f7dd 0568295
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 8630000 3841e44 ec8c418 d042c34
+frontier 222846/571421  25516 s  nodes 105964387  solutions 69  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 9045b00 40c0f14 d9aecdd 679784c
+frontier 225703/571421  25769 s  nodes 108237364  solutions 70  full 0
+frontier 228560/571421  26003 s  nodes 110339554  solutions 70  full 0
+frontier 231417/571421  26234 s  nodes 112418090  solutions 70  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 931fb00 e441e44 b1228c5 8359668
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 9a7cd80 8841604 c489d64 aaf1524
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 9ab8d80 b400c58 69aecdd 0312840
+frontier 234274/571421  26473 s  nodes 114571187  solutions 73  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 b2bc000 b400c58 344a295 16b3f18
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 b2bc000 3400e49 5ef76ed db131e3
+frontier 237131/571421  26698 s  nodes 116597005  solutions 75  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 c847b00 1480970 21a33c5 e440db7
+frontier 239988/571421  26939 s  nodes 118762116  solutions 76  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 c92db00 dc01061 3711820 2eb97b1
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 c92db00 6041604 b1aecdd 4966227
+frontier 242845/571421  27182 s  nodes 120948258  solutions 78  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 cb91b00 ec00841 d443604 6009c54
+frontier 245702/571421  27415 s  nodes 123028269  solutions 79  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 e6b5680 3841e44 684a295 7526442
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 e6fd680 e44184c 74c2d04 b048608
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 f44cd80 084100d 3d61ec1 efd76ed
+frontier 248559/571421  27667 s  nodes 125314059  solutions 82  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 d4cf680 8840e24 9fd15a1 b048608
+frontier 251416/571421  27893 s  nodes 127509730  solutions 83  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 f714d80 70c015d e802085 b79f3f3
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 d797680 0401c39 b3138a5 4f1e1b4
+frontier 254273/571421  28101 s  nodes 129669983  solutions 85  full 0
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 ff1db00 acc034c 8630840 252f892
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 da78000 d800001 96b0b60 87d75fb
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 f2f0d80 d801821 a445d08 8630840
+SOLUTION ctl4-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 d2fd680 e800841 9bd2a8f 59ac946
+frontier 257130/571421  28314 s  nodes 131899254  solutions 89  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 2102200 5c01479 18bde30 26d73e3
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 2102200 4600a48 dc8e49d 2733937
+frontier 259987/571421  28507 s  nodes 133804794  solutions 91  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 05ac000 d801821 ec4a78b 7432e51
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 05ac000 4901e38 7323bab 7c23070
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 2c30400 9468850 aac7d26 32799a2
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 2c30400 33d7ead dc4a51f b758ad5
+frontier 262844/571421  28681 s  nodes 135479931  solutions 95  full 0
+frontier 265701/571421  28859 s  nodes 137196106  solutions 95  full 0
+frontier 268558/571421  29038 s  nodes 138918919  solutions 95  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 308e000 8400840 34c668d 715b5e3
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 389c600 7901071 dd228c5 ad5ad47
+frontier 271415/571421  29213 s  nodes 140592312  solutions 97  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 10e4200 8001a31 6cc668d 27bff3f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 10e4200 0400c58 7323bab 7c23070
+frontier 274272/571421  29381 s  nodes 142252419  solutions 99  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 1a48400 c201e31 2fac858 1be59bb
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 3b8e600 5c01479 dd228c5 7caf77f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 3b8e600 fd01071 f5d7aad 183393f
+frontier 277129/571421  29557 s  nodes 143943993  solutions 102  full 0
+frontier 279986/571421  29726 s  nodes 145561190  solutions 102  full 0
+frontier 282843/571421  30754 s  nodes 147222362  solutions 102  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 6968000 8401669 137bd2f 56e5828
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 6968000 d801821 e9e7377 277850f
+frontier 285700/571421  31076 s  nodes 148858432  solutions 104  full 0
+frontier 288557/571421  31416 s  nodes 150553183  solutions 104  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 5458600 e800841 34c668d 40f7b2f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 58c6000 8401479 719ef57 bdbd5f2
+frontier 291414/571421  32492 s  nodes 152213752  solutions 106  full 0
+frontier 294271/571421  33047 s  nodes 153965816  solutions 106  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 768c400 8400c59 8cd5828 6de7377
+frontier 297128/571421  33510 s  nodes 155577816  solutions 107  full 0
+frontier 299985/571421  33898 s  nodes 157224234  solutions 107  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 a18e200 1501e38 e2aca58 dc4a51f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 a502200 f601e31 d0d78ad 165ad4f
+frontier 302842/571421  34207 s  nodes 158839706  solutions 109  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 85e6000 8001c38 7e13aa5 fd4a50f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 a420200 13bd678 debd3f3 df12ad4
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 a420200 33d7ead eabff2f 494a956
+frontier 305699/571421  34514 s  nodes 160415536  solutions 112  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 8b8e600 6701660 8eaca58 81aed5e
+frontier 308556/571421  34844 s  nodes 162122994  solutions 113  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 86f6000 4601268 b3138a5 fc6b56f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 86f6000 6c00e49 760211f 609e08d
+frontier 311413/571421  35175 s  nodes 163829089  solutions 115  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 b08c000 5c01a31 b3138a5 acbe9db
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 b4c4000 8401479 9b2317f b89d8ad
+frontier 314270/571421  36223 s  nodes 165480699  solutions 117  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 929c200 8401060 6f9f3f3 b1e6946
+frontier 317127/571421  36798 s  nodes 167137585  solutions 118  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 b312000 5c01820 4ad6b47 b89d8ad
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 b312000 6c00a51 4902117 6f9ecdd
+frontier 319984/571421  37232 s  nodes 168741758  solutions 120  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 c59e400 7d01a21 ab68e50 dc8f3f3
+frontier 322841/571421  37670 s  nodes 170438337  solutions 121  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 ec8e000 4901e38 eb138a5 f64a507
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 c8e4200 cd01831 c7ac858 eabff2f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 c8e4200 6c01c39 f5d7aad 6c02183
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 e922000 0401478 f47bd27 10e5a20
+frontier 325698/571421  38178 s  nodes 172064494  solutions 125  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 e9e6000 e800841 ca9ef5f 269e48d
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 ef12000 7901071 92d4a40 578e783
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 ef12000 f601e31 dc8e49d f6c630f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 eb9e000 1501e38 d0d78ad 35e7dbb
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 eb9e000 8400c59 74bd078 760211f
+frontier 328555/571421  38595 s  nodes 173725614  solutions 130  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 cfbe200 e301a39 09bd278 06bc393
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 eebe000 0401478 6de7377 db9d8a4
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 eebe000 0400c58 82f6ddb 5de5dbb
+frontier 331412/571421  39095 s  nodes 175408270  solutions 133  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 dc48000 4d00c48 eb9f3f3 081039b
+frontier 334269/571421  39543 s  nodes 177120681  solutions 134  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 d9e4000 8400e49 7dc648d 2cbff37
+frontier 337126/571421  39985 s  nodes 178852514  solutions 135  full 0
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 dfd6000 6c01c39 d668c50 ca9ef5f
+SOLUTION ctl4-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 dfd6000 6700e40 2dd5a28 e9e7377
+frontier 339983/571421  40352 s  nodes 180495966  solutions 137  full 0
+frontier 342840/571421  40654 s  nodes 182100307  solutions 137  full 0
+frontier 345697/571421  40975 s  nodes 183945813  solutions 137  full 0
+frontier 348554/571421  41352 s  nodes 186134633  solutions 137  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 079c000 b401668 69afbb3 01a8124
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 039b980 5cc0124 348e49d 867afcb
+frontier 351411/571421  41703 s  nodes 188152548  solutions 139  full 0
+frontier 354268/571421  42059 s  nodes 190233545  solutions 139  full 0
+frontier 357125/571421  42426 s  nodes 192360491  solutions 139  full 0
+frontier 359982/571421  42740 s  nodes 194174278  solutions 139  full 0
+frontier 362839/571421  43089 s  nodes 196209811  solutions 139  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 37d1980 5801271 ee330e5 b7131e3
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 367a000 b0c1f0d ec8bb14 344a78b
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 363a880 6cc0124 b3dd4b9 30c30c7
+frontier 365696/571421  43451 s  nodes 198322803  solutions 142  full 0
+frontier 368553/571421  43808 s  nodes 200388033  solutions 142  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6cc6000 b040e0d 6a767ed b630840
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6cc6000 b401669 5abd478 8233821
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6cc6000 6c81b51 379762c 8398124
+frontier 371410/571421  44135 s  nodes 202296430  solutions 145  full 0
+frontier 374267/571421  44476 s  nodes 204264394  solutions 145  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6b12000 dcc0124 01a01e4 b44957f
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6b96880 e801668 36f76ed 0003061
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6b5f980 ec40c1d 848c418 b56549b
+frontier 377124/571421  44836 s  nodes 206370608  solutions 148  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6a78000 dc00211 eb59a30 efd20a7
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6e30000 8080578 6a73864 82b3083
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 6a35980 6801a31 0128804 ed2cab3
+frontier 379981/571421  45191 s  nodes 208427479  solutions 151  full 0
+frontier 382838/571421  45501 s  nodes 210216980  solutions 151  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 596f980 8041234 5c8e49d 82331e3
+frontier 385695/571421  45880 s  nodes 212408346  solutions 152  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 5f1f100 6841a75 dccb395 df5b7eb
+frontier 388552/571421  46222 s  nodes 214391105  solutions 153  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 5e72880 e840a14 356d5d9 0313167
+frontier 391409/571421  46585 s  nodes 216510632  solutions 154  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 8040880 3441234 34c668d b630840
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 84cc880 827b2f5 b3131e3 0313167
+frontier 394266/571421  46935 s  nodes 218543727  solutions 156  full 0
+frontier 397123/571421  47303 s  nodes 220676424  solutions 156  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 8710000 3000841 0165f48 36bca50
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 839b980 dcc0124 ec8bb14 848b6cf
+frontier 399980/571421  47680 s  nodes 222877941  solutions 158  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 8630000 d840c1c 6bd01a1 07d5478
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 867a000 8401669 b273864 b630840
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 867a000 d800418 3402085 6b9d270
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 86be000 e8c1d1d 69a664c 304e9e0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 86f6000 d881101 df5b7eb 0008804
+frontier 402837/571421  48049 s  nodes 225019092  solutions 163  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc b4c4000 eb59a30 dc4a78b 6a720c1
+frontier 405694/571421  48417 s  nodes 227154214  solutions 164  full 0
+frontier 408551/571421  48763 s  nodes 229174937  solutions 164  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc b165100 ecc1905 33929a5 b56549b
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc b56d980 ec80160 808c418 db5b7eb
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc b35a000 d801270 d9e11c1 5cc659b
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc b712000 dc40e0d 07d7ead 07d5478
+frontier 411408/571421  49124 s  nodes 231343398  solutions 168  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc b393100 6801a31 8009024 00c2eee
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc b632000 8000a50 02f86eb 81a81a0
+frontier 414265/571421  49363 s  nodes 233519085  solutions 170  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc e88c000 dc40e0d deb21e5 8120106
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc ecc4000 ef5c5b9 012d293 b63a2d1
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc e840880 8000e49 86f8370 0443864
+frontier 417122/571421  49594 s  nodes 235711893  solutions 173  full 0
+frontier 419979/571421  49808 s  nodes 237709603  solutions 173  full 0
+frontier 422836/571421  50038 s  nodes 239852719  solutions 173  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc efd4000 e801668 012774c b7131e3
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc ef52880 e881f49 b23e5fd db52804
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc ef52880 dc01668 ec8c418 6bd470f
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc eb94880 e881518 df5b7eb ef5b821
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc ee32000 004162c b7131e3 6b5c1a0
+frontier 425693/571421  50276 s  nodes 242059838  solutions 178  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc eefe880 e801668 684a295 8122947
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc d840880 6c81d59 3568a50 ee35d1c
+frontier 428550/571421  50503 s  nodes 244207070  solutions 180  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc d8c1980 5c40805 df59a30 ef92b31
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc dc4d980 d9257c9 30c30c7 82380c1
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc dd20000 6801a31 8081184 86b23f4
+frontier 431407/571421  50729 s  nodes 246318493  solutions 183  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc d96d980 3000841 ec8c418 b3dea14
+frontier 434264/571421  50957 s  nodes 248457734  solutions 184  full 0
+SOLUTION ctl4-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc dfdb100 804162d 0759a30 02ff234
+frontier 437121/571421  51194 s  nodes 250674004  solutions 185  full 0
+frontier 439978/571421  51399 s  nodes 252601344  solutions 185  full 0
+frontier 442835/571421  51511 s  nodes 253720116  solutions 185  full 0
+frontier 445692/571421  51623 s  nodes 254829201  solutions 185  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 35da900 6bc1b55 350ba14 072c5dd
+frontier 448549/571421  51739 s  nodes 255970424  solutions 186  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 3520000 b401061 06c9eeb e8d368f
+frontier 451406/571421  51856 s  nodes 257118251  solutions 187  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 3651880 b281539 ea82985 0647d78
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 3789180 b541045 69e4e48 8169e28
+frontier 454263/571421  51971 s  nodes 258268074  solutions 189  full 0
+frontier 457120/571421  52079 s  nodes 259322377  solutions 189  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 697d180 8140e6c 3002085 6b11ab5
+frontier 459977/571421  52194 s  nodes 260449758  solutions 190  full 0
+frontier 462834/571421  52314 s  nodes 261630925  solutions 190  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 6f73880 8141a14 5cef45c ea501a7
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 59da900 b281539 69e4e48 83128c5
+frontier 465691/571421  52434 s  nodes 262811478  solutions 192  full 0
+frontier 468548/571421  52551 s  nodes 263976048  solutions 192  full 0
+frontier 471405/571421  52663 s  nodes 265087969  solutions 192  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 845f180 8140a75 69848e0 58c6d5e
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 8168000 d801061 816aad5 eaf4c58
+frontier 474262/571421  52780 s  nodes 266242323  solutions 194  full 0
+frontier 477119/571421  52892 s  nodes 267346495  solutions 194  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 86df880 b001e28 db138a5 6e83960
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 8789180 ed41c1d 3002085 0280c1f
+frontier 479976/571421  53009 s  nodes 268487272  solutions 196  full 0
+frontier 482833/571421  53120 s  nodes 269583704  solutions 196  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 b42b880 8140e6c 6d7e57c 03a0985
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 b57d180 8000608 8109a91 ebffa14
+frontier 485690/571421  53230 s  nodes 270680602  solutions 198  full 0
+frontier 488547/571421  53344 s  nodes 271808109  solutions 198  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 e985880 5c01060 00b0883 de47dfd
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 ed68000 d801061 d8c4608 33131e3
+frontier 491404/571421  53458 s  nodes 272937248  solutions 200  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 e863880 8140e6c 6df2164 0120001
+frontier 494261/571421  53581 s  nodes 274131425  solutions 201  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 eb64900 b281539 83fec7c 067851f
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 d9d8900 3681d79 db4eab7 8121061
+frontier 497118/571421  53697 s  nodes 275278446  solutions 203  full 0
+frontier 499975/571421  53820 s  nodes 276490801  solutions 203  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 df12000 dc01a30 30ef45c 81238a5
+frontier 502832/571421  53933 s  nodes 277595605  solutions 204  full 0
+SOLUTION ctl4-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 debc000 3401669 e8d09a1 de6d314
+frontier 505689/571421  54055 s  nodes 278780770  solutions 205  full 0
+frontier 508546/571421  54181 s  nodes 279942401  solutions 205  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 22ddab9 75d8c4f 0312946 b08d0e4
+frontier 511403/571421  54303 s  nodes 281056366  solutions 206  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 06330e5 75d8c4f d1f0b4c 6a33820
+frontier 514260/571421  54433 s  nodes 282257475  solutions 207  full 0
+frontier 517117/571421  54562 s  nodes 283431473  solutions 207  full 0
+frontier 519974/571421  54690 s  nodes 284604305  solutions 207  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 1fea9d5 221b27c 0312946 b3130e5
+frontier 522831/571421  54814 s  nodes 285734275  solutions 208  full 0
+frontier 525688/571421  54935 s  nodes 286831276  solutions 208  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 4e51ea1 dd6b57f 075b7eb 6923820
+frontier 528545/571421  55055 s  nodes 287923777  solutions 209  full 0
+frontier 531402/571421  55190 s  nodes 289144140  solutions 209  full 0
+frontier 534259/571421  55315 s  nodes 290295220  solutions 209  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 566e95c 918421c 8a6dca6 91cd1ef
+frontier 537116/571421  55445 s  nodes 291479892  solutions 210  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 5abd478 ea33927 0122085 17b6d52
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 5abd478 443ff38 0003926 d5f0f55
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 5abd478 dd6b57f 8312106 40f8385
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 7bff27c 24ed664 7edd7e7 73a1eba
+frontier 539973/571421  55573 s  nodes 292609138  solutions 214  full 0
+frontier 542830/571421  55699 s  nodes 293748899  solutions 214  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 ae0e79d 59ad668 7edd7e7 d3050ff
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 83d7ead 918421c 7fb5572 44776fa
+frontier 545687/571421  55819 s  nodes 294840811  solutions 216  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 b48c418 29dad48 eb131e3 2ddb9b4
+frontier 548544/571421  55946 s  nodes 295995309  solutions 217  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 b5e4e48 f282110 ed21820 1252e45
+frontier 551401/571421  56075 s  nodes 297169622  solutions 218  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 bb88791 c682110 9d1f568 8311927
+frontier 554258/571421  56206 s  nodes 298363251  solutions 219  full 0
+frontier 557115/571421  56331 s  nodes 299501525  solutions 219  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 c03d778 6135a2b 3711060 ac77836
+frontier 559972/571421  56455 s  nodes 300634697  solutions 220  full 0
+frontier 562829/571421  56576 s  nodes 301734314  solutions 220  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 f940681 ecc4210 3c9b4e7 202bdb6
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 f1d9930 545ef54 36f6ddb 00039a3
+frontier 565686/571421  56703 s  nodes 302901021  solutions 222  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 d9e4e48 237182c 7edd7e7 33d6946
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 dd20840 1739c34 dbd75fb 00039a3
+frontier 568543/571421  56831 s  nodes 304065050  solutions 224  full 0
+SOLUTION ctl4-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 df5bab5 e8c4210 d0d136c 0003926
+frontier 571400/571421  56960 s  nodes 305227750  solutions 225  full 0
+done: covers 8, tasks 8, nodes 305239021, solutions 225, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 56961 s
+nodes by span dimension 1..8: 0 0 0 8 571421 303339066 1328301 225
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 0
+hole-stage candidates 223274124767, passing the filter (sent to push) 310407448

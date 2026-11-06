@@ -1,0 +1,14 @@
+mapa: 341 of A's, 341 distinct of ours, none unmapped: True
+|Aut| (A's name, our canon of A's rep, our classification) equal on 341 of 341
+w vs type: {(4, 'ext10'): 1, (5, 'ext11'): 68, (6, 'ext12'): 48, (7, 'ext13'): 92, (11, 'spr'): 132}
+  one to one: True
+A: 8 outputs, 7941871 NEAR lines, by dim {4: 7, 5: 113279, 6: 7828585}; on 341 configurations
+== p1asc: 341 R records; B 7941871 cores on 341 configurations; (configuration, dim) pairs 627, unequal 0 []
+  dim 4: A 7 on 4, B 7 on 4, same configurations True
+  dim 5: A 113279 on 282, B 113279 on 282, same configurations True
+  dim 6: A 7828585 on 341, B 7828585 on 341, same configurations True
+== p1desc: 341 R records; B 7941871 cores on 341 configurations; (configuration, dim) pairs 627, unequal 0 []
+  dim 4: A 7 on 4, B 7 on 4, same configurations True
+  dim 5: A 113279 on 282, B 113279 on 282, same configurations True
+  dim 6: A 7828585 on 341, B 7828585 on 341, same configurations True
+sets (p1asc): A 7941871 spans, B 7941871; configurations with equal sets 225 (5520490 spans), disjoint 116, partly shared 0 []

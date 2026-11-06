@@ -1,0 +1,2 @@
+runs\check6\p1asc.cores: 7941871 cores on 341 configurations, 0 repeated
+runs\check6\lin.cores: 8814522 cores on 341 configurations, 0 repeated; 0 configurations in only one of the two; on the common ones against runs\check6\p1asc.cores (7941871 cores): 0 configurations with cores missing, 872651 extra cores with a seventh solid, 0 other extra cores

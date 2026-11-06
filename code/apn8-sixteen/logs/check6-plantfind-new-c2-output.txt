@@ -1,0 +1,3 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+  3775599 lines, 63 taken, 0 planted
+plantfind runs\known\new_apns.txt: 63 functions with 3 <= k <= 6, 0 planted; by d0:; by k:

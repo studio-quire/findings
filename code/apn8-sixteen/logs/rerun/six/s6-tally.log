@@ -1,0 +1,103 @@
+$ python src/holes_tally.py logs/holes6.txt data/p6.txt fix-6.txt 341 0
+configurations 341, hole-set classes 341 (Kurz 341)
+maximal (hole set contains no solid, w = 0): 0
+configurations per hole set: {1: 341}
+|Aut H| distribution vs Langevin-Hou: identical (17 orders)
+point sets: 1339989812392369324032 vs Langevin-Hou 1339989812392369324032: MATCH
+labelled partial spreads (sum |GL| / |Aut P|): 1340074242473170305024
+problems: 0
+$ python src/six_check_mass.py fix-6.txt
+|GL(8,2)| = 5348063769211699200
+(a) hole classes 341, containing no solid 0   [Kurz r = 6: 341, 0]  OK
+    Langevin-Hou: 341 classes over 17 fixator orders; ours: 341 over 17
+(b) classes per |Aut H| against Langevin-Hou: 0 orders differ []; their qte = classes * |GL| / order: OK
+    sum_H |GL|/|Aut H| = 1339989812392369324032; Langevin-Hou Total = 1339989812392369324032  OK
+(c) labelled 6-partial spreads: from covers 1340074242473170305024; from configurations 1340074242473170305024; from Part A's W3 (606183424) 1340074242473170305024; count3's plain 3-clique count 606183424 = W3  OK
+configurations 341: {'spr': 132, 'ext13': 92, 'ext12': 48, 'ext11': 68, 'ext10': 1}
+$ python src/cover_tally.py logs\six-output-c0.txt logs\six-output-c1.txt logs\six-output-c2.txt logs\six-output-c3.txt logs\six-output-c4.txt logs\six-output-c5.txt logs\six-output-c6.txt logs\six-output-c7.txt
+8/8 outputs done, 11531 s
+  covers: 341
+  tasks: 9,548
+  nodes: 169,008,542
+  solutions: 0
+  full (dim < 8): 0
+  dim 8 non-APN: 0
+  bad seeds: 0
+nodes by span dimension 1..8: 9,548 / 267,344 / 5,307,371 / 45,933,458 / 80,431,617 / 36,891,380 / 167,824 / 0
+near misses 0 by dim {}
+configurations with near misses 0 by w {}
+near misses by w {}
+lowest near-miss dim None []
+most: []
+$ python src/six_check_tally.py prog data/configs6.txt logs/check6-p1asc-R.txt
+R: 341 of 341 configurations
+  nodes by dim [341, 9548, 267344, 5305886, 45791519, 80157984, 7828585, 0, 0]
+  tries by dim [9548, 267344, 7485632, 148564808, 1282162336, 2241251740, 0, 0, 0]
+  p1 by dim [0, 0, 0, 0, 7, 113279, 7828585, 0, 0]
+  bentext 0 full 0
+  tries in D by dim [0, 0, 0, 0, 0, 0, 0, 0, 0]
+  cores by dim [0, 0, 0, 0, 7, 113279, 7828585, 0, 0]
+$ python src/six_check_tally.py prog data/configs6.txt logs/check6-p1desc-R.txt
+R: 341 of 341 configurations
+  nodes by dim [341, 9548, 267344, 5292965, 45576666, 79748390, 7828585, 0, 0]
+  tries by dim [9548, 267344, 7485632, 148203020, 1276146452, 2229783108, 0, 0, 0]
+  p1 by dim [0, 0, 0, 0, 7, 113279, 7828585, 0, 0]
+  bentext 0 full 0
+  tries in D by dim [0, 0, 0, 0, 0, 0, 0, 0, 0]
+  cores by dim [0, 0, 0, 0, 7, 113279, 7828585, 0, 0]
+$ python src/six_check_tally.py prog data/configs6.txt logs/check6-asc-R.txt
+R: 16 of 341 configurations
+  nodes by dim [16, 448, 12544, 249619, 2185056, 4174853, 18023357, 108524, 0]
+  tries by dim [448, 12544, 351232, 6989332, 151133948, 65003482658, 561688171151, 9828931717, 0]
+  p1 by dim [0, 0, 0, 0, 7, 181864, 18023357, 108524, 0]
+  bentext 0 full 0
+  tries in D by dim [0, 0, 0, 0, 89952576, 64891678966, 561688171151, 9828931717, 0]
+  cores by dim [0, 0, 0, 0, 7, 23020, 517801, 0, 0]
+$ python src/six_check_tally.py prog data/configs6.txt logs/check6-asc340-R.txt
+R: 1 of 341 configurations
+  nodes by dim [1, 28, 784, 15568, 131388, 230894, 75824, 23, 0]
+  tries by dim [28, 784, 21952, 435904, 3678864, 1279592076, 8777778771, 1974674, 0]
+  p1 by dim [0, 0, 0, 0, 0, 489, 75824, 23, 0]
+  bentext 0 full 0
+  tries in D by dim [0, 0, 0, 0, 0, 1273140736, 8777778771, 1974674, 0]
+  cores by dim [0, 0, 0, 0, 0, 489, 21090, 0, 0]
+$ python src/six_check_tally.py prog data/configs6.txt logs/check6-lin-prog.txt
+L: 341 of 341 configurations
+  nodes by dim [341, 9548, 267344, 5308580, 45963730, 81635576, 40014483, 340912, 0]
+  steps by dim [9548, 267344, 7485632, 148640240, 1599459715, 1176846915427, 18588809554755, 425655971658, 0]
+  x4 nodes by dim [0, 0, 0, 2694, 172211, 1318748, 3134339, 173214, 0]
+  cores by dim [0, 0, 0, 0, 8, 125504, 8689010, 0, 0]
+  x4 cores by dim [0, 0, 0, 0, 1, 12225, 860425, 0, 0]
+  solutions 0 dead 0
+$ python src/six_check_tally.py prog data/configs6.txt logs/check6-lindesc-prog.txt
+L: 341 of 341 configurations
+  nodes by dim [341, 9548, 267344, 5296100, 45777356, 81273352, 40362043, 352939, 0]
+  steps by dim [9548, 267344, 7485632, 148290800, 1560686827, 1173964011298, 18591004658092, 425796496198, 0]
+  x4 nodes by dim [0, 0, 0, 3135, 200690, 1361065, 3193017, 179843, 0]
+  cores by dim [0, 0, 0, 0, 8, 125504, 8689010, 0, 0]
+  x4 cores by dim [0, 0, 0, 0, 1, 12225, 860425, 0, 0]
+  solutions 0 dead 0
+$ python src/six_check_tally.py nodes logs/check6-asc-R.txt logs/check6-lin-prog.txt
+nodes by dimension, point branching (R) vs lin less x4 (L): 16 configurations in both, 0 differ; only R 0, only L 325
+$ python src/six_check_tally.py nodes logs/check6-asc340-R.txt logs/check6-lin-prog.txt
+nodes by dimension, point branching (R) vs lin less x4 (L): 1 configurations in both, 0 differ; only R 0, only L 340
+$ python src/six_near.py compare logs/six-near.txt
+A-cover4 against A: 129 configurations, counts and digest equal on 129
+B-p1desc against B-p1asc: 341 configurations, counts and digest equal on 341
+A-prof-gray40 against A-prof-tree40: 1 configurations, counts and digest equal on 1
+A-prof-old40 against A-prof-tree40: 1 configurations, counts and digest equal on 1
+$ python src/six_check_vs_a.py
+mapa: 341 of A's, 341 distinct of ours, none unmapped: True
+|Aut| (A's name, our canon of A's rep, our classification) equal on 341 of 341
+w vs type: {(4, 'ext10'): 1, (5, 'ext11'): 68, (6, 'ext12'): 48, (7, 'ext13'): 92, (11, 'spr'): 132}
+  one to one: True
+A: 7941871 NEAR lines, by dim {4: 7, 5: 113279, 6: 7828585}; on 341 configurations
+== p1asc: 341 R records; B 7941871 cores on 341 configurations; (configuration, dim) pairs 627, unequal 0 []
+  dim 4: A 7 on 4, B 7 on 4, same configurations True
+  dim 5: A 113279 on 282, B 113279 on 282, same configurations True
+  dim 6: A 7828585 on 341, B 7828585 on 341, same configurations True
+== p1desc: 341 R records; B 7941871 cores on 341 configurations; (configuration, dim) pairs 627, unequal 0 []
+  dim 4: A 7 on 4, B 7 on 4, same configurations True
+  dim 5: A 113279 on 282, B 113279 on 282, same configurations True
+  dim 6: A 7828585 on 341, B 7828585 on 341, same configurations True
+sets (p1asc), by digest: A 7941871 spans; configurations with equal sets 225 (5520490 spans), others 116

@@ -1,0 +1,4 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+rep 0 (ext): line 15, re-found, 0 other spaces; tries in D 0, lin D-phase candidates 62606501816, lin cores 26504
+rep 340 (nonext): line 12505, re-found, 0 other spaces; tries in D 0, lin D-phase candidates 50554779215, lin cores 22429
+# exit 0

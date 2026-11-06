@@ -1,0 +1,8 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 1, tasks 1, threads 20, split -1, hole stage affine tree
+SOLUTION ctl-12631 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb edac59b 60124c6 2a03f9c 133292a 7111b00 d701b6d 715a1b5
+done: covers 1, tasks 1, nodes 499550, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2441 s
+nodes by span dimension 1..8: 0 1 15 150 773 495431 3179 1
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 773
+hole-stage candidates 389475073, passing the filter (sent to push) 506819
+# exit 0

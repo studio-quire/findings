@@ -1,0 +1,31 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 1777, tasks 49756, threads 20, split -1, hole stage affine tree
+tasks 2000/49756  8 s  nodes 3091907  solutions 0  full 0
+tasks 4000/49756  21 s  nodes 6195805  solutions 0  full 0
+tasks 6000/49756  33 s  nodes 9320481  solutions 0  full 0
+tasks 8000/49756  45 s  nodes 12433855  solutions 0  full 0
+tasks 10000/49756  57 s  nodes 15515563  solutions 0  full 0
+tasks 12000/49756  69 s  nodes 18554258  solutions 0  full 0
+tasks 14000/49756  84 s  nodes 21644640  solutions 0  full 0
+tasks 16000/49756  96 s  nodes 24749607  solutions 0  full 0
+tasks 18000/49756  108 s  nodes 27846893  solutions 0  full 0
+tasks 20000/49756  120 s  nodes 30907285  solutions 0  full 0
+tasks 22000/49756  132 s  nodes 33936245  solutions 0  full 0
+tasks 24000/49756  144 s  nodes 37000273  solutions 0  full 0
+tasks 26000/49756  157 s  nodes 40354254  solutions 0  full 0
+tasks 28000/49756  170 s  nodes 43516924  solutions 0  full 0
+tasks 30000/49756  182 s  nodes 46659602  solutions 0  full 0
+tasks 32000/49756  195 s  nodes 49860529  solutions 0  full 0
+tasks 34000/49756  209 s  nodes 53166084  solutions 0  full 0
+tasks 36000/49756  222 s  nodes 56536552  solutions 0  full 0
+tasks 38000/49756  236 s  nodes 59999516  solutions 0  full 0
+tasks 40000/49756  250 s  nodes 63439290  solutions 0  full 0
+tasks 42000/49756  263 s  nodes 66600842  solutions 0  full 0
+tasks 44000/49756  274 s  nodes 69649881  solutions 0  full 0
+tasks 46000/49756  286 s  nodes 72671875  solutions 0  full 0
+tasks 48000/49756  301 s  nodes 76113297  solutions 0  full 0
+done: covers 1777, tasks 49756, nodes 79061670, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 312 s
+nodes by span dimension 1..8: 49756 1393168 20447257 52320443 4776667 74207 172 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 370
+hole-stage candidates 151880, passing the filter (sent to push) 173
+# exit 0

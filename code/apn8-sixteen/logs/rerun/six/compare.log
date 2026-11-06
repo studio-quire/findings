@@ -1,0 +1,53 @@
+== search A
+pspread3 enum 6: p6.txt vs data/p6.txt: IDENTICAL
+pspread3 enum 6: log vs p6.out (class totals, w lines, orbits; timings and the spot checks' number aside): IDENTICAL (15 lines; ['w spot checks: 544, mismatches 0', 'w spot checks: 551, mismatches 0'])
+pspread3 selftest 6: ['selftest: 341 configurations, 0 mismatches']
+pspread3 holes 6: holes6.txt vs logs/holes6.txt as sets of lines: IDENTICAL
+pspread3 holes 6: log vs h6.out (timings and paths aside): IDENTICAL (3 vs 3 lines)
+cover-c0.log vs cover5t's c0.out: nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 940270 vs 940270, equal as sets True; filter line equal True; ['done: covers 43, tasks 1204, nodes 18427765, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 706 s']
+cover-c1.log vs cover5t's c1.out: nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 906078 vs 906078, equal as sets True; filter line equal True; ['done: covers 43, tasks 1204, nodes 17691942, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 960 s']
+cover-c2.log vs cover5t's c2.out: nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 1164968 vs 1164968, equal as sets True; filter line equal True; ['done: covers 43, tasks 1204, nodes 25446026, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3320 s']
+cover-c0.log vs cover4's c0.out (the old hole stage): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 940270 vs 940270, equal as sets True; ['done: covers 43, tasks 1204, nodes 18427765, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 706 s']
+cover-c1.log vs cover4's c1.out (the old hole stage): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 906078 vs 906078, equal as sets True; ['done: covers 43, tasks 1204, nodes 17691942, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 960 s']
+cover-c2.log vs cover4's cancelled c2.out: NEAR 1164968 vs 1164968, equal as sets True; the cancelled run's last line ['frontier 17689/72221  176594 s  nodes 20361939  solutions 0  full 0']
+cover-p11.log vs eleven's output (cover3): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 58 vs 58, equal as sets True; ['done: covers 817, tasks 22876, nodes 30505655, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 115 s']
+cover-p10.log vs ten's output (cover3): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 370 vs 370, equal as sets True; ['done: covers 1777, tasks 49756, nodes 79061670, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 312 s']
+cover-p11.log vs the regression reg6t.out (cover5t): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 58 vs 58, equal as sets True; filter line equal True; ['done: covers 817, tasks 22876, nodes 30505655, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 115 s']
+cover-p10.log vs the regression reg7t.out (cover5t): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 370 vs 370, equal as sets True; filter line equal True; ['done: covers 1777, tasks 49756, nodes 79061670, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 312 s']
+cover-prof-tree40.log vs prof-tree40.out (cover5t): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 44545 vs 44545, equal as sets True; filter line equal True; ['done: covers 1, tasks 28, nodes 9347, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 s']
+cover-prof-gray40.log vs prof-new40.out (the Gray build cover5): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 44545 vs 44545, equal as sets True; filter line equal True; ['done: covers 1, tasks 28, nodes 9347, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 38 s']
+cover-prof-tree40.log vs prof-old40.out (cover5 --old): nodes line equal True; done line (sans time) equal True; near-miss line equal True; NEAR 44545 vs 44545, equal as sets True; ['done: covers 1, tasks 28, nodes 9347, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 s']
+cover-ctl-k4: SOLUTION lines equal the old hole stage's True; done line (sans time) equal True; ['done: covers 1, tasks 1, nodes 4, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 0 s']
+cover-ctl-k3: SOLUTION lines equal the old hole stage's True; done line (sans time) equal True; ['done: covers 1, tasks 1, nodes 5, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 0 s']
+cover-ctl-k2: SOLUTION lines equal the old hole stage's True; done line (sans time) equal True; ['done: covers 1, tasks 1, nodes 13, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 0 s']
+cover-ctl-k1: ['SOLUTION ctl-12631 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb edac59b 60124c6 2a03f9c 133292a 7111b00 d701b6d 715a1b5'] ['done: covers 1, tasks 1, nodes 499550, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2441 s'] ['nodes by span dimension 1..8: 0 1 15 150 773 495431 3179 1'] ['near misses (every solid a radical, holes uncovered, below dim 8 or not): 773'] ['hole-stage candidates 389475073, passing the filter (sent to push) 506819']
+== search B
+s6-count3 vs count3.out (timings aside): IDENTICAL (4 vs 4 lines; 0 differ: [])
+s6-selftest vs selftest.out (timings aside): IDENTICAL (5 vs 5 lines; 0 differ: [])
+s6-linselftest vs linselftest.out (timings aside): IDENTICAL (19 vs 19 lines; 0 differ: [])
+s6-merge vs merge.out (timings aside): IDENTICAL (13 vs 13 lines; 0 differ: [])
+parta: 5 slices re-made; slice files differing from the originals (the CLASS line's secs aside) or with a non-empty maxc file: 0; outputs differing (timings aside): 0
+merge: orbits.txt vs data/orbits6.txt: IDENTICAL
+configs: configs6.txt vs data/configs6.txt: IDENTICAL
+configs: output vs configs.out (timings, paths and the output's name aside): IDENTICAL (697 vs 697 lines; 0 differ: [])
+mapa: output vs mapa.out: IDENTICAL
+plantfind c1: plants-bl22-c1.txt vs the original: IDENTICAL
+plantfind c1: output vs plantfind-bl22-c1.out (paths aside): IDENTICAL
+plantfind c2 (k >= 4): output vs plantfind-bl22-c2.out (paths aside): IDENTICAL
+   plantings, k >= 4: ['12633', '12645', '12647']
+plantfind c2 (k >= 3): plants-bl22-c2k3.txt vs the original plants-bl22-c2.txt: IDENTICAL
+    ['plantfind known/apn_8bit.txt: 172 functions with 3 <= k <= 6, 5 planted; by d0: 6:5; by k: 3:2 4:3']
+p1asc: re-run R lines 82 (configurations [0, 1, 2, 3, 4, 5] ..., 0 repeated), unequal to the original's 0 []
+   core files: 1971490 cores on those configurations, sets differing from the original's on 0 []
+p1desc: re-run R lines 41 (configurations [100, 101, 102, 103, 104, 105] ..., 0 repeated), unequal to the original's 0 []
+   core files: 1235407 cores on those configurations, sets differing from the original's on 0 []
+lin: re-run L lines 6 (configurations [0, 24, 57, 190, 248, 340], 0 repeated), unequal to the original's 0 []
+   core files: 179604 cores on those configurations, sets differing from the original's on 0 []
+lindesc: re-run L lines 2 (configurations [0, 340], 0 repeated), unequal to the original's 0 []
+   core files: 48931 cores on those configurations, sets differing from the original's on 0 []
+asc: re-run R lines 1 (configurations [248], 0 repeated), unequal to the original's 0 []
+ctl lind-bl22: ctl-lind-bl22.txt vs the original (paths aside): IDENTICAL
+ctl lind-bl22: output vs ctl-lind-bl22.out (timings and paths aside): IDENTICAL (29 vs 29 lines; only in the re-run [], only in the original [])
+ctlplant c2bl-lin plant 0: IDENTICAL ['FOUND plant 0 line 12512 k 3 d0 6 -> rep 125 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 228552702074, lin nodes by dim 1 29 805 15947 145986 312606 630832 15783 1']
+ctlplant c2bl-lin plant 3: IDENTICAL ['FOUND plant 3 line 12645 k 4 d0 6 -> rep 81 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 68811568139, lin nodes by dim 1 28 804 16058 137491 240004 116587 2004 1']
+ctlrot lin: rep lines vs ctlrot-lin-*.out: IDENTICAL ['rep 0 (ext): line 15, re-found, 0 other spaces; tries in D 0, lin D-phase candidates 62606501816, lin cores 26504', 'rep 340 (nonext): line 12505, re-found, 0 other spaces; tries in D 0, lin D-phase candidates 50554779215, lin cores 22429']

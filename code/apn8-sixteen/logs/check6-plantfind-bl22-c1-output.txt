@@ -1,0 +1,10 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+  12251 lines, 64 taken, 62 planted
+  12315 lines, 128 taken, 126 planted
+  12379 lines, 192 taken, 189 planted
+  12443 lines, 256 taken, 252 planted
+  12507 lines, 320 taken, 316 planted
+  12571 lines, 384 taken, 380 planted
+  12635 lines, 448 taken, 444 planted
+  12921 lines, 480 taken, 464 planted
+plantfind runs\known\apn_8bit.txt: 480 functions with 2 <= k <= 6, 464 planted; by d0: 6:3 7:461; by k: 2:293 3:146 4:25

@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\cover5.exe runs\i11\cover\c2.txt -1 5 --only p6-101-a24-w11 --frange 0 40 > runs\cover5\prof-new40.out 2>&1 && runs\bin\cover5.exe runs\i11\cover\c2.txt -1 5 --only p6-101-a24-w11 --frange 0 40 --old > runs\cover5\prof-old40.out 2>&1"

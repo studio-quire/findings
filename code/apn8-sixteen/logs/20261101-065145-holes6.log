@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\pspread3h.exe holes 6 runs\i11\p6.txt runs\i11\holes\h6.txt > runs\i11\holes\h6.out 2>&1"

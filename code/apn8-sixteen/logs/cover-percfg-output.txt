@@ -1,0 +1,1705 @@
+== p6-0-a6-w11
+done: covers 1, tasks 28, nodes 553518, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 42 s
+nodes by span dimension 1..8: 28 784 15595 135700 243565 157776 70 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25150
+hole-stage candidates 111870836, passing the filter (sent to push) 135016
+== p6-1-a2-w11
+done: covers 1, tasks 28, nodes 541464, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 41 s
+nodes by span dimension 1..8: 28 784 15553 135175 243288 146536 100 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25314
+hole-stage candidates 107077473, passing the filter (sent to push) 123516
+== p6-10-a2-w7
+done: covers 1, tasks 28, nodes 404935, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15589 133435 231163 23927 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20606
+hole-stage candidates 14237883, passing the filter (sent to push) 3400
+== p6-100-a6-w11
+done: covers 1, tasks 28, nodes 601206, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 51 s
+nodes by span dimension 1..8: 28 784 15433 135510 246507 201735 1209 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 38169
+hole-stage candidates 155125402, passing the filter (sent to push) 170011
+== p6-101-a24-w11
+done: covers 1, tasks 28, nodes 2687052, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 613 s
+nodes by span dimension 1..8: 28 784 15631 136383 280036 2252206 1984 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 44545
+hole-stage candidates 1898623692, passing the filter (sent to push) 2260590
+== p6-102-a4-w6
+done: covers 1, tasks 28, nodes 452153, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 12 s
+nodes by span dimension 1..8: 28 784 15544 136426 247638 51721 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24516
+hole-stage candidates 35638859, passing the filter (sent to push) 27651
+== p6-103-a6-w11
+done: covers 1, tasks 28, nodes 549406, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 36 s
+nodes by span dimension 1..8: 28 784 15544 135932 250120 145968 1030 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 37634
+hole-stage candidates 108781457, passing the filter (sent to push) 113930
+== p6-104-a1-w11
+done: covers 1, tasks 28, nodes 442510, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 14 s
+nodes by span dimension 1..8: 28 784 15550 133505 235910 56715 18 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21021
+hole-stage candidates 41236525, passing the filter (sent to push) 36248
+== p6-105-a1-w11
+done: covers 1, tasks 28, nodes 464868, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 28 784 15622 136192 239381 72837 24 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22412
+hole-stage candidates 54607071, passing the filter (sent to push) 51224
+== p6-106-a2-w11
+done: covers 1, tasks 28, nodes 455825, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15481 134256 235098 70150 28 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20965
+hole-stage candidates 51477251, passing the filter (sent to push) 49991
+== p6-107-a2-w7
+done: covers 1, tasks 28, nodes 516940, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 31 s
+nodes by span dimension 1..8: 28 784 15571 139465 240986 120058 48 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23086
+hole-stage candidates 92939960, passing the filter (sent to push) 98502
+== p6-108-a6-w11
+done: covers 1, tasks 28, nodes 651732, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 59 s
+nodes by span dimension 1..8: 28 784 15604 140026 252410 241376 1504 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 40115
+hole-stage candidates 176466698, passing the filter (sent to push) 210104
+== p6-109-a4-w11
+done: covers 1, tasks 28, nodes 520116, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 33 s
+nodes by span dimension 1..8: 28 784 15541 134513 240204 128999 47 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23224
+hole-stage candidates 100711756, passing the filter (sent to push) 107616
+== p6-11-a1-w6
+done: covers 1, tasks 28, nodes 412579, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15634 134655 239348 22121 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22026
+hole-stage candidates 12495614, passing the filter (sent to push) 106
+== p6-110-a6-w11
+done: covers 1, tasks 28, nodes 572882, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 39 s
+nodes by span dimension 1..8: 28 784 15562 138422 267902 148966 1218 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 42016
+hole-stage candidates 112053798, passing the filter (sent to push) 112630
+== p6-111-a2-w11
+done: covers 1, tasks 28, nodes 456138, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 15 s
+nodes by span dimension 1..8: 28 784 15607 135694 244968 59041 16 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23688
+hole-stage candidates 42557813, passing the filter (sent to push) 35924
+== p6-112-a8-w11
+done: covers 1, tasks 28, nodes 446097, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 14 s
+nodes by span dimension 1..8: 28 784 15565 135358 236412 57912 38 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21874
+hole-stage candidates 40878694, passing the filter (sent to push) 36720
+== p6-113-a6-w11
+done: covers 1, tasks 28, nodes 546654, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 35 s
+nodes by span dimension 1..8: 28 784 15595 136810 249678 142572 1187 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 36673
+hole-stage candidates 105105709, passing the filter (sent to push) 111067
+== p6-114-a36-w11
+done: covers 1, tasks 28, nodes 1829187, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 388 s
+nodes by span dimension 1..8: 28 784 15424 137624 284381 1389371 1575 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 43677
+hole-stage candidates 1227644126, passing the filter (sent to push) 1387527
+== p6-115-a24-w11
+done: covers 1, tasks 28, nodes 825323, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 100 s
+nodes by span dimension 1..8: 28 784 15643 137408 256530 414383 547 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 32286
+hole-stage candidates 312026677, passing the filter (sent to push) 389077
+== p6-116-a2-w11
+done: covers 1, tasks 28, nodes 460502, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15577 135282 243243 65557 31 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23001
+hole-stage candidates 48435531, passing the filter (sent to push) 43215
+== p6-117-a4-w11
+done: covers 1, tasks 28, nodes 505019, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 28 s
+nodes by span dimension 1..8: 28 784 15595 136531 244801 107237 43 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25064
+hole-stage candidates 82017328, passing the filter (sent to push) 83699
+== p6-118-a2-w11
+done: covers 1, tasks 28, nodes 459638, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15595 135700 244863 62650 18 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22710
+hole-stage candidates 46816812, passing the filter (sent to push) 40562
+== p6-119-a1-w7
+done: covers 1, tasks 28, nodes 444458, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 13 s
+nodes by span dimension 1..8: 28 784 15616 136566 241408 50035 21 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21927
+hole-stage candidates 35153800, passing the filter (sent to push) 28553
+== p6-12-a1-w7
+done: covers 1, tasks 28, nodes 409647, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15646 134756 236905 21518 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21518
+hole-stage candidates 12248938, passing the filter (sent to push) 10
+== p6-120-a1-w7
+done: covers 1, tasks 28, nodes 448041, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 14 s
+nodes by span dimension 1..8: 28 784 15616 136909 241825 52868 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22218
+hole-stage candidates 37989650, passing the filter (sent to push) 31120
+== p6-121-a2-w7
+done: covers 1, tasks 28, nodes 478535, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 20 s
+nodes by span dimension 1..8: 28 784 15523 137222 245661 79284 33 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23861
+hole-stage candidates 59739731, passing the filter (sent to push) 56241
+== p6-122-a2-w7
+done: covers 1, tasks 28, nodes 468335, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 19 s
+nodes by span dimension 1..8: 28 784 15679 136842 243184 71799 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22893
+hole-stage candidates 54432953, passing the filter (sent to push) 49675
+== p6-123-a3-w5
+done: covers 1, tasks 28, nodes 513821, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 30 s
+nodes by span dimension 1..8: 28 784 15619 140619 239828 116889 54 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22704
+hole-stage candidates 90954794, passing the filter (sent to push) 95755
+== p6-124-a24-w11
+done: covers 1, tasks 28, nodes 461966, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 20 s
+nodes by span dimension 1..8: 28 784 15586 134670 230651 80207 40 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21380
+hole-stage candidates 61889252, passing the filter (sent to push) 59713
+== p6-125-a2-w7
+done: covers 1, tasks 28, nodes 453408, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 16 s
+nodes by span dimension 1..8: 28 784 15583 135536 238016 63431 30 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20884
+hole-stage candidates 48531094, passing the filter (sent to push) 43203
+== p6-126-a24-w7
+done: covers 1, tasks 28, nodes 537897, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 31 s
+nodes by span dimension 1..8: 28 784 15580 138770 261666 120989 80 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 32320
+hole-stage candidates 91975098, passing the filter (sent to push) 90248
+== p6-127-a2-w7
+done: covers 1, tasks 28, nodes 458351, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 28 784 15571 134934 238127 68888 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21011
+hole-stage candidates 52281756, passing the filter (sent to push) 48606
+== p6-128-a1-w7
+done: covers 1, tasks 28, nodes 444490, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 12 s
+nodes by span dimension 1..8: 28 784 15583 136421 240944 50709 21 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22855
+hole-stage candidates 36195851, passing the filter (sent to push) 28280
+== p6-129-a4-w11
+done: covers 1, tasks 28, nodes 448944, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 13 s
+nodes by span dimension 1..8: 28 784 15589 135832 248043 48651 17 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24836
+hole-stage candidates 33818191, passing the filter (sent to push) 24172
+== p6-13-a2-w11
+done: covers 1, tasks 28, nodes 430746, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 7 s
+nodes by span dimension 1..8: 28 784 15643 136155 250373 27748 15 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24787
+hole-stage candidates 16324817, passing the filter (sent to push) 3016
+== p6-130-a4-w11
+done: covers 1, tasks 28, nodes 447782, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 13 s
+nodes by span dimension 1..8: 28 784 15589 135697 246860 48807 17 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24741
+hole-stage candidates 33398731, passing the filter (sent to push) 24451
+== p6-131-a1-w5
+done: covers 1, tasks 28, nodes 400382, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15514 133221 230705 20127 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20127
+hole-stage candidates 11420830, passing the filter (sent to push) 3
+== p6-132-a1-w5
+done: covers 1, tasks 28, nodes 397664, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15517 133144 228351 19835 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19735
+hole-stage candidates 11269903, passing the filter (sent to push) 107
+== p6-133-a1-w5
+done: covers 1, tasks 28, nodes 395920, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15451 132261 225511 21875 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19951
+hole-stage candidates 12996536, passing the filter (sent to push) 1961
+== p6-134-a1-w7
+done: covers 1, tasks 28, nodes 404859, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15487 134523 231988 22037 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20418
+hole-stage candidates 12649616, passing the filter (sent to push) 1652
+== p6-135-a3-w5
+done: covers 1, tasks 28, nodes 410583, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15520 133914 237769 22561 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22561
+hole-stage candidates 12895194, passing the filter (sent to push) 7
+== p6-136-a1-w6
+done: covers 1, tasks 28, nodes 397359, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15526 132007 228274 20733 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20516
+hole-stage candidates 11773050, passing the filter (sent to push) 229
+== p6-137-a1-w7
+done: covers 1, tasks 28, nodes 403860, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15496 134495 231649 21399 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20006
+hole-stage candidates 12498604, passing the filter (sent to push) 1421
+== p6-138-a1-w5
+done: covers 1, tasks 28, nodes 400511, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15493 132790 229526 21880 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19763
+hole-stage candidates 13052625, passing the filter (sent to push) 2162
+== p6-139-a1-w5
+done: covers 1, tasks 28, nodes 395057, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15535 132287 225775 20644 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20270
+hole-stage candidates 12068411, passing the filter (sent to push) 385
+== p6-14-a1-w7
+done: covers 1, tasks 28, nodes 416800, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15628 135578 241819 22958 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22631
+hole-stage candidates 13080057, passing the filter (sent to push) 337
+== p6-140-a1-w5
+done: covers 1, tasks 28, nodes 398960, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15499 133331 229449 19866 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19786
+hole-stage candidates 11346769, passing the filter (sent to push) 85
+== p6-141-a1-w6
+done: covers 1, tasks 28, nodes 396492, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15520 131841 227710 20605 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20448
+hole-stage candidates 11792520, passing the filter (sent to push) 163
+== p6-142-a1-w7
+done: covers 1, tasks 28, nodes 393039, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15538 132068 225645 18973 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18783
+hole-stage candidates 10812235, passing the filter (sent to push) 195
+== p6-143-a1-w11
+done: covers 1, tasks 28, nodes 404993, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 7 s
+nodes by span dimension 1..8: 28 784 15535 133455 227826 27350 15 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20586
+hole-stage candidates 16854582, passing the filter (sent to push) 6914
+== p6-144-a1-w7
+done: covers 1, tasks 28, nodes 394800, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15538 133754 224977 19710 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19230
+hole-stage candidates 11466926, passing the filter (sent to push) 494
+== p6-145-a4-w7
+done: covers 1, tasks 28, nodes 392634, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15505 132150 221524 22621 22 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18724
+hole-stage candidates 13893609, passing the filter (sent to push) 3974
+== p6-146-a1-w5
+done: covers 1, tasks 28, nodes 394729, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15496 133397 224977 20037 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19215
+hole-stage candidates 11563125, passing the filter (sent to push) 842
+== p6-147-a1-w7
+done: covers 1, tasks 28, nodes 404691, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15562 134504 232855 20951 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20951
+hole-stage candidates 11939795, passing the filter (sent to push) 7
+== p6-148-a1-w7
+done: covers 1, tasks 28, nodes 408801, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15571 134685 236171 21553 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21457
+hole-stage candidates 12293639, passing the filter (sent to push) 106
+== p6-149-a1-w7
+done: covers 1, tasks 28, nodes 400956, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15565 132491 231106 20973 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20973
+hole-stage candidates 11813565, passing the filter (sent to push) 9
+== p6-15-a2-w7
+done: covers 1, tasks 28, nodes 433166, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 7 s
+nodes by span dimension 1..8: 28 784 15670 139546 251467 25654 17 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25654
+hole-stage candidates 14556808, passing the filter (sent to push) 17
+== p6-150-a1-w5
+done: covers 1, tasks 28, nodes 400518, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15499 134071 228533 21597 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21011
+hole-stage candidates 12427962, passing the filter (sent to push) 601
+== p6-151-a1-w7
+done: covers 1, tasks 28, nodes 405088, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15562 133913 233364 21432 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21215
+hole-stage candidates 12170464, passing the filter (sent to push) 225
+== p6-152-a2-w11
+done: covers 1, tasks 28, nodes 408507, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15508 134361 235266 22552 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22414
+hole-stage candidates 12904173, passing the filter (sent to push) 148
+== p6-153-a1-w11
+done: covers 1, tasks 28, nodes 445514, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15463 132410 229445 67365 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20726
+hole-stage candidates 51217710, passing the filter (sent to push) 47340
+== p6-154-a1-w5
+done: covers 1, tasks 28, nodes 394733, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15559 133508 224793 20050 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19867
+hole-stage candidates 11294558, passing the filter (sent to push) 197
+== p6-155-a1-w7
+done: covers 1, tasks 28, nodes 410738, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15568 135290 237345 21712 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21547
+hole-stage candidates 12222197, passing the filter (sent to push) 178
+== p6-156-a1-w7
+done: covers 1, tasks 28, nodes 404278, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15565 133867 232649 21374 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21304
+hole-stage candidates 12152587, passing the filter (sent to push) 82
+== p6-157-a1-w5
+done: covers 1, tasks 28, nodes 393366, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15550 132440 224867 19691 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19601
+hole-stage candidates 11067588, passing the filter (sent to push) 97
+== p6-158-a1-w7
+done: covers 1, tasks 28, nodes 404812, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15568 133010 233688 21724 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21368
+hole-stage candidates 12373832, passing the filter (sent to push) 369
+== p6-159-a2-w11
+done: covers 1, tasks 28, nodes 404221, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15511 133429 229885 24565 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21466
+hole-stage candidates 14829146, passing the filter (sent to push) 3155
+== p6-16-a1-w7
+done: covers 1, tasks 28, nodes 449034, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15607 133657 235119 63820 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22681
+hole-stage candidates 48035531, passing the filter (sent to push) 41820
+== p6-160-a1-w5
+done: covers 1, tasks 28, nodes 403720, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15505 134983 231223 21190 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21190
+hole-stage candidates 12013241, passing the filter (sent to push) 7
+== p6-161-a4-w11
+done: covers 1, tasks 28, nodes 402988, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15469 132502 231268 22919 18 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22294
+hole-stage candidates 13354469, passing the filter (sent to push) 654
+== p6-162-a2-w11
+done: covers 1, tasks 28, nodes 532081, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 36 s
+nodes by span dimension 1..8: 28 784 15499 137628 231671 146383 88 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22291
+hole-stage candidates 108268413, passing the filter (sent to push) 126634
+== p6-163-a1-w7
+done: covers 1, tasks 28, nodes 394378, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15535 132222 226154 19651 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19325
+hole-stage candidates 11267858, passing the filter (sent to push) 335
+== p6-164-a1-w7
+done: covers 1, tasks 28, nodes 394255, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15538 133190 225446 19267 2 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18982
+hole-stage candidates 11055373, passing the filter (sent to push) 293
+== p6-165-a1-w7
+done: covers 1, tasks 28, nodes 403442, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15568 134092 231626 21337 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21337
+hole-stage candidates 12151285, passing the filter (sent to push) 7
+== p6-166-a1-w11
+done: covers 1, tasks 28, nodes 483504, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 22 s
+nodes by span dimension 1..8: 28 784 15538 135243 246241 85636 34 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25343
+hole-stage candidates 64632904, passing the filter (sent to push) 61273
+== p6-167-a2-w11
+done: covers 1, tasks 28, nodes 407599, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15508 133167 235463 22642 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22425
+hole-stage candidates 13063339, passing the filter (sent to push) 227
+== p6-168-a1-w5
+done: covers 1, tasks 28, nodes 397972, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15469 133024 228794 19865 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19865
+hole-stage candidates 11263822, passing the filter (sent to push) 8
+== p6-169-a1-w5
+done: covers 1, tasks 28, nodes 410357, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15535 134730 237174 22099 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21861
+hole-stage candidates 12648946, passing the filter (sent to push) 250
+== p6-17-a1-w11
+done: covers 1, tasks 28, nodes 403663, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15616 133168 230940 23114 13 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22454
+hole-stage candidates 13328162, passing the filter (sent to push) 684
+== p6-170-a1-w5
+done: covers 1, tasks 28, nodes 395510, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15499 132841 225570 20778 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19450
+hole-stage candidates 12093065, passing the filter (sent to push) 1351
+== p6-171-a1-w5
+done: covers 1, tasks 28, nodes 396544, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15469 132177 228447 19633 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19633
+hole-stage candidates 11130443, passing the filter (sent to push) 6
+== p6-172-a2-w11
+done: covers 1, tasks 28, nodes 436378, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15439 130664 224150 65288 25 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19946
+hole-stage candidates 49054139, passing the filter (sent to push) 46068
+== p6-173-a2-w11
+done: covers 1, tasks 28, nodes 403049, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15499 133066 229645 24017 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21703
+hole-stage candidates 14147876, passing the filter (sent to push) 2352
+== p6-174-a1-w7
+done: covers 1, tasks 28, nodes 407283, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15499 134820 233423 22723 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20690
+hole-stage candidates 13445796, passing the filter (sent to push) 2065
+== p6-175-a1-w6
+done: covers 1, tasks 28, nodes 397279, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15532 133208 227330 20394 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20049
+hole-stage candidates 11764107, passing the filter (sent to push) 352
+== p6-176-a1-w7
+done: covers 1, tasks 28, nodes 407419, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15517 134690 233446 22946 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20604
+hole-stage candidates 13568469, passing the filter (sent to push) 2379
+== p6-177-a1-w6
+done: covers 1, tasks 28, nodes 393410, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15541 133094 224871 19084 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19084
+hole-stage candidates 10804889, passing the filter (sent to push) 8
+== p6-178-a1-w7
+done: covers 1, tasks 28, nodes 459905, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 28 784 15544 137831 234072 71620 26 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21716
+hole-stage candidates 53655624, passing the filter (sent to push) 50700
+== p6-179-a1-w6
+done: covers 1, tasks 28, nodes 400446, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15547 132811 230109 21161 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21083
+hole-stage candidates 11971014, passing the filter (sent to push) 85
+== p6-18-a2-w11
+done: covers 1, tasks 28, nodes 458756, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 16 s
+nodes by span dimension 1..8: 28 784 15616 137438 246056 58813 21 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24853
+hole-stage candidates 43009169, passing the filter (sent to push) 34530
+== p6-180-a1-w5
+done: covers 1, tasks 28, nodes 447383, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 28 784 15571 134820 224990 71174 16 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19779
+hole-stage candidates 54022304, passing the filter (sent to push) 52162
+== p6-181-a1-w5
+done: covers 1, tasks 28, nodes 395384, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15565 134401 225126 19471 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19367
+hole-stage candidates 11072602, passing the filter (sent to push) 114
+== p6-182-a1-w5
+done: covers 1, tasks 28, nodes 398072, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15538 134586 227071 20055 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19652
+hole-stage candidates 11535888, passing the filter (sent to push) 418
+== p6-183-a1-w5
+done: covers 1, tasks 28, nodes 398027, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15577 133836 227867 19930 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19930
+hole-stage candidates 11340440, passing the filter (sent to push) 5
+== p6-184-a1-w5
+done: covers 1, tasks 28, nodes 393445, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15571 133166 224850 19038 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18929
+hole-stage candidates 10943774, passing the filter (sent to push) 118
+== p6-185-a1-w5
+done: covers 1, tasks 28, nodes 394232, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15595 134143 224234 19441 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19441
+hole-stage candidates 10989312, passing the filter (sent to push) 7
+== p6-186-a2-w6
+done: covers 1, tasks 28, nodes 391732, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15568 133210 222728 19406 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19090
+hole-stage candidates 11250417, passing the filter (sent to push) 331
+== p6-187-a1-w5
+done: covers 1, tasks 28, nodes 393298, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15538 133457 224624 18863 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18775
+hole-stage candidates 10808812, passing the filter (sent to push) 94
+== p6-188-a1-w5
+done: covers 1, tasks 28, nodes 398271, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15586 133582 228134 20149 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19832
+hole-stage candidates 11633722, passing the filter (sent to push) 328
+== p6-189-a1-w6
+done: covers 1, tasks 28, nodes 453074, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 20 s
+nodes by span dimension 1..8: 28 784 15565 133217 227271 76174 35 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20644
+hole-stage candidates 59772931, passing the filter (sent to push) 56364
+== p6-19-a1-w7
+done: covers 1, tasks 28, nodes 415885, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15619 135012 241485 22948 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22848
+hole-stage candidates 13030845, passing the filter (sent to push) 110
+== p6-190-a1-w7
+done: covers 1, tasks 28, nodes 399957, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15568 133235 230342 19994 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19854
+hole-stage candidates 11601319, passing the filter (sent to push) 148
+== p6-191-a2-w6
+done: covers 1, tasks 28, nodes 389417, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15556 132224 221567 19249 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18836
+hole-stage candidates 11013816, passing the filter (sent to push) 426
+== p6-192-a1-w7
+done: covers 1, tasks 28, nodes 399159, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15481 133246 229747 19866 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19866
+hole-stage candidates 11363959, passing the filter (sent to push) 7
+== p6-193-a1-w5
+done: covers 1, tasks 28, nodes 394059, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15532 132089 225929 19684 13 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19684
+hole-stage candidates 11144583, passing the filter (sent to push) 13
+== p6-194-a1-w6
+done: covers 1, tasks 28, nodes 447274, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15499 132932 227981 70029 21 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20490
+hole-stage candidates 53169406, passing the filter (sent to push) 50275
+== p6-195-a1-w6
+done: covers 1, tasks 28, nodes 401909, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15565 133545 231138 20846 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20787
+hole-stage candidates 11889951, passing the filter (sent to push) 63
+== p6-196-a1-w6
+done: covers 1, tasks 28, nodes 396333, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15505 132571 227459 19977 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19783
+hole-stage candidates 11459784, passing the filter (sent to push) 205
+== p6-197-a1-w7
+done: covers 1, tasks 28, nodes 406614, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15631 134968 234427 20772 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20772
+hole-stage candidates 11827794, passing the filter (sent to push) 4
+== p6-198-a1-w6
+done: covers 1, tasks 28, nodes 408758, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15577 135188 235050 22127 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21572
+hole-stage candidates 12778381, passing the filter (sent to push) 566
+== p6-199-a2-w11
+done: covers 1, tasks 28, nodes 442818, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 14 s
+nodes by span dimension 1..8: 28 784 15595 134728 237934 53726 23 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22053
+hole-stage candidates 38233330, passing the filter (sent to push) 32186
+== p6-2-a1-w5
+done: covers 1, tasks 28, nodes 407561, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15532 133859 236372 20978 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20556
+hole-stage candidates 11980307, passing the filter (sent to push) 434
+== p6-20-a1-w7
+done: covers 1, tasks 28, nodes 471760, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 20 s
+nodes by span dimension 1..8: 28 784 15634 139909 239171 76200 34 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22634
+hole-stage candidates 55127176, passing the filter (sent to push) 54513
+== p6-200-a1-w6
+done: covers 1, tasks 28, nodes 398508, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15643 134250 228056 19742 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19702
+hole-stage candidates 11265437, passing the filter (sent to push) 46
+== p6-201-a1-w5
+done: covers 1, tasks 28, nodes 405389, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15586 134520 233113 21352 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21352
+hole-stage candidates 12121493, passing the filter (sent to push) 6
+== p6-202-a1-w7
+done: covers 1, tasks 28, nodes 417031, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15640 137373 240122 23077 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23077
+hole-stage candidates 13139655, passing the filter (sent to push) 7
+== p6-203-a1-w5
+done: covers 1, tasks 28, nodes 401844, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15622 134324 230238 20842 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20842
+hole-stage candidates 11760880, passing the filter (sent to push) 6
+== p6-204-a1-w5
+done: covers 1, tasks 28, nodes 397632, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15613 134096 227367 19735 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19289
+hole-stage candidates 11347879, passing the filter (sent to push) 464
+== p6-205-a1-w7
+done: covers 1, tasks 28, nodes 398609, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15658 133490 226476 22168 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20633
+hole-stage candidates 12762437, passing the filter (sent to push) 1577
+== p6-206-a1-w6
+done: covers 1, tasks 28, nodes 400038, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15601 134323 228775 20517 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20517
+hole-stage candidates 11499807, passing the filter (sent to push) 10
+== p6-207-a1-w7
+done: covers 1, tasks 28, nodes 398101, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15658 133466 226741 21412 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20453
+hole-stage candidates 12259879, passing the filter (sent to push) 989
+== p6-208-a3-w7
+done: covers 1, tasks 28, nodes 391204, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15586 131859 221909 21024 14 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19307
+hole-stage candidates 12303294, passing the filter (sent to push) 1752
+== p6-209-a1-w11
+done: covers 1, tasks 28, nodes 397280, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15613 133512 227212 20126 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19947
+hole-stage candidates 11413293, passing the filter (sent to push) 186
+== p6-21-a1-w5
+done: covers 1, tasks 28, nodes 407909, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15640 135132 235404 20914 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20356
+hole-stage candidates 11965024, passing the filter (sent to push) 575
+== p6-210-a1-w6
+done: covers 1, tasks 28, nodes 401731, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15592 134576 229525 21216 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21081
+hole-stage candidates 12167549, passing the filter (sent to push) 147
+== p6-211-a1-w5
+done: covers 1, tasks 28, nodes 397310, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15613 133904 227572 19406 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19406
+hole-stage candidates 10970333, passing the filter (sent to push) 3
+== p6-212-a1-w5
+done: covers 1, tasks 28, nodes 407686, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15508 134716 235183 21460 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21460
+hole-stage candidates 12199815, passing the filter (sent to push) 7
+== p6-213-a1-w6
+done: covers 1, tasks 28, nodes 399883, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15631 133610 228992 20829 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20829
+hole-stage candidates 11914396, passing the filter (sent to push) 9
+== p6-214-a2-w11
+done: covers 1, tasks 28, nodes 443534, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 15 s
+nodes by span dimension 1..8: 28 784 15628 133609 233872 59602 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21605
+hole-stage candidates 44511419, passing the filter (sent to push) 38606
+== p6-215-a1-w5
+done: covers 1, tasks 28, nodes 402451, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15634 134450 230690 20854 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20514
+hole-stage candidates 11917643, passing the filter (sent to push) 357
+== p6-216-a1-w7
+done: covers 1, tasks 28, nodes 468235, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 20 s
+nodes by span dimension 1..8: 28 784 15649 138543 230818 82380 33 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21749
+hole-stage candidates 60323432, passing the filter (sent to push) 61608
+== p6-217-a2-w7
+done: covers 1, tasks 28, nodes 399937, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15622 133905 228921 20668 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20564
+hole-stage candidates 11762646, passing the filter (sent to push) 115
+== p6-218-a4-w11
+done: covers 1, tasks 28, nodes 545480, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 39 s
+nodes by span dimension 1..8: 28 784 15643 133328 235780 159797 120 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23899
+hole-stage candidates 118290051, passing the filter (sent to push) 138697
+== p6-219-a1-w6
+done: covers 1, tasks 28, nodes 404790, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15628 133933 233628 20781 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20781
+hole-stage candidates 11895715, passing the filter (sent to push) 8
+== p6-22-a2-w11
+done: covers 1, tasks 28, nodes 464252, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15646 136664 247105 63986 39 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25538
+hole-stage candidates 46453752, passing the filter (sent to push) 39153
+== p6-220-a2-w11
+done: covers 1, tasks 28, nodes 410692, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15640 135318 236079 22838 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21527
+hole-stage candidates 13139250, passing the filter (sent to push) 1336
+== p6-221-a1-w6
+done: covers 1, tasks 28, nodes 400507, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15613 133289 230991 19795 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19795
+hole-stage candidates 11261769, passing the filter (sent to push) 7
+== p6-222-a3-w5
+done: covers 1, tasks 28, nodes 406750, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15580 133950 234644 21751 13 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21751
+hole-stage candidates 12387447, passing the filter (sent to push) 13
+== p6-223-a4-w6
+done: covers 1, tasks 28, nodes 392103, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15619 132020 219575 24070 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18561
+hole-stage candidates 14962904, passing the filter (sent to push) 5602
+== p6-224-a1-w6
+done: covers 1, tasks 28, nodes 397168, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15613 133784 226761 20188 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19978
+hole-stage candidates 11499373, passing the filter (sent to push) 224
+== p6-225-a1-w7
+done: covers 1, tasks 28, nodes 405230, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15637 133991 233386 21400 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21111
+hole-stage candidates 12219543, passing the filter (sent to push) 297
+== p6-226-a1-w11
+done: covers 1, tasks 28, nodes 400200, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15622 133562 228791 21402 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19793
+hole-stage candidates 12581105, passing the filter (sent to push) 1636
+== p6-227-a2-w6
+done: covers 1, tasks 28, nodes 480210, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 24 s
+nodes by span dimension 1..8: 28 784 15619 137932 228900 96910 37 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21567
+hole-stage candidates 73055669, passing the filter (sent to push) 76654
+== p6-228-a1-w6
+done: covers 1, tasks 28, nodes 405583, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15616 133747 233755 21643 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21643
+hole-stage candidates 12227491, passing the filter (sent to push) 10
+== p6-229-a1-w5
+done: covers 1, tasks 28, nodes 392204, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15601 133726 222443 19614 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19427
+hole-stage candidates 11267063, passing the filter (sent to push) 201
+== p6-23-a1-w7
+done: covers 1, tasks 28, nodes 409947, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15652 134741 237030 21699 13 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21699
+hole-stage candidates 12320300, passing the filter (sent to push) 14
+== p6-230-a1-w7
+done: covers 1, tasks 28, nodes 398291, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15610 133941 226730 21188 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20504
+hole-stage candidates 12120640, passing the filter (sent to push) 705
+== p6-231-a2-w11
+done: covers 1, tasks 28, nodes 444008, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 15 s
+nodes by span dimension 1..8: 28 784 15619 133924 234560 59072 21 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21752
+hole-stage candidates 42947620, passing the filter (sent to push) 37932
+== p6-232-a2-w7
+done: covers 1, tasks 28, nodes 459603, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 19 s
+nodes by span dimension 1..8: 28 784 15625 135258 233399 74478 31 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21210
+hole-stage candidates 54907913, passing the filter (sent to push) 54169
+== p6-233-a1-w11
+done: covers 1, tasks 28, nodes 477714, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 23 s
+nodes by span dimension 1..8: 28 784 15610 135782 238218 87249 43 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23302
+hole-stage candidates 68243921, passing the filter (sent to push) 64969
+== p6-234-a2-w11
+done: covers 1, tasks 28, nodes 470819, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 21 s
+nodes by span dimension 1..8: 28 784 15619 136922 234347 83086 33 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21804
+hole-stage candidates 64018072, passing the filter (sent to push) 62324
+== p6-235-a1-w5
+done: covers 1, tasks 28, nodes 409685, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15601 135640 236120 21506 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21412
+hole-stage candidates 12273674, passing the filter (sent to push) 101
+== p6-236-a1-w6
+done: covers 1, tasks 28, nodes 400266, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15625 134517 229476 19831 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19747
+hole-stage candidates 11391866, passing the filter (sent to push) 90
+== p6-237-a1-w6
+done: covers 1, tasks 28, nodes 398907, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15637 133993 228694 19767 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19767
+hole-stage candidates 11191488, passing the filter (sent to push) 4
+== p6-238-a1-w11
+done: covers 1, tasks 28, nodes 392097, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15643 133995 221238 20402 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19407
+hole-stage candidates 11809005, passing the filter (sent to push) 1015
+== p6-239-a2-w7
+done: covers 1, tasks 28, nodes 399869, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15619 133774 229004 20651 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20651
+hole-stage candidates 11785729, passing the filter (sent to push) 9
+== p6-24-a2-w11
+done: covers 1, tasks 28, nodes 431703, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 8 s
+nodes by span dimension 1..8: 28 784 15616 137305 249957 27988 25 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25469
+hole-stage candidates 16589003, passing the filter (sent to push) 2581
+== p6-240-a1-w7
+done: covers 1, tasks 28, nodes 399582, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15622 133723 228386 21032 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21032
+hole-stage candidates 11982972, passing the filter (sent to push) 7
+== p6-241-a1-w5
+done: covers 1, tasks 28, nodes 405474, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15637 135633 233152 20233 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20233
+hole-stage candidates 11513567, passing the filter (sent to push) 7
+== p6-242-a1-w6
+done: covers 1, tasks 28, nodes 405620, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15634 133811 233870 21479 14 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21479
+hole-stage candidates 12229848, passing the filter (sent to push) 14
+== p6-243-a1-w11
+done: covers 1, tasks 28, nodes 396759, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15628 133595 226978 19739 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19739
+hole-stage candidates 11190538, passing the filter (sent to push) 7
+== p6-244-a2-w11
+done: covers 1, tasks 28, nodes 453636, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 16 s
+nodes by span dimension 1..8: 28 784 15616 134814 238222 64157 15 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22328
+hole-stage candidates 46550017, passing the filter (sent to push) 42463
+== p6-245-a1-w7
+done: covers 1, tasks 28, nodes 403734, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15655 133964 232226 21072 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20817
+hole-stage candidates 12145401, passing the filter (sent to push) 263
+== p6-246-a1-w11
+done: covers 1, tasks 28, nodes 400578, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15619 133515 228386 22237 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19862
+hole-stage candidates 13326087, passing the filter (sent to push) 2418
+== p6-247-a1-w7
+done: covers 1, tasks 28, nodes 392744, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15598 132870 224219 19238 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19066
+hole-stage candidates 11048704, passing the filter (sent to push) 181
+== p6-248-a1-w5
+done: covers 1, tasks 28, nodes 395959, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15622 133458 226603 19458 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19458
+hole-stage candidates 10991432, passing the filter (sent to push) 6
+== p6-249-a1-w11
+done: covers 1, tasks 28, nodes 399301, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15640 132448 229023 21372 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20474
+hole-stage candidates 12198719, passing the filter (sent to push) 914
+== p6-25-a2-w11
+done: covers 1, tasks 28, nodes 459298, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 28 784 15592 135083 246028 61764 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25454
+hole-stage candidates 44805427, passing the filter (sent to push) 36876
+== p6-250-a1-w7
+done: covers 1, tasks 28, nodes 417061, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15664 137375 239838 23364 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23364
+hole-stage candidates 13246755, passing the filter (sent to push) 8
+== p6-251-a1-w7
+done: covers 1, tasks 28, nodes 394741, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15526 132493 224668 21234 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20755
+hole-stage candidates 12186973, passing the filter (sent to push) 492
+== p6-252-a2-w7
+done: covers 1, tasks 28, nodes 411333, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15520 135866 236944 22184 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21921
+hole-stage candidates 12572478, passing the filter (sent to push) 275
+== p6-253-a3-w4
+done: covers 1, tasks 28, nodes 462962, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 19 s
+nodes by span dimension 1..8: 28 784 15538 138394 230894 77303 21 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21579
+hole-stage candidates 56594484, passing the filter (sent to push) 56562
+== p6-254-a2-w7
+done: covers 1, tasks 28, nodes 402390, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15508 133505 230715 21841 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21042
+hole-stage candidates 12562617, passing the filter (sent to push) 817
+== p6-255-a1-w11
+done: covers 1, tasks 28, nodes 407893, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15511 134243 233910 23408 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21414
+hole-stage candidates 13739044, passing the filter (sent to push) 2036
+== p6-256-a6-w5
+done: covers 1, tasks 28, nodes 417311, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15472 133758 243239 24010 20 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24010
+hole-stage candidates 13625706, passing the filter (sent to push) 20
+== p6-257-a1-w11
+done: covers 1, tasks 28, nodes 408298, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15502 133652 234558 23762 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21962
+hole-stage candidates 13979476, passing the filter (sent to push) 1836
+== p6-258-a2-w7
+done: covers 1, tasks 28, nodes 403092, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15502 133253 230872 22645 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21241
+hole-stage candidates 13334882, passing the filter (sent to push) 1437
+== p6-259-a1-w11
+done: covers 1, tasks 28, nodes 404807, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15580 133813 232931 21662 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19826
+hole-stage candidates 12600227, passing the filter (sent to push) 1878
+== p6-26-a1-w6
+done: covers 1, tasks 28, nodes 400398, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 7 s
+nodes by span dimension 1..8: 28 784 15610 134266 229503 20200 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20052
+hole-stage candidates 11587002, passing the filter (sent to push) 156
+== p6-260-a2-w7
+done: covers 1, tasks 28, nodes 399877, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15565 132622 230091 20776 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20776
+hole-stage candidates 11871218, passing the filter (sent to push) 11
+== p6-261-a1-w6
+done: covers 1, tasks 28, nodes 393655, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15610 133462 223601 20162 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19895
+hole-stage candidates 11529397, passing the filter (sent to push) 280
+== p6-262-a1-w5
+done: covers 1, tasks 28, nodes 396802, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15568 132431 228032 19947 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19947
+hole-stage candidates 11313829, passing the filter (sent to push) 12
+== p6-263-a2-w6
+done: covers 1, tasks 28, nodes 404378, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15565 132929 231870 23196 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21022
+hole-stage candidates 13817849, passing the filter (sent to push) 2212
+== p6-264-a2-w11
+done: covers 1, tasks 28, nodes 454568, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 15 s
+nodes by span dimension 1..8: 28 784 15493 135129 244311 58796 27 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24259
+hole-stage candidates 41617425, passing the filter (sent to push) 35106
+== p6-265-a2-w5
+done: covers 1, tasks 28, nodes 409388, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15559 133709 236970 22326 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22200
+hole-stage candidates 12831205, passing the filter (sent to push) 140
+== p6-266-a3-w11
+done: covers 1, tasks 28, nodes 398743, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15616 136744 225843 19713 15 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19713
+hole-stage candidates 11216398, passing the filter (sent to push) 31
+== p6-267-a1-w7
+done: covers 1, tasks 28, nodes 408677, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15643 136960 234086 21172 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21172
+hole-stage candidates 11999595, passing the filter (sent to push) 4
+== p6-268-a2-w6
+done: covers 1, tasks 28, nodes 394323, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15631 134634 223441 19798 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19137
+hole-stage candidates 11385278, passing the filter (sent to push) 675
+== p6-269-a3-w11
+done: covers 1, tasks 28, nodes 394961, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15625 131983 225907 20622 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20139
+hole-stage candidates 11923757, passing the filter (sent to push) 516
+== p6-27-a4-w7
+done: covers 1, tasks 28, nodes 547775, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 42 s
+nodes by span dimension 1..8: 28 784 15631 136522 242889 151846 75 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25027
+hole-stage candidates 119160357, passing the filter (sent to push) 128842
+== p6-270-a6-w11
+done: covers 1, tasks 28, nodes 408613, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15616 134001 233754 24419 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21630
+hole-stage candidates 14568324, passing the filter (sent to push) 2834
+== p6-271-a6-w11
+done: covers 1, tasks 28, nodes 411315, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15607 138524 232294 24060 18 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20328
+hole-stage candidates 14544492, passing the filter (sent to push) 3796
+== p6-272-a1-w7
+done: covers 1, tasks 28, nodes 405944, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15646 134001 234342 21133 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21133
+hole-stage candidates 12071500, passing the filter (sent to push) 10
+== p6-273-a4-w11
+done: covers 1, tasks 28, nodes 395280, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15523 132290 226547 20092 16 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19848
+hole-stage candidates 11516151, passing the filter (sent to push) 270
+== p6-274-a1-w11
+done: covers 1, tasks 28, nodes 399015, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15499 132514 228580 21607 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20072
+hole-stage candidates 12740654, passing the filter (sent to push) 1572
+== p6-275-a1-w7
+done: covers 1, tasks 28, nodes 461149, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 19 s
+nodes by span dimension 1..8: 28 784 15646 135461 234195 75002 33 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21728
+hole-stage candidates 56999372, passing the filter (sent to push) 54126
+== p6-276-a1-w7
+done: covers 1, tasks 28, nodes 397096, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15643 133668 225427 21539 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19863
+hole-stage candidates 12574792, passing the filter (sent to push) 1706
+== p6-277-a6-w11
+done: covers 1, tasks 28, nodes 408063, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15637 134986 233476 23137 15 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22161
+hole-stage candidates 13354285, passing the filter (sent to push) 1017
+== p6-278-a18-w11
+done: covers 1, tasks 28, nodes 502389, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 31 s
+nodes by span dimension 1..8: 28 784 15553 135189 235773 113630 1432 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 25644
+hole-stage candidates 90706657, passing the filter (sent to push) 91078
+== p6-279-a2-w11
+done: covers 1, tasks 28, nodes 454586, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 15 s
+nodes by span dimension 1..8: 28 784 15487 135048 244887 58328 24 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24925
+hole-stage candidates 40736627, passing the filter (sent to push) 33938
+== p6-28-a1-w11
+done: covers 1, tasks 28, nodes 448856, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 16 s
+nodes by span dimension 1..8: 28 784 15637 135335 239732 57314 26 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23066
+hole-stage candidates 41771348, passing the filter (sent to push) 34772
+== p6-280-a6-w11
+done: covers 1, tasks 28, nodes 564278, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 39 s
+nodes by span dimension 1..8: 28 784 15562 136504 256680 153556 1164 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 40577
+hole-stage candidates 117814979, passing the filter (sent to push) 119097
+== p6-281-a12-w11
+done: covers 1, tasks 28, nodes 597221, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 45 s
+nodes by span dimension 1..8: 28 784 15553 137916 268700 172780 1460 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 44813
+hole-stage candidates 128581865, passing the filter (sent to push) 135513
+== p6-282-a2-w11
+done: covers 1, tasks 28, nodes 467796, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 28 784 15565 135587 245834 69967 31 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24818
+hole-stage candidates 51783981, passing the filter (sent to push) 45949
+== p6-283-a6-w11
+done: covers 1, tasks 28, nodes 587161, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 48 s
+nodes by span dimension 1..8: 28 784 15553 136322 247405 185937 1132 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 35097
+hole-stage candidates 145690799, passing the filter (sent to push) 157196
+== p6-284-a12-w11
+done: covers 1, tasks 28, nodes 768809, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 86 s
+nodes by span dimension 1..8: 28 784 15562 137646 263333 349873 1583 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 40903
+hole-stage candidates 263807091, passing the filter (sent to push) 322615
+== p6-285-a1-w11
+done: covers 1, tasks 28, nodes 452321, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 28 784 15691 134226 231387 70186 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20870
+hole-stage candidates 51897867, passing the filter (sent to push) 50126
+== p6-286-a4-w6
+done: covers 1, tasks 28, nodes 483039, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 25 s
+nodes by span dimension 1..8: 28 784 15673 137325 229752 99430 47 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22105
+hole-stage candidates 73683317, passing the filter (sent to push) 78721
+== p6-287-a6-w11
+done: covers 1, tasks 28, nodes 406326, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15637 133906 233852 22097 22 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22097
+hole-stage candidates 12444169, passing the filter (sent to push) 22
+== p6-288-a2-w7
+done: covers 1, tasks 28, nodes 412081, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15694 135655 236473 23435 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23002
+hole-stage candidates 13432681, passing the filter (sent to push) 457
+== p6-289-a2-w7
+done: covers 1, tasks 28, nodes 417255, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15631 136322 240906 23574 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23309
+hole-stage candidates 13452564, passing the filter (sent to push) 278
+== p6-29-a1-w11
+done: covers 1, tasks 28, nodes 452440, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15634 137122 239937 58913 22 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23124
+hole-stage candidates 43357517, passing the filter (sent to push) 36359
+== p6-290-a6-w11
+done: covers 1, tasks 28, nodes 407090, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15676 134628 233853 22110 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22110
+hole-stage candidates 12576975, passing the filter (sent to push) 11
+== p6-291-a48-w11
+done: covers 1, tasks 28, nodes 809311, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 93 s
+nodes by span dimension 1..8: 28 784 15661 140846 257748 391928 2316 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 45380
+hole-stage candidates 281503504, passing the filter (sent to push) 362198
+== p6-292-a2-w7
+done: covers 1, tasks 28, nodes 420148, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15700 136916 241109 25598 13 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22241
+hole-stage candidates 15208018, passing the filter (sent to push) 3414
+== p6-293-a18-w11
+done: covers 1, tasks 28, nodes 457121, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 13 s
+nodes by span dimension 1..8: 28 784 15580 138076 246844 54785 1024 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 35557
+hole-stage candidates 36355402, passing the filter (sent to push) 21912
+== p6-294-a18-w11
+done: covers 1, tasks 28, nodes 542304, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 32 s
+nodes by span dimension 1..8: 28 784 15682 140266 256362 128085 1097 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 28884
+hole-stage candidates 97973604, passing the filter (sent to push) 102372
+== p6-295-a18-w11
+done: covers 1, tasks 28, nodes 884268, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 119 s
+nodes by span dimension 1..8: 28 784 15289 137721 259473 468071 2902 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 42665
+hole-stage candidates 365669067, passing the filter (sent to push) 441104
+== p6-296-a1-w11
+done: covers 1, tasks 28, nodes 448341, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15430 133522 230734 67816 27 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20076
+hole-stage candidates 49562621, passing the filter (sent to push) 48555
+== p6-297-a1-w11
+done: covers 1, tasks 28, nodes 451027, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15424 135496 230951 68323 21 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20019
+hole-stage candidates 49959494, passing the filter (sent to push) 49078
+== p6-298-a4-w7
+done: covers 1, tasks 28, nodes 461107, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 21 s
+nodes by span dimension 1..8: 28 784 15298 132676 228932 83362 27 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20212
+hole-stage candidates 62902377, passing the filter (sent to push) 64140
+== p6-299-a8-w11
+done: covers 1, tasks 28, nodes 603167, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 54 s
+nodes by span dimension 1..8: 28 784 15580 134942 239711 212058 64 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24678
+hole-stage candidates 168330209, passing the filter (sent to push) 191129
+== p6-3-a1-w7
+done: covers 1, tasks 28, nodes 453489, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 19 s
+nodes by span dimension 1..8: 28 784 15595 136055 233923 67079 25 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20814
+hole-stage candidates 49803582, passing the filter (sent to push) 46947
+== p6-30-a1-w5
+done: covers 1, tasks 28, nodes 398653, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15481 133540 228374 20440 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20114
+hole-stage candidates 11723969, passing the filter (sent to push) 335
+== p6-300-a8-w11
+done: covers 1, tasks 28, nodes 462687, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 19 s
+nodes by span dimension 1..8: 28 784 15391 133981 235379 77090 34 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22422
+hole-stage candidates 56445511, passing the filter (sent to push) 55987
+== p6-301-a1-w11
+done: covers 1, tasks 28, nodes 478643, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 23 s
+nodes by span dimension 1..8: 28 784 15502 134133 236091 92078 27 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22819
+hole-stage candidates 70750189, passing the filter (sent to push) 70364
+== p6-302-a1-w11
+done: covers 1, tasks 28, nodes 484529, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 25 s
+nodes by span dimension 1..8: 28 784 15523 133906 234968 99289 31 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21502
+hole-stage candidates 77461571, passing the filter (sent to push) 78984
+== p6-303-a1-w11
+done: covers 1, tasks 28, nodes 442078, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 16 s
+nodes by span dimension 1..8: 28 784 15394 132200 230795 62864 13 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21013
+hole-stage candidates 45331785, passing the filter (sent to push) 42519
+== p6-304-a24-w11
+done: covers 1, tasks 28, nodes 4014116, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2405 s
+nodes by span dimension 1..8: 28 784 15604 140041 314459 3541200 2000 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 46186
+hole-stage candidates 3106034080, passing the filter (sent to push) 3567592
+== p6-305-a2-w11
+done: covers 1, tasks 28, nodes 444466, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 28 s
+nodes by span dimension 1..8: 28 784 15427 134627 235943 57618 39 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21769
+hole-stage candidates 40675020, passing the filter (sent to push) 36492
+== p6-306-a2-w11
+done: covers 1, tasks 28, nodes 510438, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 60 s
+nodes by span dimension 1..8: 28 784 15379 135177 235155 123874 41 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22712
+hole-stage candidates 95928776, passing the filter (sent to push) 102848
+== p6-307-a12-w11
+done: covers 1, tasks 28, nodes 635679, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 253 s
+nodes by span dimension 1..8: 28 784 15451 136527 247603 234159 1127 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 36571
+hole-stage candidates 185637343, passing the filter (sent to push) 204927
+== p6-308-a24-w11
+done: covers 1, tasks 28, nodes 627765, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 180 s
+nodes by span dimension 1..8: 28 784 15370 136909 256309 217013 1352 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 39174
+hole-stage candidates 163719267, passing the filter (sent to push) 186206
+== p6-309-a300-w11
+done: covers 1, tasks 28, nodes 1380150, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1177 s
+nodes by span dimension 1..8: 28 784 15631 138444 279923 938855 6485 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 61160
+hole-stage candidates 649327774, passing the filter (sent to push) 920452
+== p6-31-a1-w5
+done: covers 1, tasks 28, nodes 386976, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15490 132194 220255 18220 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18016
+hole-stage candidates 10354853, passing the filter (sent to push) 211
+== p6-310-a180-w11
+done: covers 1, tasks 28, nodes 8618913, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4335 s
+nodes by span dimension 1..8: 28 784 15676 140447 371451 8030885 59642 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 59263
+hole-stage candidates 6194064335, passing the filter (sent to push) 8246723
+== p6-311-a12-w11
+done: covers 1, tasks 28, nodes 648654, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 110 s
+nodes by span dimension 1..8: 28 784 15514 139446 262128 229314 1440 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 40866
+hole-stage candidates 176166054, passing the filter (sent to push) 196766
+== p6-312-a30-w11
+done: covers 1, tasks 28, nodes 612003, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 99 s
+nodes by span dimension 1..8: 28 784 15316 133789 255358 205456 1272 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 44010
+hole-stage candidates 154409497, passing the filter (sent to push) 167952
+== p6-313-a1-w5
+done: covers 1, tasks 28, nodes 441825, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 36 s
+nodes by span dimension 1..8: 28 784 15532 133217 224285 67965 14 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19495
+hole-stage candidates 52637110, passing the filter (sent to push) 49253
+== p6-314-a6-w11
+done: covers 1, tasks 28, nodes 385697, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 10 s
+nodes by span dimension 1..8: 28 784 15439 131723 218813 18908 2 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18514
+hole-stage candidates 10869210, passing the filter (sent to push) 418
+== p6-315-a1-w5
+done: covers 1, tasks 28, nodes 393268, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 13 s
+nodes by span dimension 1..8: 28 784 15526 131733 225075 20113 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19843
+hole-stage candidates 11559333, passing the filter (sent to push) 282
+== p6-316-a1-w6
+done: covers 1, tasks 28, nodes 391087, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 11 s
+nodes by span dimension 1..8: 28 784 15466 131809 223661 19326 13 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19200
+hole-stage candidates 11117164, passing the filter (sent to push) 142
+== p6-317-a1-w11
+done: covers 1, tasks 28, nodes 469605, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 40 s
+nodes by span dimension 1..8: 28 784 15556 133326 241031 78852 28 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24197
+hole-stage candidates 59068239, passing the filter (sent to push) 55517
+== p6-318-a2-w11
+done: covers 1, tasks 28, nodes 392610, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 12 s
+nodes by span dimension 1..8: 28 784 15640 131393 224973 19782 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19782
+hole-stage candidates 11298908, passing the filter (sent to push) 10
+== p6-319-a1-w11
+done: covers 1, tasks 28, nodes 439863, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 32 s
+nodes by span dimension 1..8: 28 784 15568 133944 229134 60391 14 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20331
+hole-stage candidates 45585014, passing the filter (sent to push) 40734
+== p6-32-a1-w7
+done: covers 1, tasks 28, nodes 402330, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15556 134465 231140 20354 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20138
+hole-stage candidates 11485074, passing the filter (sent to push) 223
+== p6-320-a1-w11
+done: covers 1, tasks 28, nodes 395062, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 12 s
+nodes by span dimension 1..8: 28 784 15568 132273 226381 20024 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19935
+hole-stage candidates 11242171, passing the filter (sent to push) 94
+== p6-321-a1-w5
+done: covers 1, tasks 28, nodes 398275, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 12 s
+nodes by span dimension 1..8: 28 784 15475 132638 228715 20626 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20532
+hole-stage candidates 11725745, passing the filter (sent to push) 104
+== p6-322-a1-w11
+done: covers 1, tasks 28, nodes 438748, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 31 s
+nodes by span dimension 1..8: 28 784 15592 133922 228594 59811 17 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20423
+hole-stage candidates 44374904, passing the filter (sent to push) 39998
+== p6-323-a1-w5
+done: covers 1, tasks 28, nodes 388975, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 10 s
+nodes by span dimension 1..8: 28 784 15529 130541 222671 19416 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19165
+hole-stage candidates 11025118, passing the filter (sent to push) 261
+== p6-324-a2-w11
+done: covers 1, tasks 28, nodes 503636, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 56 s
+nodes by span dimension 1..8: 28 784 15625 135460 239292 112398 49 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24289
+hole-stage candidates 88628045, passing the filter (sent to push) 89461
+== p6-325-a1-w5
+done: covers 1, tasks 28, nodes 402343, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 12 s
+nodes by span dimension 1..8: 28 784 15628 133779 231032 21082 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20840
+hole-stage candidates 12097082, passing the filter (sent to push) 257
+== p6-326-a1-w11
+done: covers 1, tasks 28, nodes 393391, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 11 s
+nodes by span dimension 1..8: 28 784 15472 130791 226355 19957 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19885
+hole-stage candidates 11410830, passing the filter (sent to push) 77
+== p6-327-a1-w5
+done: covers 1, tasks 28, nodes 390445, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 10 s
+nodes by span dimension 1..8: 28 784 15514 131614 222981 19515 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19444
+hole-stage candidates 11121159, passing the filter (sent to push) 81
+== p6-328-a1-w11
+done: covers 1, tasks 28, nodes 396333, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 14 s
+nodes by span dimension 1..8: 28 784 15391 131632 221610 26880 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19346
+hole-stage candidates 16976088, passing the filter (sent to push) 7658
+== p6-329-a1-w5
+done: covers 1, tasks 28, nodes 390173, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 10 s
+nodes by span dimension 1..8: 28 784 15403 131820 222795 19338 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19338
+hole-stage candidates 11015404, passing the filter (sent to push) 5
+== p6-33-a1-w6
+done: covers 1, tasks 28, nodes 402911, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15604 134253 231436 20798 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20694
+hole-stage candidates 11798123, passing the filter (sent to push) 113
+== p6-330-a1-w5
+done: covers 1, tasks 28, nodes 390132, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 11 s
+nodes by span dimension 1..8: 28 784 15400 131863 223186 18867 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18867
+hole-stage candidates 10723083, passing the filter (sent to push) 4
+== p6-331-a2-w11
+done: covers 1, tasks 28, nodes 469670, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 46 s
+nodes by span dimension 1..8: 28 784 15574 133805 231130 88330 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21661
+hole-stage candidates 67880490, passing the filter (sent to push) 67821
+== p6-332-a4-w11
+done: covers 1, tasks 28, nodes 506625, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 65 s
+nodes by span dimension 1..8: 28 784 15562 133018 229659 127518 56 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23266
+hole-stage candidates 100821034, passing the filter (sent to push) 106055
+== p6-333-a6-w11
+done: covers 1, tasks 28, nodes 530430, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 64 s
+nodes by span dimension 1..8: 28 784 15493 135931 252162 124491 1541 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 31642
+hole-stage candidates 95297357, passing the filter (sent to push) 96344
+== p6-334-a2-w11
+done: covers 1, tasks 28, nodes 437588, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 26 s
+nodes by span dimension 1..8: 28 784 15550 136697 234197 50306 26 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21980
+hole-stage candidates 35853182, passing the filter (sent to push) 28912
+== p6-335-a2-w11
+done: covers 1, tasks 28, nodes 476376, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 43 s
+nodes by span dimension 1..8: 28 784 15553 136462 239462 84053 34 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23739
+hole-stage candidates 63529581, passing the filter (sent to push) 61341
+== p6-336-a6-w11
+done: covers 1, tasks 28, nodes 383876, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 11 s
+nodes by span dimension 1..8: 28 784 15451 130142 217955 19507 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19337
+hole-stage candidates 11054498, passing the filter (sent to push) 189
+== p6-337-a6-w11
+done: covers 1, tasks 28, nodes 715046, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 141 s
+nodes by span dimension 1..8: 28 784 15769 138919 257155 300777 1614 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 32611
+hole-stage candidates 231332713, passing the filter (sent to push) 274922
+== p6-338-a72-w11
+done: covers 1, tasks 28, nodes 1000537, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 253 s
+nodes by span dimension 1..8: 28 784 15658 142256 287841 545558 8412 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 56490
+hole-stage candidates 413473061, passing the filter (sent to push) 518506
+== p6-339-a120-w11
+done: covers 1, tasks 28, nodes 598479, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 99 s
+nodes by span dimension 1..8: 28 784 15271 137139 242116 201774 1367 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 41350
+hole-stage candidates 154047883, passing the filter (sent to push) 165761
+== p6-34-a1-w7
+done: covers 1, tasks 28, nodes 400608, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15610 134185 229819 20181 1 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20181
+hole-stage candidates 11379406, passing the filter (sent to push) 1
+== p6-340-a2160-w11
+done: covers 1, tasks 28, nodes 2780220, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1022 s
+nodes by span dimension 1..8: 28 784 16252 159310 374750 2186059 43037 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 115660
+hole-stage candidates 1694583648, passing the filter (sent to push) 2201473
+== p6-35-a1-w5
+done: covers 1, tasks 28, nodes 399810, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15610 134696 228502 20184 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19959
+hole-stage candidates 11528528, passing the filter (sent to push) 234
+== p6-36-a1-w5
+done: covers 1, tasks 28, nodes 412168, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15592 137267 235321 23167 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21288
+hole-stage candidates 13412188, passing the filter (sent to push) 1909
+== p6-37-a1-w6
+done: covers 1, tasks 28, nodes 397242, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15526 133692 227211 19989 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19150
+hole-stage candidates 11499993, passing the filter (sent to push) 861
+== p6-38-a1-w11
+done: covers 1, tasks 28, nodes 404104, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15544 134018 230621 23098 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20496
+hole-stage candidates 13905956, passing the filter (sent to push) 2645
+== p6-39-a1-w11
+done: covers 1, tasks 28, nodes 403020, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15541 133825 230710 22126 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20412
+hole-stage candidates 13025106, passing the filter (sent to push) 1743
+== p6-4-a1-w6
+done: covers 1, tasks 28, nodes 400827, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15583 133790 230535 20095 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20026
+hole-stage candidates 11341106, passing the filter (sent to push) 82
+== p6-40-a1-w6
+done: covers 1, tasks 28, nodes 388848, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15484 131751 221148 19647 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18767
+hole-stage candidates 11398592, passing the filter (sent to push) 893
+== p6-41-a1-w7
+done: covers 1, tasks 28, nodes 399158, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15577 134223 227711 20823 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19356
+hole-stage candidates 11969421, passing the filter (sent to push) 1507
+== p6-42-a1-w6
+done: covers 1, tasks 28, nodes 439384, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 12 s
+nodes by span dimension 1..8: 28 784 15523 135970 237686 49378 15 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22326
+hole-stage candidates 34701493, passing the filter (sent to push) 27443
+== p6-43-a1-w7
+done: covers 1, tasks 28, nodes 407805, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15541 134634 235045 21761 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21693
+hole-stage candidates 12254037, passing the filter (sent to push) 83
+== p6-44-a2-w5
+done: covers 1, tasks 28, nodes 418950, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15496 136509 242742 23380 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23380
+hole-stage candidates 13214733, passing the filter (sent to push) 11
+== p6-45-a1-w7
+done: covers 1, tasks 28, nodes 405131, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15565 134253 232826 21664 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21664
+hole-stage candidates 12258385, passing the filter (sent to push) 11
+== p6-46-a1-w5
+done: covers 1, tasks 28, nodes 400811, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15574 134952 229204 20257 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20144
+hole-stage candidates 11486402, passing the filter (sent to push) 126
+== p6-47-a1-w6
+done: covers 1, tasks 28, nodes 403125, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15538 133731 231720 21317 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21135
+hole-stage candidates 12078014, passing the filter (sent to push) 191
+== p6-48-a1-w5
+done: covers 1, tasks 28, nodes 399169, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15562 134750 228199 19839 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19561
+hole-stage candidates 11329443, passing the filter (sent to push) 290
+== p6-49-a1-w11
+done: covers 1, tasks 28, nodes 405394, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15577 134207 230868 23918 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20509
+hole-stage candidates 14385802, passing the filter (sent to push) 3467
+== p6-5-a1-w6
+done: covers 1, tasks 28, nodes 403882, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15637 134547 231657 21219 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19440
+hole-stage candidates 12334520, passing the filter (sent to push) 1817
+== p6-50-a1-w7
+done: covers 1, tasks 28, nodes 402452, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15514 133688 231361 21072 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21001
+hole-stage candidates 12014672, passing the filter (sent to push) 78
+== p6-51-a1-w6
+done: covers 1, tasks 28, nodes 403635, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15583 134440 231821 20973 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20973
+hole-stage candidates 11985146, passing the filter (sent to push) 6
+== p6-52-a1-w5
+done: covers 1, tasks 28, nodes 400980, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15550 133700 230921 19987 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19987
+hole-stage candidates 11354973, passing the filter (sent to push) 10
+== p6-53-a1-w7
+done: covers 1, tasks 28, nodes 406530, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15550 133914 234488 21760 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21270
+hole-stage candidates 12421015, passing the filter (sent to push) 505
+== p6-54-a1-w5
+done: covers 1, tasks 28, nodes 403960, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15610 134541 232366 20622 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20622
+hole-stage candidates 11710373, passing the filter (sent to push) 9
+== p6-55-a1-w5
+done: covers 1, tasks 28, nodes 414000, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15580 134519 239829 23249 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23201
+hole-stage candidates 13174362, passing the filter (sent to push) 62
+== p6-56-a1-w6
+done: covers 1, tasks 28, nodes 413427, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15574 135103 239729 22201 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21863
+hole-stage candidates 12668339, passing the filter (sent to push) 355
+== p6-57-a1-w6
+done: covers 1, tasks 28, nodes 452389, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15571 133877 232975 69126 28 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21681
+hole-stage candidates 51824551, passing the filter (sent to push) 48249
+== p6-58-a1-w6
+done: covers 1, tasks 28, nodes 402334, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15541 133731 231464 20775 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20558
+hole-stage candidates 11835489, passing the filter (sent to push) 231
+== p6-59-a1-w7
+done: covers 1, tasks 28, nodes 399211, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15577 134311 226722 21783 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19961
+hole-stage candidates 12549783, passing the filter (sent to push) 1850
+== p6-6-a1-w7
+done: covers 1, tasks 28, nodes 420039, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 7 s
+nodes by span dimension 1..8: 28 784 15634 134016 244234 25329 14 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22126
+hole-stage candidates 15089495, passing the filter (sent to push) 3260
+== p6-60-a4-w11
+done: covers 1, tasks 28, nodes 463331, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 20 s
+nodes by span dimension 1..8: 28 784 15487 133276 234753 78953 50 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22244
+hole-stage candidates 58632225, passing the filter (sent to push) 57715
+== p6-61-a3-w7
+done: covers 1, tasks 28, nodes 459547, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 28 784 15508 138986 233438 70771 32 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22122
+hole-stage candidates 51215288, passing the filter (sent to push) 49500
+== p6-62-a1-w7
+done: covers 1, tasks 28, nodes 390086, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15490 132085 222646 19043 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18935
+hole-stage candidates 10859168, passing the filter (sent to push) 119
+== p6-63-a1-w5
+done: covers 1, tasks 28, nodes 401358, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15571 134970 229816 20176 13 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19807
+hole-stage candidates 11602076, passing the filter (sent to push) 386
+== p6-64-a1-w7
+done: covers 1, tasks 28, nodes 404818, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15580 133730 233597 21092 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20897
+hole-stage candidates 11977764, passing the filter (sent to push) 205
+== p6-65-a1-w5
+done: covers 1, tasks 28, nodes 395106, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15490 132707 226451 19643 3 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19474
+hole-stage candidates 11282919, passing the filter (sent to push) 175
+== p6-66-a2-w11
+done: covers 1, tasks 28, nodes 399757, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15499 134120 228479 20837 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20837
+hole-stage candidates 11839954, passing the filter (sent to push) 10
+== p6-67-a1-w11
+done: covers 1, tasks 28, nodes 446163, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 15 s
+nodes by span dimension 1..8: 28 784 15481 133924 233268 62652 26 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22265
+hole-stage candidates 45059473, passing the filter (sent to push) 41014
+== p6-68-a2-w7
+done: covers 1, tasks 28, nodes 409668, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15547 134168 236491 22635 15 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22025
+hole-stage candidates 12922427, passing the filter (sent to push) 631
+== p6-69-a1-w5
+done: covers 1, tasks 28, nodes 399621, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15481 132208 229341 21762 17 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20629
+hole-stage candidates 12611619, passing the filter (sent to push) 1164
+== p6-7-a2-w7
+done: covers 1, tasks 28, nodes 404924, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15613 133848 232728 21922 1 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20368
+hole-stage candidates 12840926, passing the filter (sent to push) 1577
+== p6-70-a1-w7
+done: covers 1, tasks 28, nodes 454263, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 14 s
+nodes by span dimension 1..8: 28 784 15526 137045 244089 56768 23 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23541
+hole-stage candidates 41352862, passing the filter (sent to push) 33816
+== p6-71-a1-w11
+done: covers 1, tasks 28, nodes 405017, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15571 134053 229883 24688 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20376
+hole-stage candidates 14847775, passing the filter (sent to push) 4380
+== p6-72-a1-w5
+done: covers 1, tasks 28, nodes 399219, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15490 132211 229722 20975 9 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20543
+hole-stage candidates 12131105, passing the filter (sent to push) 448
+== p6-73-a1-w6
+done: covers 1, tasks 28, nodes 454511, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15505 134661 233415 70096 22 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21491
+hole-stage candidates 52693513, passing the filter (sent to push) 49349
+== p6-74-a1-w7
+done: covers 1, tasks 28, nodes 402108, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15541 134821 230823 20106 5 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20027
+hole-stage candidates 11458113, passing the filter (sent to push) 85
+== p6-75-a1-w7
+done: covers 1, tasks 28, nodes 405973, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15526 134378 233555 21695 7 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21541
+hole-stage candidates 12382377, passing the filter (sent to push) 162
+== p6-76-a2-w11
+done: covers 1, tasks 28, nodes 447596, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 13 s
+nodes by span dimension 1..8: 28 784 15493 136346 241018 53910 17 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 24537
+hole-stage candidates 37803840, passing the filter (sent to push) 29861
+== p6-77-a1-w5
+done: covers 1, tasks 28, nodes 412078, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6 s
+nodes by span dimension 1..8: 28 784 15574 137148 235301 23237 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21298
+hole-stage candidates 13611257, passing the filter (sent to push) 1969
+== p6-78-a1-w7
+done: covers 1, tasks 28, nodes 389971, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15490 132184 222611 18868 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 18868
+hole-stage candidates 10794642, passing the filter (sent to push) 6
+== p6-79-a1-w7
+done: covers 1, tasks 28, nodes 398539, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15547 134507 226777 20892 4 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20060
+hole-stage candidates 11939986, passing the filter (sent to push) 850
+== p6-8-a2-w11
+done: covers 1, tasks 28, nodes 414322, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 8 s
+nodes by span dimension 1..8: 28 784 15655 134271 232558 31014 12 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20514
+hole-stage candidates 20226243, passing the filter (sent to push) 10692
+== p6-80-a1-w7
+done: covers 1, tasks 28, nodes 405696, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15571 134533 233037 21735 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21523
+hole-stage candidates 12337827, passing the filter (sent to push) 222
+== p6-81-a1-w7
+done: covers 1, tasks 28, nodes 400387, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15607 134028 229806 20128 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20128
+hole-stage candidates 11381799, passing the filter (sent to push) 6
+== p6-82-a1-w7
+done: covers 1, tasks 28, nodes 401967, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15514 134005 230833 20792 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20610
+hole-stage candidates 11893837, passing the filter (sent to push) 198
+== p6-83-a1-w6
+done: covers 1, tasks 28, nodes 407548, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15556 134219 235118 21835 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21602
+hole-stage candidates 12426700, passing the filter (sent to push) 243
+== p6-84-a1-w5
+done: covers 1, tasks 28, nodes 403029, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4 s
+nodes by span dimension 1..8: 28 784 15598 134131 231913 20569 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20569
+hole-stage candidates 11603333, passing the filter (sent to push) 6
+== p6-85-a2-w11
+done: covers 1, tasks 28, nodes 395282, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15586 131906 226044 20926 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20926
+hole-stage candidates 11858021, passing the filter (sent to push) 8
+== p6-86-a1-w6
+done: covers 1, tasks 28, nodes 405997, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15550 133890 234152 21582 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21413
+hole-stage candidates 12246964, passing the filter (sent to push) 183
+== p6-87-a1-w6
+done: covers 1, tasks 28, nodes 404275, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15583 134261 232801 20807 11 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20807
+hole-stage candidates 11684941, passing the filter (sent to push) 11
+== p6-88-a1-w5
+done: covers 1, tasks 28, nodes 398614, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15535 134671 227634 19956 6 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 19705
+hole-stage candidates 11357242, passing the filter (sent to push) 261
+== p6-89-a1-w7
+done: covers 1, tasks 28, nodes 403022, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5 s
+nodes by span dimension 1..8: 28 784 15568 133393 232521 20720 8 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20561
+hole-stage candidates 11861445, passing the filter (sent to push) 169
+== p6-9-a2-w11
+done: covers 1, tasks 28, nodes 462978, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 20 s
+nodes by span dimension 1..8: 28 784 15655 135320 239144 72011 36 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22588
+hole-stage candidates 53240127, passing the filter (sent to push) 50257
+== p6-90-a36-w11
+done: covers 1, tasks 28, nodes 1353860, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 222 s
+nodes by span dimension 1..8: 28 784 15415 136834 268823 924931 7045 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 51979
+hole-stage candidates 676086858, passing the filter (sent to push) 913315
+== p6-91-a2-w11
+done: covers 1, tasks 28, nodes 449847, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15481 134269 235167 64089 29 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 20885
+hole-stage candidates 47811630, passing the filter (sent to push) 43894
+== p6-92-a2-w11
+done: covers 1, tasks 28, nodes 448257, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 14 s
+nodes by span dimension 1..8: 28 784 15598 135529 238119 58182 17 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21458
+hole-stage candidates 41952337, passing the filter (sent to push) 37340
+== p6-93-a1-w11
+done: covers 1, tasks 28, nodes 456800, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 17 s
+nodes by span dimension 1..8: 28 784 15544 134549 237509 68367 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21641
+hole-stage candidates 50118438, passing the filter (sent to push) 47574
+== p6-94-a1-w7
+done: covers 1, tasks 28, nodes 457492, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 16 s
+nodes by span dimension 1..8: 28 784 15607 135360 241677 64002 34 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22352
+hole-stage candidates 47686037, passing the filter (sent to push) 42312
+== p6-95-a1-w7
+done: covers 1, tasks 28, nodes 460759, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 15 s
+nodes by span dimension 1..8: 28 784 15556 136579 245835 61948 29 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 22892
+hole-stage candidates 44963010, passing the filter (sent to push) 39732
+== p6-96-a6-w11
+done: covers 1, tasks 28, nodes 559061, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 36 s
+nodes by span dimension 1..8: 28 784 15586 139505 261710 140365 1083 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 39416
+hole-stage candidates 102930600, passing the filter (sent to push) 106394
+== p6-97-a1-w5
+done: covers 1, tasks 28, nodes 484447, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 23 s
+nodes by span dimension 1..8: 28 784 15538 136950 243755 87347 45 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 23460
+hole-stage candidates 66911389, passing the filter (sent to push) 64880
+== p6-98-a6-w11
+done: covers 1, tasks 28, nodes 565604, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 41 s
+nodes by span dimension 1..8: 28 784 15562 136130 250550 161350 1200 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 38097
+hole-stage candidates 118663498, passing the filter (sent to push) 129192
+== p6-99-a1-w11
+done: covers 1, tasks 28, nodes 445441, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 14 s
+nodes by span dimension 1..8: 28 784 15556 134788 236220 58046 19 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 21573
+hole-stage candidates 42300094, passing the filter (sent to push) 37018

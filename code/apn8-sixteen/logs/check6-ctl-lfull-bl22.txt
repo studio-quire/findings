@@ -1,0 +1,4 @@
+SUMMARY runs\known\apn_8bit.txt ext controls 20 refound 20 notfound 0 fail 0 extra 0 nonapn 0 reps 16
+REPS ext 9:1 13:1 23:1 37:1 40:1 46:1 59:1 60:1 69:1 76:2 96:1 101:1 104:1 105:1 112:3 123:2
+SUMMARY runs\known\apn_8bit.txt nonext controls 20 refound 20 notfound 0 fail 0 extra 0 nonapn 0 reps 20
+REPS nonext 135:1 138:1 139:1 160:1 163:1 185:1 188:1 191:1 213:1 216:1 217:1 238:1 241:1 263:1 266:1 269:1 291:1 294:1 316:1 319:1

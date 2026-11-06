@@ -1,0 +1,51 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 1, tasks 28, threads 20, split 5, hole stage affine tree, profiling a frontier range (counts partial)
+phase 1 done 1 s: frontier 946 items at dim 5
+profiling frontier items [0, 40)
+  frontier p6-101-a24-w11 946
+frontier 1/40  2 s  nodes 139  solutions 0  full 0
+frontier 2/40  2 s  nodes 280  solutions 0  full 0
+frontier 3/40  2 s  nodes 419  solutions 0  full 0
+frontier 4/40  2 s  nodes 559  solutions 0  full 0
+frontier 5/40  2 s  nodes 763  solutions 0  full 0
+frontier 6/40  2 s  nodes 959  solutions 0  full 0
+frontier 7/40  2 s  nodes 1165  solutions 0  full 0
+frontier 8/40  2 s  nodes 1349  solutions 0  full 0
+frontier 9/40  2 s  nodes 1545  solutions 0  full 0
+frontier 10/40  2 s  nodes 1824  solutions 0  full 0
+frontier 11/40  2 s  nodes 2032  solutions 0  full 0
+frontier 12/40  2 s  nodes 2315  solutions 0  full 0
+frontier 13/40  2 s  nodes 2512  solutions 0  full 0
+frontier 14/40  2 s  nodes 2835  solutions 0  full 0
+frontier 15/40  2 s  nodes 3159  solutions 0  full 0
+frontier 16/40  2 s  nodes 3442  solutions 0  full 0
+frontier 17/40  2 s  nodes 3720  solutions 0  full 0
+frontier 18/40  2 s  nodes 4002  solutions 0  full 0
+frontier 19/40  2 s  nodes 4324  solutions 0  full 0
+frontier 20/40  2 s  nodes 4502  solutions 0  full 0
+frontier 21/40  2 s  nodes 4719  solutions 0  full 0
+frontier 22/40  2 s  nodes 5124  solutions 0  full 0
+frontier 23/40  2 s  nodes 5321  solutions 0  full 0
+frontier 24/40  2 s  nodes 5518  solutions 0  full 0
+frontier 25/40  2 s  nodes 5725  solutions 0  full 0
+frontier 26/40  2 s  nodes 5886  solutions 0  full 0
+frontier 27/40  2 s  nodes 6047  solutions 0  full 0
+frontier 28/40  2 s  nodes 6242  solutions 0  full 0
+frontier 29/40  2 s  nodes 6456  solutions 0  full 0
+frontier 30/40  2 s  nodes 6782  solutions 0  full 0
+frontier 31/40  2 s  nodes 6952  solutions 0  full 0
+frontier 32/40  2 s  nodes 7166  solutions 0  full 0
+frontier 33/40  2 s  nodes 7361  solutions 0  full 0
+frontier 34/40  2 s  nodes 7639  solutions 0  full 0
+frontier 35/40  2 s  nodes 7938  solutions 0  full 0
+frontier 36/40  2 s  nodes 8108  solutions 0  full 0
+frontier 37/40  2 s  nodes 8400  solutions 0  full 0
+frontier 38/40  2 s  nodes 8693  solutions 0  full 0
+frontier 39/40  2 s  nodes 9048  solutions 0  full 0
+frontier 40/40  2 s  nodes 9347  solutions 0  full 0
+phase 2: 40 items, 1.21 s, 0.604 s per item per thread
+done: covers 1, tasks 28, nodes 9347, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 s
+nodes by span dimension 1..8: 0 0 0 0 40 9277 30 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 44545
+hole-stage candidates 6487289, passing the filter (sent to push) 9601
+# exit 0

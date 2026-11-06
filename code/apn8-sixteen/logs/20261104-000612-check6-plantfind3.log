@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\six_check_pf.exe plantfind runs\known\new_apns.txt 2 100000000 1 runs\check6\plants-new-c1.txt > runs\check6\plantfind-new-c1.out 2>&1 & runs\bin\six_check_pf.exe plantfind runs\known\blp22_8bit.txt 2 100000000 1 runs\check6\plants-blp-c1.txt > runs\check6\plantfind-blp-c1.out 2>&1"

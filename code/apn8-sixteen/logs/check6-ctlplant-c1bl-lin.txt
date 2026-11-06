@@ -1,0 +1,80 @@
+FOUND plant 0 line 15 k 3 d0 7 -> rep 119 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 86563585107, lin nodes by dim 1 29 803 15726 137400 267994 130340 2304 1  [74 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 1 line 16 k 3 d0 7 -> rep 124 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 102978341389, lin nodes by dim 1 29 813 16301 143054 270373 316893 2701 1  [131 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 2 line 12190 k 2 d0 7 -> rep 15 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 142420409321, lin nodes by dim 1 29 813 15843 141288 279091 181799 4354 1  [120 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 3 line 12191 k 2 d0 7 -> rep 104 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 143611474808, lin nodes by dim 1 28 784 15830 143505 272300 293553 4114 1  [107 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 4 line 12192 k 2 d0 7 -> rep 85 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 151258239582, lin nodes by dim 1 28 800 15988 141707 273107 196306 4649 1  [92 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 5 line 12193 k 2 d0 7 -> rep 85 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 151258239582, lin nodes by dim 1 28 798 15736 141191 272964 196665 4649 1  [89 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 6 line 12194 k 2 d0 7 -> rep 119 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 86563585107, lin nodes by dim 1 28 808 16027 140071 268406 130351 2304 1  [62 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 7 line 12195 k 2 d0 7 -> rep 26 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 139628671770, lin nodes by dim 1 29 785 15925 139028 266265 197878 4370 1  [98 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 8 line 12196 k 2 d0 7 -> rep 30 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 154657727956, lin nodes by dim 1 28 798 15711 143004 278256 191737 4449 1  [117 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 9 line 12197 k 2 d0 7 -> rep 12 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 213985624538, lin nodes by dim 1 29 799 15621 140083 286057 1053816 13788 1  [324 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 10 line 12198 k 2 d0 7 -> rep 128 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 164689990680, lin nodes by dim 1 29 806 15588 138844 272052 280521 5602 1  [143 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 11 line 12199 k 2 d0 7 -> rep 26 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 139628671770, lin nodes by dim 1 29 785 15943 139021 269480 198475 4370 1  [104 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 12 line 12200 k 2 d0 7 -> rep 126 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 161119007090, lin nodes by dim 1 28 802 15758 141368 287719 288476 7773 1  [133 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 13 line 12201 k 2 d0 7 -> rep 26 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 139628671770, lin nodes by dim 1 29 785 15896 139182 268023 198338 4370 1  [96 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 14 line 12202 k 2 d0 7 -> rep 128 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 164689990680, lin nodes by dim 1 28 784 15525 139372 272997 280823 5602 1  [133 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 15 line 12203 k 2 d0 7 -> rep 89 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 160599090495, lin nodes by dim 1 28 784 15727 141234 280238 404061 6120 1  [144 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 16 line 12204 k 2 d0 7 -> rep 107 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 149701994766, lin nodes by dim 1 28 784 15575 139181 277683 286922 9635 1  [395 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 17 line 12205 k 2 d0 7 -> rep 23 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 131936480796, lin nodes by dim 1 29 785 15611 140428 261121 176770 4065 1  [80 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 18 line 12206 k 2 d0 7 -> rep 17 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 143504461330, lin nodes by dim 1 29 785 15700 136528 261949 248302 4196 1  [94 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 19 line 12207 k 2 d0 7 -> rep 86 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 171057810033, lin nodes by dim 1 28 801 16085 145630 291690 222537 5215 1  [105 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 20 line 12208 k 2 d0 7 -> rep 119 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 86563585107, lin nodes by dim 1 28 784 15882 139913 268623 130343 2304 1  [60 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 21 line 12209 k 2 d0 7 -> rep 30 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 154657727956, lin nodes by dim 1 29 785 15886 140993 273165 190428 4449 1  [93 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 22 line 12210 k 2 d0 7 -> rep 15 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 142420409321, lin nodes by dim 1 29 809 16038 140638 277279 180955 4354 1  [92 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 23 line 12211 k 2 d0 7 -> rep 15 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 142420409321, lin nodes by dim 1 28 804 15797 138957 276895 181494 4354 1  [92 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 24 line 12212 k 2 d0 7 -> rep 27 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 138500004521, lin nodes by dim 1 28 802 15975 137969 267088 184544 4111 1  [96 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 25 line 12213 k 2 d0 7 -> rep 26 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 139628671770, lin nodes by dim 1 29 785 15579 139755 266754 197928 4370 1  [100 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 26 line 12214 k 2 d0 7 -> rep 20 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 151949916394, lin nodes by dim 1 28 805 15899 139129 272277 304851 8282 1  [141 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 27 line 12215 k 2 d0 7 -> rep 20 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 151949916394, lin nodes by dim 1 29 785 16043 137116 267634 303349 8282 1  [126 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 28 line 12216 k 2 d0 7 -> rep 88 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 133813517573, lin nodes by dim 1 29 805 15999 139946 261943 226086 4066 1  [111 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 29 line 12217 k 2 d0 7 -> rep 27 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 138500004521, lin nodes by dim 1 29 803 15846 137530 266777 184925 4111 1  [98 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 30 line 12218 k 2 d0 7 -> rep 30 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 154657727956, lin nodes by dim 1 28 784 15795 142612 273800 190430 4449 1  [109 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 31 line 12219 k 2 d0 7 -> rep 23 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 131936480796, lin nodes by dim 1 29 807 15820 139524 259169 176075 4065 1  [97 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 32 line 12221 k 2 d0 7 -> rep 88 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 133813517573, lin nodes by dim 1 28 808 16049 140028 262080 226084 4066 1  [86 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 33 line 12222 k 2 d0 7 -> rep 96 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 179574021628, lin nodes by dim 1 28 803 15539 141298 279739 543233 7417 1  [165 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 34 line 12223 k 2 d0 7 -> rep 23 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 131936480796, lin nodes by dim 1 29 805 16138 140736 260220 176097 4065 1  [87 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 35 line 12224 k 2 d0 7 -> rep 12 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 213985624538, lin nodes by dim 1 28 799 15975 142501 289487 1055068 13788 1  [230 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 36 line 12225 k 2 d0 7 -> rep 85 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 151258239582, lin nodes by dim 1 28 796 16379 143811 276102 197554 4649 1  [99 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 37 line 12226 k 2 d0 7 -> rep 27 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 138500004521, lin nodes by dim 1 29 785 15560 136037 265739 184347 4111 1  [104 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 38 line 12227 k 2 d0 7 -> rep 27 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 138500004521, lin nodes by dim 1 28 784 15795 139306 268791 185073 4111 1  [97 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0
+FOUND plant 39 line 12228 k 2 d0 7 -> rep 88 (spr): 1 spaces (1 APN); tries in D 0, lin D-phase candidates 133813517573, lin nodes by dim 1 28 803 16036 140165 262826 226091 4066 1  [111 s]
+SUMMARY lin controls 1 refound 1 notfound 0 fail 0 extra 0

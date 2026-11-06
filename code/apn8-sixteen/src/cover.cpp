@@ -17,6 +17,19 @@
 // tasks but stops at every node with all solids radicals, holes left and span dimension D, keeping its span as a
 // frontier item; phase 2 runs the frontier items in parallel. Same tree, same counts (a frontier node is counted
 // once, in phase 2).
+//
+// Hole stage by a linear filter (2026-11-04, for six, whose hole-stage nodes cost ~0.7 s each, ~0.7 us per candidate
+// in push): for a covered point y (in the radical of some s0 in S), a legal new B must have B(y,.) outside
+// F_y = {s(y,.) : s in S}, else y lies in the radicals of both s0 and some B + s. So instead of the lines through p
+// times their 13,888 forms, Gray-code over the 21-dim space {B : B(p,.) = 0}, keep B(y,.) for the covered y up to
+// date, and send only what passes F_y for every covered y to push, unchanged. Every form push would accept is in that
+// space (radical a line through p) and passes the filter (a necessary condition), so the children are the same set
+// and the counts identical; only their order differs. In six only ~1 of 2M candidates per node passes, so the
+// default (holes_tree) solves the filter as a system of "psi_y(m) != 0" constraints over affine subspaces instead
+// of enumerating it. --gray runs the enumeration, --old the original lines x forms.
+//
+// Options after the positional ones: --old | --gray; --only TAG (just that cover); --frange A B (profiling: phase 1
+// explores nothing below the solid stage except to collect the frontier, phase 2 runs frontier items [A, B) only).
 #include <cstdio>
 #include <cstdlib>
 #include <cstdint>
@@ -166,6 +179,9 @@ struct Search {
     long long nodes = 0, sols = 0, fulls = 0, nonapn = 0, nears = 0, bydim[9] = {0};
     int split = -1;                       // phase 1: stop at hole-level nodes of this dim
     std::vector<std::vector<u64>>* frontier = nullptr;
+    int hmode = 0;                        // hole stage: 0 affine tree, 1 Gray code + filter, 2 old (lines x forms)
+    bool p1only = false;                  // p1only: phase 1 skips hole-stage nodes off the split dimension
+    long long cand = 0, passed = 0;       // hole-stage candidates enumerated, and those reaching push
 
     // -2 reject, -1 ok (bent or rank 6 in holes), s >= 0 rank 4 with radical solid s
     int classify(u64 B, Rad& r) const {
@@ -247,8 +263,11 @@ struct Search {
             }
             return;
         }
+        if (p1only) return;
         int p = -1;
         for (int x = 1; x < 256; x++) if (!has(cov, x)) { p = x; break; }
+        if (hmode == 0) { holes_tree(p); return; }
+        if (hmode == 1) { holes_lin(p); return; }
         // every uncovered point is a hole now (all solids are radicals)
         for (int q = 1; q < 256; q++) {
             int t = p ^ q;
@@ -257,14 +276,199 @@ struct Search {
             annihilator(lb, 2, u);
             for (auto& d : D6) {
                 u64 B = form_on(u, 6, d);
+                cand++; passed++;
                 if (push(B, sc, sn, sd)) { dfs(); pop(sc, sn, sd); }
             }
         }
     }
+
+    // rows of B at every point: t[y] = B(y, .) as a byte
+    static void rowtab(u64 B, unsigned char* t) {
+        t[0] = 0; int x = 0, v = 0;
+        for (unsigned g = 1; g < 256; g++) { int a = _tzcnt_u32(g); x ^= 1 << a; v ^= (B >> (8 * a)) & 255; t[x] = (unsigned char)v; }
+    }
+
+    void holes_lin(int p) {
+        alignas(32) unsigned char ys[256];
+        int L = 0;
+        for (int y = 1; y < 256; y++) if (has(cov, y)) ys[L++] = (unsigned char)y;
+        int Lp = (L + 31) & ~31;
+        std::vector<PS> F(L, PS{{0, 0, 0, 0}});
+        unsigned char t[256];
+        for (int i = 0; i < nel; i++) {
+            rowtab(elems[i], t);
+            for (int j = 0; j < L; j++) add(F[j], t[ys[j]]);
+        }
+        int u[7]; int pb[1] = {p};
+        annihilator(pb, 1, u);
+        u64 E[21];
+        std::vector<unsigned char> RK(21 * Lp, 0);
+        int k = 0;
+        for (int i = 0; i < 7; i++) for (int j = i + 1; j < 7; j++, k++) {
+            u64 B = 0;
+            for (int a = 0; a < 8; a++) {
+                int row = (par(u[i] & (1 << a)) ? u[j] : 0) ^ (par(u[j] & (1 << a)) ? u[i] : 0);
+                B |= (u64)(row & 255) << (8 * a);
+            }
+            E[k] = B;
+            unsigned char* rk = &RK[k * Lp];
+            for (int jj = 0; jj < L; jj++) { int y = ys[jj]; rk[jj] = (unsigned char)((par(u[i] & y) ? u[j] : 0) ^ (par(u[j] & y) ? u[i] : 0)); }
+        }
+        alignas(32) unsigned char R[256] = {0};
+        u64 B = 0;
+        PS sc; int sn, sd;
+        for (u32 m = 1; m < (1u << 21); m++) {
+            int b = _tzcnt_u32(m);
+            B ^= E[b];
+            const unsigned char* rk = &RK[b * Lp];
+            for (int jj = 0; jj < Lp; jj++) R[jj] ^= rk[jj];
+            cand++;
+            int jj = 0;
+            for (; jj < L; jj++) if (has(F[jj], R[jj])) break;
+            if (jj < L) continue;
+            passed++;
+            if (push(B, sc, sn, sd)) { dfs(); pop(sc, sn, sd); }
+        }
+    }
+
+    // The same filter solved instead of enumerated. Coordinates m in F_2^21 over the basis E_k = u_i ^ u_j of
+    // {B : B(p,.) = 0}. Covered y gives psi_y(m) = B(y,.) reduced mod F_y (a linear map; bad iff 0). A tree node is
+    // an affine space a + <K> and the constraints still live on it. Per constraint: v = psi(a), I = psi(<K>);
+    // v not in I: satisfied on the whole space, dropped; I = 0 (so v = 0): nothing here passes; else rank rho of I.
+    // Branch on a least-rho constraint: <K> = <P> + ker, with psi injective on <P>; the cosets a + c + ker with
+    // psi(a + c) != 0 (2^rho - 1 of them) partition the passing part of a + <K>, and on each that constraint is
+    // satisfied. Leaves (dim 0, every constraint checked) are exactly the m the Gray loop would pass, in another order.
+    struct Tree {
+        const unsigned char* T; int L;   // T[j * 384 + 128 c + x]: psi_j on bits 7c..7c+6 of m
+        u64 E[21];
+        long long tnodes = 0;
+        unsigned psi(int j, u32 m) const { const unsigned char* t = T + j * 384; return t[m & 127] ^ t[128 + (m >> 7 & 127)] ^ t[256 + (m >> 14)]; }
+    };
+
+    void tree_leaf(const Tree& tr, u32 m) {
+        u64 B = 0;
+        for (u32 x = m; x; x &= x - 1) B ^= tr.E[_tzcnt_u32(x)];
+        passed++;
+        PS sc; int sn, sd;
+        if (push(B, sc, sn, sd)) { dfs(); pop(sc, sn, sd); }
+    }
+
+    void tree_solve(Tree& tr, u32 a, const u32* K, int k, const unsigned char* live, int n) {
+        tr.tnodes++;
+        if (k == 0) {
+            for (int i = 0; i < n; i++) if (!tr.psi(live[i], a)) return;
+            tree_leaf(tr, a);
+            return;
+        }
+        unsigned char nl[256]; int nn = 0;
+        int best = -1, brho = 99;
+        unsigned w[21];
+        for (int i = 0; i < n; i++) {
+            int j = live[i];
+            if (brho == 1) { nl[nn++] = (unsigned char)j; continue; }   // a forced move is found: keep the rest unchecked
+            unsigned v = tr.psi(j, a);
+            unsigned piv[8] = {0}; int rho = 0;
+            for (int t = 0; t < k; t++) {
+                unsigned x = tr.psi(j, K[t]);
+                for (int b = 7; b >= 0 && x; b--) if (x >> b & 1) { if (piv[b]) x ^= piv[b]; else { piv[b] = x; rho++; break; } }
+            }
+            for (int b = 7; b >= 0 && v; b--) if ((v >> b & 1) && piv[b]) v ^= piv[b];
+            if (v) continue;                 // psi != 0 on all of a + <K>
+            if (rho == 0) return;            // psi = 0 on all of it
+            nl[nn++] = (unsigned char)j;
+            if (rho < brho) { brho = rho; best = nn - 1; }
+        }
+        if (nn == 0) {                       // nothing left to fail: every point passes
+            for (u32 g = 0; g < (1u << k); g++) {
+                u32 m = a;
+                for (int t = 0; t < k; t++) if (g >> t & 1) m ^= K[t];
+                tree_leaf(tr, m);
+            }
+            return;
+        }
+        int j = nl[best];
+        nl[best] = nl[--nn];
+        // split <K> into P (independent images under psi_j) and ker
+        unsigned pimg[8]; u32 pvec[8]; int np = 0;
+        u32 ker[21]; int nk = 0;
+        for (int t = 0; t < k; t++) {
+            unsigned x = tr.psi(j, K[t]); u32 vec = K[t];
+            for (int q = 0; q < np && x; q++) {
+                int hb = 31 - (int)_lzcnt_u32(pimg[q]);
+                if (x >> hb & 1) { x ^= pimg[q]; vec ^= pvec[q]; }
+            }
+            if (x) { pimg[np] = x; pvec[np] = vec; np++;
+                     // keep pivots with distinct top bits, reduced against the new one
+                     int hb = 31 - (int)_lzcnt_u32(x);
+                     for (int q = 0; q < np - 1; q++) if (pimg[q] >> hb & 1) { pimg[q] ^= x; pvec[q] ^= vec; }
+            } else ker[nk++] = vec;
+        }
+        for (u32 g = 0; g < (1u << np); g++) {
+            u32 m = a;
+            for (int q = 0; q < np; q++) if (g >> q & 1) m ^= pvec[q];
+            if (!tr.psi(j, m)) continue;
+            tree_solve(tr, m, ker, nk, nl, nn);
+        }
+    }
+
+    void holes_tree(int p) {
+        unsigned char ys[256];
+        int L = 0;
+        for (int y = 1; y < 256; y++) if (has(cov, y)) ys[L++] = (unsigned char)y;
+        int u[7]; int pb[1] = {p};
+        annihilator(pb, 1, u);
+        Tree tr; tr.L = L;
+        int k = 0;
+        for (int i = 0; i < 7; i++) for (int j = i + 1; j < 7; j++, k++) {
+            u64 B = 0;
+            for (int a = 0; a < 8; a++) {
+                int row = (par(u[i] & (1 << a)) ? u[j] : 0) ^ (par(u[j] & (1 << a)) ? u[i] : 0);
+                B |= (u64)(row & 255) << (8 * a);
+            }
+            tr.E[k] = B;
+        }
+        std::vector<unsigned char> T((size_t)L * 384);
+        for (int jj = 0; jj < L; jj++) {
+            int y = ys[jj];
+            unsigned piv[8] = {0};             // F_y = span of the generators' rows at y, echelon by top bit
+            for (int g = 0; g < dim; g++) {
+                u64 G = elems[1 << g]; unsigned x = 0;
+                for (int a = 0; a < 8; a++) if (y >> a & 1) x ^= (G >> (8 * a)) & 255;
+                for (int b = 7; b >= 0 && x; b--) if (x >> b & 1) { if (piv[b]) x ^= piv[b]; else { piv[b] = x; break; } }
+            }
+            unsigned char M[21];
+            for (int kk = 0; kk < 21; kk++) {
+                unsigned x = 0;
+                for (int a = 0; a < 8; a++) if (y >> a & 1) x ^= (tr.E[kk] >> (8 * a)) & 255;
+                for (int b = 7; b >= 0; b--) if ((x >> b & 1) && piv[b]) x ^= piv[b];
+                M[kk] = (unsigned char)x;
+            }
+            unsigned char* t = &T[(size_t)jj * 384];
+            for (int c = 0; c < 3; c++) {
+                t[128 * c] = 0;
+                for (int x = 1; x < 128; x++) t[128 * c + x] = t[128 * c + (x & (x - 1))] ^ M[7 * c + _tzcnt_u32(x)];
+            }
+        }
+        tr.T = T.data();
+        u32 K[21]; for (int t = 0; t < 21; t++) K[t] = 1u << t;
+        unsigned char live[256]; for (int jj = 0; jj < L; jj++) live[jj] = (unsigned char)jj;
+        tree_solve(tr, 0, K, 21, live, L);
+        cand += tr.tnodes;
+    }
 };
 
 int main(int argc, char** argv) {
-    if (argc < 2) { fprintf(stderr, "usage: cover <input> [maxlines|-1] [splitdim]\n"); return 2; }
+    if (argc < 2) { fprintf(stderr, "usage: cover <input> [maxlines|-1] [splitdim] [--old|--gray] [--only TAG] [--frange A B]\n"); return 2; }
+    std::vector<char*> pos; int hm = 0; const char* only = nullptr; long fa = -1, fb = -1;
+    for (int i = 1; i < argc; i++) {
+        if (!strcmp(argv[i], "--old")) hm = 2;
+        else if (!strcmp(argv[i], "--gray")) hm = 1;
+        else if (!strcmp(argv[i], "--only") && i + 1 < argc) only = argv[++i];
+        else if (!strcmp(argv[i], "--frange") && i + 2 < argc) { fa = atol(argv[i + 1]); fb = atol(argv[i + 2]); i += 2; }
+        else pos.push_back(argv[i]);
+    }
+    argc = (int)pos.size() + 1;
+    for (int i = 0; i < (int)pos.size(); i++) argv[i + 1] = pos[i];
     long maxl = argc > 2 ? atol(argv[2]) : -1;
     D4 = alt_nondeg(4); D6 = alt_nondeg(6);
     printf("nondegenerate alternating forms: dim 4 %zu (expect 28), dim 6 %zu (expect 13888)\n", D4.size(), D6.size());
@@ -275,7 +479,7 @@ int main(int argc, char** argv) {
     while (fgets(line, sizeof line, f)) {
         if (maxl >= 0 && (long)cv.size() >= maxl) break;
         Cover c;
-        if (parse(line, c)) cv.push_back(std::move(c));
+        if (parse(line, c) && (!only || c.tag == only)) cv.push_back(std::move(c));
     }
     fclose(f);
     // tasks: (cover, first form on solid 0) without seeds; (cover, -1) with seeds
@@ -285,20 +489,23 @@ int main(int argc, char** argv) {
         else tasks.push_back({i, -1});
     }
     int splitdim = argc > 3 ? atoi(argv[3]) : -1;
-    printf("covers %zu, tasks %zu, threads %d, split %d\n", cv.size(), tasks.size(), omp_get_max_threads(), splitdim); fflush(stdout);
-    std::atomic<long long> nodes(0), sols(0), fulls(0), nonapn(0), badseed(0), done(0), nears(0), bydim[9];
+    bool profile = fa >= 0;
+    if (profile && splitdim < 0) { fprintf(stderr, "--frange needs a split dimension\n"); return 2; }
+    printf("covers %zu, tasks %zu, threads %d, split %d, hole stage %s%s\n", cv.size(), tasks.size(), omp_get_max_threads(), splitdim,
+           hm == 2 ? "old (lines x forms)" : hm == 1 ? "Gray code + filter" : "affine tree", profile ? ", profiling a frontier range (counts partial)" : ""); fflush(stdout);
+    std::atomic<long long> nodes(0), sols(0), fulls(0), nonapn(0), badseed(0), done(0), nears(0), bydim[9], cand(0), passed(0);
     for (auto& b : bydim) b = 0;
     double t0 = omp_get_wtime();
     std::vector<std::pair<int, std::vector<u64>>> front;   // (cover, span generators)
     auto add_counts = [&](const Search& se) {
-        nodes += se.nodes; sols += se.sols; fulls += se.fulls; nonapn += se.nonapn; nears += se.nears;
+        nodes += se.nodes; sols += se.sols; fulls += se.fulls; nonapn += se.nonapn; nears += se.nears; cand += se.cand; passed += se.passed;
         for (int k = 0; k < 9; k++) bydim[k] += se.bydim[k];
     };
     #pragma omp parallel for schedule(dynamic, 1)
     for (long t = 0; t < (long)tasks.size(); t++) {
         Search se; se.C = &cv[tasks[t].first]; se.elems[0] = 0;
         std::vector<std::vector<u64>> fr;
-        se.split = splitdim; se.frontier = &fr;
+        se.split = splitdim; se.frontier = &fr; se.hmode = hm; se.p1only = profile;
         bool ok = true;
         PS sc; int sn, sd;
         for (u64 B : se.C->seeds) if (!se.push(B, sc, sn, sd)) { ok = false; break; }
@@ -323,13 +530,20 @@ int main(int argc, char** argv) {
         std::vector<int> per(cv.size(), 0);
         for (auto& f : front) per[f.first]++;
         printf("phase 1 done %.0f s: frontier %zu items at dim %d\n", omp_get_wtime() - t0, front.size(), splitdim);
+        if (profile) {
+            fb = std::min<long>(fb, (long)front.size()); fa = std::min(fa, fb);
+            front = std::vector<std::pair<int, std::vector<u64>>>(front.begin() + fa, front.begin() + fb);
+            nodes = 0; for (auto& b : bydim) b = 0; cand = 0; passed = 0;
+            printf("profiling frontier items [%ld, %ld)\n", fa, fb);
+        }
+        double t1 = omp_get_wtime();
         for (size_t i = 0; i < cv.size(); i++) if (per[i] >= 100) printf("  frontier %s %d\n", cv[i].tag.c_str(), per[i]);
         fflush(stdout);
         std::atomic<long long> fdone(0);
         long long step = std::max<long long>(1, (long long)front.size() / 200);
         #pragma omp parallel for schedule(dynamic, 1)
         for (long t = 0; t < (long)front.size(); t++) {
-            Search se; se.C = &cv[front[t].first]; se.elems[0] = 0;
+            Search se; se.C = &cv[front[t].first]; se.elems[0] = 0; se.hmode = hm;
             PS sc; int sn, sd;
             for (u64 B : front[t].second) if (!se.push(B, sc, sn, sd)) { fprintf(stderr, "frontier push failed\n"); exit(1); }
             se.dfs();
@@ -341,11 +555,14 @@ int main(int argc, char** argv) {
                 fflush(stdout);
             }
         }
+        if (profile) printf("phase 2: %zu items, %.2f s, %.3f s per item per thread\n", front.size(), omp_get_wtime() - t1,
+                            front.empty() ? 0.0 : (omp_get_wtime() - t1) * omp_get_max_threads() / front.size());
     }
     printf("done: covers %zu, tasks %zu, nodes %lld, solutions %lld, full (dim < 8) %lld, dim 8 non-APN %lld, bad seeds %lld, %.0f s\n",
            cv.size(), tasks.size(), nodes.load(), sols.load(), fulls.load(), nonapn.load(), badseed.load(), omp_get_wtime() - t0);
     printf("nodes by span dimension 1..8:");
     for (int k = 1; k < 9; k++) printf(" %lld", bydim[k].load());
     printf("\nnear misses (every solid a radical, holes uncovered, below dim 8 or not): %lld\n", nears.load());
+    printf("hole-stage candidates %lld, passing the filter (sent to push) %lld\n", cand.load(), passed.load());
     return 0;
 }

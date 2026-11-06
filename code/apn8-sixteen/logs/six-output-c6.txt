@@ -1,0 +1,229 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 43, tasks 1204, threads 20, split 5, hole stage affine tree
+phase 1 done 350 s: frontier 18789 items at dim 5
+  frontier p6-264-a2-w11 317
+  frontier p6-275-a1-w7 473
+  frontier p6-278-a18-w11 885
+  frontier p6-279-a2-w11 294
+  frontier p6-280-a6-w11 1004
+  frontier p6-281-a12-w11 969
+  frontier p6-282-a2-w11 424
+  frontier p6-283-a6-w11 1298
+  frontier p6-284-a12-w11 2145
+  frontier p6-285-a1-w11 429
+  frontier p6-286-a4-w6 602
+  frontier p6-291-a48-w11 1772
+  frontier p6-293-a18-w11 131
+  frontier p6-294-a18-w11 888
+  frontier p6-295-a18-w11 3396
+  frontier p6-296-a1-w11 440
+  frontier p6-297-a1-w11 429
+  frontier p6-298-a4-w7 556
+  frontier p6-299-a8-w11 1722
+  frontier p6-300-a8-w11 458
+frontier 93/18789  354 s  nodes 17784096  solutions 0  full 0
+frontier 186/18789  357 s  nodes 17794837  solutions 0  full 0
+frontier 279/18789  360 s  nodes 17804818  solutions 0  full 0
+frontier 372/18789  363 s  nodes 17815617  solutions 0  full 0
+frontier 465/18789  366 s  nodes 17827751  solutions 0  full 0
+frontier 558/18789  370 s  nodes 17838266  solutions 0  full 0
+frontier 651/18789  373 s  nodes 17848983  solutions 0  full 0
+frontier 744/18789  376 s  nodes 17859397  solutions 0  full 0
+frontier 837/18789  379 s  nodes 17870390  solutions 0  full 0
+frontier 930/18789  383 s  nodes 17881986  solutions 0  full 0
+frontier 1023/18789  386 s  nodes 17891694  solutions 0  full 0
+frontier 1116/18789  389 s  nodes 17901112  solutions 0  full 0
+frontier 1209/18789  392 s  nodes 17910210  solutions 0  full 0
+frontier 1302/18789  395 s  nodes 17919903  solutions 0  full 0
+frontier 1395/18789  398 s  nodes 17929413  solutions 0  full 0
+frontier 1488/18789  401 s  nodes 17938937  solutions 0  full 0
+frontier 1581/18789  404 s  nodes 17948280  solutions 0  full 0
+frontier 1674/18789  407 s  nodes 17957594  solutions 0  full 0
+frontier 1767/18789  409 s  nodes 17966838  solutions 0  full 0
+frontier 1860/18789  413 s  nodes 17977839  solutions 0  full 0
+frontier 1953/18789  416 s  nodes 17988988  solutions 0  full 0
+frontier 2046/18789  419 s  nodes 17998859  solutions 0  full 0
+frontier 2139/18789  422 s  nodes 18009711  solutions 0  full 0
+frontier 2232/18789  426 s  nodes 18023603  solutions 0  full 0
+frontier 2325/18789  430 s  nodes 18036756  solutions 0  full 0
+frontier 2418/18789  432 s  nodes 18045836  solutions 0  full 0
+frontier 2511/18789  435 s  nodes 18054791  solutions 0  full 0
+frontier 2604/18789  439 s  nodes 18065687  solutions 0  full 0
+frontier 2697/18789  442 s  nodes 18075375  solutions 0  full 0
+frontier 2790/18789  445 s  nodes 18085378  solutions 0  full 0
+frontier 2883/18789  448 s  nodes 18095595  solutions 0  full 0
+frontier 2976/18789  451 s  nodes 18105308  solutions 0  full 0
+frontier 3069/18789  454 s  nodes 18116270  solutions 0  full 0
+frontier 3162/18789  458 s  nodes 18128240  solutions 0  full 0
+frontier 3255/18789  462 s  nodes 18141769  solutions 0  full 0
+frontier 3348/18789  465 s  nodes 18152521  solutions 0  full 0
+frontier 3441/18789  469 s  nodes 18164744  solutions 0  full 0
+frontier 3534/18789  473 s  nodes 18178690  solutions 0  full 0
+frontier 3627/18789  476 s  nodes 18191974  solutions 0  full 0
+frontier 3720/18789  480 s  nodes 18204560  solutions 0  full 0
+frontier 3813/18789  484 s  nodes 18217375  solutions 0  full 0
+frontier 3906/18789  487 s  nodes 18229743  solutions 0  full 0
+frontier 3999/18789  491 s  nodes 18241064  solutions 0  full 0
+frontier 4092/18789  494 s  nodes 18252702  solutions 0  full 0
+frontier 4185/18789  497 s  nodes 18262982  solutions 0  full 0
+frontier 4278/18789  500 s  nodes 18272024  solutions 0  full 0
+frontier 4371/18789  503 s  nodes 18281500  solutions 0  full 0
+frontier 4464/18789  506 s  nodes 18292298  solutions 0  full 0
+frontier 4557/18789  510 s  nodes 18303466  solutions 0  full 0
+frontier 4650/18789  513 s  nodes 18316269  solutions 0  full 0
+frontier 4743/18789  517 s  nodes 18328599  solutions 0  full 0
+frontier 4836/18789  520 s  nodes 18339725  solutions 0  full 0
+frontier 4929/18789  523 s  nodes 18350242  solutions 0  full 0
+frontier 5022/18789  527 s  nodes 18362014  solutions 0  full 0
+frontier 5115/18789  530 s  nodes 18371254  solutions 0  full 0
+frontier 5208/18789  533 s  nodes 18381274  solutions 0  full 0
+frontier 5301/18789  536 s  nodes 18390605  solutions 0  full 0
+frontier 5394/18789  539 s  nodes 18402966  solutions 0  full 0
+frontier 5487/18789  543 s  nodes 18414523  solutions 0  full 0
+frontier 5580/18789  546 s  nodes 18425029  solutions 0  full 0
+frontier 5673/18789  550 s  nodes 18435106  solutions 0  full 0
+frontier 5766/18789  553 s  nodes 18447022  solutions 0  full 0
+frontier 5859/18789  557 s  nodes 18459280  solutions 0  full 0
+frontier 5952/18789  561 s  nodes 18474887  solutions 0  full 0
+frontier 6045/18789  565 s  nodes 18489751  solutions 0  full 0
+frontier 6138/18789  569 s  nodes 18501927  solutions 0  full 0
+frontier 6231/18789  573 s  nodes 18516121  solutions 0  full 0
+frontier 6324/18789  576 s  nodes 18528167  solutions 0  full 0
+frontier 6417/18789  581 s  nodes 18544411  solutions 0  full 0
+frontier 6510/18789  584 s  nodes 18555316  solutions 0  full 0
+frontier 6603/18789  588 s  nodes 18569192  solutions 0  full 0
+frontier 6696/18789  592 s  nodes 18583011  solutions 0  full 0
+frontier 6789/18789  595 s  nodes 18595517  solutions 0  full 0
+frontier 6882/18789  599 s  nodes 18608364  solutions 0  full 0
+frontier 6975/18789  603 s  nodes 18622555  solutions 0  full 0
+frontier 7068/18789  608 s  nodes 18640036  solutions 0  full 0
+frontier 7161/18789  612 s  nodes 18652796  solutions 0  full 0
+frontier 7254/18789  615 s  nodes 18664489  solutions 0  full 0
+frontier 7347/18789  619 s  nodes 18677330  solutions 0  full 0
+frontier 7440/18789  624 s  nodes 18692402  solutions 0  full 0
+frontier 7533/18789  627 s  nodes 18705948  solutions 0  full 0
+frontier 7626/18789  631 s  nodes 18718213  solutions 0  full 0
+frontier 7719/18789  634 s  nodes 18730684  solutions 0  full 0
+frontier 7812/18789  639 s  nodes 18746252  solutions 0  full 0
+frontier 7905/18789  643 s  nodes 18760143  solutions 0  full 0
+frontier 7998/18789  645 s  nodes 18770016  solutions 0  full 0
+frontier 8091/18789  649 s  nodes 18781075  solutions 0  full 0
+frontier 8184/18789  652 s  nodes 18791433  solutions 0  full 0
+frontier 8277/18789  655 s  nodes 18802841  solutions 0  full 0
+frontier 8370/18789  659 s  nodes 18813914  solutions 0  full 0
+frontier 8463/18789  662 s  nodes 18825831  solutions 0  full 0
+frontier 8556/18789  666 s  nodes 18838780  solutions 0  full 0
+frontier 8649/18789  669 s  nodes 18850209  solutions 0  full 0
+frontier 8742/18789  673 s  nodes 18862274  solutions 0  full 0
+frontier 8835/18789  676 s  nodes 18874055  solutions 0  full 0
+frontier 8928/18789  680 s  nodes 18886012  solutions 0  full 0
+frontier 9021/18789  685 s  nodes 18902168  solutions 0  full 0
+frontier 9114/18789  691 s  nodes 18924042  solutions 0  full 0
+frontier 9207/18789  697 s  nodes 18948135  solutions 0  full 0
+frontier 9300/18789  702 s  nodes 18967768  solutions 0  full 0
+frontier 9393/18789  706 s  nodes 18980996  solutions 0  full 0
+frontier 9486/18789  710 s  nodes 18995826  solutions 0  full 0
+frontier 9579/18789  714 s  nodes 19009692  solutions 0  full 0
+frontier 9672/18789  724 s  nodes 19033545  solutions 0  full 0
+frontier 9765/18789  732 s  nodes 19055814  solutions 0  full 0
+frontier 9858/18789  740 s  nodes 19077243  solutions 0  full 0
+frontier 9951/18789  746 s  nodes 19093297  solutions 0  full 0
+frontier 10044/18789  752 s  nodes 19110156  solutions 0  full 0
+frontier 10137/18789  758 s  nodes 19123301  solutions 0  full 0
+frontier 10230/18789  765 s  nodes 19142315  solutions 0  full 0
+frontier 10323/18789  775 s  nodes 19167622  solutions 0  full 0
+frontier 10416/18789  783 s  nodes 19188722  solutions 0  full 0
+frontier 10509/18789  790 s  nodes 19206485  solutions 0  full 0
+frontier 10602/18789  796 s  nodes 19220970  solutions 0  full 0
+frontier 10695/18789  802 s  nodes 19236238  solutions 0  full 0
+frontier 10788/18789  807 s  nodes 19250169  solutions 0  full 0
+frontier 10881/18789  813 s  nodes 19264136  solutions 0  full 0
+frontier 10974/18789  817 s  nodes 19274327  solutions 0  full 0
+frontier 11067/18789  821 s  nodes 19284900  solutions 0  full 0
+frontier 11160/18789  826 s  nodes 19295476  solutions 0  full 0
+frontier 11253/18789  830 s  nodes 19307231  solutions 0  full 0
+frontier 11346/18789  835 s  nodes 19318074  solutions 0  full 0
+frontier 11439/18789  839 s  nodes 19327944  solutions 0  full 0
+frontier 11532/18789  843 s  nodes 19338962  solutions 0  full 0
+frontier 11625/18789  848 s  nodes 19349055  solutions 0  full 0
+frontier 11718/18789  853 s  nodes 19360646  solutions 0  full 0
+frontier 11811/18789  857 s  nodes 19371133  solutions 0  full 0
+frontier 11904/18789  862 s  nodes 19383321  solutions 0  full 0
+frontier 11997/18789  867 s  nodes 19397172  solutions 0  full 0
+frontier 12090/18789  872 s  nodes 19409763  solutions 0  full 0
+frontier 12183/18789  877 s  nodes 19423037  solutions 0  full 0
+frontier 12276/18789  882 s  nodes 19434422  solutions 0  full 0
+frontier 12369/18789  887 s  nodes 19447976  solutions 0  full 0
+frontier 12462/18789  892 s  nodes 19460747  solutions 0  full 0
+frontier 12555/18789  897 s  nodes 19471885  solutions 0  full 0
+frontier 12648/18789  901 s  nodes 19482141  solutions 0  full 0
+frontier 12741/18789  905 s  nodes 19492694  solutions 0  full 0
+frontier 12834/18789  911 s  nodes 19506464  solutions 0  full 0
+frontier 12927/18789  916 s  nodes 19519596  solutions 0  full 0
+frontier 13020/18789  920 s  nodes 19531315  solutions 0  full 0
+frontier 13113/18789  926 s  nodes 19544776  solutions 0  full 0
+frontier 13206/18789  931 s  nodes 19556078  solutions 0  full 0
+frontier 13299/18789  936 s  nodes 19570502  solutions 0  full 0
+frontier 13392/18789  941 s  nodes 19582279  solutions 0  full 0
+frontier 13485/18789  946 s  nodes 19593758  solutions 0  full 0
+frontier 13578/18789  950 s  nodes 19603447  solutions 0  full 0
+frontier 13671/18789  954 s  nodes 19614036  solutions 0  full 0
+frontier 13764/18789  959 s  nodes 19626474  solutions 0  full 0
+frontier 13857/18789  964 s  nodes 19638023  solutions 0  full 0
+frontier 13950/18789  970 s  nodes 19652181  solutions 0  full 0
+frontier 14043/18789  975 s  nodes 19665291  solutions 0  full 0
+frontier 14136/18789  980 s  nodes 19677227  solutions 0  full 0
+frontier 14229/18789  985 s  nodes 19689299  solutions 0  full 0
+frontier 14322/18789  990 s  nodes 19701419  solutions 0  full 0
+frontier 14415/18789  994 s  nodes 19711144  solutions 0  full 0
+frontier 14508/18789  999 s  nodes 19722775  solutions 0  full 0
+frontier 14601/18789  1004 s  nodes 19734779  solutions 0  full 0
+frontier 14694/18789  1009 s  nodes 19747297  solutions 0  full 0
+frontier 14787/18789  1014 s  nodes 19759053  solutions 0  full 0
+frontier 14880/18789  1018 s  nodes 19769769  solutions 0  full 0
+frontier 14973/18789  1022 s  nodes 19778741  solutions 0  full 0
+frontier 15066/18789  1027 s  nodes 19788677  solutions 0  full 0
+frontier 15159/18789  1031 s  nodes 19798123  solutions 0  full 0
+frontier 15252/18789  1035 s  nodes 19808218  solutions 0  full 0
+frontier 15345/18789  1038 s  nodes 19817930  solutions 0  full 0
+frontier 15438/18789  1043 s  nodes 19828489  solutions 0  full 0
+frontier 15531/18789  1047 s  nodes 19838827  solutions 0  full 0
+frontier 15624/18789  1051 s  nodes 19849139  solutions 0  full 0
+frontier 15717/18789  1056 s  nodes 19860362  solutions 0  full 0
+frontier 15810/18789  1060 s  nodes 19869910  solutions 0  full 0
+frontier 15903/18789  1064 s  nodes 19879588  solutions 0  full 0
+frontier 15996/18789  1068 s  nodes 19890709  solutions 0  full 0
+frontier 16089/18789  1073 s  nodes 19902666  solutions 0  full 0
+frontier 16182/18789  1077 s  nodes 19912501  solutions 0  full 0
+frontier 16275/18789  1081 s  nodes 19922563  solutions 0  full 0
+frontier 16368/18789  1085 s  nodes 19932092  solutions 0  full 0
+frontier 16461/18789  1089 s  nodes 19942410  solutions 0  full 0
+frontier 16554/18789  1094 s  nodes 19954647  solutions 0  full 0
+frontier 16647/18789  1099 s  nodes 19966851  solutions 0  full 0
+frontier 16740/18789  1103 s  nodes 19975884  solutions 0  full 0
+frontier 16833/18789  1107 s  nodes 19984559  solutions 0  full 0
+frontier 16926/18789  1111 s  nodes 19995629  solutions 0  full 0
+frontier 17019/18789  1116 s  nodes 20007455  solutions 0  full 0
+frontier 17112/18789  1120 s  nodes 20016277  solutions 0  full 0
+frontier 17205/18789  1124 s  nodes 20025072  solutions 0  full 0
+frontier 17298/18789  1128 s  nodes 20034879  solutions 0  full 0
+frontier 17391/18789  1133 s  nodes 20046857  solutions 0  full 0
+frontier 17484/18789  1137 s  nodes 20057638  solutions 0  full 0
+frontier 17577/18789  1142 s  nodes 20068521  solutions 0  full 0
+frontier 17670/18789  1146 s  nodes 20079348  solutions 0  full 0
+frontier 17763/18789  1150 s  nodes 20089904  solutions 0  full 0
+frontier 17856/18789  1155 s  nodes 20100893  solutions 0  full 0
+frontier 17949/18789  1160 s  nodes 20113448  solutions 0  full 0
+frontier 18042/18789  1164 s  nodes 20124188  solutions 0  full 0
+frontier 18135/18789  1169 s  nodes 20134932  solutions 0  full 0
+frontier 18228/18789  1172 s  nodes 20143425  solutions 0  full 0
+frontier 18321/18789  1176 s  nodes 20152632  solutions 0  full 0
+frontier 18414/18789  1181 s  nodes 20164873  solutions 0  full 0
+frontier 18507/18789  1186 s  nodes 20176066  solutions 0  full 0
+frontier 18600/18789  1189 s  nodes 20184968  solutions 0  full 0
+frontier 18693/18789  1194 s  nodes 20197027  solutions 0  full 0
+frontier 18786/18789  1199 s  nodes 20209125  solutions 0  full 0
+done: covers 43, tasks 1204, nodes 20209579, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1200 s
+nodes by span dimension 1..8: 1204 33712 669646 5813830 10212648 3463823 14716 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 1068494
+hole-stage candidates 2524330009, passing the filter (sent to push) 2482523

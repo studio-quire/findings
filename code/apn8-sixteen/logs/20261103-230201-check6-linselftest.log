@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\six_check_ls.exe linselftest runs\check6\configs.txt 16 > runs\check6\linselftest.out 2>&1"

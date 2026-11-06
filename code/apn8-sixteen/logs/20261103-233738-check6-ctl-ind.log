@@ -1,0 +1,6 @@
+# command: cmd /c "python apn\six_check_slices.py controls lind-bl22 lind2-bl22 lind3-bl22 ind2-bl22 ind3-bl22"
+ctlbatch exit 0
+ctlbatch exit 0
+ctlbatch exit 0
+ctlbatch exit 0
+ctlbatch exit 0

@@ -1,0 +1,26 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 20, tasks 20, threads 20, split -1, hole stage affine tree
+SOLUTION ctl6-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc ef5b1e2 808c392 05ae000 d88c210
+SOLUTION ctl6-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a ede7f2e 9baf995 d701b6d 715a1b5
+SOLUTION ctl6-6-k4 dim 8 ranks 8:186 6:65 4:4 basis 1d3de73 67e1b79 0681600 0414038 e5d1045 1a9d59d 48cdffe a75e330
+SOLUTION ctl6-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 94a6e45 9140f42 e8c4210 0003926
+SOLUTION ctl6-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 9391548 fb1c529 5353680 8401479
+SOLUTION ctl6-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 82bd57f 5c40805 d8c1980 df59a30
+SOLUTION ctl6-227-k4 dim 8 ranks 8:186 6:65 4:4 basis 5cb535d 5ee8c89 5d4c677 01aedda b361d15 8153989 05c1308 dcc7dbb
+SOLUTION ctl6-279-k4 dim 8 ranks 8:186 6:65 4:4 basis 040259a 854f3ef 86eb073 84b7761 b1ae51e e88dbb2 85de700 8401e29
+SOLUTION ctl6-337-k4 dim 8 ranks 8:186 6:65 4:4 basis a396203 d35e511 9bda19f 32bc000 2d2cd43 98454e0 88c1f21 e5aadd5
+SOLUTION ctl6-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 80c74fd 583cb10 845f180 8140a75
+SOLUTION ctl6-292-k4 dim 8 ranks 8:186 6:65 4:4 basis 7933747 4212917 0b2236f 379df2f 40e6346 d849fab f068a00 8a00460
+SOLUTION ctl6-343-k4 dim 8 ranks 8:186 6:65 4:4 basis 039f376 4b2731b 3a93ef7 71fe5ad f8f0e25 dd694fd c01bb00 c740970
+SOLUTION ctl6-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 d84acdd b67abd3 ec8e000 eb138a5
+SOLUTION ctl6-365-k4 dim 8 ranks 8:186 6:65 4:4 basis 1b01b07 502015f 2110d37 02bc000 5a7aecd d3bc2cc b401271 348e49d
+SOLUTION ctl6-316-k4 dim 8 ranks 8:186 6:65 4:4 basis 000edb5 008ba87 004215b 8678295 34030e4 ec493f2 debbb80 dfdf522
+SOLUTION ctl6-362-k4 dim 8 ranks 8:186 6:65 4:4 basis 31e7377 6622b11 2c333d7 1502273 d78e900 bc9ea92 13be57c 0232085
+SOLUTION ctl6-332-k4 dim 8 ranks 8:186 6:65 4:4 basis 033e71c 005200e 028a480 db58317 ec8c084 eeeca5f de93b24 5a0420c
+SOLUTION ctl6-382-k4 dim 8 ranks 8:186 6:65 4:4 basis e010843 aa00941 93309c7 6abfc39 c4f4fcc 36f7060 827a000 3ae79a0
+SOLUTION ctl6-366-k4 dim 8 ranks 8:186 6:65 4:4 basis 2192480 50ee71c 1b0600e 3001a31 2d348cb 2a24511 5968a50 d773934
+SOLUTION ctl6-374-k4 dim 8 ranks 8:186 6:65 4:4 basis 6f9deac 6ac1a54 6b753b0 6818af2 808e70f 002e74d 34c659b 6c03a31
+done: covers 20, tasks 20, nodes 108, solutions 20, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 0 s
+nodes by span dimension 1..8: 0 0 0 0 0 20 68 20
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 0
+hole-stage candidates 16981, passing the filter (sent to push) 99

@@ -1,0 +1,2 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+plantfind runs\known\blp22_8bit.txt: 0 functions with 3 <= k <= 6, 0 planted; by d0:; by k:

@@ -1,0 +1,1 @@
+# command: cmd /c "runs\bin\cover5t.exe runs\i11\cover\c2.txt -1 5 --only p6-101-a24-w11 --frange 0 40 > runs\cover5\prof-tree40.out 2>&1"

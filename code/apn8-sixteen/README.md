@@ -1,25 +1,28 @@
-# Quadratic APN functions on F₂⁸ have at most six rank-4 components: code and logs
+# Quadratic APN functions on F₂⁸ have at most five rank-4 components: code and logs
 
-The searches behind the finding "No quadratic APN function in dimension 8 has more than six rank-4 components"
-([write-up](../../apn8-not-sixteen.md); Rowen's findings, Studio Quire). Each case was settled by two independent
-searches: sixteen rank-4 components (`i = 1`), fifteen (`i = 2`), fourteen (`i = 3`), thirteen (`i = 4`), twelve
-(`i = 5`), eleven (`i = 6`), ten (`i = 7`), nine (`i = 8`), eight (`i = 9`) and seven (`i = 10`). Search A is Rowen's
+The searches behind the finding "No quadratic APN function in dimension 8 has more than five rank-4 components"
+([write-up](../../apn8-not-sixteen.md); Rowen's findings, Studio Quire). Each case was settled by two
+searches, independent except as "Six" below says for `i = 11`: sixteen rank-4 components (`i = 1`), fifteen (`i = 2`), fourteen (`i = 3`), thirteen (`i = 4`), twelve
+(`i = 5`), eleven (`i = 6`), ten (`i = 7`), nine (`i = 8`), eight (`i = 9`), seven (`i = 10`) and six (`i = 11`). Search A is Rowen's
 (Claude Opus 5.5); search B is by separate Claude Opus 5.5 subagents (one for `i = 1, 2`, a fresh one each for `i = 3`,
-`i = 4`, `i = 5`, `i = 6`, `i = 7`, `i = 8`, `i = 9` and `i = 10`), each written without reading search A, with its own
+`i = 4`, `i = 5`, `i = 6`, `i = 7`, `i = 8`, `i = 9`, `i = 10` and `i = 11`), each written without reading search A, with its own
 write-up here (for `i = 7`, Rowen tallied search B's results and wrote its verdict, as that write-up says; for `i = 9`,
 search B's author saw search A's verdict and configuration count in the repository's commit messages before starting,
 as its write-up discloses; for `i = 10`, search B's author read none of search A's code or output and no commit history
 beyond its own files, but saw search A's job names in the machine's shared job queue, and Rowen tallied search B's
-coset sweep, which finished after the verdict). The write-up has the reductions; here is how to re-run them. Eight's
-part of this folder (its files, tables and re-runs) was put together by a separate Claude Opus 5.5 subagent for Rowen,
-and seven's by another.
+coset sweep, which finished after the verdict; for `i = 11`, search B's author likewise read nothing of search A but saw
+its job name in the queue, and search A's final run came after search B's verdict, on a hole stage Rowen rewrote then:
+Six, below, says what that rewrite knew). The write-up has the reductions; here is how to re-run them. Eight's part of
+this folder (its files, tables and re-runs) was put together by a separate Claude Opus 5.5 subagent for Rowen, and
+seven's and six's by others.
 
 | File | What |
 |---|---|
 | `src/sixteen.cpp` | Search A for `i = 1, 2, 3`: every spread set containing 0 and I (14-cliques), then a DFS assigning the 28 possible forms per radical. Modes: none (`i = 1`), `i2`, `i3`. |
 | `src/extend6.cpp` (+ `src/apn8.cpp`) | Every APN 8-space containing a given 6-space, no caps; run on search A's `SHORT` lines for `i = 2`. |
-| `src/cover.cpp` | Search A for `i = 4` to `i = 10`: every APN space whose rank-4 radicals are a given set of solids, rank-6 radicals in the holes; point branching, no symmetry used. Prints nodes by span dimension and `NEAR` lines (spans holding a form on every solid). Usage `cover <input> [maxlines\|-1] [splitdim]`: the split dimension D (added for `i = 10`) stops the tasks at every node of span dimension D that holds a form on every solid and leaves holes uncovered, then searches those nodes' subtrees in parallel: the same tree, the same counts. |
+| `src/cover.cpp` | Search A for `i = 4` to `i = 11`: every APN space whose rank-4 radicals are a given set of solids, rank-6 radicals in the holes; point branching, no symmetry used. Prints nodes by span dimension and `NEAR` lines (spans holding a form on every solid). Usage `cover <input> [maxlines\|-1] [splitdim]`: the split dimension D (added for `i = 10`) stops the tasks at every node of span dimension D that holds a form on every solid and leaves holes uncovered, then searches those nodes' subtrees in parallel: the same tree, the same counts. For `i = 11` the hole stage (below all solids) was rewritten: only forms passing a linear necessary condition reach the unchanged `push`, found by default as an affine-subspace tree (`holes_tree`); options `--gray` (the same filter by Gray code), `--old` (every line × 13,888 forms, as before), `--only TAG`, `--frange A B` (profiling). The same children, so the same counts; the file's header has the argument, and Build, below, the checks. |
 | `src/cover_chunks.cmd`, `src/cover_tally.py` | Search A for `i = 9` and `i = 10`: the `cover3` build of `cover.cpp` run over `data/p8.txt` (and `data/p7.txt`) in 8 chunks, skipping finished ones on a restart (its paths are Rowen's working tree: `runs\bin\cover3.exe`, chunks `c0.txt` … `c7.txt` in the folder given), and one summary over the chunks' outputs. |
+| `src/cover_chunks_split_exe.cmd` | Search A for `i = 11`: `cover_chunks.cmd` with the build given and a split dimension (`cover_chunks_split_exe.cmd DIR 5 cover5t` runs `runs\bin\cover5t.exe DIR\cK.txt -1 5`; the first run, on `cover4`, used a copy with the build fixed). |
 | `src/cover_prep.py` | cover.cpp's inputs: `ext` (extendable case, 25,850 covers), `max` (Kurz's three hole sets, 11,004 covers), `ctl` (positive controls from a known function). |
 | `src/i4_holes.py` | Checks Kurz's three hole sets for `i = 4` (`data/kurz13.txt`): distinct points, hyperplane counts, solids in the complement and exact covers by 13 of them, lines in the holes. |
 | `src/spreads_to_cover.py` | Written for this folder: converts search B's 73 `i = 3` representatives (`data/spreads.txt`) to cover.cpp input; reproduces `data/i3-reps.txt` exactly. |
@@ -37,7 +40,7 @@ and seven's by another.
 | `src/levels_all12.py` | Runs `twelve_check_levels.py` to the bottom of the tree for all 376 configurations and compares every count with `twelve_check`'s. |
 | `src/eleven_check.cpp` | Search B for `i = 6`: every 8-clique canonicalised, one minimal class per run (`parta`), the classes merged with per-orbit identities and the link to `twelve_check`'s 376 (`merge`: 817 configurations), hole sets, exact covers and outside sources (`configs`), search (`search`, `search12`, `search13`, `searchsp`, `searchmax`), `selftest`, controls (`ctlbatch`, with `nond` for the rank-6 branching; `ctlreps`), and, for comparison only, `orbitcov` (which configuration each listed clique lies on) and `mapa` (search A's list mapped onto search B's). |
 | `src/eleven_check_levels.py` | Recount of the first levels of `eleven_check search` for one configuration, sharing no code with it. |
-| `src/pspread3.cpp` | Search A's classification for `i = 7` to `i = 10`: `pspread.cpp`'s enumeration unchanged, plus per-task checkpoints (`--ckpt`, so an interrupted run resumes), the extension class w computed once per orbit (an orbit invariant) and spot-checked on every N-th clique (`--wcheck N`), and a time split. Run for K = 10, 9, 8 and 7, and for K = 12 and 14 as checks against `pspread.cpp`'s outputs. Mode `holes K configs out` (added for `i = 9`): for each listed configuration, every exact cover of its covered points by K solids, canonicalised and looked up in the list. |
+| `src/pspread3.cpp` | Search A's classification for `i = 7` to `i = 11`: `pspread.cpp`'s enumeration unchanged, plus per-task checkpoints (`--ckpt`, so an interrupted run resumes), the extension class w computed once per orbit (an orbit invariant) and spot-checked on every N-th clique (`--wcheck N`), and a time split. Run for K = 10, 9, 8, 7 and 6, and for K = 12 and 14 as checks against `pspread.cpp`'s outputs. Mode `holes K configs out` (added for `i = 9`): for each listed configuration, every exact cover of its covered points by K solids, canonicalised and looked up in the list. |
 | `src/holes_tally.py` | Search A's hole sets from `pspread3 holes`: configurations grouped by shared hole set, `\|Aut H\|` from the covers, the classes and maximal ones counted (Kurz), and the `\|Aut H\|` distribution and number of point sets against Langevin and Hou's data file (downloaded, not included). |
 | `src/ten_check.cpp` | Search B for `i = 7`, built on `eleven_check.cpp`: every 7-clique canonicalised, a minimal class per run, split into slices (`parta`), the slices merged with per-orbit identities and the link to `eleven_check`'s 817 (`merge`: 1,777 configurations), hole sets, exact covers and outside sources (`configs`), search (`search`, `search11`, `search12`, `search13`, `searchsp`, `searchmax`), `selftest`, controls (`ctlbatch`, with `nond` for the rank-6 branching; `ctlreps`), and, for comparison only, `orbitcov` and `mapa`. |
 | `src/ten_check_levels.py` | Recount of the first levels of `ten_check search` for one configuration, sharing no code with it. |
@@ -63,33 +66,44 @@ and seven's by another.
 | `src/seven_check_mass.py` | Search B's exact masses for `i = 10`: hole classes per `\|Aut H\|` and the number of point sets against Langevin and Hou's `fix-7.txt` (downloaded, not included), and the labelled 7-partial spreads counted three ways. This folder's copy reads the files here. |
 | `src/seven_check_tally.py` | Tallies over `seven_check`'s outputs: every configuration once, totals by type (`prog`); cores by dimension and fingerprint across runs, and the coset sweep against `asc` (`orders`); the numpy re-search against `asc` (`numpy`); configurations no control reached (`reps`). This folder's copy reads the files here. |
 | `src/seven_check_vs_a.py` | Search A's and search B's classifications and near misses for `i = 10` compared configuration by configuration (`seven-check.md` §7). This folder's copy reads the files here. |
-| `sixteen-check.md`, `fourteen-check.md`, `thirteen-check.md`, `twelve-check.md`, `eleven-check.md`, `ten-check.md`, `nine-check.md`, `eight-check.md`, `seven-check.md` | Search B's write-ups for `i = 1, 2`, `i = 3`, `i = 4`, `i = 5`, `i = 6`, `i = 7`, `i = 8`, `i = 9` and `i = 10`: the reduction re-derived, method, results, controls, and (at the end) the comparison with search A. |
+| `src/six_check.cpp` | Search B for `i = 11`, built on `seven_check.cpp`: every 3-clique canonicalised, one slice per minimal class (`parta`), the slices merged with per-orbit identities and the link to `seven_check`'s 3,731 (`merge`: 341 configurations), the 1- to 4-cliques counted plainly and by edges with no symmetry used (`count3`), hole sets, exact covers and outside sources (`configs`), the point branching (`search`, with `phase1` and `cores` as in `seven_check`), a second search written new, sharing only the input masks and the layout of a form (`lin`, with `desc`, `phase1`, `cores`), `selftest` and `linselftest`, controls (`ctlbatch` with `nond`, `nond2`, `nond3` and `lin`; `ctlrot` with `lin`; `plantfind` and `ctlplant`, the planted controls), and, for comparison only, `mapa`. |
+| `src/six_check_slices.py` | The driver that ran search B's jobs for `i = 11` (`count3`, `parta`, `merge`, `configs`, `selftest`, `search`, `lin`, `controls`, `ctlplant`, `ctlrotlin`): resumable, one process per configuration in the searches. Its paths are those of Rowen's working tree (`six-check.md`'s note maps them); the tables below give the commands it ran. |
+| `src/six_check_mass.py` | Search B's exact masses for `i = 11`: hole classes per `\|Aut H\|` and the number of point sets against Langevin and Hou's `fix-6.txt` (downloaded, not included), and the labelled 6-partial spreads counted three ways. This folder's copy reads the files here. |
+| `src/six_check_tally.py` | Tallies over `six_check`'s outputs: every configuration once, totals by type (`prog`); core files compared as sets per configuration, with `lin`'s seventh-solid cores set aside by Python's own rank (`cores`); `lin`'s nodes less those against the point branching's (`nodes`). |
+| `src/six_check_vs_a.py` | Search A's and search B's classifications and near misses for `i = 11` compared configuration by configuration (`six-check.md` §7). This folder's copy reads `logs/six-near.txt` for the spans, which are too large to include. |
+| `src/six_near.py` | Written for this folder: reduces a run's near-miss spans (search A's `NEAR` lines, search B's `P1` lines) to a count by dimension and a digest of the set, per configuration; made `logs/six-near.txt`. |
+| `sixteen-check.md`, `fourteen-check.md`, `thirteen-check.md`, `twelve-check.md`, `eleven-check.md`, `ten-check.md`, `nine-check.md`, `eight-check.md`, `seven-check.md`, `six-check.md` | Search B's write-ups for `i = 1, 2`, `i = 3`, `i = 4`, `i = 5`, `i = 6`, `i = 7`, `i = 8`, `i = 9`, `i = 10` and `i = 11`: the reduction re-derived, method, results, controls, and (at the end) the comparison with search A. |
 | `data/` | Small inputs (below). |
 | `logs/` | The runs' logs and outputs (below); `logs/rerun/` holds the re-runs made while preparing this folder. |
-| `compat/` | Shims mapping the MSVC intrinsics onto gcc/clang builtins (from `../apn8-symmetry`, with `__popcnt64`, `_tzcnt_u64`, `_BitScanReverse`, `_pdep_u32` and, for `seven_check.cpp`, `_pext_u64` added for the sources here). |
+| `compat/` | Shims mapping the MSVC intrinsics onto gcc/clang builtins (from `../apn8-symmetry`, with `__popcnt64`, `_tzcnt_u64`, `_BitScanReverse`, `_pdep_u32` and, for `seven_check.cpp`, `_pext_u64`, for `six_check.cpp`, `_BitScanReverse64` and `_aligned_malloc` and, for `cover.cpp`, `_lzcnt_u32` added for the sources here). |
 
 ## Build
 
 Windows (MSVC, from a Developer Command Prompt): `cl /O2 /openmp /EHsc /std:c++17 /arch:AVX2 src\sixteen.cpp /Fe:sixteen.exe`,
 the same for `extend6.cpp` (which includes `apn8.cpp`), `cover.cpp`, `sixteen_check.cpp`, `fourteen_check.cpp`,
 `thirteen_check.cpp`, `pspread.cpp`, `twelve_check.cpp`, `eleven_check.cpp`, `pspread3.cpp`, `ten_check.cpp`,
-`nine_check.cpp`, `eight_check.cpp` and `seven_check.cpp`. The runs' binaries were built with `/arch:AVX2`; the sources
-build without it too.
+`nine_check.cpp`, `eight_check.cpp`, `seven_check.cpp` and `six_check.cpp`. The runs' binaries were built with
+`/arch:AVX2`; the sources build without it too, though `six_check.cpp` calls AVX2 intrinsics directly, so its binary needs
+a CPU that has them.
 
 Linux / macOS on x86-64 (g++ or clang++ with OpenMP; untested, see `../apn8-symmetry/README.md` on the shims; the
-shims added here were checked against the MSVC intrinsics on 20 million random inputs, `_pext_u64`'s on 2026-11-01):
+shims added here were checked against the MSVC intrinsics on 20 million random inputs, `_pext_u64`'s on 2026-11-01 and
+`_BitScanReverse64`'s and `_lzcnt_u32`'s on 2026-11-04, under MSVC, with `__lzcnt64` and `__lzcnt` for the `__builtin_clz`
+family, as this machine has no gcc):
 
     g++ -O2 -fopenmp -std=c++17 -include compat/portable.h -Icompat src/sixteen.cpp -o sixteen
 
-and the same for the other thirteen. The Python scripts need Python 3 (`sixteen_check_level2*.py`,
+and the same for the other fourteen, with `-mavx2` for `six_check.cpp`. The Python scripts need Python 3 (`sixteen_check_level2*.py`,
 `eight_check_numpy.py` and `seven_check_numpy.py` also numpy).
 
 `src/sixteen.cpp` is the current source. The runs used builds with 32-bit `long` counters (MSVC), which is all that
 changed since: the `i = 3` run's node count wrapped around and is printed negative in its log (a statistic only; the
 spread-set, solution and SHORT counts are far below 2³¹).
 
-`src/cover.cpp` is the current source. The build that ran twelve, eleven, ten, nine and eight and most of seven
-(`cover3`) is this source without its last edit, the optional split dimension (Seven, below); `cover3` adds the per-dimension node
+`src/cover.cpp` is the current source; it has had two edits since the build that ran most of these, so what's said below
+about it is as of the date given. The build that ran twelve, eleven, ten, nine and eight and most of seven (`cover3`) is
+this source without those edits, the optional split dimension (Seven, below) and the rewritten hole stage (Six, below);
+`cover3` adds the per-dimension node
 counts and the `NEAR` lines to the one that ran thirteen, and those only report: on search B's 73 `i = 3`
 representatives it visits the same 2,284,642 nodes as before. `src/pspread.cpp` is the current source; the K = 12, 13
 and 14 runs used a build from before one later edit, which changed the cap on w (the largest clique in the common
@@ -140,7 +154,7 @@ with branch and call targets set aside: the same instructions in both cases, wit
 different order (the hashed lambda names again).
 
 Seven (checked 2026-11-01) ran `pspread3 enum 7` and `holes 7` on `pspread3h` (`src/pspread3.cpp` is unchanged since
-eight), seven of its eight cover chunks on `cover3`, and the rest on `cover4`, a build of `src/cover.cpp` as it is now.
+eight), seven of its eight cover chunks on `cover3`, and the rest on `cover4`, a build of `src/cover.cpp` as it then was.
 The edit between the two adds the split dimension (the `splitdim` argument, each task's frontier list, a second
 parallel loop over the frontier, the progress line's lock now taken for every task to append the frontier) and leaves
 the search alone. It was checked on eleven's configurations before seven's runs, `cover4 data/p11.txt -1`, `-1 5` and
@@ -173,6 +187,37 @@ compared by disassembly with addresses set aside (its object file wasn't kept). 
 were overwritten by later ones, so for those the check is the re-runs: the current source reproduces their records
 exactly (below), apart from the sweep's count of element checks on configuration 1, the one re-run sweep
 configuration with a core of dimension 5, where the cache lowers it (920,973,542 then, 242,798,460 now).
+
+Six (checked 2026-11-04) ran `pspread3 enum 6` and `holes 6` on `pspread3h` (`src/pspread3.cpp` is unchanged since eight),
+the first cover run on `cover4` and the final run on `cover5t`, a build of `src/cover.cpp` as it is now. The edit between
+the two (`cover.cpp`'s header has the argument) leaves `push`, which checks a candidate against the whole span, and the
+part above the holes alone, and puts a filter before `push` in the hole stage: for a covered point y, a legal new form B
+has B(y,.) outside F_y = {s(y,.) : s in the span}, since otherwise y lies in the radicals of two elements. That is a
+necessary condition, and linear in B, so over the 21-dimensional space of forms with the branching point in their radical
+the forms that pass can be found directly, as a tree of affine subspaces (`holes_tree`, the default); `--gray` enumerates
+the same space by Gray code, and `--old` keeps the original lines × 13,888 forms. In six only about 1 candidate of 2
+million passes. Compiled under their own names with the Build line, `src/cover.cpp` gives `cover5t`'s object file, the
+source before this edit (its commit 5265bc8, for seven) `cover4`'s, and `src/pspread3.cpp` `pspread3h`'s, every function
+identical (compared as for ten, function by function, the order and the hashed lambda names set aside). `cover5`, the
+build that ran the Gray filter's first profile and a regression (`logs/cover5-*`), is a state of the source between the
+two that wasn't committed; `src/cover.cpp --gray` gives its counts (Re-run, below).
+
+`six_check.cpp` was committed when search B started and changed eight times, each change adding something, so
+its runs came from several builds of the one source (`six-check.md`'s State names them by commit; the commits are in
+Rowen's own repository, which isn't public). Built from each commit under its own name with the Build line and compared
+as above with the object files kept: `six_check.exe` (classification, `selftest`, the off-D phases, the `asc` sample) is
+the first commit (9424d74); `six_check_lin.exe` (`lin`), byte for byte also `six_check_ctl.exe` (the planted and in-D
+controls), is the third (ea1f510); `six_check_ls.exe` (`linselftest`), byte for byte a build whose object was kept, the
+fourth (52b7bf0); `six_check_pf.exe` (`plantfind` for the other lists) the fifth (373e060); `six_check_ctl2.exe` (`lfull`)
+the sixth (706afa7); `six_check_lin2.exe` (`lindesc`) the seventh (e815bbc); `six_check_ctl3.exe` (`ctlrot`) the eighth
+(c896a97); and `src/six_check.cpp`, which adds the comparison-only `mapa` mode after both verdicts, `six_check_map.exe`:
+every function identical. Two builds match no commit. `six_check_t.exe` ran the timing runs on configuration 340, `asc340`
+and `lin340b`; State places it between the second and third commits, but its object file is from between the first and
+second, and differs from the first's only in `lin`'s functions, so its point branching is `six_check.exe`'s. (`lin340`,
+on `six_check.exe`, and `lin340b` were timing runs of earlier `lin` builds: `logs/check6-lin340-L.txt` has the full run's
+nodes on 340, with fewer candidates counted at dimension 5.)
+`six_check_c.exe` wrote `plants-bl22-c1.txt`; its object file wasn't kept, its instructions are nearest the second commit's
+build (about 650 of 121,040 differing either way), and the current source writes the same list (Re-run, below). The comparisons of object files, each kept object against every fresh build: `logs/rerun/six/objmatrix.log`.
 
 Search B's write-ups mention successive builds (`fourteen_check2.exe` and so on): each is a build of the one source in
 `src/`, whose later edits added control modes and left the search path alone (the write-ups say what changed). The
@@ -599,6 +644,149 @@ hole sets, from `data/configs7.txt`) and `python src/holes_tally.py logs/holes7.
 (search A's, from its `holes` run) give 3,726 classes with the same number for each of Langevin and Hou's 27 stabiliser
 orders, and `17833337132662061531136` point sets, their total (`logs/rerun/seven/s7-tally.log`).
 
+### Six (`i = 11`)
+
+Kurz's table gives 341 hole sets for six solids, none maximal (every 6-partial spread extends), so both searches classify
+the 6-partial spreads again. Times are running time between the runner's pauses, on a box often shared with other work;
+a program's own clock counts the pauses too. The two searches finished in the other order from the cases above: search
+B's verdict came first (2026-11-04 09:10) and search A's final run after it, since at six the hole stage of `cover`
+became the whole cost.
+
+Search A, `pspread3.cpp` (the same program as for eight and seven) then `cover.cpp`. A first run with the `cover4` build
+(split at dimension 5 from the start) finished two of its eight chunks in 27 hours and was cancelled 49 hours into the
+third; Rowen then rewrote the hole stage (Build, above) and ran all eight chunks again. That run, on `cover5t`, is the
+result, and the `cover4` run stays as a check on the rewrite.
+
+**How independent the rewrite is.** Six is the first case where the two searches aren't independent in their main idea, and the result should be weighed
+knowing that. Search A's first run was on course to take about a month, so after search B's verdict Rowen rewrote A's hole
+stage. The final A and B share no code, but both final searches test a candidate the same way: over the 21-dimensional
+space of forms with the branching point in their radical, a legal new form B must have B(y,.) outside
+{s(y,.) : s in the span} at each covered point y, a condition linear in B. (`cover.cpp --gray` is close to `lin`'s D
+phase; its default solves the condition over affine subspaces instead of enumerating.) By Rowen's own account, borne out
+by the review of six (`apn/review-six.md`, which read that session's tool log up to its first edit of `cover.cpp`), the session that wrote the rewrite derived the test from `cover.cpp` and a profile of its
+first run, and hadn't read `six_check.cpp` or `six-check.md`'s Method; a one-line description of `lin` that an earlier
+session had put in Rowen's notes had been taken out before that session began. It did know search B's answer, its count
+of cores, that a search called `lin` existed and that it was about 23 times faster than point branching. Both searches
+also come from the same model, so reaching the same idea shouldn't count as two separate insights.
+
+What stands apart from the idea: the test has a two-line proof (if B(y,.) = s(y,.) and y is in the radical of s0, then y
+is in the radicals of both s0 and B + s), and in search A it only filters what reaches the unchanged `push`, so it can't
+add a span. Each final search was also compared with filter-free code from its own lineage, count for count: search A
+against its first run on the whole of chunks c0 and c1 (86 of the 341 configurations; near-miss lines equal as sets) and
+its filter-free hole stage (`--old`) on a sample of the other 255 configurations (eight dimension-6 frontier items on
+each and one dimension-5 item on each of the 210 that have any: 2,250 of 6,095,516, identical item by item; 2,030 of the
+dimension-6 items take no form under `--old`, so the weight is in the 220 that do, 24,742 nodes below them), search B
+against its point branching on the sample in `six-check.md` §5. The seven dimension-4 frontier items are outside search A's
+comparison: the sample can't draw them, and `--old` on them was stopped after 2.5 h (job cover-sample-low; by the
+sample's rates it needed about two months on that job's seven threads, two weeks at the `d5` controls' rate). They lie on A's p6-101, p6-114, p6-304 and
+p6-310, which are B's configurations 31, 24, 103 and 130 (`mapa`), all four among those the point branching searched
+whole, without the filter, with 0 solutions. On the rest of the configurations,
+no filter-free search ran in full, and the idea is in both of the searches that did. Search A's first run (filter-free)
+also finished c2's phase 1 at split 5, which is the whole hole stage of its 1,134,321 dimension-6 near misses and the first level
+of the dimension-4 ones on p6-101 and p6-114, reaching the same frontier as the final run on every configuration (all 39
+`frontier` lines), and then 17,689 of its 72,221 frontier items, with 0 solutions, before it was cancelled. The 97
+configurations searched whole without the filter by one lineage or the other hold 29% of the near misses and 64% and 65%
+of the nodes below them at dimensions 6 and 7 (by `lin`'s per-configuration counts, near misses themselves left out at
+dimension 6); with c2's, about 42% of the near misses had their whole hole stage run without the filter.
+
+| Command | Expected | Time | Log |
+|---|---|---|---|
+| `pspread3 enum 6 p6.txt --ckpt p6.ckpt --wcheck 1000` | `w=4: reduced 993, weighted 806400, orbits 1, orbit sum 806400 MATCH`; `w=5: reduced 142071, weighted 155232000, orbits 68, ... MATCH`; `w=6: reduced 97245, weighted 104630400, orbits 48, ... MATCH`; `w=7: reduced 185718, weighted 188596800, orbits 92, ... MATCH`; `w=11: reduced 162593, weighted 156917824, orbits 132, ... MATCH` (no w below 4: every 6-partial spread extends to at least ten solids); `orbits 341`; `w spot checks: 551, mismatches 0`; writes `p6.txt` (= `data/p6.txt`, tags `p6-<n>-a<\|Aut P\|>-w<w>`) | 20 s | `logs/20261101-065050-p3-k6.log`, `logs/pspread6-output.txt` |
+| `pspread3 selftest 6 data/p6.txt` | `selftest: 341 configurations, 0 mismatches`: key and `\|Aut P\|` unchanged after a random GL(8,2) map and shuffle | 24 s | `logs/rerun/six/p3-selftest6.log` (run for this folder) |
+| `pspread3 holes 6 data/p6.txt holes6.txt`, then `python src/holes_tally.py logs/holes6.txt data/p6.txt fix-6.txt 341 0` (Langevin and Hou's `fix-6.txt`, downloaded from the page below) | `341 configurations, keys distinct`; `holes: 341 done this run, 0 with a cover off the list`; then `configurations 341, hole-set classes 341 (Kurz 341)`, `maximal (hole set contains no solid, w = 0): 0`, `configurations per hole set: {1: 341}`, `\|Aut H\| distribution vs Langevin-Hou: identical (17 orders)`, `point sets: 1339989812392369324032 vs Langevin-Hou 1339989812392369324032: MATCH`, `problems: 0` | under a second; the tally a second | `logs/20261101-065145-holes6.log`, `logs/holes6-output.txt`, `logs/holes6.txt`; the tally `logs/rerun/six/s6-tally.log` |
+| `cover_chunks_split_exe.cmd DIR 5 cover4` (the first run, superseded), with `DIR\c0.txt` … `c7.txt` the lines of `data/p6.txt` in order, 43 to a chunk (the last 40), each run as `cover4 DIR\cK.txt -1 5 > DIR\cK.out` (the job used `cover_chunks_split.cmd`, the same script with `cover4` fixed) | `c0` `done: covers 43, tasks 1204, nodes 18427765, solutions 0, ...` (nodes by dimension and `NEAR` lines as `cover5t`'s `c0`, below), `c1` `nodes 17691942` likewise; `c2` cancelled at frontier item 17,689 of 72,221 after its solid stage had finished, so with all its `NEAR` lines and no `done:` line | c0 15.7 h and c1 11.5 h by their clocks; c2 49 h on the clock when cancelled, shared with the other jobs on the box | `logs/20261101-065248-cover6.log`, `logs/six-cover4-output-c0.txt`, `-c1.txt`, `-c2-cancelled.txt`, the spans in `logs/six-near.txt` (label `A-cover4`) |
+| `cover_chunks_split_exe.cmd DIR 5 cover5t` over the same chunks: **the result** | each chunk ends `done: covers 43, tasks 1204, ...` (`c7`: `covers 40, tasks 1120`), `solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0`, a `nodes by span dimension` line, a `near misses` line and `hole-stage candidates ..., passing the filter (sent to push) ...` (here the candidates are the tree's nodes: over the chunks 27,883,874,524 of them, and 29,898,477 forms sent to push) | 3.2 h on a mostly open box, 11,531 s by the chunks' clocks (c0 421 s, c1 325 s, c2 2,056 s, c3 401 s, c4 406 s, c5 492 s, c6 1,200 s, c7 6,230 s) | `logs/20261104-120910-cover6t.log`, `logs/six-output-c0.txt` … `-c7.txt` (without their `NEAR` lines: Left out, below) |
+| `python src/cover_tally.py runs/i11/cover5/c?.out` (the eight outputs whole, `NEAR` lines included: 790 MB, not in this folder; on `logs/six-output-c*.txt` it gives the same but for the near misses) | `8/8 outputs done, 11531 s`; `covers: 341`, `tasks: 9,548`, `nodes: 169,008,542`, `solutions: 0`, `full (dim < 8): 0`, `dim 8 non-APN: 0`, `bad seeds: 0`; `nodes by span dimension 1..8: 9,548 / 267,344 / 5,307,371 / 45,933,458 / 80,431,617 / 36,891,380 / 167,824 / 0`; `near misses 7941871 by dim {4: 7, 5: 113279, 6: 7828585}` on all 341 configurations, none reaching dim 7 or 8; `lowest near-miss dim 4` on `p6-101`, `p6-114`, `p6-304` (2) and `p6-310` (3); the most, 115,660, on `p6-340-a2160-w11` | seconds | `logs/six-tally-output.txt` |
+
+The rewritten hole stage was checked against the old one three ways (`logs/rerun/six/compare.log` repeats all three from
+this folder's source, and adds positive controls through it: Re-run, below): whole runs on eleven's and ten's configurations (`cover5t` on `data/p11.txt` and `data/p10.txt`,
+nodes at every dimension and `NEAR` lines equal to `logs/eleven-output.txt` and `logs/ten-output.txt`:
+`logs/20261104-114824-cover5t-reg67.log`, `logs/cover5t-regress-p11-output.txt`, `-p10-output.txt`, the filter sending
+1 and 173 candidates to `push`); forty frontier items of `p6-101-a24-w11` under the three modes of the hole stage (9,347
+nodes, by dimension `0 0 0 0 40 9277 30 0` in all three, and 44,545 `NEAR` lines with one digest; candidates 4,128,555,200
+with `--old`, all sent to `push`; 19,602,070,397 Gray steps and 6,487,289 tree nodes, each sending exactly 9,601 to
+`push`; times 3,334 s, 92 s and 8.3 s by the programs' clocks, `--old` on a held box, so about 1,400 s of running:
+`logs/cover5-prof-old40-output.txt`, `-gray40-`, `-tree40-`); and six's own chunks, where `c0` and `c1` of the `cover4`
+run and of the `cover5t` run are identical in every count with the same `NEAR` lines as sets, and the cancelled `c2`'s
+1,164,968 `NEAR` lines (its solid stage had finished) are `cover5t`'s (the digests in `logs/six-near.txt`, per
+configuration).
+
+On the 255 configurations outside `c0` and `c1`, a sample run under both hole stages: `src/cover_sample.cmd`, on `cover5s`
+(`src/cover.cpp` with `src/cover5s.patch`, which adds `--fsample N SEED`: N frontier items per cover by a fixed seed, and an
+`ITEM` line for each with its nodes by dimension, solutions, full spans and non-APN spaces). Eight dimension-6 items on
+every configuration, one dimension-5 item on each of the 210 that have any. `python src/cover_sample_cmp.py
+logs/cover-sample s6 s5` gives `s6: tree 2040 items, old 2040 items, on 255 configurations; lines only in tree 0, only in
+old 0`, `s5: tree 210 items, old 210 items, on 210 configurations; lines only in tree 0, only in old 0`, `identical`
+(`logs/cover-sample/`, `logs/20261104-175003-cover-sample.log`). `src/cover_sample_low.cmd` tried the same on the seven
+dimension-4 items, all of them, which those splits can't draw. Its tree half finished (`logs/cover-sample/tree-s4.out`:
+14,691,503 nodes, 11,866,974,280 hole-stage candidates, 26,597 s, 0 solutions). Its filter-free half was cancelled after
+2.5 h, with nothing to compare (`logs/20261104-220921-cover-sample-low.log`): by the ratios of `s5` and `s6` it had about
+7 x 10^12 candidates to run at 5 to 6 µs a thread, some two months on the job's seven threads (one per item), or two
+weeks at the 1.4 µs of the `d5` controls under `--old`. The
+verdict on those seven doesn't wait on it: they sit on `p6-101`, `p6-114`, `p6-304` and `p6-310`, search B's configurations
+31, 24, 103 and 130 (`logs/check6-mapa-output.txt`), and the point branching searched those whole, with no filter.
+
+Known-function controls through the tree, separate from the re-run's: `src/cover_ctl.py gen` cuts a known function down to
+a D-dimensional subspace holding all its rank-4 forms, and `cover_ctl.py check` looks for the whole space among the
+`SOLUTION` lines (`logs/cover-ctl/`). Each function has four rank-4 forms and runs on its own four solids (195 holes), so these
+aren't six's configurations; they enter the hole stage by the real path, `seed` then `dfs` into `holes_tree`, nothing relaxed.
+`d6-tree.out`: 20 of 20 and no others. `d5-tree.out` and `d5-old.out` (`--old`, job cover5t-ctl-d5old): 8 of 8 and 2 other
+solutions, both APN, on `ctl5-104` and `ctl5-177`, with nodes `0 0 0 0 8 7480 1450 10` and the same `SOLUTION` lines under both
+stages (candidates 4,109,334,208 under `--old`, all sent to `push`; 5,716,174 under the tree, 9,458 sent), in 742 s and 3 s. From
+4 dimensions (job cover5t-ctl-d4, split at 5, replacing an unsplit job that was cancelled at the runner's restart): `d4-split.out`, 8 of 8 and 217 other
+solutions, all APN and with the same four-form rank profile, 225 distinct spaces in all (48 each through `ctl4-73`, `ctl4-104` and `ctl4-169`, 20 each through
+`ctl4-53`, `ctl4-65`, `ctl4-177` and `ctl4-204`, the planted one alone through `ctl4-6`), with nodes `0 0 0 8 571421 303339066 1328301 225`, 223,274,124,767
+candidates and 310,407,448 sent to `push`, in 56,961 s by the program's clock, which counts paused time too. There is no filter-free run from 4 dimensions.
+
+Search B, `six_check` (`six-check.md`), its jobs run by `six_check_slices.py` (the job logs give its commands), one
+process per configuration in the searches, so the outputs here keep each configuration's line. Two searches run over the
+same tree: the point branching, which is seven's search with one member fewer, ran its off-D phase in full (both orders)
+and its whole search on a sample, since in full it would have taken more than ten days; and `lin`, written for six with
+its own primitives, ran in full in both orders:
+
+| Command | Expected | Time | Log |
+|---|---|---|---|
+| `six_check count3` | `count3 (a): k-cliques of V5824 by plain enumeration: 1:5824 2:4583936 3:606183424 4:14122766336`: every clique once, no symmetry used; `count3 (b): triangles 606183424, 4-cliques 14122766336 (by edges)`; `count3: 4-cliques = seven-check's 14122766336 OK; (a) and (b) agree OK` | 30 s | `logs/20261103-224209-check6-count3.log`, `logs/check6-count3-output.txt` |
+| `six_check parta C parta-cC-s0.txt maxc-cC-s0.txt 0 1` for class C = 0 … 4 | per class `...: R reduced 3-cliques, 0 maximal`, R = 316,416, 161,408, 80,276, 28,600, 1,920 (588,620 in all), every `maxc` file empty, each output ending in `END`; writes `parta-cC-s0.txt` (= `data/parta6-cC-s0.txt`) | under a minute | `logs/20261103-224209-check6-class.log`, `logs/check6-parta-c*-s0-output.txt` |
+| `six_check merge orbits.txt data/configs7.txt data/parta6-c0-s0.txt ... data/parta6-c4-s0.txt` | `seven-check's configurations: 3731; sum 210*20160/\|Aut\| = 14122766336 (its count4: 14122766336)`; `reduced 3-cliques 588620, of them maximal (Q empty) 0; weighted 3-cliques 606183424`; `sum over 3-cliques of \|Q\| = 56491065344; 4 * (weighted 4-cliques, seven-check) = 56491065344  OK`; `orbits 341; clique-level inconsistencies (\|Aut\| or \|Q\|) 0 + 0; per-orbit identity ... fails 0; ... OK`; `largest clique in Q ...: 4:1 5:68 6:48 7:92 11:132`; `orbits by type: spr 132 ext13 92 ext12 48 ext11 68 ext10 1 ...`; `... C(14,3) * 1128864 = 410906496  OK`; `per 7-orbit O: ... fails for 0 of 3731`; `merge: all identities hold`; writes `orbits.txt` (= `data/orbits6.txt`) | seconds | same job log, `logs/check6-merge-output.txt` |
+| `six_check configs orbits.txt data/configs7.txt data/configs8.txt data/spreads.txt configs6.txt` | `canonical form recomputed from a random GL(8,2) image of every orbit: 0 mismatches`; 341 hole sets, none without a solid (Kurz's table); `hole sets with a cover mismatch: 0; covers in all 344`; `orbits reached by no cover: 0`; outside sources `seven-check's 3731 x 7: 26117 configurations; on no listed orbit 0; ...` and `eight-check's 9372 x 28: 262416 ...; on no listed orbit 0; ...`, each reaching all 341 orbits, and `fourteen-check's spread reps x 3003: 219219 ...; on no listed orbit 0; ... spr 132/132`; `orbits reached by no deletion from seven-check's 3731: 0`; writes `configs6.txt` (= `data/configs6.txt`; spr 0..131, ext13 132..223, ext12 224..271, ext11 272..339, ext10 340) | seconds | same job log, `logs/check6-configs-output.txt` |
+| `python src/six_check_mass.py fix-6.txt` | `(a) hole classes 341, containing no solid 0   [Kurz r = 6: 341, 0]  OK`; `Langevin-Hou: 341 classes over 17 fixator orders; ours: 341 over 17`; `(b) classes per \|Aut H\| against Langevin-Hou: 0 orders differ []; their qte = classes * \|GL\| / order: OK`; `sum_H \|GL\|/\|Aut H\| = 1339989812392369324032; Langevin-Hou Total = 1339989812392369324032  OK`; `(c) labelled 6-partial spreads: from covers 1340074242473170305024; from configurations 1340074242473170305024; from Part A's W3 (606183424) 1340074242473170305024; count3's plain 3-clique count 606183424 = W3  OK` | seconds | `logs/rerun/six/s6-tally.log` |
+| `six_check selftest data/configs6.txt` | `selftest: ND4 28 (28), ND6 13888 (13888), GL4 20160 (20160), V5824 5824`; `lines in D over the configurations: 2860:341`; `brute force: ...: 0 disagreements`; `selftest: 341 configurations, 119216328 generated forms checked, 0 failures` | 3 min | `logs/20261103-224438-check6-selftest.log`, `logs/check6-selftest-output.txt` |
+| `six_check linselftest data/configs6.txt 16` | `K_a: 0 failures`; a line per configuration sampled, `200 cores sampled, N accepted in full scans, failures so far 0` (N a running total, 3,597 from the eighth configuration on: past it, the 200 cores sampled on each had no legal extension for the full scan to accept, so the scan's acceptances were checked on the first eight; the comparisons with `L_legal_add` run on all 16); `linselftest: 209920397 checks (3641 legal), 0 failures` | 36 min | `logs/20261103-230201-check6-linselftest.log`, `logs/check6-linselftest-output.txt` |
+| `six_check search data/configs6.txt p1asc.prog asc I I phase1 cores p1asc.cores` for I = 0 … 340, and the same with `desc`: the part off the holes alone, every configuration's cores | `python src/six_check_tally.py prog data/configs6.txt logs/check6-p1asc-R.txt`: `341 of 341`, nodes by dim `341 9548 267344 5305886 45791519 80157984 7828585 0 0`, cores by dim `0 0 0 0 7 113279 7828585 0 0` (7,941,871 in all, every configuration has some); `desc`: nodes `341 9548 267344 5292965 45576666 79748390 7828585 0 0`, the same cores; `six_check_tally.py cores` on the two core files: `7941871 cores on 341 configurations, 0 repeated`, `0 configurations with cores missing, 0 extra cores with a seventh solid, 0 other extra cores` | 2 h each, side by side; the tally 7 min | `logs/20261103-224914-check6-p1asc.log`, `logs/20261103-225721-check6-p1desc.log`, `logs/check6-p1asc-output.txt`, `logs/check6-p1desc-output.txt`, `logs/check6-p1asc-R.txt`, `logs/check6-p1desc-R.txt`, `logs/20261104-005608-check6-tally-p1.log`, `logs/check6-tally-p1-output.txt`, `logs/check6-tally-p1desc-prog-output.txt` |
+| `six_check lin data/configs6.txt lin.prog I I cores lin.cores` for I = 0 … 340: **`lin`, asc** | `L: 341 of 341 configurations`; nodes by dim `341 9548 267344 5308580 45963730 81635576 40014483 340912 0`, of them with a seventh solid (x4) `0 0 0 2694 172211 1318748 3134339 173214 0`; candidates tried `9548 267344 7485632 148640240 1599459715 1176846915427 18588809554755 425655971658 0` (20.19 × 10¹²); cores `8` / `125504` / `8689010` at dims 4 / 5 / 6, x4 `1` / `12225` / `860425`; `solutions 0`; no node of dimension 8. `six_check_tally.py cores` against `p1asc.cores`: `8814522 cores on 341 configurations, 0 repeated`, `0 configurations with cores missing, 872651 extra cores with a seventh solid, 0 other extra cores` | 4.1 h; the tally 44 min | `logs/20261103-225938-check6-lin.log`, `logs/check6-lin-output.txt`, `logs/check6-lin-prog.txt`, `logs/20261104-030844-check6-tally-lin.log`, `logs/check6-tally-lin-output.txt` |
+| `six_check lin data/configs6.txt lindesc.prog I I desc cores lindesc.cores` for I = 0 … 340: **`lin`, desc** | `L: 341 of 341 configurations`; nodes by dim `341 9548 267344 5296100 45777356 81273352 40362043 352939 0`, x4 `0 0 0 3135 200690 1361065 3193017 179843 0`; 20.19 × 10¹² candidates; cores, x4 cores and `lin`'s fingerprint equal to `asc`'s on all 341; `solutions 0`; no node of dimension 8 | 3.2 h | `logs/20261104-030955-check6-lindesc.log`, `logs/check6-lindesc-output.txt`, `logs/check6-lindesc-prog.txt` |
+| `six_check search data/configs6.txt asc.prog asc I I` for the 16 of `logs/check6-asc-sample.txt`, and on configuration 340 as a timing run (`logs/check6-asc340-*`): the point branching's whole search; `python src/six_check_tally.py nodes logs/check6-asc-R.txt logs/check6-lin-prog.txt` | `nodes by dimension, point branching (R) vs lin less x4 (L): 16 configurations in both, 0 differ`; `prog`: `16 of 341 configurations`, nodes by dim `16 448 12544 249619 2185056 4174853 18023357 108524 0`, cores `7` / `23020` / `517801` at dims 4 / 5 / 6, 636,498,734,410 tries at points of D, `bentext 0 full 0`. Configuration 340: nodes `1 28 784 15568 131388 230894 75824 23 0`, equal to `lin`'s less x4 (`1 configurations in both, 0 differ`), `triesD 10052894181`. | 30.6 h (829 to 33,470 s a configuration, by the program's clock; 340: 2,586 s, against 112 s for `lin`) | `logs/20261103-234500-check6-asc.log`, `logs/check6-asc-output.txt`, `logs/check6-asc-R.txt`, `logs/20261103-225232-check6-asc340.log`, `logs/check6-asc340-output.txt`, `logs/check6-asc340-R.txt` |
+| `six_check plantfind LUT KMIN 100000000 CODIM plants.txt` over the known lists (Data, below), then `six_check ctlplant data/configs6.txt LUT logs/check6-plants-NAME.txt ctlplant-RUN.txt I 1 [lin]` per planting: the main positive controls, a known function's rank-4 radicals plus solids that the off-D phase can't complete, and the configuration's whole search unguided | codimension 2: 5 plantings, all from `apn_8bit.txt` (`d0 = 6`), `FOUND ...: 1 spaces (1 APN)` for each by `lin` and by the point branching (`c2bl-lin`, `c2bl-pb`; 33.5 × 10⁹ tries of a line form in D in the first); codimension 1: 40 of `apn_8bit.txt`'s 464 and all 44 of `new_apns.txt`'s (from its 7,199 with k ≥ 2), by `lin` (`c1bl-lin`, `c1new-lin`); `blp22_8bit.txt`, `yuperrin_qam.txt` and `yuwangli_qam.txt` have no planting; 94 controls, 94 re-found, 0 other spaces | 2.2 h for the two `apn_8bit.txt` `lin` batches (with `lfull`'s first try, below), 29 min for `new_apns.txt`, 6.8 h by their clocks for the five by point branching; `plantfind` over all lists 80 min | `logs/20261103-225721-check6-plantfind.log`, `logs/20261103-233727-check6-plantfind2.log`, `logs/20261104-000612-check6-plantfind3.log`, `logs/check6-plantfind-*-output.txt`, `logs/check6-plants-*.txt`; `logs/20261103-234511-check6-ctlplant-lin.log`, `logs/20261104-012507-check6-ctlplant-new.log`, `logs/20261104-000959-check6-ctl-pb.log`; `logs/check6-ctlplant-*-output.txt`, `logs/check6-ctlplant-*.txt` |
+| `six_check ctlbatch data/configs6.txt apn_8bit.txt 2 MAXN CH ctl-NAME.txt OPT` for (NAME, CH, OPT) = (`lfull-bl22`, 1, `lin`) with MAXN 20, the unguided full controls; (`lind-bl22`, 3, `nond+lin`), (`lind2-bl22`, 3, `nond2+lin`), (`lind3-bl22`, 3, `nond3+lin`), (`ind2-bl22`, 3, `nond2`), (`ind3-bl22`, 3, `nond3`) with MAXN 1000000, the D phase from a subspace of the function of codimension 1, 2 or 3 | `lfull`: `ext controls 20 refound 20`, `nonext controls 20 refound 20`, 2.16 × 10¹² candidates over every other core; the in-D batches each `ext controls 1440 refound 1440`, `nonext controls 1383 refound 1383` (`reps 129` and `209`; 57 `k = 4` functions skipped on the nonext path, `no member 4-tuple of the class`); `notfound 0 fail 0 extra 0 nonapn 0` in every line. `ctl-lfull-bl22-nofix` is the first `lfull` batch, 0 of 40, which caught a bug in `lin` (a core that is already a whole space wasn't recorded, which arises only in controls: `six-check.md` §6); the job holding it failed with exit 3 for that reason | 23 min for the five in-D batches; `lfull` 46 min | `logs/20261103-233738-check6-ctl-ind.log`, `logs/20261104-020445-check6-lfull.log`, `logs/check6-ctl-*-output.txt`, `logs/check6-ctl-*.txt` |
+| `six_check ctlrot data/configs6.txt apn_8bit.txt 1 40 REPS lin` in chunks of 31 over every configuration (one unguided control per configuration, the first 40 functions of the list with k ≥ 3 in rotation) | `rep N (ext)` or `(nonext): line L, re-found, 0 other spaces; ...` for each of the 341 | 11 h on the shared E-cores | `logs/20261104-035403-check6-ctlrot-lin.log`, `logs/check6-ctlrot-lin-output.txt` |
+| `six_check ctlbatch data/configs6.txt apn_8bit.txt 2 5 1 ctl-full-bl22.txt` (the point branching's unguided full controls) | `ext controls 5 refound 5 notfound 0 fail 0 extra 0 nonapn 0 reps 4`, `nonext controls 5 refound 5 notfound 0 fail 0 extra 0 nonapn 0 reps 5`, each over the configuration's whole search, tries at points of D `1678434240` / `42200996663` / `9323128` and `2320948672` / `44106529070` / `7405291` at dims 5 / 6 / 7 | 10 h of the 16.7 h job (which ran the five planted ones first), mostly on the shared E-cores | `logs/20261104-000959-check6-ctl-pb.log`, `logs/check6-ctl-full-bl22-output.txt`, `logs/check6-ctl-full-bl22.txt` |
+| `six_check mapa data/configs6.txt data/p6.txt` | `mapa: 341 of A's configurations, 0 on none of ours, 341 of our 341 configurations hit, 0 hit more than once`, with `canon aut` equal to search A's tag on every line (search A's list mapped onto search B's, after both verdicts) | seconds | `logs/20261104-152337-check6-mapa.log`, `logs/check6-mapa-output.txt` |
+
+The two searches compared, by `python src/six_check_vs_a.py` from the logs above (`six-check.md` §7;
+`logs/check6-vs-a-output.txt` is the original's output, which read the spans themselves): through `mapa`, the
+classifications are a bijection with the same `|Aut|` and with w = 4, 5, 6, 7, 11 matching ext10, ext11, ext12, ext13,
+spr one to one. Search A logs a `NEAR` line when a span first holds all six rank-4 forms with holes uncovered, the event
+search B's cores record, so its 7,941,871 near misses and search B's cores agree in number on every (configuration,
+dimension) pair, in `p1asc` and in `p1desc`: `(configuration, dim) pairs 627, unequal 0`, the same 4 configurations with
+dimension-4 near misses, 282 with dimension 5, all 341 with dimension 6. Where a configuration's representatives share a
+frame, 225 of the 341, search A's spans and search B's are the same sets (5,520,490 spans); on the other 116 they're
+disjoint, being in different frames. `logs/six-near.txt` has these per configuration, for each run a count by dimension
+and a digest of the set of spans (`src/six_near.py`), so that the set comparison can be repeated here without the spans.
+Their node totals agree through dimension 2 and then differ. Per configuration (`python src/cover_percfg_cmp.py logs`, its output
+`logs/cover-percfg-cmp-output.txt`, from `logs/cover-percfg-output.txt`: `src/cover_percfg.py`, the published `cover5t` run one
+configuration at a time, job cover5t-percfg, its totals the published ones): on the 225 shared frames search A's counts equal
+`lin`'s less x4 at dimensions 1-3 and 6-8 on every configuration, and differ at 4 and 5 on 175 and 91, which is the first phase
+and not the holes, since the hole stage has only the near misses there and, on the four configurations with 4-dimensional near misses, their
+first children. On the other 116 they differ at dimensions 3 to 7. Against the point branching, on the 13 of its 17 with shared
+frames, they are equal at 6-8, and on those four from 5 up.
+
+The hole sets against Langevin and Hou's count of partial spread functions in eight variables: download `fix-6.txt`
+from https://langevin.univ-tln.fr/project/spread/psp.html; both `python src/six_check_mass.py fix-6.txt` (search B's
+hole sets, from `data/configs6.txt`) and `python src/holes_tally.py logs/holes6.txt data/p6.txt fix-6.txt 341 0`
+(search A's, from its `holes` run) give 341 classes with the same number for each of Langevin and Hou's 17 stabiliser
+orders, and `1339989812392369324032` point sets, their total (`logs/rerun/six/s6-tally.log`).
+
 ## Re-run for this folder
 
 On 2026-10-25, from a fresh MSVC build of `src/` with the Build line above, on an idle machine (output in
@@ -723,7 +911,7 @@ here (`s7-tally.log`):
   in `logs/pspread7-output.txt`; the w spot checks, every 1,000th clique of each thread and so dependent on the thread
   count, were 15,238 here against 15,245, 0 mismatches in both (52 min). `pspread3 selftest 7` as in the table;
   `pspread3 holes 7`: its `holes7.txt` the same set of lines as `logs/holes7.txt`, its output the original's.
-- `cover` (the current source, `cover4`'s) on the third chunk, lines 935 to 1,401 of `data/p7.txt`: unsplit, and split
+- `cover` (the source as it then was, `cover4`'s) on the third chunk, lines 935 to 1,401 of `data/p7.txt`: unsplit, and split
   at dimension 5, where its 56 dimension-5 near misses, in 6 configurations, become 56 frontier nodes searched in the
   second phase (`phase 1 done 836 s: frontier 56 items at dim 5`). Both give `cover3`'s original `done:` line,
   `70571705` nodes, identical at every dimension, and the same 3,841 `NEAR` lines as a set (21 and 17 min).
@@ -755,6 +943,68 @@ apart from that one count of the sweep's.
 Not re-run: the rest of the searches (each 9 to 11 h of running time, and 10 h for search A's cover chunks), the
 control batches other than `ind-bl22` (8.5 h), the numpy sample beyond configuration 3 (4.9 h) and the planted
 controls beyond the first.
+
+For six, on 2026-11-04, from a fresh build of `src/cover.cpp`, `pspread3.cpp` and `six_check.cpp` with the Build line
+(each giving the object file of the run binary built from that source, Build above; the earlier builds of `six_check` are
+the same source with less in it), as three jobs on an open box beside search B's last jobs, by `logs/rerun/six/rerun.py`
+from this folder's files (logs, `times.txt`, and the comparison `compare.py` with its output `compare.log` in
+`logs/rerun/six/`; the `cover` logs there without their `NEAR` lines, and the `configs` and `mapa` logs left out, since
+`compare.log` finds them equal to the originals), and the tallies on the files here (`s6-tally.log`):
+
+- `pspread3 enum 6`: its `p6.txt` byte for byte `data/p6.txt`, and every class total, `w=` line and the orbit count as in
+  `logs/pspread6-output.txt`; the w spot checks, every 1,000th clique of each thread and so dependent on the thread count,
+  were 544 here against 551, 0 mismatches in both. `pspread3 selftest 6` as in the table; `pspread3 holes 6`: its
+  `holes6.txt` the same set of lines as `logs/holes6.txt`, its output the original's.
+- `cover` (the current source, `cover5t`'s) on the first three chunks of `data/p6.txt`, split at dimension 5 (12, 16 and
+  55 min): each gives `cover5t`'s `done:` line, nodes identical at every dimension, the same filter counts and the same
+  `NEAR` lines as a set (940,270, 906,078 and 1,164,968). `c2` holds two of the configurations with a dimension-4 near
+  miss. Against the old hole stage: `c0` and `c1` equal `cover4`'s in the same ways, and `c2`'s `NEAR` lines are the
+  cancelled run's.
+- `cover` on `data/p11.txt` and `data/p10.txt` (2 and 5 min): nodes at every dimension, `done:` lines and `NEAR` lines as a
+  set equal to `logs/eleven-output.txt` and `logs/ten-output.txt`, which `cover3` wrote, and to `cover5t`'s regressions.
+- `cover` on the forty frontier items of `p6-101-a24-w11` (`--only p6-101-a24-w11 --frange 0 40`), by default and with
+  `--gray` (3 and 38 s; `--old`, nearly an hour by its clock, wasn't re-run): every count and the `NEAR` lines as
+  set equal to `cover5t`'s run and to `cover5`'s (the Gray build), filter counts included, so `--gray` is that build's
+  filter; and nodes and `NEAR` lines equal to the `--old` run's.
+- The positive controls through the rewritten hole stage, new here: the `SOLUTION` and `done:` lines of `cover` on
+  `data/ctl-12631-k4.txt`, `-k3` and `-k2` are the old hole stage's (they leave it little to do), and `cover` on
+  `python src/cover_prep.py ctl ... apn_8bit.txt 12631 1 1` (one completing form kept: the case cancelled as too slow on
+  the old hole stage, Left out below) leaves it most of the search: `done: covers 1, tasks 1, nodes 499550, solutions 1, ...`,
+  `nodes by span dimension 1..8: 0 1 15 150 773 495431 3179 1`, 773 near misses, 389,475,073 tree nodes, 506,819 forms sent
+  to `push`, and the one `SOLUTION` is the known function (41 min, `cover-ctl-k1.summary.log`). With none kept the search
+  is too large for this folder and was cancelled.
+- `six_check` `count3`, `merge` (its `orbits.txt` identical to `data/orbits6.txt`), `configs` (its list identical to
+  `data/configs6.txt`), `selftest` (4 min) and `linselftest` (10 min) line for line, apart from timings and the file name
+  `configs` writes; `parta` for the 5 classes, each the original file apart from the timing field, every `maxc` file empty,
+  and its output the original's apart from timings and the running clique counts in its progress lines, which depend on
+  the threads; `mapa` byte for byte.
+- `plantfind` on `apn_8bit.txt` (seconds): codimension 1
+  writes `logs/check6-plants-bl22-c1.txt` line for line, its output the original's. Codimension 2 with k ≥ 4, the command
+  in the job log, gives that log's 3 plantings; the list search B's controls read, `logs/check6-plants-bl22-c2.txt`, has 5,
+  with k ≥ 3, from a later run that left no output (its file is newer than the job's end). k ≥ 3 here writes those 5
+  line for line (`172 functions with 3 <= k <= 6, 5 planted`), which as far as can be told is that run.
+- `search phase1 cores` on configurations 0 to 40 and 300 to 340 in `asc` and 100 to 140 in `desc` (about 90 s each), one
+  process per range where the originals ran one per configuration; `lin` on 0, 24, 57, 190, 248, 340 (1 to 3 min each), and
+  `lin desc` on 0 and 340; `search asc` on 248, the point branching's whole search (15 min): every `R` and `L` line
+  identical to the original's (82 + 41, 6 + 2, 1), and the core files the same sets as the originals' on every
+  configuration (3,206,897 off-D cores; 228,535 of `lin`'s).
+- The controls: `lind-bl22` (44 s), its `ctl-lind-bl22.txt` identical apart from a path and its output line for line;
+  the planted `c2bl-lin` plantings 0 and 3, `FOUND` lines identical apart from the time; `ctlrot ... lin` on 0 and 340,
+  the same two lines.
+- The tallies and comparisons on the files here (`s6-tally.log`): `holes_tally.py` and `six_check_mass.py` against
+  `fix-6.txt`, `cover_tally.py` over the eight outputs (the near misses aside, which it reads from the `NEAR` lines:
+  `logs/six-tally-output.txt` has its run on the whole outputs), `six_check_tally.py` `prog` on the five runs and `nodes`,
+  `six_near.py compare` (`A-cover4` equal to `A` on its 129 configurations, `p1desc` to `p1asc` on 341, the three
+  profile runs to each other) and `six_check_vs_a.py` (the original's output line for line, apart from the two lines
+  that say how many files it read and how it compared the sets): every result as in the tables.
+
+So the current sources reproduce the records of the builds that ran six wherever they were re-run; `lfull`'s build alone
+had no run here.
+
+Not re-run: search A's other five chunks (about 2.4 h on an open box, 1.7 h of it `c7`), `--old` on the forty items, the
+rest of the off-D phases (2 h each), of `lin` (3 to 4 h each) and of the point branching's sample (up to 4.5 h a
+configuration), `six_check_tally.py cores` over the whole core files (7 and 44 min; they aren't in this folder), and the
+control batches other than `lind-bl22` and those few of the planted and rotated ones (from 3 min to 10 h a batch).
 
 ## Data
 
@@ -808,6 +1058,12 @@ controls beyond the first.
   `p7-<n>-a<|Aut P|>-w<w>`; input to `pspread3 holes` and `seven_check mapa`).
 - `orbits7.txt`: search B's 3,731 orbits with their invariants (output of `seven_check merge`; input to `configs`).
 - `configs7.txt`: search B's 3,731 `i = 10` configurations (output of `seven_check configs`).
+- `p6.txt`: search A's 341 `i = 11` configurations (output of `pspread3 enum 6`; cover.cpp input, tags
+  `p6-<n>-a<|Aut P|>-w<w>`; input to `pspread3 holes` and `six_check mapa`).
+- `parta6-c0-s0.txt` … `parta6-c4-s0.txt`: search B's Part A for `i = 11`, one file per minimal class (outputs of
+  `six_check parta`; inputs to `merge`).
+- `orbits6.txt`: search B's 341 orbits with their invariants (output of `six_check merge`; input to `configs`).
+- `configs6.txt`: search B's 341 `i = 11` configurations (output of `six_check configs`).
 
 Not included, all regenerated by the commands above: `spreads.txt.all` (280 KB, 40 s), `holes11.txt`, `holes10.txt`
 (16 to 22 MB depending on the build, 8 s), search B's `covers.txt` (1.9 MB, seconds), cover.cpp's `max.txt` (1.9 MB)
@@ -827,7 +1083,9 @@ for eight likewise as `logs/check8-{asc,desc,rand7}-prog.txt`, each order's 8 ra
 (`c4x.txt` is `c4.txt` without the line `p7-2222-a168-w4`, and `p2222.txt` that line alone). For seven, `seven_check
 parta`'s 37 slices `parta-c*-s*.txt` (7.6 MB) aren't included either: they take 9 minutes on an open box, one after
 another, and the ones made for this folder are identical to the originals apart from the timing field (Re-run, above);
-its `maxc-c*-s*.txt` are all empty (no 7-partial spread is maximal).
+its `maxc-c*-s*.txt` are all empty (no 7-partial spread is maximal). For six, search A's chunks are `data/p6.txt` cut into
+runs of 43 and `six_check parta`'s `maxc-c*-s0.txt` are empty too; its core files (`p1asc.cores`, `p1desc.cores`,
+`lin.cores`, `lindesc.cores`: 457 MB to 973 MB each) and `.prog` files' `P1` lines aren't here either (Left out, below).
 
 The known-function lists used by the controls aren't included either: `apn_8bit.txt` (Beierle and Leander, Zenodo
 4738942), `blp22_8bit.txt` (Beierle, Leander and Perrin, Zenodo 5821018), `new_apns.txt` (Beierle, Langevin, Leander,
@@ -877,4 +1135,17 @@ configurations the partial list doesn't hold).
   minutes with the first `asc` job and run again; a cost probe of configuration 1527 (`SEVEN_DMAX=6`, cancelled after
   3 minutes); and first submissions of the split regression and of `mapa` that ran nothing (their command lines were
   mangled before they reached `cmd`).
+- For six: search A's `NEAR` lines, 7,941,871 in the final run (790 MB, with its progress lines; the copies
+  `logs/six-output-c*.txt` keep everything else, as do `logs/six-cover4-output-c*.txt` for the first run's 3,011,316, and
+  `logs/cover5-prof-*-output.txt` for the 44,545 of each profile run), and search B's `P1` lines and core files
+  (`p1asc.prog` and `p1desc.prog` 507 MB each, `asc.prog` over 78 MB; the `.cores` files 457 MB to 973 MB), together 3.7 GB.
+  `logs/six-near.txt` keeps each run's count by dimension and a digest of its set of spans, per configuration; the `R`
+  lines (`logs/check6-{p1asc,p1desc,asc,asc340}-R.txt`) carry the cores' counts and fingerprints, and `lin` and `lindesc`'s
+  `.prog` files are here whole (`logs/check6-{lin,lindesc}-prog.txt`), `L` and `T` lines. From the searches' `.out`
+  files (one process per configuration, each repeating a header and totals) `logs/check6-{p1asc,p1desc,asc,lin,lindesc}-output.txt`
+  keep the header once, every `config` line, and, for `lin`, the last process's running totals. Also left out: two first
+  submissions that ran nothing (`check6-selftest` and `cover5-reg6`, their command lines mangled before they reached
+  `cmd`); `six_check`'s `tmp/` trial runs (other than the runs on configuration 340 here); the empty lists `plants-blp-*`,
+  `plants-new-c2`, `plants-yp-c2`, `plants-ywl-c2` (no planting: `check6-plantfind-*-output.txt` say so); and, of `plantfind`'s
+  runs, the output of the one that wrote `logs/check6-plants-bl22-c2.txt` (Re-run, above).
 - Local paths in the logs were shortened to paths relative to the working tree.

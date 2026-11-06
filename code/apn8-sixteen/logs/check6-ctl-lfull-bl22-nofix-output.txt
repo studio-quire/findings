@@ -1,0 +1,26 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+ctlbatch options: linear search
+  12207 lines read, 20 taken; ext 20: re-found 0, NOT 20, fail 0; nonext 20: re-found 0, NOT 20, fail 0; no spread 0, no embedding 0
+ctl ext nodes by dim: 0 0 0 0 0 0 0 0 0
+ctl ext tries by dim: 0 0 0 0 0 0 0 0 0
+ctl ext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl ext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctl ext cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctl ext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl ext bent-extension nodes 0, full-span records 0
+  lin: nodes by dim 20 570 15868 315605 2724965 4795059 1742844 16173 20; cores by dim 0 0 0 0 0 10491 542553 0 20; x4 nodes 320539; candidates tried in D phases 1261582624479; solutions 0
+ctlbatch runs\known\apn_8bit.txt ext: 20 controls; re-found 0; NOT found 20; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count:
+  reps hit: 0
+ctl nonext nodes by dim: 0 0 0 0 0 0 0 0 0
+ctl nonext tries by dim: 0 0 0 0 0 0 0 0 0
+ctl nonext of which at points of D: 0 0 0 0 0 0 0 0 0
+ctl nonext nodes with every off-D point covered, by dim: 0 0 0 0 0 0 0 0 0
+ctl nonext cores by dim: 0 0 0 0 0 0 0 0 0  fingerprint 0000000000000000
+ctl nonext sweep: legal spans by dim 0 0 0 0 0 0 0 0 0, 0 element checks, 0 solutions
+ctl nonext bent-extension nodes 0, full-span records 0
+  lin: nodes by dim 20 576 15824 316069 2701641 4685217 536287 222 20; cores by dim 0 0 0 0 0 1078 425965 0 20; x4 nodes 66453; candidates tried in D phases 903316777695; solutions 0
+ctlbatch runs\known\apn_8bit.txt nonext: 20 controls; re-found 0; NOT found 20; setup failures 0; other spaces found 0 (0 not APN)
+  re-found by rank-4 count:
+  reps hit: 0
+skipped: no spread 0, no member 4-tuple of the class (k = 4, nonext) 0, S0 already the whole space 0

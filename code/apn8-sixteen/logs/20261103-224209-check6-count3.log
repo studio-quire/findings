@@ -1,0 +1,2 @@
+# command: cmd /c "python apn\six_check_slices.py count3"
+count3 exit 0

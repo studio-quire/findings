@@ -1,0 +1,16 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 8, tasks 8, threads 20, split -1, hole stage old (lines x forms)
+SOLUTION ctl5-65-k4 dim 8 ranks 8:186 6:65 4:4 basis ec03669 143e2a4 6543494 2eab8fc ef5b1e2 05ae000 b941e41 d88c210
+SOLUTION ctl5-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 d84acdd 05ac000 7323bab 7c23070
+SOLUTION ctl5-6-k4 dim 8 ranks 8:186 6:65 4:4 basis 1d3de73 67e1b79 0681600 0414038 e5d1045 48cdffe a75e330 96fb212
+SOLUTION ctl5-204-k4 dim 8 ranks 8:186 6:65 4:4 basis dabdbb2 490800c 707469a 3ae0580 94a6e45 df5bab5 e8c4210 0003926
+SOLUTION ctl5-104-k4 dim 8 ranks 8:186 6:65 4:4 basis 43214e4 7a116fc 09310ec eb5a419 d84acdd ec8e000 eb138a5 f64a507
+SOLUTION ctl5-53-k4 dim 8 ranks 8:186 6:65 4:4 basis 5e7afcb 60124c6 2a03f9c 133292a ede7f2e 7111b00 d701b6d 715a1b5
+SOLUTION ctl5-169-k4 dim 8 ranks 8:186 6:65 4:4 basis 5c84254 5c4db90 5cc8ab2 31e74fc 82bd57f d8c1980 5c40805 df59a30
+SOLUTION ctl5-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 80c74fd 845f180 8140a75 69848e0
+SOLUTION ctl5-177-k4 dim 8 ranks 8:186 6:65 4:4 basis 0542332 06ab296 043fbf4 b231820 80c74fd 35da900 6bc1b55 350ba14
+SOLUTION ctl5-73-k4 dim 8 ranks 8:186 6:65 4:4 basis a6b29f5 d6fff43 9e372af e9ae609 9391548 5353680 8401479 ec8c418
+done: covers 8, tasks 8, nodes 8948, solutions 10, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 742 s
+nodes by span dimension 1..8: 0 0 0 0 8 7480 1450 10
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 0
+hole-stage candidates 4109334208, passing the filter (sent to push) 4109334208

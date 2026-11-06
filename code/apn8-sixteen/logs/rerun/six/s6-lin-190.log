@@ -1,0 +1,9 @@
+V5824: 5824 vertices, 5 classes: 1680 (rep 125a) 1344 (rep 125b) 1344 (rep 125c) 1344 (rep 125d) 112 (rep 1269)
+lin: 341 configurations; off-D and D phases
+config 190 (ext13): nodes 1 28 784 15658 133629 233802 21554 5 0  cores 0 0 0 0 0 2 21296 0 0  steps 44698974427 x4 2369 sols 0  [61.2 s, total 61 s]
+lin total nodes by dim: 4 112 3136 62350 543434 1020003 1699370 5543 0
+lin total steps by dim: 112 3136 87808 1745800 44576238 25082685111 307136995347 9203125853 0
+lin total x4 nodes by dim: 0 0 0 57 3060 25271 72079 3872 0
+lin total cores by dim: 0 0 0 0 1 2681 135416 0 0
+lin total solutions 0
+# exit 0
