@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 79428 forms 4883090fb4185172 3f1a81c3c080d0b0 0739484c749881c2 050d152140e001f2 000000000301090e
+G5 395
+iter 0 subset 395 -> core 228 nodes 34165080
+iter 1 subset 228 -> core 228 nodes 34165080
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

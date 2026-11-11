@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 10449 forms 43851423016395de 3c038e84a3b26d4a 1f365ae7a2d1f894 060b0c0460b3c546 0000000006080902
+G5 379
+iter 0 subset 379 -> core 234 nodes 20531488
+iter 1 subset 234 -> core 234 nodes 20531488
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

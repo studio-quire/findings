@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 9411 forms 43870e083163e4cc 351d93ea50c031e2 103040c000000000 0a080c0bf2219814 000000000709080c
+G5 387
+iter 0 subset 387 -> core 229 nodes 240293992
+iter 1 subset 229 -> core 229 nodes 240293992
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

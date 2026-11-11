@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 13977 forms 4781040e13b29cc8 21188c4a7120118a 0731546e13b29cc8 1e1b1fe8f1a2e56a 00000000040b0506
+G5 379
+iter 0 subset 379 -> core 231 nodes 54724520
+iter 1 subset 231 -> core 231 nodes 54724520
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

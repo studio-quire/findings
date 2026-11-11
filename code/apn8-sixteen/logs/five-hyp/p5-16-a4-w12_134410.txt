@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 134410 forms 4b8e0203c040f090 390d8e87e17131de 1b3e42c3c040f090 0f02152e91b1d0ac 0000000003020d0a
+G5 387
+iter 0 subset 387 -> core 226 nodes 20328872
+iter 1 subset 226 -> core 226 nodes 20328872
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

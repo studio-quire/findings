@@ -1,0 +1,6 @@
+core p5-7-a2-w12 line 537975 forms 5e840d80a2e38c24 351593e501d324fc 1e345de0a2e38c24 040b050641b3546c 000000000508010a
+G5 379
+iter 0 subset 379 -> core 231 nodes 21497576
+iter 1 subset 231 -> core 231 nodes 21497576
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

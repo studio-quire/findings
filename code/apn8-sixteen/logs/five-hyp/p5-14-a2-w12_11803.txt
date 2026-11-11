@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 11803 forms 250f982875c940cc 08264f04a0716024 1e0b0a86e59bf44c 051f084875c940cc 000000000301090e
+G5 371
+iter 0 subset 371 -> core 234 nodes 59455952
+iter 1 subset 234 -> core 234 nodes 59455952
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

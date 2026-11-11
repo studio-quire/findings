@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 7690 forms 2211884422118844 072e4b0660d2f5a2 19180cc7e0301090 0c071f25a2f36d76 00000000050a0408
+G5 371
+iter 0 subset 371 -> core 231 nodes 772893112
+iter 1 subset 231 -> core 231 nodes 772893112
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

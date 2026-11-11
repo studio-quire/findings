@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 3697 forms 200b8d0870214064 102050a000000000 021a146e5230d902 0b050904a35089ea 000000000709080c
+G5 387
+iter 0 subset 387 -> core 230 nodes 2931856
+iter 1 subset 230 -> core 230 nodes 2931856
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

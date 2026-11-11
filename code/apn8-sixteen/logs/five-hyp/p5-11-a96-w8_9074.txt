@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 9074 forms 2017916b1143557e 02245d2f3370993a 12041daf3370993a 070c0f0660f0b1a2 00000000070a0c08
+G5 379
+iter 0 subset 379 -> core 232 nodes 11291176
+iter 1 subset 232 -> core 232 nodes 11291176
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

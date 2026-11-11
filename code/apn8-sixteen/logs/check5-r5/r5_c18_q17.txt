@@ -1,0 +1,6 @@
+r 5 cfg 18 c1 17 every 1 useU 1 pivot 0
+tuples 614656 sets 50959 k4 0 k5 50959 skippedK3 0 f0 222722177 f1 61075163 f0max 7196 f1max 5242 nodes 61075163 46639 0 0 found 0
+hist 8:31 9:1688 10:18710 11:27772 12:2746 13:12
+APN 0 of 0
+seconds 125.0
+DONE

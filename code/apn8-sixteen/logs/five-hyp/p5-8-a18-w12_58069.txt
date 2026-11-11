@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 58069 forms 4c850a0bb1c1315e 2b1f8643c061f0d4 0a2b572cd331e96e 1a1b17ecd331e96e 00000000060a0d02
+G5 387
+iter 0 subset 387 -> core 235 nodes 97713928
+iter 1 subset 235 -> core 235 nodes 97713928
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

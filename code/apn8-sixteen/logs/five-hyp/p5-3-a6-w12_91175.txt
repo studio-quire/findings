@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 91175 forms 478a0c0874a8c182 3a0b97acd033e464 0a2b572cd033e464 0c17156b95e85078 0000000003020d0a
+G5 379
+iter 0 subset 379 -> core 232 nodes 31383536
+iter 1 subset 232 -> core 232 nodes 31383536
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

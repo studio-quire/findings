@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 99713 forms 458d090a74ca15e2 2807952c94794166 062f552244ead562 1d0a0c86e0b35484 0000000003020c08
+G5 371
+iter 0 subset 371 -> core 230 nodes 190765288
+iter 1 subset 230 -> core 230 nodes 190765288
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

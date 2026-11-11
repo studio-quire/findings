@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 39374 forms 4b8e0203c141f09c 02265822254bd40c 13041caa34699084 0a1c064bd063b414 0000000002030d06
+G5 363
+iter 0 subset 363 -> core 235 nodes 228095736
+iter 1 subset 235 -> core 235 nodes 228095736
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

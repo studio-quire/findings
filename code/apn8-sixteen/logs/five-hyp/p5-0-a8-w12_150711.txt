@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 150711 forms 528313ab1101f17e 2010906000000000 0a225b2eb718f828 050a0b07669879b2 000000000103040c
+G5 387
+iter 0 subset 387 -> core 233 nodes 28771176
+iter 1 subset 233 -> core 233 nodes 28771176
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

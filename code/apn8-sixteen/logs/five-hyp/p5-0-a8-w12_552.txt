@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 552 forms 1f244984a5d980ac 0e170d48b5e8c16a 0f041924a5d980ac 0408050e53b01828 000000000102050a
+G5 379
+iter 0 subset 379 -> core 225 nodes 10837456
+iter 1 subset 225 -> core 225 nodes 10837456
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 111074 forms 4f84020a91c2b488 270f982c72d0c8c0 0d205e2ab3a1398e 171f18ec72d0c8c0 000000000508010a
+G5 379
+iter 0 subset 379 -> core 230 nodes 17093144
+iter 1 subset 230 -> core 230 nodes 17093144
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

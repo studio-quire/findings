@@ -1,0 +1,6 @@
+core p5-18-a36-w12 line 7599 forms 301080c000000000 1122448811224488 0b050f06a371b8ec 040c070a53e1382c 00000000050a0408
+G5 363
+iter 0 subset 363 -> core 232 nodes 51081904
+iter 1 subset 232 -> core 232 nodes 51081904
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

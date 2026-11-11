@@ -1,0 +1,17 @@
+ITEM ctl6-ctl4-53-k4-1 gens 5e7afcb 60124c6 2a03f9c 133292a 075a000 670113d start r4 4 r6 19 nodes 0 0 0 0 0 1 1 1 sols 1 full 0 nonapn 0
+SOLUTION ctl6-ctl4-53-k4-1 basis 5e7afcb 60124c6 2a03f9c 133292a 075a000 670113d f0bd2c3 43ae0b2
+ITEM ctl6-ctl4-6-k4-0 gens 1d3de73 67e1b79 0681600 0414038 48cdffe a75e330 start r4 4 r6 15 nodes 0 0 0 0 0 1 1 1 sols 1 full 0 nonapn 0
+SOLUTION ctl6-ctl4-6-k4-0 basis 1d3de73 67e1b79 0681600 0414038 48cdffe a75e330 96fb212 413b8a3
+ITEM ctl6-ctl4-53-k4-2 gens 5e7afcb 60124c6 2a03f9c 133292a 1b6bb00 b000001 start r4 4 r6 21 nodes 0 0 0 0 0 1 2 1 sols 1 full 0 nonapn 0
+SOLUTION ctl6-ctl4-53-k4-2 basis 5e7afcb 60124c6 2a03f9c 133292a 1b6bb00 b000001 4a5ac34 06f4317
+ITEM ctl6-ctl4-53-k4-3 gens 5e7afcb 60124c6 2a03f9c 133292a 69ae000 5c01669 start r4 4 r6 19 nodes 0 0 0 0 0 1 2 1 sols 1 full 0 nonapn 0
+SOLUTION ctl6-ctl4-53-k4-3 basis 5e7afcb 60124c6 2a03f9c 133292a 69ae000 5c01669 d78c653 2021703
+ITEM ctl6-ctl4-53-k4-5 gens 5e7afcb 60124c6 2a03f9c 133292a 468db00 7900475 start r4 4 r6 21 nodes 0 0 0 0 0 1 2 1 sols 1 full 0 nonapn 0
+SOLUTION ctl6-ctl4-53-k4-5 basis 5e7afcb 60124c6 2a03f9c 133292a 468db00 7900475 d1bd9f9 114910b
+ITEM ctl6-ctl4-53-k4-4 gens 5e7afcb 60124c6 2a03f9c 133292a 6d20000 cd00665 start r4 4 r6 17 nodes 0 0 0 0 0 1 2 1 sols 1 full 0 nonapn 0
+SOLUTION ctl6-ctl4-53-k4-4 basis 5e7afcb 60124c6 2a03f9c 133292a 6d20000 cd00665 f7ad758 1379c54
+ITEM ctl5-ctl4-6-k4-0 gens 1d3de73 67e1b79 0681600 0414038 48cdffe start r4 4 r6 7 nodes 0 0 0 0 1 593 6 1 sols 1 full 0 nonapn 0
+SOLUTION ctl5-ctl4-6-k4-0 basis 1d3de73 67e1b79 0681600 0414038 48cdffe a75e330 96fb212 413b8a3
+ITEM ctl5-ctl4-53-k4-1 gens 5e7afcb 60124c6 2a03f9c 133292a 075a000 start r4 4 r6 9 nodes 0 0 0 0 1 585 128 1 sols 1 full 0 nonapn 0
+SOLUTION ctl5-ctl4-53-k4-1 basis 5e7afcb 60124c6 2a03f9c 133292a 075a000 670113d f0bd2c3 43ae0b2
+done: items 8

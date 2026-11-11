@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 7993 forms 2a0f8106c250d962 152a428743937d9e 051a024743937d9e 0408172d52b12834 00000000050b040c
+G5 379
+iter 0 subset 379 -> core 233 nodes 26854904
+iter 1 subset 233 -> core 233 nodes 26854904
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

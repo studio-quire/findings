@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 3551 forms 240c870e50f13126 172e4b8663d3fdae 03021c283322cc88 0d0b0907e29159f6 000000000708090a
+G5 387
+iter 0 subset 387 -> core 227 nodes 51699240
+iter 1 subset 227 -> core 227 nodes 51699240
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

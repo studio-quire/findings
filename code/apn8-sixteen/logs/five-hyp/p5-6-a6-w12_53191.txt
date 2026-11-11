@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 53191 forms 42830d032429d176 2502962601b2758a 07315a622182b5ca 151206c601b2758a 0000000002030c04
+G5 395
+iter 0 subset 395 -> core 234 nodes 81260064
+iter 1 subset 234 -> core 234 nodes 81260064
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

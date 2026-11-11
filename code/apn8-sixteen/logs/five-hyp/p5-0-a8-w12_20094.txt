@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 20094 forms 37039ca221a3d5ce 142255ac11b04028 0412054c11b04028 0e070d08b5e8c16a 0000000003020c08
+G5 371
+iter 0 subset 371 -> core 230 nodes 119500216
+iter 1 subset 230 -> core 230 nodes 119500216
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 206021 forms 42811b25251ba47c 04244f0c35fb242c 14041fac35fb242c 031c1567457991be 0000000002030d06
+G5 371
+iter 0 subset 371 -> core 233 nodes 45487696
+iter 1 subset 233 -> core 233 nodes 45487696
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

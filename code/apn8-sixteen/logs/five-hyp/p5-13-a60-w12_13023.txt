@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 13023 forms 4186060c1173648c 2106962c1173648c 12245aa42251a804 0a1d1e6bf060b050 00000000060a0d02
+G5 387
+iter 0 subset 387 -> core 215 nodes 47934992
+iter 1 subset 215 -> core 215 nodes 47934992
+core rank 21 a0 1
+sat 255 unsat 0 cap 0

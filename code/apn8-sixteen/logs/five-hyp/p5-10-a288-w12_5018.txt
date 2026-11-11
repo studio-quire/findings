@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 5018 forms 4582040201a2558a 07265c2723f1d99e 150214a201a2558a 021d084b7141905c 00000000070b0d0e
+G5 387
+iter 0 subset 387 -> core 233 nodes 269506048
+iter 1 subset 233 -> core 233 nodes 269506048
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

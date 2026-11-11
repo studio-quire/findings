@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 21309 forms 2c14824382c13814 0c384d4bf0a31536 130e03804140e1aa 03021c283322cc88 00000000050b040c
+G5 379
+iter 0 subset 379 -> core 234 nodes 37275664
+iter 1 subset 234 -> core 234 nodes 37275664
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

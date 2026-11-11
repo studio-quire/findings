@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 75559 forms 4d87030b94c971f6 251a8142428158a4 0a3d5f63e261b976 150a11a2428158a4 0000000001020408
+G5 379
+iter 0 subset 379 -> core 226 nodes 39210040
+iter 1 subset 226 -> core 226 nodes 39210040
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

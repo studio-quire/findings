@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 6464 forms 23029c283322cc88 102050a000000000 071a0b426183f5ae 0c070f09b2e16874 0000000004090106
+G5 379
+iter 0 subset 379 -> core 222 nodes 61468416
+iter 1 subset 222 -> core 222 nodes 61468416
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

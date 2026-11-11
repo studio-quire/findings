@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 141266 forms 4e950f4db2f2ac70 291e8243c143749c 0c215b24a2902962 1c110bc4a2902962 00000000040a0502
+G5 379
+iter 0 subset 379 -> core 229 nodes 240307704
+iter 1 subset 229 -> core 229 nodes 240307704
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

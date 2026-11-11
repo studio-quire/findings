@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 94066 forms 4183172f143970f4 24189165459b053e 143841c5459b053e 03020d0a3123d4ac 0000000002010906
+G5 387
+iter 0 subset 387 -> core 232 nodes 23060304
+iter 1 subset 232 -> core 232 nodes 23060304
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

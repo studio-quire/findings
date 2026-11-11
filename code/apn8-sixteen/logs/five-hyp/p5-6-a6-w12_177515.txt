@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 177515 forms 44920f4124a96136 271b9d6e74b9d1e6 062c572640f3b424 121e18e7645ad512 0000000003020c08
+G5 363
+iter 0 subset 363 -> core 229 nodes 44735968
+iter 1 subset 229 -> core 229 nodes 44735968
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

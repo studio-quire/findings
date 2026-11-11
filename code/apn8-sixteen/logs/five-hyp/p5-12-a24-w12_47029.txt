@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 47029 forms 4184152e117214a8 052e400c55d8418a 0114054e117214a8 0701090b318394fc 0000000003020d0a
+G5 371
+iter 0 subset 371 -> core 228 nodes 10374392
+iter 1 subset 228 -> core 228 nodes 10374392
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

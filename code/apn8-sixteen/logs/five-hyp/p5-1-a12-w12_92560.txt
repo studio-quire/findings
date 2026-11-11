@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 92560 forms 4b811c21a52b85de 2e1b8249d180e058 0330434a1002b4a0 18011fabb529317e 0000000002030c04
+G5 379
+iter 0 subset 379 -> core 232 nodes 12444480
+iter 1 subset 232 -> core 232 nodes 12444480
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

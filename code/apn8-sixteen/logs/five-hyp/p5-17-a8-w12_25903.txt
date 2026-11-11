@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 25903 forms 2e15936181c3a47c 0e2f5d20e5eac468 1e1f0dc0e5eac468 0103050e113355ee 0000000003020c08
+G5 379
+iter 0 subset 379 -> core 228 nodes 39234432
+iter 1 subset 228 -> core 228 nodes 39234432
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-18-a36-w12 line 19444 forms 44840a0d33d22d1a 3a0c97a9d260a830 112255aa112255aa 0a1c1769d260a830 000000000509010e
+G5 379
+iter 0 subset 379 -> core 228 nodes 2845048
+iter 1 subset 228 -> core 228 nodes 2845048
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

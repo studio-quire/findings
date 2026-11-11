@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 95543 forms 478d050e51f394ec 350a94a855aa4488 122741860459d064 0212166c1031e004 000000000301090e
+G5 387
+iter 0 subset 387 -> core 241 nodes 56411760
+iter 1 subset 241 -> core 241 nodes 56411760
+core rank 23 a0 1
+sat 255 unsat 0 cap 0

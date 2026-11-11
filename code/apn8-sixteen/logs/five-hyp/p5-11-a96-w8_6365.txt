@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 6365 forms 2010804000000000 072c4f0a75eab5aa 160e0b8264c8f122 0b071c2cb57ac5ca 0000000003020c08
+G5 379
+iter 0 subset 379 -> core 233 nodes 9518224
+iter 1 subset 233 -> core 233 nodes 9518224
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

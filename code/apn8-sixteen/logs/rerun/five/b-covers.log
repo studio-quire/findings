@@ -1,0 +1,27 @@
+r=4 rep 125a 0000 |Gamma|=288: solids inside 4, exact covers 1, point-set stabiliser 288
+r=4 rep 125b 0000 |Gamma|=120: solids inside 4, exact covers 1, point-set stabiliser 120
+r=4 rep 1269 0000 |Gamma|=4320: solids inside 4, exact covers 1, point-set stabiliser 4320
+r=5 rep 125a 239e |Gamma|=8: solids inside 5, exact covers 1, point-set stabiliser 8
+r=5 rep 125a 239f |Gamma|=1: solids inside 5, exact covers 1, point-set stabiliser 1
+r=5 rep 125a 23ad |Gamma|=24: solids inside 5, exact covers 1, point-set stabiliser 24
+r=5 rep 125a 23af |Gamma|=12: solids inside 5, exact covers 1, point-set stabiliser 12
+r=5 rep 125a 23d7 |Gamma|=2: solids inside 5, exact covers 1, point-set stabiliser 2
+r=5 rep 125a 25ac |Gamma|=6: solids inside 5, exact covers 1, point-set stabiliser 6
+r=5 rep 125a 25bf |Gamma|=3: solids inside 5, exact covers 1, point-set stabiliser 3
+r=5 rep 125a 27c4 |Gamma|=6: solids inside 5, exact covers 1, point-set stabiliser 6
+r=5 rep 125a 37fe |Gamma|=18: solids inside 5, exact covers 1, point-set stabiliser 18
+r=5 rep 125a 3c4d |Gamma|=12: solids inside 5, exact covers 1, point-set stabiliser 12
+r=5 rep 125a 5a48 |Gamma|=288: solids inside 6, exact covers 1, point-set stabiliser 288
+r=5 rep 125a 5a7b |Gamma|=96: solids inside 6, exact covers 1, point-set stabiliser 96
+r=5 rep 125b 239f |Gamma|=24: solids inside 5, exact covers 1, point-set stabiliser 24
+r=5 rep 125b 23ad |Gamma|=36: solids inside 5, exact covers 1, point-set stabiliser 36
+r=5 rep 125b 23e5 |Gamma|=60: solids inside 5, exact covers 1, point-set stabiliser 60
+r=5 rep 125b 25c3 |Gamma|=4: solids inside 5, exact covers 1, point-set stabiliser 4
+r=5 rep 125b 25d6 |Gamma|=2: solids inside 5, exact covers 1, point-set stabiliser 2
+r=5 rep 125b 25fe |Gamma|=4: solids inside 5, exact covers 1, point-set stabiliser 4
+r=5 rep 125b 2a76 |Gamma|=8: solids inside 5, exact covers 1, point-set stabiliser 8
+r=5 rep 125b 6fd7 |Gamma|=120: solids inside 5, exact covers 1, point-set stabiliser 120
+r=5 rep 1269 23ad |Gamma|=1440: solids inside 6, exact covers 1, point-set stabiliser 1440
+r=5 rep 1269 9648 |Gamma|=21600: solids inside 10, exact covers 2, point-set stabiliser 43200 shared solids between covers: [0] other cover T: ['c832', '4c13'], T^2+T+I: ['0000', '0000']
+point sets r=5 (each set of solids weighted 1/covers): 20267057123180937216
+# exit 0

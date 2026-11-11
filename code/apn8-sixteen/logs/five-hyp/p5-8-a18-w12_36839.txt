@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 36839 forms 438309062011d1e6 251a8142428158a4 032359262011d1e6 1e0c0f8af1e2b428 0000000004090106
+G5 387
+iter 0 subset 387 -> core 230 nodes 11969744
+iter 1 subset 230 -> core 230 nodes 11969744
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

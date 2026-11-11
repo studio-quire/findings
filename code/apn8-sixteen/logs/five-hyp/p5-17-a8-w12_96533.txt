@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 96533 forms 4d820b07a69978b4 281c8340c141212e 0d225b27a69978b4 151b14ec54b841c2 000000000103050e
+G5 371
+iter 0 subset 371 -> core 234 nodes 74518640
+iter 1 subset 234 -> core 234 nodes 74518640
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

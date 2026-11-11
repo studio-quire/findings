@@ -1,0 +1,1 @@
+ordered pairs by dim K: {2: 312} all block-view claims held

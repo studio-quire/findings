@@ -1,0 +1,10 @@
+
+# command: cmd /c runs\check5\review\nopiv2\run.cmd
+7 tuples
+tuple 0: k4 f1 152592 nodes 152592 13398252 2640 0 found 0 APN 0, 303.6 s
+
+
+tuple 1: k4 f1 299068 nodes 299068 77692455 56850 0 found 0 APN 0, 2756.8 s
+tuple 3: k4 f1 301740 nodes 301740 78858484 57580 0 found 0 APN 0, 2805.9 s
+tuple 2: k4 f1 337332 nodes 337332 108159288 110460 0 found 0 APN 0, 3821.4 s
+

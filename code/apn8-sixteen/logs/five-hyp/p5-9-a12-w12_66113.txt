@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 66113 forms 41890f0c743920e4 2701962e10b2b4c0 0731566e10b2b4c0 1d140ecab4ea3582 0000000002030d06
+G5 379
+iter 0 subset 379 -> core 230 nodes 58858112
+iter 1 subset 230 -> core 230 nodes 58858112
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

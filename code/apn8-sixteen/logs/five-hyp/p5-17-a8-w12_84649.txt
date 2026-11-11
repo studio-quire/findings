@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 84649 forms 478d0f0b70e2b4f0 2409820743933d5e 103040c000000000 050c142e53f1198e 0000000006080902
+G5 379
+iter 0 subset 379 -> core 229 nodes 24282456
+iter 1 subset 229 -> core 229 nodes 24282456
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

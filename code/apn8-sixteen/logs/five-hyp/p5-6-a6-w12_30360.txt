@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 30360 forms 3108848242231d86 162e408951c1c01c 061e106951c1c01c 04070d0520f34474 000000000509010e
+G5 371
+iter 0 subset 371 -> core 231 nodes 40954400
+iter 1 subset 231 -> core 231 nodes 40954400
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

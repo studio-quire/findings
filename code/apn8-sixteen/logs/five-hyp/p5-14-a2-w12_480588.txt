@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 480588 forms 449911664191106c 280a8409d0224512 0c33454f91b3557e 170d078c52f1a8e4 000000000508010a
+G5 371
+iter 0 subset 371 -> core 229 nodes 50771376
+iter 1 subset 229 -> core 229 nodes 50771376
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

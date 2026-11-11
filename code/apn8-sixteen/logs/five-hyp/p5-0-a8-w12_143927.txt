@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 143927 forms 4e98094bf183943c 241a956240a05020 0a325c69b123c41c 100d048f5371185c 00000000040a0502
+G5 395
+iter 0 subset 395 -> core 230 nodes 434302928
+iter 1 subset 230 -> core 230 nodes 434302928
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

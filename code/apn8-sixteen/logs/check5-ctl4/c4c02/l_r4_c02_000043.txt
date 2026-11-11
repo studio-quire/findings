@@ -1,0 +1,6 @@
+tuple 0 1 1 5 processed 0
+tuples 1 sets 0 k4 0 k5 0 skippedK3 0 f0 0 f1 0 f0max 0 f1max 0 nodes 0 0 0 0 found 0
+hist
+APN 0 of 0
+seconds 0.0
+DONE

@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 2371 forms 2a0582018142a458 0e394d4bf1a29478 141c0fca70e03020 060f122c52d3ed46 00000000060b0c04
+G5 395
+iter 0 subset 395 -> core 232 nodes 145948120
+iter 1 subset 232 -> core 232 nodes 145948120
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

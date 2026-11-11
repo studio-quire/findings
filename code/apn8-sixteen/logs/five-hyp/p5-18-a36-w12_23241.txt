@@ -1,0 +1,6 @@
+core p5-18-a36-w12 line 23241 forms 4a8d070dd271a874 2d0c9d28f1e305ae 1e2e51a0c2c1c926 0413166d10b06152 0000000006080902
+G5 403
+iter 0 subset 403 -> core 223 nodes 13370840
+iter 1 subset 223 -> core 223 nodes 13370840
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

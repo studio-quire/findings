@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 226362 forms 448811224381192e 23178a4f3251f9d6 03274a0f3251f9d6 1802088eb3135d0e 000000000709080c
+G5 387
+iter 0 subset 387 -> core 222 nodes 51576352
+iter 1 subset 222 -> core 222 nodes 51576352
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

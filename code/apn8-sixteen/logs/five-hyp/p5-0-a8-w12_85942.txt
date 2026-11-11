@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 85942 forms 4e860f09b2e1e936 230a81014003c5b6 03325c683322cc88 131a11e14003c5b6 00000000040a0502
+G5 371
+iter 0 subset 371 -> core 222 nodes 15303872
+iter 1 subset 222 -> core 222 nodes 15303872
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

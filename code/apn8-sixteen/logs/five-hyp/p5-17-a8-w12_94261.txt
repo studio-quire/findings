@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 94261 forms 48800805a0100112 2e05830181c3a47c 0c3b5d63e4ab5474 1c1b1de3e4ab5474 0000000002010804
+G5 379
+iter 0 subset 379 -> core 230 nodes 22561336
+iter 1 subset 230 -> core 230 nodes 22561336
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

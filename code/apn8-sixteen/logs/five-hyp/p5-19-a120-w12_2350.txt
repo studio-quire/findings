@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 2350 forms 23028d0a3322ddaa 102050a000000000 0619176d52b2ac70 0f090a02e181b0cc 00000000060a0d02
+G5 371
+iter 0 subset 371 -> core 231 nodes 72106736
+iter 1 subset 231 -> core 231 nodes 72106736
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

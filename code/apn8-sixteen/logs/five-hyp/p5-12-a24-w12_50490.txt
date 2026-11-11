@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 50490 forms 4488112243821d2a 27179d6a32e3dde6 032f4c087161c0cc 180a0e89f0236414 00000000070a0c08
+G5 379
+iter 0 subset 379 -> core 230 nodes 7106520
+iter 1 subset 230 -> core 230 nodes 7106520
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

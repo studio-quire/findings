@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 7910 forms 27148c4320e39596 0c384d4bf0a31536 180e0d80e3624c28 0f0a1123c381d9be 00000000040a0502
+G5 387
+iter 0 subset 387 -> core 232 nodes 19197328
+iter 1 subset 232 -> core 232 nodes 19197328
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

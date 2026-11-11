@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 644 forms 1e24468b93e3bd1e 0112054a112255aa 0f06132182c1e8b4 040801024183152e 00000000050b040c
+G5 371
+iter 0 subset 371 -> core 231 nodes 43228296
+iter 1 subset 231 -> core 231 nodes 43228296
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

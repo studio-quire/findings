@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 19740 forms 2211884420128440 08274f01a0626572 151f09c765da54f8 0f091e22e5aab5ca 0000000002030c04
+G5 387
+iter 0 subset 387 -> core 227 nodes 109616560
+iter 1 subset 227 -> core 227 nodes 109616560
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

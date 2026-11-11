@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 4062 forms 2e05830181c3a47c 0d345a6fb2d23d92 1d141aefb2d23d92 050e030243c178ac 00000000050b040c
+G5 379
+iter 0 subset 379 -> core 240 nodes 95465080
+iter 1 subset 240 -> core 240 nodes 95465080
+core rank 23 a0 1
+sat 255 unsat 0 cap 0

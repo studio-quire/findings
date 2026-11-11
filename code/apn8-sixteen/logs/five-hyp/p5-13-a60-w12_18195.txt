@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 18195 forms 478e070a52e3fda6 260c830243c1b92e 05315e6d30b324d4 14131ae52191605c 000000000509010e
+G5 379
+iter 0 subset 379 -> core 231 nodes 9898896
+iter 1 subset 231 -> core 231 nodes 9898896
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 43319 forms 4080102000000000 2c0f850cd3f34d6e 1b2559a4a35188ec 0612176f12b0f932 000000000708090a
+G5 395
+iter 0 subset 395 -> core 238 nodes 296569328
+iter 1 subset 238 -> core 238 nodes 296569328
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

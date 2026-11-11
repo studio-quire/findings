@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 81617 forms 418c0f07607235b2 310c9fa7607235b2 032857224122b5aa 0719186c739189ce 0000000004080102
+G5 395
+iter 0 subset 395 -> core 236 nodes 37840024
+iter 1 subset 236 -> core 236 nodes 37840024
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

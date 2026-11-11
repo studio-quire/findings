@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 58802 forms 478c020c55dba48c 2010906000000000 0326572e1171f1ae 1a0713af945bf576 0000000002010906
+G5 379
+iter 0 subset 379 -> core 229 nodes 15859696
+iter 1 subset 229 -> core 229 nodes 15859696
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

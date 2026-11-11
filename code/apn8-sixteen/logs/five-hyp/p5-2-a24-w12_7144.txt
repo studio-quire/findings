@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 7144 forms 2b068d0ab361d9ae 02215a252011a054 1804028182432c14 0b160d4ab361d9ae 00000000060a0d02
+G5 395
+iter 0 subset 395 -> core 228 nodes 241411160
+iter 1 subset 228 -> core 228 nodes 241411160
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

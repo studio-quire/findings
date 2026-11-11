@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 11341 forms 2e02952d91b1c03c 0c34404a95c9110e 1e1205cd91b1c03c 0301090e311090e8 0000000002010906
+G5 379
+iter 0 subset 379 -> core 232 nodes 40500232
+iter 1 subset 232 -> core 232 nodes 40500232
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

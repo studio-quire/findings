@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 49628 forms 4f85030180c0a0f0 2f15834180c0a0f0 0b2f5623c160f1da 111014e002220d82 00000000050a0408
+G5 379
+iter 0 subset 379 -> core 231 nodes 23798552
+iter 1 subset 231 -> core 231 nodes 23798552
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

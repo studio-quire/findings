@@ -1,0 +1,6 @@
+core p5-18-a36-w12 line 30221 forms 42811b252111a17e 22018b052111a17e 062a4d0262a0d820 081c1361c0422430 00000000040a0502
+G5 379
+iter 0 subset 379 -> core 231 nodes 94452464
+iter 1 subset 231 -> core 231 nodes 94452464
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

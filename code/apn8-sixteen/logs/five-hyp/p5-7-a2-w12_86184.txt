@@ -1,0 +1,6 @@
+core p5-7-a2-w12 line 86184 forms 458f030240c274e0 2d198345c49b24f4 0826400784595014 0f081a23e48bb494 0000000002010906
+G5 371
+iter 0 subset 371 -> core 232 nodes 32312944
+iter 1 subset 232 -> core 232 nodes 32312944
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

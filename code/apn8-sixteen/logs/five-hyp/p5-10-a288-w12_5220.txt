@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 5220 forms 4080102000000000 112255aa112255aa 021b0a476011f156 0a050804a152854a 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 232 nodes 9508496
+iter 1 subset 232 -> core 232 nodes 9508496
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

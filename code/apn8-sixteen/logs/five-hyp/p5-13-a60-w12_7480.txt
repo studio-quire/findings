@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 7480 forms 251b8341408061f2 153b43c1408061f2 070a1a276193f49c 090f0203c54b75de 0000000003020c08
+G5 371
+iter 0 subset 371 -> core 233 nodes 68582432
+iter 1 subset 233 -> core 233 nodes 68582432
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

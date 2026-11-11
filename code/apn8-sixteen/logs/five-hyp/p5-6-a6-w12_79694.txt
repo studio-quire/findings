@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 79694 forms 458a040850a14084 2116824813436d8e 0e2c592ef0d39526 1e0c19aef0d39526 00000000050b040c
+G5 379
+iter 0 subset 379 -> core 233 nodes 14924808
+iter 1 subset 233 -> core 233 nodes 14924808
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

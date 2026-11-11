@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 8067 forms 220a92274311f81c 023a42474311f81c 131806cf5233bc94 0c0d0f0bf3e0397a 00000000050a0408
+G5 379
+iter 0 subset 379 -> core 228 nodes 368291936
+iter 1 subset 228 -> core 228 nodes 368291936
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

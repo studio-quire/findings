@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 52003 forms 478e010340c0d0b0 3b0697af9071f1b6 1a2542818142a458 0b16176f9071f1b6 000000000301090e
+G5 371
+iter 0 subset 371 -> core 227 nodes 29778992
+iter 1 subset 227 -> core 227 nodes 29778992
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

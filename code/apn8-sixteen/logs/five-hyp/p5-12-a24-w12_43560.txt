@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 43560 forms 4080102000000000 270f952b52e0d9f2 1f295cabf0a191d6 0419014643931d6e 00000000070a0c08
+G5 379
+iter 0 subset 379 -> core 232 nodes 9277960
+iter 1 subset 232 -> core 232 nodes 9277960
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

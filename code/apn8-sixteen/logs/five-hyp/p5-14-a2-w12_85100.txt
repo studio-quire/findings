@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 85100 forms 428a010b5203dc34 2d02942480b14084 022a512b5203dc34 131915e7433098f8 00000000060b0c04
+G5 379
+iter 0 subset 379 -> core 229 nodes 7560168
+iter 1 subset 229 -> core 229 nodes 7560168
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

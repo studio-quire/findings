@@ -1,0 +1,1 @@
+plant: 26 functions, 390 (S8, coset) pairs, S8 returned in 390

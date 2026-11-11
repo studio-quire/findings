@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 922 forms 2102850a112255aa 142c438240c03020 050e162851e2658a 0f050904a4d981e6 000000000301080c
+G5 371
+iter 0 subset 371 -> core 227 nodes 29557016
+iter 1 subset 227 -> core 227 nodes 29557016
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

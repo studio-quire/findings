@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 60469 forms 468d050f54fb9474 28048a05a559201c 0d3b5362c18274e8 161d15ef54fb9474 0000000003020c08
+G5 379
+iter 0 subset 379 -> core 224 nodes 167373312
+iter 1 subset 224 -> core 224 nodes 167373312
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

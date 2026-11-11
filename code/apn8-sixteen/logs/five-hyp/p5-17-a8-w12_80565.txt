@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 80565 forms 458c0f0660f031a2 2b089327c110b0b8 093b5f63e3237cfc 12131ce42233cc44 00000000040a0502
+G5 379
+iter 0 subset 379 -> core 225 nodes 13298664
+iter 1 subset 225 -> core 225 nodes 13298664
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

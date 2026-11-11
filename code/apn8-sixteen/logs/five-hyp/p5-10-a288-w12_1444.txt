@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 1444 forms 23028c083221c986 053f494765d850f8 151f09c765d850f8 0a051824a4588142 000000000103050e
+G5 403
+iter 0 subset 403 -> core 228 nodes 4434080
+iter 1 subset 228 -> core 228 nodes 4434080
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 132231 forms 4f82020a9183f58e 2f02922a9183f58e 0f2e4607c2f0f992 171918ec729089c2 000000000509010e
+G5 387
+iter 0 subset 387 -> core 233 nodes 225779096
+iter 1 subset 233 -> core 233 nodes 225779096
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

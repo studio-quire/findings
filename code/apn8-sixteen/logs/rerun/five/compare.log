@@ -1,0 +1,55 @@
+== search A
+pspread3 enum 5: p5.txt vs data/p5.txt: IDENTICAL
+pspread3 enum 5: log vs pspread5-output.txt (w lines, orbits, spot checks): IDENTICAL # exit 0
+pspread3 holes 5: holes5.txt vs logs/holes5.txt, as sets of lines: IDENTICAL
+pspread3 holes 5: log vs holes5-output.txt (timings aside): IDENTICAL
+holes_tally.py: log vs holes5-tally.txt: IDENTICAL
+five_aut.py: aut.txt vs data/aut5.txt: IDENTICAL
+five_aut.py: log vs five-aut-output.txt: IDENTICAL
+five_cores.cmd: summary vs five-orbits-summary.txt: IDENTICAL
+five_cores.cmd: the 22 orbit lists vs the run's (runs/i12/reps/): 22 identical byte for byte, differing []
+rv5_indep: log vs review-five-orbits-indep.txt, as sets of lines: IDENTICAL # exit 0; total cores 27987146 reps 4489512 configurations failing 0
+five_slices.py tally over logs/five-a/: vs five-tally-output.txt: IDENTICAL # exit 0
+five_regress.cmd: slice s0 vs five-regress-s0.txt (timings and the thread count aside): IDENTICAL
+five_regress.cmd: slice s1 vs five-regress-s1.txt (timings and the thread count aside): IDENTICAL
+five_regress.cmd: slice s2 vs five-regress-s2.txt (timings and the thread count aside): IDENTICAL
+five_vs_b: vs-b.txt vs logs/five-vs-b.txt: IDENTICAL
+five_classmatch.py: log vs check5-bundle/classmatch.txt: IDENTICAL # exit 0
+cover data/p11.txt (src/cover.cpp, no five flags) vs eleven-output.txt (cover3): nodes line equal True; done line (sans time) equal True; NEAR 58 vs 58, equal as sets True; ['done: covers 817, tasks 22876, nodes 30505655, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0']
+== search B
+fivecheck_configs: configs5.txt vs data/configs5.txt: IDENTICAL
+fivecheck_configs: log vs check5-bundle/configs.txt (paths aside): IDENTICAL
+fivecheck_covers.py: log vs check5-bundle/covers.txt: IDENTICAL
+b-bundle: 17 of 17 outputs identical to logs/check5-bundle/ (timings and paths aside); differing []; # exit 0
+b-bundle2: 7 of 7 outputs identical to logs/check5-bundle/ (timings and paths aside); differing []; # exit 0
+k4list: per-class lines vs the k4list job's: IDENTICAL
+k4list: the 22 lists k4_c*.txt vs the run's (runs/check5/): differing []
+k4all: 1641 of 1641 sieve-only outputs identical to the run's (runs/check5/k4all/; the seconds line aside), 1641 written; differing []; # exit 0
+k4all: lists k4all_c*.txt vs the run's: differing []
+k4all: lists k4orbit_c*.txt vs the run's: differing []
+fivecheck_k4orbits.py: tuples 1641 orbits 103 orbits with differing counts 0
+k4 representative class 12 list line 3 (list mode, src/fivecheck_sieve.cpp) vs logs/check5-k4/ (the seconds line aside): IDENTICAL
+k4 representative class 12 list line 12 (list mode, src/fivecheck_sieve.cpp) vs logs/check5-k4/ (the seconds line aside): IDENTICAL
+k4 representative class 13 list line 2 (list mode, src/fivecheck_sieve.cpp) vs logs/check5-k4/ (the seconds line aside): IDENTICAL
+main-run slice c0 q0 on src/r5/ vs logs/check5-r5/r5_c00_q00.txt (the seconds line aside): IDENTICAL
+the same slice on src/fivecheck_sieve.cpp: tuples 614656 sets 38069 k4 0 k5 38069 skippedK3 0 f0 170456512 f1 49801903 f0max 7161 f1max 5626 nodes 49801903 72 0 0 found 0
+  the run's                              : tuples 614656 sets 38069 k4 0 k5 38069 skippedK3 0 f0 170456512 f1 49801903 f0max 7161 f1max 5626 nodes 49801903 38045 0 0 found 0
+== the critical-problem solver
+positive control, data/known4.txt line 1, its first five forms: G5 307 | SAT! size 307 nodes 710867038 # exit 0
+positive control, data/known4.txt line 7, its first five forms: G5 299 | SAT! size 299 nodes 265928295 # exit 0
+positive control, data/known4.txt line 20, its first five forms: G5 323 | SAT! size 323 nodes 927629355 # exit 0
+five_critical on 52 of the 2,200 cores again (the 8 with UNSAT hyperplanes and the first 2 of each configuration): 52 files identical to logs/five-hyp/, differing []
+five_hyp.py --tally over logs/five-hyp/ vs five-hyp-tally.txt (paths aside): IDENTICAL
+== the reviewers' code
+rvb5_ref count (src/): output vs the rvb5-count job's: IDENTICAL # exit 0
+rvb5_ref count: ref_count.txt vs logs/check5-review/ref_count.txt, as sets of lines: IDENTICAL
+rvb5_ref count: ref_sample.txt vs logs/check5-review/ref_sample.txt, as sets of lines: IDENTICAL
+rvb5_ref count: ref_k4.txt vs logs/check5-review/ref_k4.txt, as sets of lines: IDENTICAL
+rvb5_ref known (src/): vs the rvb5-known job's: IDENTICAL
+rvb5_ref list (src/) on the sample's first 300 sets: 300 lines, 300 of them in ref_sample_out.txt, 0 not; # exit 0
+rvb5_gamma gamma: sum of |Omega| over r=5 classes 9167872, different 0 | lines 'same': 25
+rvb5_gamma5 closure, class 21: |Gamma| 21600, S8 288 distinct 288; images staying in the slice 622080 (fixing the S8 4320); outside the found set 0; found S8s hit as images 288
+rvb5_gamma5 closure, class 20: |Gamma| 1440, S8 5796 distinct 5796; images staying in the slice 374328 (fixing the S8 16884); outside the found set 0; found S8s hit as images 5796
+nou_check.py: output vs logs/check5-review/nou_check_out.txt: IDENTICAL
+defcheck (src/) on the first 10 of the last review's 494 items: 10 ITEM lines, 10 of them in its items.out; # exit 0
+defcheck2 (src/) on the four dimension-4 representatives, stopping at dimension 5: ITEM p5-8 gens 0002081 7000000 30488c4 96864a1 start r4 5 r6 0 nodes 0 0 0 1 39327 0 0 0 sols 0 full 0 nonapn 0 | ITEM p5-19b gens 0002102 3c00000 4c85333 3b11fcd start r4 5 r6 0 nodes 0 0 0 1 40383 0 0 0 sols 0 full 0 nonapn 0 | ITEM p5-19a gens 0000106 5800000 30488c4 5b21b3e start r4 5 r6 0 nodes 0 0 0 1 45793 0 0 0 sols 0 full 0 nonapn 0 | ITEM p5-9 gens 0000185 7400000 74c9bd5 96864a1 start r4 5 r6 0 nodes 0 0 0 1 47557 0 0 0 sols 0 full 0 nonapn 0 | done: items 4

@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 11929 forms 2f05932181c3a4fc 102050a000000000 0113146c113344cc 0708050e51b394ac 0000000003020c08
+G5 379
+iter 0 subset 379 -> core 230 nodes 14202368
+iter 1 subset 230 -> core 230 nodes 14202368
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

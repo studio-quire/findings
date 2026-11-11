@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 2961 forms 23028c083322cc88 1020408000000000 0e150f49b3e2ac78 050b0d0a70a051e2 0000000006080902
+G5 387
+iter 0 subset 387 -> core 210 nodes 19804632
+iter 1 subset 210 -> core 210 nodes 19804632
+core rank 21 a0 1
+sat 255 unsat 0 cap 0

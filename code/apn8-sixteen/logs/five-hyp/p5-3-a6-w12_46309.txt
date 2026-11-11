@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 46309 forms 4183040c113344cc 2a1c8245c150a018 0c3b5f6cf3b36d6e 1d081ba0e28029a2 0000000006090804
+G5 379
+iter 0 subset 379 -> core 238 nodes 109771864
+iter 1 subset 238 -> core 238 nodes 109771864
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

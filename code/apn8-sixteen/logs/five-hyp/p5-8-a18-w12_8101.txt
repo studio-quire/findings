@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 8101 forms 220a92274311f81c 11284f8d703325b6 01180f4d703325b6 0c07040e92f15844 00000000050a0408
+G5 387
+iter 0 subset 387 -> core 232 nodes 10719208
+iter 1 subset 232 -> core 232 nodes 10719208
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

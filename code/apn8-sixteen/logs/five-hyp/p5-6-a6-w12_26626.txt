@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 26626 forms 2316936e1251f9a6 0326532e1251f9a6 070b02014282edd2 01070a08304060c0 000000000708090a
+G5 379
+iter 0 subset 379 -> core 231 nodes 63941536
+iter 1 subset 231 -> core 231 nodes 63941536
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

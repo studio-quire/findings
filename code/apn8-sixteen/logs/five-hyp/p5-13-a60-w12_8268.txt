@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 8268 forms 3103858e103150e4 10204e8b3321391e 01131b65231069fa 0e0b040dd4b9c156 000000000102050a
+G5 379
+iter 0 subset 379 -> core 229 nodes 170190680
+iter 1 subset 229 -> core 229 nodes 170190680
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

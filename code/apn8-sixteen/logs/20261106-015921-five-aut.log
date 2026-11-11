@@ -1,0 +1,3 @@
+
+# command: cmd /c "runs\venv\Scripts\python.exe apn\five_aut.py runs\i12\p5.txt runs\i12\aut.txt > runs\i12\aut.out 2>&1"
+

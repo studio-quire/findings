@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 7355 forms 438402081548a18a 251d8a4c70d324c4 06395864659b854e 1b060b8fb050f1b2 0000000003020d0a
+G5 379
+iter 0 subset 379 -> core 233 nodes 9721480
+iter 1 subset 233 -> core 233 nodes 9721480
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 56423 forms 4f84060f93f1b99e 350b848c50b345c6 1d2958a8f28009c2 07161a6b31c2f59a 000000000508010a
+G5 363
+iter 0 subset 363 -> core 230 nodes 22108544
+iter 1 subset 230 -> core 230 nodes 22108544
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

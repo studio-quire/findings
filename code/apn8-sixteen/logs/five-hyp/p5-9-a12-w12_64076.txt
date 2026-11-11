@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 64076 forms 468e0f0361e2f53a 210f9426407050c0 112f54a6407050c0 0118136143022cb8 0000000004090106
+G5 371
+iter 0 subset 371 -> core 229 nodes 91828904
+iter 1 subset 229 -> core 229 nodes 91828904
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

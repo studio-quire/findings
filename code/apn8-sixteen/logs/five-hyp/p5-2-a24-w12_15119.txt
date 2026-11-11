@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 15119 forms 2010804000000000 13325dea3020d0a0 0e040906a4d89122 050a0102418355ae 0000000003020d0a
+G5 371
+iter 0 subset 371 -> core 231 nodes 18682512
+iter 1 subset 231 -> core 231 nodes 18682512
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

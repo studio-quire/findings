@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 185025 forms 4687152701f1d07c 2817926990406050 0627450701f1d07c 1f1d0ec1e5e9a0dc 0000000002030c04
+G5 379
+iter 0 subset 379 -> core 235 nodes 295338376
+iter 1 subset 235 -> core 235 nodes 295338376
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 27548 forms 2211996622119966 103050e000000000 0c040a07a3d23d1a 060b030a5382fc68 00000000040b0506
+G5 379
+iter 0 subset 379 -> core 235 nodes 31665160
+iter 1 subset 235 -> core 235 nodes 31665160
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

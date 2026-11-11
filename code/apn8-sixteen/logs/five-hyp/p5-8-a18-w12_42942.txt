@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 42942 forms 40870b0e3151716e 2c12956d93b1483c 0b2b5d21e023c5f6 1b0c16afd172b498 00000000040b0506
+G5 371
+iter 0 subset 371 -> core 238 nodes 256681312
+iter 1 subset 238 -> core 238 nodes 256681312
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

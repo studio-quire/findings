@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 5223 forms 24098f0d71b1217e 1f294382c182b4e8 0f190342c182b4e8 0e0b1628d0a0e142 000000000709080c
+G5 387
+iter 0 subset 387 -> core 231 nodes 5755632
+iter 1 subset 231 -> core 231 nodes 5755632
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

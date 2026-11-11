@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 10822 forms 2010804000000000 0a2247038023f434 1b1103cf9110b0f8 0f0d1e24e2f1a8c4 00000000050b040c
+G5 387
+iter 0 subset 387 -> core 229 nodes 10940024
+iter 1 subset 229 -> core 229 nodes 10940024
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

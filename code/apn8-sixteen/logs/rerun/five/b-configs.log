@@ -1,0 +1,36 @@
+|GL4| = 20160
+generated subgroup order 20160
+|X| = 5824  (T with T, T+I invertible)
+r=4: 5 ordered orbits, 3 unordered classes
+  rep T=125a  |Omega|=1680  |Gamma|=288
+  rep T=125b  |Omega|=4032  |Gamma|=120
+  rep T=1269  |Omega|=112  |Gamma|=4320
+  sum 1/|Gamma| = 0.0120370370
+|Omega5| = 9167872
+r=5: 557 ordered orbits, 22 unordered classes
+  rep T=125a T'=239e  |Omega|=302400  |Gamma|=8
+  rep T=125a T'=239f  |Omega|=2419200  |Gamma|=1
+  rep T=125a T'=23ad  |Omega|=100800  |Gamma|=24
+  rep T=125a T'=23af  |Omega|=201600  |Gamma|=12
+  rep T=125a T'=23d7  |Omega|=1209600  |Gamma|=2
+  rep T=125a T'=25ac  |Omega|=403200  |Gamma|=6
+  rep T=125a T'=25bf  |Omega|=806400  |Gamma|=3
+  rep T=125a T'=27c4  |Omega|=403200  |Gamma|=6
+  rep T=125a T'=37fe  |Omega|=134400  |Gamma|=18
+  rep T=125a T'=3c4d  |Omega|=201600  |Gamma|=12
+  rep T=125a T'=5a48  |Omega|=8400  |Gamma|=288
+  rep T=125a T'=5a7b  |Omega|=25200  |Gamma|=96
+  rep T=125b T'=239f  |Omega|=100800  |Gamma|=24
+  rep T=125b T'=23ad  |Omega|=67200  |Gamma|=36
+  rep T=125b T'=23e5  |Omega|=40320  |Gamma|=60
+  rep T=125b T'=25c3  |Omega|=604800  |Gamma|=4
+  rep T=125b T'=25d6  |Omega|=1209600  |Gamma|=2
+  rep T=125b T'=25fe  |Omega|=604800  |Gamma|=4
+  rep T=125b T'=2a76  |Omega|=302400  |Gamma|=8
+  rep T=125b T'=6fd7  |Omega|=20160  |Gamma|=120
+  rep T=1269 T'=23ad  |Omega|=1680  |Gamma|=1440
+  rep T=1269 T'=9648  |Omega|=112  |Gamma|=21600
+by stabiliser order: 1:1 2:2 3:1 4:2 6:2 8:2 12:2 18:1 24:2 36:1 60:1 96:1 120:1 288:1 1440:1 21600:1
+  sum 1/|Gamma| = 3.7896296296
+  Langevin-Hou total/|GL8| = 3.7896064815
+# exit 0

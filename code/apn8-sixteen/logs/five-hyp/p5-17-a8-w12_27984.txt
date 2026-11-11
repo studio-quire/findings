@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 27984 forms 3b048e84a072a582 103040c000000000 0b0e1926e458d0a0 0103040c113344cc 0000000002010804
+G5 371
+iter 0 subset 371 -> core 229 nodes 28345320
+iter 1 subset 229 -> core 229 nodes 28345320
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 50447 forms 448811224182152a 2e0a8c0bf0a1d014 022b562f5131f15e 1603078d10b3e474 00000000050a0408
+G5 387
+iter 0 subset 387 -> core 232 nodes 51122984
+iter 1 subset 232 -> core 232 nodes 51122984
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

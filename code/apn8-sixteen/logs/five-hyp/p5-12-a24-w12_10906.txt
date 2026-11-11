@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 10906 forms 23128d4a3020d0a0 103050e000000000 0e050a07a0d0b152 050b0301458b64fc 0000000003020d0a
+G5 371
+iter 0 subset 371 -> core 226 nodes 367657696
+iter 1 subset 226 -> core 226 nodes 367657696
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

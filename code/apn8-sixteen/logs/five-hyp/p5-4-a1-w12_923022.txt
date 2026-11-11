@@ -1,0 +1,6 @@
+core p5-4-a1-w12 line 923022 forms 558811aa52831ca4 28098a0ef113344c 1528418a52831ca4 0616044d10f3c516 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 226 nodes 158626136
+iter 1 subset 226 -> core 226 nodes 158626136
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

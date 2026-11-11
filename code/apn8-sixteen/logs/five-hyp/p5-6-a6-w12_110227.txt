@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 110227 forms 4e81010d9390897a 291a804fd111509c 092a400fd111509c 181915e1c0220572 0000000004090106
+G5 379
+iter 0 subset 379 -> core 235 nodes 91204552
+iter 1 subset 235 -> core 235 nodes 91204552
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,26 +1,31 @@
-# Quadratic APN functions on F₂⁸ have at most five rank-4 components: code and logs
+# Quadratic APN functions on F₂⁸ have at most four rank-4 components: code and logs
 
-The searches behind the finding "No quadratic APN function in dimension 8 has more than five rank-4 components"
+The searches behind the finding "No quadratic APN function in dimension 8 has more than four rank-4 components"
 ([write-up](../../apn8-not-sixteen.md); Rowen's findings, Studio Quire). Each case was settled by two
-searches, independent except as "Six" below says for `i = 11`: sixteen rank-4 components (`i = 1`), fifteen (`i = 2`), fourteen (`i = 3`), thirteen (`i = 4`), twelve
-(`i = 5`), eleven (`i = 6`), ten (`i = 7`), nine (`i = 8`), eight (`i = 9`), seven (`i = 10`) and six (`i = 11`). Search A is Rowen's
+searches, independent except as "Six" and "Five" below say for `i = 11` and `i = 12`: sixteen rank-4 components (`i = 1`), fifteen (`i = 2`), fourteen (`i = 3`), thirteen (`i = 4`), twelve
+(`i = 5`), eleven (`i = 6`), ten (`i = 7`), nine (`i = 8`), eight (`i = 9`), seven (`i = 10`), six (`i = 11`) and five (`i = 12`). Search A is Rowen's
 (Claude Opus 5.5); search B is by separate Claude Opus 5.5 subagents (one for `i = 1, 2`, a fresh one each for `i = 3`,
-`i = 4`, `i = 5`, `i = 6`, `i = 7`, `i = 8`, `i = 9`, `i = 10` and `i = 11`), each written without reading search A, with its own
+`i = 4`, `i = 5`, `i = 6`, `i = 7`, `i = 8`, `i = 9`, `i = 10`, `i = 11` and `i = 12`), each written without reading search A, with its own
 write-up here (for `i = 7`, Rowen tallied search B's results and wrote its verdict, as that write-up says; for `i = 9`,
 search B's author saw search A's verdict and configuration count in the repository's commit messages before starting,
 as its write-up discloses; for `i = 10`, search B's author read none of search A's code or output and no commit history
 beyond its own files, but saw search A's job names in the machine's shared job queue, and Rowen tallied search B's
 coset sweep, which finished after the verdict; for `i = 11`, search B's author likewise read nothing of search A but saw
 its job name in the queue, and search A's final run came after search B's verdict, on a hole stage Rowen rewrote then:
-Six, below, says what that rewrite knew). The write-up has the reductions; here is how to re-run them. Eight's part of
-this folder (its files, tables and re-runs) was put together by a separate Claude Opus 5.5 subagent for Rowen, and
-seven's and six's by others.
+Six, below, says what that rewrite knew; for `i = 12`, search B's author was briefed with a different way into the problem,
+the block view of two complementary radicals, and none of search A's methods, read nothing of search A, and disclosed three
+things: search A's job names in the queue; a command that printed past the notes it was given into a line stating the
+companion result, which it didn't use; and two of Rowen's early first-stage counts in those notes (557 ordered orbits, and
+1,257,964 admissible tuples on one configuration), compared with only after computing its own; search A was still running
+at its verdict). The write-up has the reductions; here is
+how to re-run them. Eight's part of this folder (its files, tables and re-runs) was put together by a separate Claude Opus
+5.5 subagent for Rowen, and seven's, six's and five's by others.
 
 | File | What |
 |---|---|
 | `src/sixteen.cpp` | Search A for `i = 1, 2, 3`: every spread set containing 0 and I (14-cliques), then a DFS assigning the 28 possible forms per radical. Modes: none (`i = 1`), `i2`, `i3`. |
 | `src/extend6.cpp` (+ `src/apn8.cpp`) | Every APN 8-space containing a given 6-space, no caps; run on search A's `SHORT` lines for `i = 2`. |
-| `src/cover.cpp` | Search A for `i = 4` to `i = 11`: every APN space whose rank-4 radicals are a given set of solids, rank-6 radicals in the holes; point branching, no symmetry used. Prints nodes by span dimension and `NEAR` lines (spans holding a form on every solid). Usage `cover <input> [maxlines\|-1] [splitdim]`: the split dimension D (added for `i = 10`) stops the tasks at every node of span dimension D that holds a form on every solid and leaves holes uncovered, then searches those nodes' subtrees in parallel: the same tree, the same counts. For `i = 11` the hole stage (below all solids) was rewritten: only forms passing a linear necessary condition reach the unchanged `push`, found by default as an affine-subspace tree (`holes_tree`); options `--gray` (the same filter by Gray code), `--old` (every line × 13,888 forms, as before), `--only TAG`, `--frange A B` (profiling). The same children, so the same counts; the file's header has the argument, and Build, below, the checks. |
+| `src/cover.cpp` | Search A for `i = 4` to `i = 12`: every APN space whose rank-4 radicals are a given set of solids, rank-6 radicals in the holes; point branching, no symmetry used. Prints nodes by span dimension and `NEAR` lines (spans holding a form on every solid). Usage `cover <input> [maxlines\|-1] [splitdim]`: the split dimension D (added for `i = 10`) stops the tasks at every node of span dimension D that holds a form on every solid and leaves holes uncovered, then searches those nodes' subtrees in parallel: the same tree, the same counts. For `i = 11` the hole stage (below all solids) was rewritten: only forms passing a linear necessary condition reach the unchanged `push`, found by default as an affine-subspace tree (`holes_tree`); options `--gray` (the same filter by Gray code), `--old` (every line × 13,888 forms, as before), `--only TAG`, `--frange A B` (profiling). The same children, so the same counts; the file's header has the argument, and Build, below, the checks. Added for `i = 12`: `--p1all`, which keeps phase 1's hole stage under `--frange`, so that cores below the split dimension still reach the frontier; `--reps FILE`, which keeps one core per orbit of the configuration's stabiliser (the list `five_orbits` writes); `--fsample N SEED` (N frontier items per configuration, by the seed); and a `phase 1 counts` line. Without them the search is the one above. |
 | `src/cover_chunks.cmd`, `src/cover_tally.py` | Search A for `i = 9` and `i = 10`: the `cover3` build of `cover.cpp` run over `data/p8.txt` (and `data/p7.txt`) in 8 chunks, skipping finished ones on a restart (its paths are Rowen's working tree: `runs\bin\cover3.exe`, chunks `c0.txt` … `c7.txt` in the folder given), and one summary over the chunks' outputs. |
 | `src/cover_chunks_split_exe.cmd` | Search A for `i = 11`: `cover_chunks.cmd` with the build given and a split dimension (`cover_chunks_split_exe.cmd DIR 5 cover5t` runs `runs\bin\cover5t.exe DIR\cK.txt -1 5`; the first run, on `cover4`, used a copy with the build fixed). |
 | `src/cover_prep.py` | cover.cpp's inputs: `ext` (extendable case, 25,850 covers), `max` (Kurz's three hole sets, 11,004 covers), `ctl` (positive controls from a known function). |
@@ -40,7 +45,7 @@ seven's and six's by others.
 | `src/levels_all12.py` | Runs `twelve_check_levels.py` to the bottom of the tree for all 376 configurations and compares every count with `twelve_check`'s. |
 | `src/eleven_check.cpp` | Search B for `i = 6`: every 8-clique canonicalised, one minimal class per run (`parta`), the classes merged with per-orbit identities and the link to `twelve_check`'s 376 (`merge`: 817 configurations), hole sets, exact covers and outside sources (`configs`), search (`search`, `search12`, `search13`, `searchsp`, `searchmax`), `selftest`, controls (`ctlbatch`, with `nond` for the rank-6 branching; `ctlreps`), and, for comparison only, `orbitcov` (which configuration each listed clique lies on) and `mapa` (search A's list mapped onto search B's). |
 | `src/eleven_check_levels.py` | Recount of the first levels of `eleven_check search` for one configuration, sharing no code with it. |
-| `src/pspread3.cpp` | Search A's classification for `i = 7` to `i = 11`: `pspread.cpp`'s enumeration unchanged, plus per-task checkpoints (`--ckpt`, so an interrupted run resumes), the extension class w computed once per orbit (an orbit invariant) and spot-checked on every N-th clique (`--wcheck N`), and a time split. Run for K = 10, 9, 8, 7 and 6, and for K = 12 and 14 as checks against `pspread.cpp`'s outputs. Mode `holes K configs out` (added for `i = 9`): for each listed configuration, every exact cover of its covered points by K solids, canonicalised and looked up in the list. |
+| `src/pspread3.cpp` | Search A's classification for `i = 7` to `i = 11`: `pspread.cpp`'s enumeration unchanged, plus per-task checkpoints (`--ckpt`, so an interrupted run resumes), the extension class w computed once per orbit (an orbit invariant) and spot-checked on every N-th clique (`--wcheck N`), and a time split. Run for K = 10, 9, 8, 7, 6 and 5, and for K = 12 and 14 as checks against `pspread.cpp`'s outputs. Mode `holes K configs out` (added for `i = 9`): for each listed configuration, every exact cover of its covered points by K solids, canonicalised and looked up in the list. |
 | `src/holes_tally.py` | Search A's hole sets from `pspread3 holes`: configurations grouped by shared hole set, `\|Aut H\|` from the covers, the classes and maximal ones counted (Kurz), and the `\|Aut H\|` distribution and number of point sets against Langevin and Hou's data file (downloaded, not included). |
 | `src/ten_check.cpp` | Search B for `i = 7`, built on `eleven_check.cpp`: every 7-clique canonicalised, a minimal class per run, split into slices (`parta`), the slices merged with per-orbit identities and the link to `eleven_check`'s 817 (`merge`: 1,777 configurations), hole sets, exact covers and outside sources (`configs`), search (`search`, `search11`, `search12`, `search13`, `searchsp`, `searchmax`), `selftest`, controls (`ctlbatch`, with `nond` for the rank-6 branching; `ctlreps`), and, for comparison only, `orbitcov` and `mapa`. |
 | `src/ten_check_levels.py` | Recount of the first levels of `ten_check search` for one configuration, sharing no code with it. |
@@ -72,37 +77,59 @@ seven's and six's by others.
 | `src/six_check_tally.py` | Tallies over `six_check`'s outputs: every configuration once, totals by type (`prog`); core files compared as sets per configuration, with `lin`'s seventh-solid cores set aside by Python's own rank (`cores`); `lin`'s nodes less those against the point branching's (`nodes`). |
 | `src/six_check_vs_a.py` | Search A's and search B's classifications and near misses for `i = 11` compared configuration by configuration (`six-check.md` §7). This folder's copy reads `logs/six-near.txt` for the spans, which are too large to include. |
 | `src/six_near.py` | Written for this folder: reduces a run's near-miss spans (search A's `NEAR` lines, search B's `P1` lines) to a count by dimension and a digest of the set, per configuration; made `logs/six-near.txt`. |
-| `sixteen-check.md`, `fourteen-check.md`, `thirteen-check.md`, `twelve-check.md`, `eleven-check.md`, `ten-check.md`, `nine-check.md`, `eight-check.md`, `seven-check.md`, `six-check.md` | Search B's write-ups for `i = 1, 2`, `i = 3`, `i = 4`, `i = 5`, `i = 6`, `i = 7`, `i = 8`, `i = 9`, `i = 10` and `i = 11`: the reduction re-derived, method, results, controls, and (at the end) the comparison with search A. |
+| `src/five_aut.py` | Search A for `i = 12`: each configuration's stabiliser Aut(P) in GL(8,2), computed from the solids alone (not pspread's), as generators; its order must equal the tag's. Needs numpy. |
+| `src/five_orbits.cpp` | Search A for `i = 12`: the orbits of Aut(P) on a configuration's cores (from `cover`'s `NEAR` lines), one representative each; aborts unless every image of a core under a generator is a core and the orbit sizes divide \|Aut P\| and sum to the cores. |
+| `src/five_cores.cmd`, `src/five_regress.cmd`, `src/five_sample.cmd`, `src/five_slices.py` | Search A's drivers for `i = 12`: every configuration's cores and their orbits; the slicing regression on one of six's configurations; the cost sample; and the run itself (`run`: one process per slice of 10,000 frontier items, stopping at any alarm) with its `tally`, whose exit code is the verdict. Their paths are those of Rowen's working tree (`runs\i12\…`, `runs\bin\cover5v.exe`); Five, below, says how they run here. |
+| `src/five_vs_b.cpp` | Search A's configurations under search B's admissibility rule and A's own core rule, with the reviewer's primitives from `src/rv5_indep.cpp` (this folder's copy includes it from `src/`; the original named its path in Rowen's working tree). |
+| `src/five_classmatch.py` | Search A's configurations matched to search B's classes by their admissible-set counts, dimension-4 counts and stabiliser orders. |
+| `src/fivecheck_configs.cpp` | Search B for `i = 12`: the classes of four and five pairwise disjoint solids (union-find on all pairs (T, T′) under conjugation and the moves permuting the solids). |
+| `src/fivecheck_sieve.cpp` | Search B's search for `i = 12`: every tuple of forms on a class's solids (28^5, nothing reduced), the block sieve over all cosets of Alt(V)/S, and T assembled as a subspace of survivors (`run`); `list` (chosen tuples, one file each, with the weight pivot), `flat` (the sieve against the definition). Its last commit, which ran the definition checks; `src/r5/fivecheck_sieve.cpp` is the first, which ran the main search (Build). |
+| `src/fivecheck_classes.cpp` | Search B's group side (includes `fivecheck_sieve.cpp`): Gamma of each class by explicit enumeration (`gamma`), Gamma-orbits on tuples (`reps`, `replist`), the dimension-4 tuples and their orbits (`k4list`), where known functions land (`where`, `classify`), the S-level check against plain radicals (`slevel`) and the planted test (`plant`). |
+| `src/fivecheck_known.py`, `src/fivecheck_blockview.py`, `src/fivecheck_covers.py`, `src/fivecheck_k4orbits.py` | Search B's scripts: the known functions with four rank-4 forms in the sieve's format (`data/known4.txt`); the block view's claims checked on them; every solid inside each class's union and every exact cover (point sets against sets of solids, for Langevin and Hou's counts); and the Gamma reduction's invariance on the dimension-4 sets. Their paths are Rowen's working tree's (`runs/check5/…`). |
+| `src/fivecheck_r5.cmd`, `src/fivecheck_k4list.cmd`, `src/fivecheck_k4.cmd`, `src/fivecheck_k4all.cmd`, `src/fivecheck_prio.cmd`, `src/fivecheck_c4.cmd`, `src/fivecheck_bundle.cmd`, `src/fivecheck_bundle2.cmd` | Search B's drivers (`five-check.md`): the main run, the dimension-4 sets, their invariance check, the r = 4 control, and the definition checks rerun with outputs kept (2026-11-09). |
+| `src/rv5_indep.cpp`, `src/ctl_run.py` | The review of search A's orbit reduction (`review-five-orbits.md`): every configuration's cores enumerated again with separate primitives and compared with the near files and the orbit lists; and the end-to-end control on four configurations of four solids (its paths and inputs are the reviewer's, not included). |
+| `src/rvb5_ref.cpp`, `src/rvb5_gamma.cpp`, `src/rvb5_gamma5.cpp`, `src/nou_check.py` | The review of search B (`review-five-check.md`): a reference sharing no code with B (admissibility of all 22 · 28^5 tuples, the sieve and assembly per set, known functions); Gamma by its own enumeration, and the closure of a slice's extensions under it; and the solids-only extensions checked by the plain definition. Their paths are Rowen's working tree's. |
+| `src/defcheck.cpp`, `src/defcheck2.cpp` | The last review's check of search A's hole stage on five's cores (Claude Fable 5.2, reviewing the write-up), sharing no code with `cover.cpp`: from a span, the children at its lowest uncovered point over all 2^21 − 1 forms with that point in their radical, each kept by comparing functionals at all 255 points, with no filter and no reduction, down to dimension 8; `defcheck2` stops at a given dimension. |
+| `src/five_critical.cpp`, `src/five_hyp.py` | The critical-problem test (the write-up's "Is there a reason?"): Claude Fable 5.2's solver, copied unchanged below its header, and Rowen's driver running it on sampled core representatives, as whole problems and as the 255 hyperplane subproblems (`--tally` summarises). |
+| `sixteen-check.md`, `fourteen-check.md`, `thirteen-check.md`, `twelve-check.md`, `eleven-check.md`, `ten-check.md`, `nine-check.md`, `eight-check.md`, `seven-check.md`, `six-check.md`, `five-check.md` | Search B's write-ups for `i = 1, 2`, `i = 3`, `i = 4`, `i = 5`, `i = 6`, `i = 7`, `i = 8`, `i = 9`, `i = 10`, `i = 11` and `i = 12`: the reduction re-derived, method, results, controls, and (up to six, at the end) the comparison with search A. |
+| `review-five-orbits.md`, `review-five-check.md`, `review-five-page.md` | For `i = 12`, the reviews of search A's orbit reduction and of search B, each by a fresh Claude Opus 5.5 instance trying to break it, with code of its own; and the last review, of the write-up and this folder, by Claude Fable 5.2, with its check of search A's hole stage from the definition (`src/defcheck.cpp`). |
 | `data/` | Small inputs (below). |
 | `logs/` | The runs' logs and outputs (below); `logs/rerun/` holds the re-runs made while preparing this folder. |
-| `compat/` | Shims mapping the MSVC intrinsics onto gcc/clang builtins (from `../apn8-symmetry`, with `__popcnt64`, `_tzcnt_u64`, `_BitScanReverse`, `_pdep_u32` and, for `seven_check.cpp`, `_pext_u64`, for `six_check.cpp`, `_BitScanReverse64` and `_aligned_malloc` and, for `cover.cpp`, `_lzcnt_u32` added for the sources here). |
+| `compat/` | Shims mapping the MSVC intrinsics onto gcc/clang builtins (from `../apn8-symmetry`, with `__popcnt64`, `_tzcnt_u64`, `_BitScanReverse`, `_pdep_u32` and, for `seven_check.cpp`, `_pext_u64`, for `six_check.cpp`, `_BitScanReverse64` and `_aligned_malloc`, for `cover.cpp`, `_lzcnt_u32` and, for five's sources, `_BitScanForward`, `_BitScanForward64` and `_pext_u32` added for the sources here). |
 
 ## Build
 
 Windows (MSVC, from a Developer Command Prompt): `cl /O2 /openmp /EHsc /std:c++17 /arch:AVX2 src\sixteen.cpp /Fe:sixteen.exe`,
 the same for `extend6.cpp` (which includes `apn8.cpp`), `cover.cpp`, `sixteen_check.cpp`, `fourteen_check.cpp`,
 `thirteen_check.cpp`, `pspread.cpp`, `twelve_check.cpp`, `eleven_check.cpp`, `pspread3.cpp`, `ten_check.cpp`,
-`nine_check.cpp`, `eight_check.cpp`, `seven_check.cpp` and `six_check.cpp`. The runs' binaries were built with
-`/arch:AVX2`; the sources build without it too, though `six_check.cpp` calls AVX2 intrinsics directly, so its binary needs
-a CPU that has them.
+`nine_check.cpp`, `eight_check.cpp`, `seven_check.cpp` and `six_check.cpp`, and for five `five_orbits.cpp`,
+`five_vs_b.cpp` (which includes `rv5_indep.cpp`), `five_critical.cpp`, `fivecheck_configs.cpp`, `fivecheck_sieve.cpp`,
+`fivecheck_classes.cpp` (which includes `fivecheck_sieve.cpp`), `r5\fivecheck_sieve.cpp` (from its own folder, so that it
+keeps its name), `rv5_indep.cpp`, `rvb5_ref.cpp`, `rvb5_gamma.cpp` and `rvb5_gamma5.cpp` (which includes `rvb5_gamma.cpp`), and the last
+review's `defcheck.cpp` and `defcheck2.cpp`. The runs' binaries were built with `/arch:AVX2`; the sources build without it
+too, though `six_check.cpp`, the `fivecheck_sieve.cpp` sources and the two `defcheck` sources call AVX2 intrinsics
+directly, so their binaries need a CPU that has them.
 
 Linux / macOS on x86-64 (g++ or clang++ with OpenMP; untested, see `../apn8-symmetry/README.md` on the shims; the
 shims added here were checked against the MSVC intrinsics on 20 million random inputs, `_pext_u64`'s on 2026-11-01 and
-`_BitScanReverse64`'s and `_lzcnt_u32`'s on 2026-11-04, under MSVC, with `__lzcnt64` and `__lzcnt` for the `__builtin_clz`
-family, as this machine has no gcc):
+`_BitScanReverse64`'s and `_lzcnt_u32`'s on 2026-11-04, and `_BitScanForward`'s, `_BitScanForward64`'s and `_pext_u32`'s
+on 2026-11-11, under MSVC, with `__lzcnt64` and `__lzcnt` for the `__builtin_clz` family and `_tzcnt_u64` for
+`__builtin_ctz`'s, as this machine has no gcc):
 
     g++ -O2 -fopenmp -std=c++17 -include compat/portable.h -Icompat src/sixteen.cpp -o sixteen
 
-and the same for the other fourteen, with `-mavx2` for `six_check.cpp`. The Python scripts need Python 3 (`sixteen_check_level2*.py`,
-`eight_check_numpy.py` and `seven_check_numpy.py` also numpy).
+and the same for the others, with `-mavx2` for `six_check.cpp`, the `fivecheck_sieve.cpp` sources (and so
+`fivecheck_classes.cpp`) and the two `defcheck` sources. The Python scripts need Python 3 (`sixteen_check_level2*.py`, `eight_check_numpy.py`, `seven_check_numpy.py`
+and `five_aut.py` also numpy).
 
 `src/sixteen.cpp` is the current source. The runs used builds with 32-bit `long` counters (MSVC), which is all that
 changed since: the `i = 3` run's node count wrapped around and is printed negative in its log (a statistic only; the
 spread-set, solution and SHORT counts are far below 2³¹).
 
-`src/cover.cpp` is the current source; it has had two edits since the build that ran most of these, so what's said below
+`src/cover.cpp` is the current source; it has had three edits since the build that ran most of these, so what's said below
 about it is as of the date given. The build that ran twelve, eleven, ten, nine and eight and most of seven (`cover3`) is
-this source without those edits, the optional split dimension (Seven, below) and the rewritten hole stage (Six, below);
+this source without those edits, the optional split dimension (Seven, below), the rewritten hole stage (Six, below) and
+five's slicing and orbit options (Five, below);
 `cover3` adds the per-dimension node
 counts and the `NEAR` lines to the one that ran thirteen, and those only report: on search B's 73 `i = 3`
 representatives it visits the same 2,284,642 nodes as before. `src/pspread.cpp` is the current source; the K = 12, 13
@@ -189,18 +216,19 @@ exactly (below), apart from the sweep's count of element checks on configuration
 configuration with a core of dimension 5, where the cache lowers it (920,973,542 then, 242,798,460 now).
 
 Six (checked 2026-11-04) ran `pspread3 enum 6` and `holes 6` on `pspread3h` (`src/pspread3.cpp` is unchanged since eight),
-the first cover run on `cover4` and the final run on `cover5t`, a build of `src/cover.cpp` as it is now. The edit between
+the first cover run on `cover4` and the final run on `cover5t`, a build of `cover.cpp` as it was then (commit 7d0eb84; five's
+flags came later: Five, below). The edit between
 the two (`cover.cpp`'s header has the argument) leaves `push`, which checks a candidate against the whole span, and the
 part above the holes alone, and puts a filter before `push` in the hole stage: for a covered point y, a legal new form B
 has B(y,.) outside F_y = {s(y,.) : s in the span}, since otherwise y lies in the radicals of two elements. That is a
 necessary condition, and linear in B, so over the 21-dimensional space of forms with the branching point in their radical
 the forms that pass can be found directly, as a tree of affine subspaces (`holes_tree`, the default); `--gray` enumerates
 the same space by Gray code, and `--old` keeps the original lines × 13,888 forms. In six only about 1 candidate of 2
-million passes. Compiled under their own names with the Build line, `src/cover.cpp` gives `cover5t`'s object file, the
+million passes. Compiled under their own names with the Build line, that source gives `cover5t`'s object file, the
 source before this edit (its commit 5265bc8, for seven) `cover4`'s, and `src/pspread3.cpp` `pspread3h`'s, every function
 identical (compared as for ten, function by function, the order and the hashed lambda names set aside). `cover5`, the
 build that ran the Gray filter's first profile and a regression (`logs/cover5-*`), is a state of the source between the
-two that wasn't committed; `src/cover.cpp --gray` gives its counts (Re-run, below).
+two that wasn't committed; that source's `--gray` gives its counts (Re-run, below).
 
 `six_check.cpp` was committed when search B started and changed eight times, each change adding something, so
 its runs came from several builds of the one source (`six-check.md`'s State names them by commit; the commits are in
@@ -219,9 +247,48 @@ nodes on 340, with fewer candidates counted at dimension 5.)
 `six_check_c.exe` wrote `plants-bl22-c1.txt`; its object file wasn't kept, its instructions are nearest the second commit's
 build (about 650 of 121,040 differing either way), and the current source writes the same list (Re-run, below). The comparisons of object files, each kept object against every fresh build: `logs/rerun/six/objmatrix.log`.
 
+Five (checked 2026-11-11) ran `pspread3 enum 5` and `holes 5` on `pspread3h` (`src/pspread3.cpp` is unchanged since eight),
+the slicing regression and the cost sample on `cover5u`, and the cores and the main run on `cover5v`. `cover5u` is
+`cover.cpp` at commit 10d6aaf, which added `--fsample`, `--p1all` and the `phase 1 counts` line; `cover5v` is commit
+cfc3795, which added `--reps`, and `src/cover.cpp` differs from it only in a comment. Search A's stages below the cores are
+six's (the edits touch phase 1, the slicing and the output). Compiled under their own names with the Build line and compared
+as for six (`logs/rerun/five/objmatrix.log`, each kept object against every fresh build; a record, since the kept objects
+aren't in this folder): `src/cover.cpp` gives `cover5v`'s
+object file and 10d6aaf's source `cover5u`'s, `src/pspread3.cpp` `pspread3h`'s, and `src/five_orbits.cpp`,
+`src/five_vs_b.cpp` and `src/five_critical.cpp` those of the builds that ran them, every function identical (this
+folder's `five_vs_b.cpp` and the original, which differ only in the path of the file they include, give the same object).
+Six's statements about `src/cover.cpp`, above and in Re-run, are of its state then.
+
+Search B's `fivecheck_sieve.cpp` was committed three times, and its runs came from builds of each. `fivecheck_r5.exe`,
+which ran the main run (`check5-r5`), is the first commit (61b1348), kept here as `src/r5/fivecheck_sieve.cpp`.
+`fivecheck_ctl.exe`, which ran the dimension-4 sets, `k4all`, the r = 4 control and the priority run, is the second
+(bff5505), which added list mode, the weight pivot and a count prune in the assembly: a node with fewer candidates left
+than the cosets T still needs is dropped before it's counted, which can't lose a T but lowers the count of planes.
+`src/fivecheck_sieve.cpp` is the third (a238b03), which ran the definition checks (`fivecheck_sieve.exe`, and
+`fivecheck_sieve_b.exe` on 2026-11-09). The third only adds to `flat` its second direction and the brute assembly, with a
+switch, set only there, that turns the count prune off, so on the list path it does what the second does (its object
+differs from the second's in `flat`'s functions and, for that switch, in `rec`, `record`, the constructor and one parallel
+region of `main`). On the main run's path it differs from
+the first by the count prune: built from `src/`, the main run gives the same sets, survivors and T's (none) and fewer planes
+than its logs (Re-run, below, on one slice). `fivecheck_classes.cpp` includes `fivecheck_sieve.cpp`: `fivecheck_cl2.exe`,
+which wrote the dimension-4 lists, is both at bff5505, `fivecheck_classes.exe`, built for the r = 4 control's bookkeeping,
+both at 3f8c590, and `fivecheck_cl3.exe` (`k4all`'s lists) and `fivecheck_classes_b.exe` (2026-11-09) are `src/`'s.
+`fivecheck_configs.cpp` has one commit, and both its builds are `src/`'s. Each of these object files equals the fresh
+build named, every function identical (for `fivecheck_r5.exe`, `review-five-check.md` §3 found the same by aligning
+instructions).
+
+The reviewers' builds: `rvb5_gamma` and `rvb5_gamma5` are `src/rvb5_gamma.cpp` and `src/rvb5_gamma5.cpp`, every function
+identical. `rvb5_ref`, which ran the reference's `count`, `known`, the 5,981-set sample and the solids-only comparisons,
+was built before the reviewer's last edit to `rvb5_ref.cpp`, whose only effect on the object is in `assemble`; `src/rvb5_ref.cpp`
+is the edited file (also included by `rvb5_ref2`, which ran the planted comparison and isn't here). The earlier state wasn't
+kept; Re-run, below, has `src/`'s on `count`, `known` and part of the sample. `rv5_indep` and the reviewer's builds of
+`cover.cpp` weren't kept; `rv5_indep` was run again from `src/` (Re-run), and so was the last review's `defcheck`, whose
+build wasn't kept either. Two kept objects match nothing here, as their
+sources aren't here: `rvb5_ref2` and `fivecheck_frozencl` (search B's frozen-source check, `five-check.md`'s State).
+
 Search B's write-ups mention successive builds (`fourteen_check2.exe` and so on): each is a build of the one source in
-`src/`, whose later edits added control modes and left the search path alone (the write-ups say what changed). The
-logs show which build each run used.
+`src/`, whose later edits added control modes and left the search path alone (the write-ups say what changed), except
+for five's `fivecheck_sieve.cpp`, above. The logs show which build each run used.
 
 ## Runs and expected output
 
@@ -712,8 +779,9 @@ run and of the `cover5t` run are identical in every count with the same `NEAR` l
 configuration).
 
 On the 255 configurations outside `c0` and `c1`, a sample run under both hole stages: `src/cover_sample.cmd`, on `cover5s`
-(`src/cover.cpp` with `src/cover5s.patch`, which adds `--fsample N SEED`: N frontier items per cover by a fixed seed, and an
-`ITEM` line for each with its nodes by dimension, solutions, full spans and non-APN spaces). Eight dimension-6 items on
+(`cover.cpp` as it was for six, commit 7d0eb84, with `src/cover5s.patch`, which adds `--fsample N SEED`: N frontier items per
+cover by a fixed seed, and an `ITEM` line for each with its nodes by dimension, solutions, full spans and non-APN spaces;
+`src/cover.cpp` has had `--fsample` itself since five). Eight dimension-6 items on
 every configuration, one dimension-5 item on each of the 210 that have any. `python src/cover_sample_cmp.py
 logs/cover-sample s6 s5` gives `s6: tree 2040 items, old 2040 items, on 255 configurations; lines only in tree 0, only in
 old 0`, `s5: tree 210 items, old 210 items, on 210 configurations; lines only in tree 0, only in old 0`, `identical`
@@ -786,6 +854,118 @@ from https://langevin.univ-tln.fr/project/spread/psp.html; both `python src/six_
 hole sets, from `data/configs6.txt`) and `python src/holes_tally.py logs/holes6.txt data/p6.txt fix-6.txt 341 0`
 (search A's, from its `holes` run) give 341 classes with the same number for each of Langevin and Hou's 17 stabiliser
 orders, and `1339989812392369324032` point sets, their total (`logs/rerun/six/s6-tally.log`).
+
+### Five (`i = 12`)
+
+Kurz's table gives 22 hole sets for five solids, none maximal, and Langevin and Hou count 22 classes. This is the last case
+of Problem VI.1. Both searches cut the problem at the *core*, the span of the five rank-4 forms (dimension 5, or 4 when the
+forms satisfy a relation), and then extend each core to every APN 8-space containing it. Search A keeps a core only if no
+further form of it has rank 4 on the holes (those spaces have six rank-4 forms, which is six's case); search B keeps them,
+so its verdict covers five or more. Times are the jobs' wall-clock times from their logs, on a box shared with other
+work, the runner's pauses included.
+
+**How independent the two searches are.** They share no code, but at a point the span already covers both impose the
+same condition on a new form g: g(a,.) must lie outside {s(a,.) : s in the span}, since otherwise a would lie in two
+radicals. Any correct search must impose it, so their agreement tests two implementations of that step, not the idea; the
+write-up's section on five says what stands apart from it. Unlike six's, search B here applies it as the plain definition,
+checked against radicals computed directly, while search A applies it through six's hole stage (Six, above, has that
+stage's history). Search B was written by a fresh instance from a different starting point (the block view of two
+complementary radicals, from Rowen's notes), and its disclosures are in `five-check.md` §8. The cores are common ground,
+the same objects computed by separate code, and were compared exactly (`five_vs_b`, below); below the cores the two
+searches count different things, so beyond the cores what agrees is two results of none. Search B keeps the cores with a
+further rank-4 form, so its verdict covers five or more rank-4 components: it is also a third exhaustive search behind
+sixteen to six, organised unlike either of theirs.
+
+Search A, `pspread3.cpp` (the binary `pspread3h`, as for six) then `cover.cpp` (`cover5v`; its usage line predates
+`--reps FILE`, which keeps only the cores listed in FILE, one per orbit, as written by `five_orbits`) driven by `five_slices.py`. The
+drivers' paths are Rowen's working tree's: `runs\i12\p5.txt` is `data/p5.txt`, `runs\i12\aut.txt` `data/aut5.txt`,
+`runs\i11\p6.txt` `data/p6.txt`, and `runs\i12\cover\` the folder `logs/five-a/` (Re-run, below, runs them unchanged in a
+folder laid out that way).
+
+| Command | Expected | Time | Log |
+|---|---|---|---|
+| `pspread3h enum 5 p5.txt --ckpt p5.ckpt --wcheck 1000` | `w=8: reduced 12, weighted 12600, orbits 1, orbit sum 12600 MATCH`; `w=12: reduced 4000, weighted 4571336, orbits 21, orbit sum 4571336 MATCH`; `orbits 22` (and `w spot checks: 0`: too few cliques per thread); writes `p5.txt` (= `data/p5.txt`, tags `p5-<n>-a<\|Aut P\|>-w<w>`) | seconds | `logs/20261106-012930-p3-k5.log`, `logs/pspread5-output.txt` |
+| `pspread3h holes 5 data/p5.txt holes5.txt`, then `python src/holes_tally.py logs/holes5.txt data/p5.txt fix-5.txt 22 0` (Langevin and Hou's `fix-5.txt`, downloaded from the page Six names) | `22 configurations, keys distinct`; `holes: 22 done this run, 0 with a cover off the list`; then `configurations 22, hole-set classes 22 (Kurz 22)`, `maximal (hole set contains no solid, w = 0): 0`, `configurations per hole set: {1: 22}`, `\|Aut H\| distribution vs Langevin-Hou: identical (16 orders)`, `point sets: 20267057123180937216 vs Langevin-Hou 20267057123180937216: MATCH`, `labelled partial spreads (sum \|GL\| / \|Aut P\|): 20267180920953372672` (one more labelled set of solids than point sets for the F₄-subline's point set, which has two covers: \|GL(8,2)\|/43200), `problems: 0` | seconds each | `logs/20261106-012953-holes5.log`, `logs/holes5-output.txt`, `logs/holes5.txt`, `logs/holes5-tally.txt` (the tally run again on 2026-11-09; its first run's output wasn't kept) |
+| `python src/five_aut.py data/p5.txt aut.txt` | per configuration `<tag> <\|Aut P\|> generators <k>`, the order equal to the tag's on all 22 (Aut(P) from the solids alone: the 60 ordered triples of solids a frame can go to, and the 20,160 maps on the first, each kept iff it permutes the five solids) | seconds | `logs/20261106-015921-five-aut.log`, `logs/five-aut-output.txt`, `data/aut5.txt` |
+| `five_cores.cmd`: per configuration `cover5v runs\i12\p5.txt -1 5 --only TAG --p1all --frange 0 0` (phase 1 only; its `NEAR` lines are the cores) into `runs\i12\near\TAG.txt`, then `five_orbits runs\i12\near\TAG.txt runs\i12\aut.txt TAG runs\i12\reps\TAG.txt` | `runs\i12\reps\summary.txt`, one line per configuration: `cores N (dim 4 a, dim 5 b), orbits M (dim 4 c, dim 5 d), sizes ...; closed, sum OK`; over the 22, 27,987,146 cores (1,610 of dimension 4) and 4,489,512 orbits (95 of dimension 4). `five_orbits` exits non-zero if an image of a core under a generator isn't a core, or the orbit sizes don't add up or don't divide \|Aut P\| | 4.5 min | `logs/20261106-020043-five-cores.log`, `logs/five-orbits-summary.txt` (the near and reps files, 2.4 GB and 185 MB, aren't included: Left out) |
+| `five_regress.cmd`, on `cover5u` (on six's `p6-101-a24-w11`, whose cores are at dimensions 4, 5 and 6): phase 1 with `--p1all`, then the slices `[0, 10000)`, `[10000, 20000)`, `[20000, 30000)` of its 24,311 frontier items | each slice repeats `phase 1 counts: nodes 453306, by dimension 28 784 15631 136383 255725 43598 1157 0, near misses 44545`; the slices `done: ... nodes 929059` / `894643` / `410044`, `solutions 0`; phase 1 plus the slices = six's whole per-configuration run (`logs/cover-percfg-output.txt`) in every count: 2,687,052 nodes, by dimension 28 / 784 / 15,631 / 136,383 / 280,036 / 2,252,206 / 1,984 / 0, and 1,898,623,692 hole-stage candidates, 2,260,590 passing. Without `--p1all`, `--frange` skips phase 1's hole stage, and on five that drops the subtrees of the dimension-4 cores (`p5-21`: frontier 2,153,508 without, 23,986,628 with; the next row) | 13 min | `logs/20261106-014253-five-regress.log`, `logs/five-regress-s0.txt` … `-s2.txt` (without their progress lines) |
+| `five_sample.cmd 100 1`, on `cover5u`: per configuration `--p1all --fsample 100 1` (100 frontier items chosen by a fixed seed), for the cost before the orbit reduction | per configuration `phase 1 done ... frontier N items at dim 5`, adding up over the 22 to 93,630,107 (the search below the cores without `--reps`), an `ITEM` line per sampled item and the `done:` line; an earlier run without `--p1all` (on `cover5s`) gives `p5-21`'s frontier as 2,153,508 | 11 min | `logs/20261106-014607-five-sample4.log`, `logs/five-sample/`; the earlier run `logs/20261106-013455-five-sample2.log`, `logs/five-sample/without-p1all/` |
+| `python src/five_slices.py run` (job five-a): for each configuration, `cover5v runs\i12\p5.txt -1 5 --only TAG --p1all --reps runs\i12\reps\TAG.txt --frange A B` over slices of 10,000 frontier items, into `runs\i12\cover\TAG\`; it stops with exit 3 and `STOPPED.txt` on any `SOLUTION`, full span, bad seed or non-APN space, so a clean finish is a statement too | per configuration `<tag> frontier N` then `<tag> done`, 22 of each (`five-a.out`); the slices' own outputs (824 files) | 121.6 h, 2026-11-06 02:06 to 11-11 03:46, never evicted, on a few cores of a shared machine | `logs/20261106-020622-five-a.log`, `logs/five-a-output.txt`, `logs/five-a/TAG/` (the slice outputs without their progress lines) |
+| `python src/five_slices.py tally`: **the result** (it reads the orbit lists, `runs\i12\reps\`, which aren't included: regenerate them with `five_cores.cmd` first) | `configurations finished 22 of 22; frontier items searched 8154557`; `nodes by span dimension 1..8: 616 17248 380500 5047422 8154557 1857517258 1797206 0`; `{'nodes': 1872914807, 'cand': 1385120042839, 'passed': 1879443440, 'sols': 0, 'near2': 0}`; `complete: every frontier tiled, every slice clean, every slice kept exactly the orbit representatives`; exit 0 (it exits non-zero unless every configuration's slices tile its frontier exactly) | seconds | `logs/five-tally-output.txt` |
+
+The job ran `five_slices.py` as committed with `--reps` (cfc3795), loaded at its start and never restarted;
+`src/five_slices.py` is the review's fix (d7bf67d), which raises a slice's alarm before renaming its output rather than
+after, and makes the tally exit non-zero unless the run is complete and clean. The tally above is the fixed one.
+
+The reduction was reviewed before the run was relied on (`review-five-orbits.md`): a separate program (`src/rv5_indep.cpp`)
+enumerated every configuration's cores itself, `OK` on all 22 with the same cores as sets and every orbit covered by the
+whole group's images of the listed representatives (`total cores 27987146 reps 4489512 configurations failing 0`,
+`logs/review-five-orbits-indep.txt`, job `rv5-indep`); and on four configurations of four solids, where APN spaces exist,
+the job's own code and flags run from listed representatives found all 117 images of the known solutions under the maps
+relating them to the original cores, and nothing else (`src/ctl_run.py`, `logs/review-five-orbits-ctl.txt`, job `rv5-ctl`;
+the control's inputs, from six's known-function controls, and the reviewer's builds of `cover.cpp` aren't here). No control
+reaches a dimension-5 representative with a solution under it.
+
+The hole stage was checked against the definition on five's own cores by the last review, of the write-up (Claude Fable 5.2,
+`src/defcheck.cpp`, no shared code; its files in `logs/review-five-page-defcheck/`): on 494 of the cost sample's items
+(`items.txt`), across all 22 configurations, the tree below each item from the definition alone gives search A's counts at
+every dimension (`items.out` against `expect.txt`, the sample's `ITEM` lines: 494 of 494; 127,079 nodes at dimension 6, 360
+at 7, none at 8); on the four dimension-4 representatives of `p5-9`, `p5-8` and `p5-19` (`k4.txt`), `defcheck2 k4.txt 5`
+gives each one's children at its first hole, which together are search A's frontier less its dimension-5 representatives on
+those configurations (148,504 − 100,947, 108,509 − 69,182 and 96,848 − 10,672, from `logs/five-a-output.txt` and
+`logs/five-orbits-summary.txt`; the review kept no log of this, Re-run has one); and from six dimensions of six known
+four-solid APN spaces (`ctl6.txt`, from six's known-function controls) it returns each of them, 6 of 6 (`ctl.out`). The
+review itself is `review-five-page.md`; it also re-ran one slice of the main run (Re-run).
+
+Search B, `fivecheck_*` (`five-check.md`), written by a separate instance from the block view in Rowen's notes and none of
+search A's or `six_check`'s methods. Its programs and drivers read and write `runs/check5/…` and `runs\bin\…` in Rowen's
+working tree (`five-check.md`'s note maps them; `runs/check5/configs.txt` is `data/configs5.txt` and
+`runs/check5/known4.txt` `data/known4.txt`).
+
+| Command | Expected | Time | Log |
+|---|---|---|---|
+| `fivecheck_configs configs.txt` | `r=4: 5 ordered orbits, 3 unordered classes`; `r=5: 557 ordered orbits, 22 unordered classes`; writes `configs.txt` (= `data/configs5.txt`) | seconds | `logs/check5-bundle/configs.txt` and `configs-fc.txt` (`fivecheck_bundle2.cmd`, run again on 2026-11-09 with outputs kept: `FC: no differences encountered` against the run's file; the first run's output wasn't kept) |
+| `python src/fivecheck_covers.py` | for each class the solids inside the union of its five and its exact covers: 21 classes with one cover, the subline class with 10 solids inside and 2 covers (point-set stabiliser 43,200); `point sets r=5 (each set of solids weighted 1/covers): 20267057123180937216`, Langevin and Hou's total | seconds | `logs/check5-bundle/covers.txt` (2026-11-09) |
+| `fivecheck_classes gamma 4`, `gamma 5` | \|Gamma\| of each class by explicit enumeration: `288 120 4320`; and for the 22, `8 1 24 12 2 6 3 6 18 12 288 96 24 36 60 4 2 4 8 120 1440 21600`, as `configs.txt` | seconds | `logs/check5-bundle/gamma4.txt`, `gamma5.txt` (2026-11-09) |
+| `fivecheck_r5.cmd`: `fivecheck_r5 run 5 C 0 28 runs/check5/r5 onlyk=5` for each class C, one slice per first form (616), on the build of `src/r5/fivecheck_sieve.cpp` (Build) | every slice ends `DONE`; over the slices the table of `five-check.md` §5: 378,628,096 tuples, 29,773,651 admissible (29,772,010 of dimension 5), 129,857,159,039 survivors of the solids, 35,522,067,041 after S's own radicals, 67,054,914 planes, **0 third-level nodes, 0 T** | 13.5 h | `logs/20261106-030847-check5-r5.log` (each slice's lines), `logs/check5-r5/` (the 616 slice files) |
+| `fivecheck_k4list.cmd`, then `fivecheck_k4.cmd` (each of the 103 Gamma-orbit representatives of the 1,641 dimension-4 tuples, T of dimension 4, with the pivot) | per class `k4 tuples N, orbits M, closed 1`: 1,641 tuples, 103 orbits; every representative `found 0`, `DONE`; over them 39,403,164 survivors, 890,216,834 planes, 1,033,031 three-spaces, no 4-dimensional T | 41.5 CPU-hours | `logs/20261106-031934-check5-k4list.log`, `logs/20261106-032250-check5-k4.log`, `logs/check5-k4/` |
+| `fivecheck_k4all.cmd` (every one of the 1,641, sieve only), then `python src/fivecheck_k4orbits.py` | the sieve's counts constant on each orbit: 0 orbits with differing counts | 5 min | `logs/20261106-164758-check5-k4all.log` (the 1,641 outputs aren't included; Re-run has `fivecheck_k4orbits.py`'s output) |
+| `fivecheck_c4.cmd 02 2`, that is `fivecheck_ctl list 4 2 runs/check5/reps_r4_c02.txt runs/check5/c4c02 pivot` (four solids: the r = 4 control, `five-check.md` §6, taking the Gamma-orbit representatives of the class 25 of the 26 known functions lie in, in list order; each output file names its tuple) and `fivecheck_prio.cmd` (the four representatives that carry the known functions not yet reached, chosen with hindsight) | 96 spaces from the 88 representatives taken in list order, in 12 of the 26 known classes with four rank-4 forms; 81 from the four, the other 14; 177 found, all APN, every one known (`found_where.txt` against `known_where.txt`, and the `1` files for the class with \|Gamma\| = 120) | 13.7 h to the cancel at 88 of 326; 1 h 20 min | `logs/20261106-031857-check5-c4c2.log` (cancelled at 88 of 326 on purpose), `logs/20261106-152603-check5-prio.log`, `logs/check5-ctl4/` |
+| `fivecheck_bundle.cmd` (2026-11-09): `flat` on 10 classes of five and 3 of four solids, 4 samples each; `slevel 5 2000`, `slevel 4 2000`; `gamma 4`, `gamma 5` | every `flat` line `same` (52 samples, 184 sub-checks: the sieve against the definition from a different complement, the words on S's own radicals both ways, brute assembly); `slevel r=5: 44000 agree, 0 disagree`, `slevel r=4: 6000 agree, 0 disagree` | 1.5 min | `logs/20261109-145302-five-bchecks.log`, `logs/check5-bundle/` |
+| `fivecheck_bundle2.cmd` (2026-11-09): configs, covers, `fivecheck_blockview.py` on the known four-rank-4 functions, `plant` (the e = 3 planted test) without and with the pivot | configs as above, `FC: no differences encountered`; `ordered pairs by dim K: {2: 312} all block-view claims held`; `plant: 26 functions, 390 (S8, coset) pairs, S8 returned in 390` both ways | 1 min | `logs/20261109-145843-five-bchecks2.log`, `logs/check5-bundle/` |
+
+Search B's reviewer (`review-five-check.md`; code `src/rvb5_ref.cpp`, `src/rvb5_gamma.cpp`, `src/rvb5_gamma5.cpp`,
+`src/nou_check.py`; outputs in `logs/check5-review/` and the `rvb5-*` job logs): a reference sharing no code with B
+recomputed admissibility for all 22 · 28^5 tuples with no prefix test (job `rvb5-count`): the same numbers of admissible
+sets and of dimension-4 ones as the main run in each of the 616 slices (`ref_count.txt`; the dimension-5 sets were compared
+by these counts, not tuple by tuple), and the same 1,641 dimension-4 tuples (`ref_k4.txt`); and the sieve and assembly on 5,981 random admissible sets (job `rvb5-ref`, against B's build with the count prune
+off, job `rvb5-smpb`: 0 differences), and closed the chain to the run's own files on three whole slices (job `rvb5-chain`,
+whose lines equal those slices' in `logs/check5-r5/`). B's main-run binary with the solid points as the only test (`nou`)
+gave the 6,084 non-APN extensions in one slice each of classes 20 and 21 (none in classes 0 and 1; jobs `rvb5-nou`,
+`rvb5-nou2`, the slices in `logs/check5-review/nou/`), confirmed by `nou_check.py` from the definition (`nou_check_out.txt`)
+and closed under Gamma (`rvb5_gamma5`); and 132 extensions planted on 59 to 66 of the 75 solid points were all returned
+(jobs `rvb5-plant5`, `rvb5-plantcmp`; the patched build that ran them isn't here); and nine of the dimension-4
+representatives without the pivot, four of them also without the count prune, found no T (jobs `rvb5-nopiv`,
+`rvb5-nopiv3`). Its other scripts and builds aren't included (`review-five-check.md`'s note lists them).
+
+The two searches compared: `five_vs_b data/p5.txt vs-b.txt` applies B's admissibility rule and A's core rule to each of
+A's configurations, with the reviewer's primitives: `total B-rule 29773651 dim4 1641 | A-rule 27987146 dim4 1610 | extra
+rank-4 1786505 dim4 31 | unexplained 0`, the B-rule counts equal to B's table class by class (`logs/five-vs-b.txt`,
+`logs/20261106-170530-five-vs-b2.log`). `python src/five_classmatch.py logs/five-vs-b.txt five-check.md
+logs/check5-bundle/gamma5.txt`: each of A's 22 configurations gives exactly one of B's 22 per-class counts (all
+different), with the same dimension-4 count and \|Gamma\| = \|Aut P\|: `classes hit 22; mismatches 0`
+(`logs/check5-bundle/classmatch.txt`). Only this first stage is compared: below the cores the two searches count
+different things.
+
+The critical-problem test (the write-up's "Is there a reason?"): `five_critical.cpp`, Claude Fable 5.2's solver from a
+consult on 2026-11-09, copied unchanged below its header, and `five_hyp.py`, Rowen's driver (which reads search A's orbit
+lists, `runs\i12\reps\`, and calls `runs\bin\five_critical.exe`):
+
+| Command | Expected | Time | Log |
+|---|---|---|---|
+| `python src/five_hyp.py OUT 100 4`: 100 representative cores of dimension 5 from each configuration (seeded), each run as the whole problem (`hmode 0`) and as the 255 hyperplane subproblems (`hmode 1`) | one file per core in `OUT` | 1 h | `logs/20261109-150810-five-hyp.log`, `logs/five-hyp/` (the 2,200 files) |
+| `python src/five_hyp.py logs/five-hyp --tally` | `cores 2200: whole problem UNSAT 2200, SAT 0, cap 0`; `\|G5\| 355..403`; `conflict sets after the first passes (not minimised): 207..245 planes`; `cores with every hyperplane subproblem SAT: 2192 of 2200`; the other 8 (3 of `p5-11`, 5 of `p5-21`) each `sat 240 unsat 15`, `common subspace dim 4, every form of S5 vanishes on it: True` | seconds | `logs/five-hyp-tally.txt` |
+| `five_critical F1 F2 F3 F4 F5 1 0` with the first five of the eight forms of `data/known4.txt`'s lines 1, 7 and 20 (each a known APN space with four rank-4 forms), the solver's positive control: five forms of an APN space must extend | `G5 307` / `299` / `323` and `SAT! size 307 nodes 710867038`, `SAT! size 299 nodes 265928295`, `SAT! size 323 nodes 927629355` | 30 s, 18 s, 59 s | `logs/rerun/five/c-pos-1.log`, `-7.log`, `-20.log` (Rowen's run of it on 2026-11-09 kept no log, only its node counts, 0.27 to 0.93 billion; these are from the re-run for this folder) |
 
 ## Re-run for this folder
 
@@ -1006,6 +1186,70 @@ rest of the off-D phases (2 h each), of `lin` (3 to 4 h each) and of the point b
 configuration), `six_check_tally.py cores` over the whole core files (7 and 44 min; they aren't in this folder), and the
 control batches other than `lind-bl22` and those few of the planted and rotated ones (from 3 min to 10 h a batch).
 
+For five, on 2026-11-11, from fresh builds of `src/` (and `src/r5/`) with the Build line, each of which gives the object
+file of a binary that ran (Build, above), as jobs on the E-cores of a shared box, by `logs/rerun/five/rerun.py` from this
+folder's files. The drivers and the programs that read fixed paths ran unchanged in a folder laid out like Rowen's working
+tree, with the inputs from `data/` and `logs/` and the builds copied under the names the drivers call; so
+`five_regress.cmd` ran `src/cover.cpp` where the run used `cover5u`, and `fivecheck_k4all.cmd` `src/fivecheck_sieve.cpp`
+where it used `fivecheck_ctl`. The steps' logs, `times.txt`, the builds' script and the object comparison (`build.py`,
+`objmatrix5.py`, `objmatrix.log`), and the comparison with the originals (`compare.py` and its output `compare.log`, which
+reads from Rowen's tree what isn't here: the orbit lists, search B's tuple lists and `k4all`'s outputs) are in
+`logs/rerun/five/`.
+
+- `pspread3 enum 5`: its `p5.txt` byte for byte `data/p5.txt`, and the w lines, the orbit count and the spot checks as in
+  `logs/pspread5-output.txt`; `pspread3 holes 5`: its hole sets the same lines as `logs/holes5.txt`, its output the
+  original's; `holes_tally.py` against `fix-5.txt`: `logs/holes5-tally.txt` line for line.
+- `five_aut.py`: its `aut.txt` byte for byte `data/aut5.txt`, its output line for line.
+- `five_cores.cmd` (13 min): the summary line for line, and all 22 orbit lists byte for byte the run's; on its near and
+  orbit files, `rv5_indep`, the reviewer's enumeration, built from `src/`: its output line for line as a set (`total cores
+  27987146 reps 4489512 configurations failing 0`; 2.5 min); and with the orbit lists, `five_slices.py tally` over the
+  slice outputs in `logs/five-a/`: `logs/five-tally-output.txt` line for line, exit 0.
+- `five_regress.cmd`, on `src/cover.cpp` (21 min): the three slices' outputs as `logs/five-regress-s0.txt` … `-s2.txt`,
+  timings and the thread count aside, so again equal to six's run on `p6-101` in every count.
+- `cover data/p11.txt`, on `src/cover.cpp` with none of five's options (3 min): nodes at every dimension, the `done:` line
+  and the 58 `NEAR` lines as a set equal to `logs/eleven-output.txt`, which `cover3` wrote: five's edits left the default
+  search alone.
+- `five_vs_b data/p5.txt` (1.5 min): `vs-b.txt` byte for byte `logs/five-vs-b.txt`; `five_classmatch.py`:
+  `logs/check5-bundle/classmatch.txt` line for line, exit 0.
+- `fivecheck_configs`: its list byte for byte `data/configs5.txt`; `fivecheck_covers.py`, `fivecheck_bundle.cmd` and
+  `fivecheck_bundle2.cmd`: all 26 outputs as in `logs/check5-bundle/`, timings and paths aside (both `gamma`s, `slevel`,
+  the 52 `flat` samples, the block view and the planted test among them).
+- `fivecheck_k4list.cmd`: the per-class lines of `logs/20261106-031934-check5-k4list.log` and the 22 tuple lists as the
+  run's; `fivecheck_k4all.cmd`: the lists again and all 1,641 sieve-only outputs as the run's, the seconds line aside (5
+  min); `fivecheck_k4orbits.py`: `tuples 1641 orbits 103 orbits with differing counts 0`. Three dimension-4
+  representatives, the cheapest in the run (class 12's lines 3 and 12, class 13's line 2), through `list` with the pivot:
+  each output the run's in every count.
+- The main run's slice c0 q0, on `src/r5/`: the run's file but for its seconds line (85 s). On `src/fivecheck_sieve.cpp`:
+  the same sets, survivors and T's (none), and 72 planes where the run counted 38,045 (the count prune: Build).
+- The critical-problem solver: the positive control above (it had no log); 52 of the 2,200 cores again as `five_hyp.py`
+  runs them, the 8 with UNSAT hyperplanes and the first two of each configuration: all 52 files identical to
+  `logs/five-hyp/`; and `five_hyp.py --tally` over `logs/five-hyp/`: `logs/five-hyp-tally.txt` line for line, paths aside.
+- The reviewers' code, from `src/`: `rvb5_ref count` (3 min), the `rvb5-count` job's output line for line and its three
+  files as the reviewer's (two of them in another order: they're written as the threads finish); `known`: the job's line;
+  `list` on the first 300 sets of the reviewer's sample: all 300 lines in `ref_sample_out.txt`, so on those the edited
+  `assemble` gives what the build that ran gave; `rvb5_gamma gamma`: every order as `configs.txt` (`sum of |Omega| over
+  r=5 classes 9167872, different 0`); `rvb5_gamma5` on the two slices with solids-only extensions: class 21, 622,080
+  images staying in the slice, class 20, 374,328, none outside the found set, every found space hit (the review's numbers,
+  which had no log); `nou_check.py`: `logs/check5-review/nou_check_out.txt` line for line. The last review's
+  `defcheck` on the first 10 of its 494 items: the 10 lines of its `items.out`; `defcheck2` on the four dimension-4
+  representatives, stopping at dimension 5: 47,557 children for `p5-9`'s, 39,327 for `p5-8`'s, and 45,793 and 40,383 for
+  `p5-19`'s two, 86,176, as above (it had no log; seconds). The last review also re-ran one slice of search A's main run,
+  the last of `p5-19` (items 90,000 to 96,848), from `data/p5.txt` and the run's orbit list on the run's own `cover5v`:
+  every line of `logs/five-a/`'s output for that slice equal apart from timings, 1,556,417 nodes, 1,186 at dimension 7, none
+  at 8, and its 10,674 phase-1 near misses, which that copy leaves out, equal as a set to the run's own (Rowen's working tree) (`logs/rerun/five/r-slice-p5-19-90000.txt`; on the run's binary, so its tie to `src/cover.cpp` is
+  the object comparison above).
+- The three shims added for five (Build): 60 million checks against the MSVC intrinsics, 0 mismatches (`shimtest5.cpp`,
+  its output `shimtest5.log`).
+
+So the sources here reproduce what the builds that ran five recorded, wherever they were re-run, the main run's slice on
+`src/r5/` included; the one difference is the planes count of the main run's path on the last `fivecheck_sieve.cpp`,
+which Build explains.
+
+Not re-run: search A's main run (121.6 h) and search B's (13.5 h), which the object files tie to `src/cover.cpp` and
+`src/r5/fivecheck_sieve.cpp` instead (Build); the rest of the dimension-4 run (41.5 CPU-hours), of the hyperplane test
+(1 h) and of the last review's 494 items; the r = 4 control and the priority run (15 h); and the reviewers' whole-slice, solids-only, planted and pivot-off
+runs, whose builds aren't all here, and the end-to-end control of the orbit reduction, whose builds and inputs aren't.
+
 ## Data
 
 `data/`:
@@ -1064,6 +1308,15 @@ control batches other than `lind-bl22` and those few of the planted and rotated 
   `six_check parta`; inputs to `merge`).
 - `orbits6.txt`: search B's 341 orbits with their invariants (output of `six_check merge`; input to `configs`).
 - `configs6.txt`: search B's 341 `i = 11` configurations (output of `six_check configs`).
+- `p5.txt`: search A's 22 `i = 12` configurations (output of `pspread3 enum 5`; cover.cpp input, tags
+  `p5-<n>-a<|Aut P|>-w<w>`; input to `pspread3 holes`, `five_aut.py` and `five_vs_b`).
+- `aut5.txt`: generators of each configuration's Aut(P) (output of `five_aut.py`; input to `five_orbits` and `rv5_indep`).
+- `configs5.txt`: search B's classes of four and five solids, 3 and 22 (output of `fivecheck_configs`; its programs read it
+  as `runs/check5/configs.txt`).
+- `known4.txt`: the 26 known classes of quadratic APN functions with four rank-4 components, eight forms each (`n4 n6 n8`,
+  then the forms in hex, byte i = row i), the lines with four of `fivecheck_known.py`'s output on the known functions of
+  Beierle and Leander's and Beierle, Leander and Perrin's lists (below; their licence and attribution apply). Read by
+  `fivecheck_blockview.py`, `plant`, the reference's `known` and the critical-problem solver's positive control.
 
 Not included, all regenerated by the commands above: `spreads.txt.all` (280 KB, 40 s), `holes11.txt`, `holes10.txt`
 (16 to 22 MB depending on the build, 8 s), search B's `covers.txt` (1.9 MB, seconds), cover.cpp's `max.txt` (1.9 MB)
@@ -1086,6 +1339,11 @@ another, and the ones made for this folder are identical to the originals apart 
 its `maxc-c*-s*.txt` are all empty (no 7-partial spread is maximal). For six, search A's chunks are `data/p6.txt` cut into
 runs of 43 and `six_check parta`'s `maxc-c*-s0.txt` are empty too; its core files (`p1asc.cores`, `p1desc.cores`,
 `lin.cores`, `lindesc.cores`: 457 MB to 973 MB each) and `.prog` files' `P1` lines aren't here either (Left out, below).
+For five, search A's near and orbit files (`runs\i12\near\`, every configuration's cores, 2.4 GB, and `runs\i12\reps\`, the
+orbit representatives, 185 MB) are written by `five_cores.cmd` in minutes and aren't included, nor are the run's
+`near-phase1.txt.gz` (each configuration's kept cores, as its first slice printed them: the orbit lists again); search B's
+tuple lists (`k4_c*.txt`, `k4all_c*.txt`, `k4orbit_c*.txt`) are written by `k4list` in seconds, and its 1,641 sieve-only
+outputs (`runs/check5/k4all/`, 2.4 MB) by `fivecheck_k4all.cmd` in minutes.
 
 The known-function lists used by the controls aren't included either: `apn_8bit.txt` (Beierle and Leander, Zenodo
 4738942), `blp22_8bit.txt` (Beierle, Leander and Perrin, Zenodo 5821018), `new_apns.txt` (Beierle, Langevin, Leander,
@@ -1148,4 +1406,10 @@ configurations the partial list doesn't hold).
   `cmd`); `six_check`'s `tmp/` trial runs (other than the runs on configuration 340 here); the empty lists `plants-blp-*`,
   `plants-new-c2`, `plants-yp-c2`, `plants-ywl-c2` (no planting: `check6-plantfind-*-output.txt` say so); and, of `plantfind`'s
   runs, the output of the one that wrote `logs/check6-plants-bl22-c2.txt` (Re-run, above).
+- For five: the progress lines (`frontier N/M ...`) of search A's slice outputs, of the regression's and of the cost sample's
+  (`logs/five-a/`, `logs/five-regress-s*.txt` and `logs/five-sample/` keep everything else; 37 MB whole); the near and
+  orbit files (Data, above); a first `five_vs_b` job (`five-vs-b`, the same command on a build of `five_vs_b.cpp` replaced
+  two minutes later, run again as `five-vs-b2`); search A's profiling runs before the cost sample (`five-prof0`,
+  `five-sample`, `five-sample3`, `five-core21`); search B's trial runs (`runs/check5/t*`, `p4/`, `frozen/`); and the
+  reviewers' other scripts, builds and outputs (their documents' notes list them).
 - Local paths in the logs were shortened to paths relative to the working tree.

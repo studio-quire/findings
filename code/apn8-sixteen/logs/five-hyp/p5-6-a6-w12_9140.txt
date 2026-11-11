@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 9140 forms 2102952a112255aa 0c2b4f06e1b0716a 1d091aacf09224c0 0b1d0d4cf2738de6 000000000509010e
+G5 379
+iter 0 subset 379 -> core 231 nodes 40971880
+iter 1 subset 231 -> core 231 nodes 40971880
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 123881 forms 42811b252011a074 2c05870480f12064 0b2d5e2ef273bdc6 190c058bd2621db2 00000000050a0408
+G5 363
+iter 0 subset 363 -> core 226 nodes 30722040
+iter 1 subset 226 -> core 226 nodes 30722040
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

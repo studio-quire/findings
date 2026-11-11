@@ -1,0 +1,6 @@
+core p5-4-a1-w12 line 604856 forms 4a9d084ef151904c 2e0a8005c598c11a 0e3a4045c598c11a 1f1519e4a4d981e6 000000000103040c
+G5 363
+iter 0 subset 363 -> core 232 nodes 22219560
+iter 1 subset 232 -> core 232 nodes 22219560
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 34634 forms 223bcf46643af562 111903ce551b34ec 03021c283121c18e 0e050804a4d88142 0000000002030d06
+G5 379
+iter 0 subset 379 -> core 224 nodes 65633896
+iter 1 subset 224 -> core 224 nodes 65633896
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

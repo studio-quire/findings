@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 999 forms 2102840811224488 0a285d29f123853e 1b0a19a1e001c1b6 0e14014685da952a 0000000002030d06
+G5 387
+iter 0 subset 387 -> core 222 nodes 74597544
+iter 1 subset 222 -> core 222 nodes 74597544
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

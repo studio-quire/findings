@@ -1,0 +1,6 @@
+core p5-4-a1-w12 line 22380 forms 2211884422118844 072e4b0660d2f5a2 170e1ba660d2f5a2 0f020a01a080e090 0000000006080902
+G5 371
+iter 0 subset 371 -> core 229 nodes 9055944
+iter 1 subset 229 -> core 229 nodes 9055944
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 373675 forms 4b9d1265c053a5d6 2b0d9225c053a5d6 053e454952e048b0 1d111be4a19121ee 00000000050a0408
+G5 395
+iter 0 subset 395 -> core 224 nodes 7736704
+iter 1 subset 224 -> core 224 nodes 7736704
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

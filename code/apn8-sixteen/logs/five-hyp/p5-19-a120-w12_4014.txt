@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 4014 forms 231283410302edba 133243c10302edba 0201162f1231b854 080c0102c0401020 0000000006090804
+G5 371
+iter 0 subset 371 -> core 231 nodes 52396584
+iter 1 subset 231 -> core 231 nodes 52396584
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

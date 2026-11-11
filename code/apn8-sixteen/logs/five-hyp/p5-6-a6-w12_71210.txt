@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 71210 forms 438c040742719894 2e08810fd3929c38 0427592932c24c70 1e1801cfd3929c38 000000000708090a
+G5 371
+iter 0 subset 371 -> core 230 nodes 17345336
+iter 1 subset 230 -> core 230 nodes 17345336
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 2326 forms 23028c083322cc88 0226552f1372dd3a 120615af1372dd3a 06180d4a71a3942c 00000000060b0c04
+G5 387
+iter 0 subset 387 -> core 226 nodes 101722568
+iter 1 subset 226 -> core 226 nodes 101722568
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

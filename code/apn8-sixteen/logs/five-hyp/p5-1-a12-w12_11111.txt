@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 11111 forms 2211884422118844 0d314d49b2a20df2 1201088422118844 050f1d2b73e058f8 00000000050b040c
+G5 387
+iter 0 subset 387 -> core 223 nodes 13640368
+iter 1 subset 223 -> core 223 nodes 13640368
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

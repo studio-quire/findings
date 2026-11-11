@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 112921 forms 42831d262233dd66 2f119c67a1b394dc 0d224101838049ba 070e030242c3fca4 000000000708090a
+G5 387
+iter 0 subset 387 -> core 232 nodes 82539432
+iter 1 subset 232 -> core 232 nodes 82539432
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

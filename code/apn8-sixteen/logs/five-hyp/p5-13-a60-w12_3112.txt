@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 3112 forms 260f800b53c2dc58 0331586c331188cc 151e08c760d35494 0b0e040cd373cc8c 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 240 nodes 77722976
+iter 1 subset 240 -> core 240 nodes 77722976
+core rank 23 a0 1
+sat 255 unsat 0 cap 0

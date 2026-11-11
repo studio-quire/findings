@@ -1,0 +1,13 @@
+cores 2200: whole problem UNSAT 2200, SAT 0, cap 0
+|G5| 355..403
+conflict sets after the first passes (not minimised): 207..245 planes
+cores with every hyperplane subproblem SAT: 2192 of 2200
+  not all hyperplanes SAT: p5-11-a96-w8_14776.txt sat 240 unsat 15 cap 0 | common subspace dim 4, every form of S5 vanishes on it: True, points shared with each rank-4 radical [3, 3, 3, 3, 3]
+  not all hyperplanes SAT: p5-11-a96-w8_14980.txt sat 240 unsat 15 cap 0 | common subspace dim 4, every form of S5 vanishes on it: True, points shared with each rank-4 radical [3, 3, 3, 3, 3]
+  not all hyperplanes SAT: p5-11-a96-w8_14993.txt sat 240 unsat 15 cap 0 | common subspace dim 4, every form of S5 vanishes on it: True, points shared with each rank-4 radical [3, 3, 3, 3, 3]
+  not all hyperplanes SAT: p5-21-a21600-w12_164.txt sat 240 unsat 15 cap 0 | common subspace dim 4, every form of S5 vanishes on it: True, points shared with each rank-4 radical [3, 3, 3, 3, 3]
+  not all hyperplanes SAT: p5-21-a21600-w12_170.txt sat 240 unsat 15 cap 0 | common subspace dim 4, every form of S5 vanishes on it: True, points shared with each rank-4 radical [3, 3, 3, 3, 3]
+  not all hyperplanes SAT: p5-21-a21600-w12_171.txt sat 240 unsat 15 cap 0 | common subspace dim 4, every form of S5 vanishes on it: True, points shared with each rank-4 radical [3, 3, 3, 3, 3]
+  not all hyperplanes SAT: p5-21-a21600-w12_173.txt sat 240 unsat 15 cap 0 | common subspace dim 4, every form of S5 vanishes on it: True, points shared with each rank-4 radical [3, 3, 3, 3, 3]
+  not all hyperplanes SAT: p5-21-a21600-w12_181.txt sat 240 unsat 15 cap 0 | common subspace dim 4, every form of S5 vanishes on it: True, points shared with each rank-4 radical [3, 3, 3, 3, 3]
+# exit 0

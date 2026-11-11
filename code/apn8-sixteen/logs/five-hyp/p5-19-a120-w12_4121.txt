@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 4121 forms 2714814301c091ba 05274d0723f35dfe 170411a301c091ba 0e0b0a06e191f04c 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 227 nodes 8125184
+iter 1 subset 227 -> core 227 nodes 8125184
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

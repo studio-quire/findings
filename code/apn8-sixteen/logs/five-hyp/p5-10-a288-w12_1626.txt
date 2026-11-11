@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 1626 forms 210d8003414314dc 0e274b05a3d1e97e 130e1ca76370d898 0d190742c0a131e6 0000000004090106
+G5 379
+iter 0 subset 379 -> core 227 nodes 7389048
+iter 1 subset 227 -> core 227 nodes 7389048
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

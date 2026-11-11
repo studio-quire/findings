@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 8938 forms 2604942001e0810a 14254c8423f1094e 04151c6423f1094e 070a09066090d1a2 00000000060b0c04
+G5 371
+iter 0 subset 371 -> core 230 nodes 88634760
+iter 1 subset 230 -> core 230 nodes 88634760
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

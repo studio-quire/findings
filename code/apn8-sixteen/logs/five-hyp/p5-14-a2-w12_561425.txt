@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 561425 forms 539507ce147ab5e2 301090e000000000 0b06040a9468d182 050d0e0c71f325ce 000000000301090e
+G5 371
+iter 0 subset 371 -> core 233 nodes 22748568
+iter 1 subset 233 -> core 233 nodes 22748568
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

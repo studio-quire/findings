@@ -1,0 +1,5 @@
+configurations finished 22 of 22; frontier items searched 8154557
+nodes by span dimension 1..8: 616 17248 380500 5047422 8154557 1857517258 1797206 0
+{'nodes': 1872914807, 'cand': 1385120042839, 'passed': 1879443440, 'sols': 0, 'near2': 0}
+complete: every frontier tiled, every slice clean, every slice kept exactly the orbit representatives
+# exit 0

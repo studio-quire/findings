@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 55339 forms 4b800d02a12394ac 2415916910c20470 0831454e92321c60 170419a523d38cbc 00000000060a0d02
+G5 387
+iter 0 subset 387 -> core 230 nodes 40840832
+iter 1 subset 230 -> core 230 nodes 40840832
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

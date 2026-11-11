@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 78180 forms 4d840a01a1c3249c 2a20d3248213ad26 100e15ad52734d36 071a1c6871a3c48c 0000000006090804
+G5 379
+iter 0 subset 379 -> core 232 nodes 278260792
+iter 1 subset 232 -> core 232 nodes 278260792
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

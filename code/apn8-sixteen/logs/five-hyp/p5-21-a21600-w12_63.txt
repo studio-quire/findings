@@ -1,0 +1,6 @@
+core p5-21-a21600-w12 line 63 forms 2102840811224488 04254e0623f03848 15070a8e32d27cc0 081d1f6df371297e 000000000708090a
+G5 387
+iter 0 subset 387 -> core 228 nodes 36384904
+iter 1 subset 228 -> core 228 nodes 36384904
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

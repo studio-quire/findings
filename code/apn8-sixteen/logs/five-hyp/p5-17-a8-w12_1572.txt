@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 1572 forms 2506820b13c37d9e 152652ab13c37d9e 0d07050e90f255e2 03020d0a3322ddaa 000000000708090a
+G5 387
+iter 0 subset 387 -> core 230 nodes 192564888
+iter 1 subset 230 -> core 230 nodes 192564888
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

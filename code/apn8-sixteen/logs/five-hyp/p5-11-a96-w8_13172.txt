@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 13172 forms 4780020b1181b19e 2c07932991c1617e 1b2751a28040d0e0 0d1e1966e2d059a2 0000000004090106
+G5 387
+iter 0 subset 387 -> core 235 nodes 46723440
+iter 1 subset 235 -> core 235 nodes 46723440
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

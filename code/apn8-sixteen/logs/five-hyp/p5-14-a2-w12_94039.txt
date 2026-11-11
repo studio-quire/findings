@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 94039 forms 41880b07601234b0 271b9d6e75bad5ea 11284b87601234b0 0a0d0906e1509068 0000000002010804
+G5 387
+iter 0 subset 387 -> core 226 nodes 8930840
+iter 1 subset 226 -> core 226 nodes 8930840
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

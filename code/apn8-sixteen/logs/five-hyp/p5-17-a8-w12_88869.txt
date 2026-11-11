@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 88869 forms 4d87010280c050e0 2b1e8946e251d9a6 123f42c24341f94e 09011b24a11020e8 0000000004080102
+G5 379
+iter 0 subset 379 -> core 228 nodes 18897136
+iter 1 subset 228 -> core 228 nodes 18897136
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

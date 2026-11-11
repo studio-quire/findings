@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 94779 forms 4b820f01a320e9ba 2509850740b110f4 073a49436282dcb0 1b121fe1a320e9ba 00000000050b040c
+G5 387
+iter 0 subset 387 -> core 235 nodes 187587560
+iter 1 subset 235 -> core 235 nodes 187587560
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

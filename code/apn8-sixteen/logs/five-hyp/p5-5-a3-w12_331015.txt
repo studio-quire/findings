@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 331015 forms 4f970c49b0e0c0d0 3f1287c083a3edae 1d214b84a19021ea 0d04102d92d30c94 00000000050b040c
+G5 387
+iter 0 subset 387 -> core 233 nodes 47660320
+iter 1 subset 233 -> core 233 nodes 47660320
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

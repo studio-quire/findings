@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 28644 forms 4680050401b3852e 280482018142251a 0d2c532bd4ca34b0 130814ae543b9484 0000000003020c08
+G5 387
+iter 0 subset 387 -> core 227 nodes 34239376
+iter 1 subset 227 -> core 227 nodes 34239376
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

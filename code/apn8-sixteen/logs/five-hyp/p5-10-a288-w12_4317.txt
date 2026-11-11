@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 4317 forms 2211884422118844 072e4b0660d2f5a2 191b0cc7e33059da 0c041f25a1f3243c 000000000708090a
+G5 395
+iter 0 subset 395 -> core 223 nodes 31884216
+iter 1 subset 223 -> core 223 nodes 31884216
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

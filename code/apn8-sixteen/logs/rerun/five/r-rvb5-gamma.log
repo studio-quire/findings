@@ -1,0 +1,27 @@
+r 4 T 125a 0000 |Gamma| mine 288 configs 288 same
+r 4 T 125b 0000 |Gamma| mine 120 configs 120 same
+r 4 T 1269 0000 |Gamma| mine 4320 configs 4320 same
+r 5 T 125a 239e |Gamma| mine 8 configs 8 same
+r 5 T 125a 239f |Gamma| mine 1 configs 1 same
+r 5 T 125a 23ad |Gamma| mine 24 configs 24 same
+r 5 T 125a 23af |Gamma| mine 12 configs 12 same
+r 5 T 125a 23d7 |Gamma| mine 2 configs 2 same
+r 5 T 125a 25ac |Gamma| mine 6 configs 6 same
+r 5 T 125a 25bf |Gamma| mine 3 configs 3 same
+r 5 T 125a 27c4 |Gamma| mine 6 configs 6 same
+r 5 T 125a 37fe |Gamma| mine 18 configs 18 same
+r 5 T 125a 3c4d |Gamma| mine 12 configs 12 same
+r 5 T 125a 5a48 |Gamma| mine 288 configs 288 same
+r 5 T 125a 5a7b |Gamma| mine 96 configs 96 same
+r 5 T 125b 239f |Gamma| mine 24 configs 24 same
+r 5 T 125b 23ad |Gamma| mine 36 configs 36 same
+r 5 T 125b 23e5 |Gamma| mine 60 configs 60 same
+r 5 T 125b 25c3 |Gamma| mine 4 configs 4 same
+r 5 T 125b 25d6 |Gamma| mine 2 configs 2 same
+r 5 T 125b 25fe |Gamma| mine 4 configs 4 same
+r 5 T 125b 2a76 |Gamma| mine 8 configs 8 same
+r 5 T 125b 6fd7 |Gamma| mine 120 configs 120 same
+r 5 T 1269 23ad |Gamma| mine 1440 configs 1440 same
+r 5 T 1269 9648 |Gamma| mine 21600 configs 21600 same
+sum of |Omega| over r=5 classes 9167872, different 0
+# exit 0

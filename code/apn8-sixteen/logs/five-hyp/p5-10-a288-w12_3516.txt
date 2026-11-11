@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 3516 forms 270e922043c1e88c 03325d6a3322ddaa 171e12e043c1e88c 0e090d0bf1a1917e 0000000006080902
+G5 387
+iter 0 subset 387 -> core 234 nodes 272694256
+iter 1 subset 234 -> core 234 nodes 272694256
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

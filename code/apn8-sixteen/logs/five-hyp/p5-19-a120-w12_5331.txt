@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 5331 forms 331188cc311080c8 142c4c8f75fb151e 040c1c2f75fb151e 0b050904a45981e6 0000000002010804
+G5 387
+iter 0 subset 387 -> core 227 nodes 51908408
+iter 1 subset 227 -> core 227 nodes 51908408
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

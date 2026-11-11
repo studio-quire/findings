@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 7186 forms 4183070d123169f6 3a0d858ed173946c 1d245fa1a0e021b2 061a1d6263a2dc28 000000000508010a
+G5 387
+iter 0 subset 387 -> core 229 nodes 33453224
+iter 1 subset 229 -> core 229 nodes 33453224
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

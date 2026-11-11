@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 117126 forms 4a8003099302ac38 2113844c113344cc 113344cc113344cc 020c05064173942c 000000000709080c
+G5 387
+iter 0 subset 387 -> core 221 nodes 45793168
+iter 1 subset 221 -> core 221 nodes 45793168
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,8 @@
+  kept after own radicals: sieve 591201 direct 591201 same
+cfg 2 k 4: sieve 737729 flat 737729 same
+  kept after own radicals: sieve 540557 direct 540557 same
+cfg 2 k 4: sieve 766771 flat 766771 same
+  kept after own radicals: sieve 608380 direct 608380 same
+cfg 2 k 4: sieve 761639 flat 761639 same
+  kept after own radicals: sieve 686868 direct 686868 same
+cfg 2 k 4: sieve 764938 flat 764938 same

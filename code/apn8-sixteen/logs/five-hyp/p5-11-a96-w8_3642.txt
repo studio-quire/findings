@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 3642 forms 24098f0b72a23c70 102050a000000000 0113146c113344cc 080e0b09f3406838 00000000040a0502
+G5 387
+iter 0 subset 387 -> core 229 nodes 13359864
+iter 1 subset 229 -> core 229 nodes 13359864
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

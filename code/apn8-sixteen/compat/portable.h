@@ -9,6 +9,8 @@
 //   _aligned_malloc(n, a), _aligned_free(p)  MSVC's aligned allocation, by posix_memalign (six_check.cpp)
 //   _pdep_u32(src, mask)                     BMI2 parallel deposit, in software (no -mbmi2 needed)
 //   _pext_u64(src, mask)                     BMI2 parallel extract on 64 bits, in software (seven_check.cpp)
+//   _BitScanForward(&i, m), _BitScanForward64(&i, m), _pext_u32(src, mask)
+//                                            the lowest set bit, as _BitScanReverse; and pext on 32 bits (five's sources)
 //   __argc, __argv                          MSVC CRT globals, read by review_engine.cpp and review_inv2.cpp
 //                                            from a static initialiser (so before main)
 #pragma once
@@ -59,6 +61,22 @@ static inline unsigned long long quire_pext64(unsigned long long src, unsigned l
         if (src & mask & (0ull - mask)) r |= bit;
     return r;
 }
+static inline unsigned char quire_bsf(unsigned long* i, unsigned long m) {
+    if (!m) return 0;
+    *i = (unsigned long)__builtin_ctzl(m);
+    return 1;
+}
+static inline unsigned char quire_bsf64(unsigned long* i, unsigned long long m) {
+    if (!m) return 0;
+    *i = (unsigned long)__builtin_ctzll(m);
+    return 1;
+}
+static inline unsigned quire_pext32(unsigned src, unsigned mask) {
+    unsigned r = 0;
+    for (unsigned bit = 1; mask; bit <<= 1, mask &= mask - 1)
+        if (src & mask & (0u - mask)) r |= bit;
+    return r;
+}
 #undef __popcnt64
 #undef _tzcnt_u64
 #undef _BitScanReverse
@@ -66,6 +84,9 @@ static inline unsigned long long quire_pext64(unsigned long long src, unsigned l
 #undef _lzcnt_u32
 #undef _pdep_u32
 #undef _pext_u64
+#undef _BitScanForward
+#undef _BitScanForward64
+#undef _pext_u32
 #define __popcnt64(x) quire_popcnt64((unsigned long long)(x))
 #define _tzcnt_u64(x) quire_tzcnt64((unsigned long long)(x))
 #define _BitScanReverse(i, m) quire_bsr((i), (unsigned long)(m))
@@ -73,6 +94,9 @@ static inline unsigned long long quire_pext64(unsigned long long src, unsigned l
 #define _lzcnt_u32(x) quire_lzcnt((unsigned)(x))
 #define _pdep_u32(s, m) quire_pdep32((unsigned)(s), (unsigned)(m))
 #define _pext_u64(s, m) quire_pext64((unsigned long long)(s), (unsigned long long)(m))
+#define _BitScanForward(i, m) quire_bsf((i), (unsigned long)(m))
+#define _BitScanForward64(i, m) quire_bsf64((i), (unsigned long long)(m))
+#define _pext_u32(s, m) quire_pext32((unsigned)(s), (unsigned)(m))
 
 #if defined(__APPLE__)
 #include <crt_externs.h>

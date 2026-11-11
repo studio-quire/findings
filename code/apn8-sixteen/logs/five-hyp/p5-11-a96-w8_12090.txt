@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 12090 forms 4183040c103041c2 27089c2c75b9818e 01355b62264939e6 10061fae36797824 000000000103050e
+G5 379
+iter 0 subset 379 -> core 228 nodes 57573312
+iter 1 subset 228 -> core 228 nodes 57573312
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

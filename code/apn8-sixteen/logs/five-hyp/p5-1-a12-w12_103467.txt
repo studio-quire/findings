@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 103467 forms 518314ac113344cc 1426458d13f34c3c 0515014102c008f0 0b0c060fd271b894 000000000509010e
+G5 379
+iter 0 subset 379 -> core 236 nodes 10996056
+iter 1 subset 236 -> core 236 nodes 10996056
+core rank 23 a0 1
+sat 255 unsat 0 cap 0

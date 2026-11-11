@@ -1,0 +1,6 @@
+core p5-20-a1440-w12 line 244 forms 23068702056bf5ae 01354b46255931ee 15190dc661b110ec 040c162044e82102 0000000002010804
+G5 387
+iter 0 subset 387 -> core 226 nodes 26511968
+iter 1 subset 226 -> core 226 nodes 26511968
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

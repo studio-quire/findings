@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 59700 forms 4c8f030bd0c07172 32038d862331d96e 173c4ec460f0a080 070c1e2460f0a080 0000000001020408
+G5 379
+iter 0 subset 379 -> core 231 nodes 5894736
+iter 1 subset 231 -> core 231 nodes 5894736
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 45133 forms 4287080b3143d45c 270d9c2361e294d8 0f3a5163c381d9be 18171de0a2634d66 00000000050b040c
+G5 371
+iter 0 subset 371 -> core 227 nodes 22252216
+iter 1 subset 227 -> core 227 nodes 22252216
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

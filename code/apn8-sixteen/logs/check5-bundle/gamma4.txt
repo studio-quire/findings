@@ -1,0 +1,3 @@
+cfg 0 |Gamma| = 288
+cfg 1 |Gamma| = 120
+cfg 2 |Gamma| = 4320

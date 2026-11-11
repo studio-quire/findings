@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 8328 forms 26188c4463b08808 06284c0463b08808 1e1409c4a1d08028 02031d262233dd66 00000000060b0c04
+G5 379
+iter 0 subset 379 -> core 225 nodes 15960072
+iter 1 subset 225 -> core 225 nodes 15960072
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

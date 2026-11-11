@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 32783 forms 371d8ccf75f891da 043f404744db5556 03021c283123c48c 0e050804a4d88142 0000000002010804
+G5 371
+iter 0 subset 371 -> core 236 nodes 39973312
+iter 1 subset 236 -> core 236 nodes 39973312
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

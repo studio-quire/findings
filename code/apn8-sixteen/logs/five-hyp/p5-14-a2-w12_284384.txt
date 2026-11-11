@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 284384 forms 42811b25251ba47c 2a2eca08f448e102 150a16ab51a2759a 0a1e1a68f448e102 0000000003020c08
+G5 395
+iter 0 subset 395 -> core 230 nodes 108745256
+iter 1 subset 230 -> core 230 nodes 108745256
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

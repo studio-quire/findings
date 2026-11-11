@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 6646 forms 2516804301c1519e 03325c683121c08c 150610a301c1519e 0c0b0e08f1a1614e 0000000002030c04
+G5 387
+iter 0 subset 387 -> core 221 nodes 127295616
+iter 1 subset 221 -> core 221 nodes 127295616
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 19174 forms 4d870804a4d841c2 2d079824a4d841c2 13225ba52419e0b4 0619186466998844 000000000102050a
+G5 387
+iter 0 subset 387 -> core 226 nodes 31682688
+iter 1 subset 226 -> core 226 nodes 31682688
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

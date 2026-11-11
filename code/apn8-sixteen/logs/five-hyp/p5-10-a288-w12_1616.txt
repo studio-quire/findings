@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 1616 forms 230a85044232cca0 132a45844232cca0 0219106a5301994e 090f0705c37068f8 000000000509010e
+G5 379
+iter 0 subset 379 -> core 232 nodes 74666056
+iter 1 subset 232 -> core 232 nodes 74666056
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

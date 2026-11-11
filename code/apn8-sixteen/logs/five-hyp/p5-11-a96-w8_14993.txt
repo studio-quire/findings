@@ -1,0 +1,21 @@
+core p5-11-a96-w8 line 14993 forms 509010e000000000 2010834301023438 142b458641b25468 06050d0123e38c7c 000000000509010e
+G5 355
+iter 0 subset 355 -> core 231 nodes 109063088
+iter 1 subset 231 -> core 231 nodes 109063088
+core rank 22 a0 1
+H 3 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 12 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 15 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 48 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 51 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 60 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 63 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 192 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 195 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 204 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 207 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 240 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 243 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 252 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 255 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+sat 240 unsat 15 cap 0

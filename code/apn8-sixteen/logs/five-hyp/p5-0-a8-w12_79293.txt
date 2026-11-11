@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 79293 forms 4a8304099222cd52 2c0b9d2bf2a35c74 14255fa831e1216e 0618196260819126 0000000006090804
+G5 387
+iter 0 subset 387 -> core 232 nodes 49386640
+iter 1 subset 232 -> core 232 nodes 49386640
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

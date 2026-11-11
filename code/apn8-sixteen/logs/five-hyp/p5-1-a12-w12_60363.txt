@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 60363 forms 4e850b09b7c8a97a 2718894a778899aa 0e395b66e599b16e 1e151be9b7c8a97a 000000000103050e
+G5 371
+iter 0 subset 371 -> core 230 nodes 40209024
+iter 1 subset 230 -> core 230 nodes 40209024
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

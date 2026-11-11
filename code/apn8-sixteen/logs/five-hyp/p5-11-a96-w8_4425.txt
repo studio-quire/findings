@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 4425 forms 2b048906a35198ac 0c38464cd1b1200c 1c1806ccd1b1200c 0806142c90734506 0000000004080102
+G5 387
+iter 0 subset 387 -> core 233 nodes 54913056
+iter 1 subset 233 -> core 233 nodes 54913056
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

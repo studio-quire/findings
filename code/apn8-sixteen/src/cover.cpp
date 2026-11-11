@@ -10,7 +10,8 @@
 // span: every element must be bent, rank 6 with its radical a line of holes, or rank 4 with radical one of the
 // solids (each at most once), and all radicals pairwise disjoint. dim 8 with all 255 points covered = SOLUTION
 // (printed with its rank counts). All points covered below dim 8 = FULL (the rest would be bent; printed, extend
-// separately). No symmetry is used: all 28 forms on the first solid are tried.
+// separately). No symmetry is used by default: all 28 forms on the first solid are tried. --reps (five only) keeps one core per
+// Aut(P)-orbit, so with it the search finds at least one image of every S8, not every S8.
 //
 // usage: cover <input> [maxlines|-1] [splitdim]
 // splitdim D (2026-10-31, for seven's p7-2222, whose dim-4 core held one thread for most of a day): phase 1 runs the
@@ -28,8 +29,11 @@
 // default (holes_tree) solves the filter as a system of "psi_y(m) != 0" constraints over affine subspaces instead
 // of enumerating it. --gray runs the enumeration, --old the original lines x forms.
 //
+// --reps FILE (five_orbits' output, with --only): a core not listed is dropped with everything below it; --p1all: --frange and
+// --fsample keep the hole stage in phase 1, without which cores below the split dimension never reach the frontier.
 // Options after the positional ones: --old | --gray; --only TAG (just that cover); --frange A B (profiling: phase 1
-// explores nothing below the solid stage except to collect the frontier, phase 2 runs frontier items [A, B) only).
+// explores nothing below the solid stage except to collect the frontier, phase 2 runs frontier items [A, B) only);
+// --fsample N SEED (the same, with N items per cover at random, and an ITEM line per item to compare the modes on).
 #include <cstdio>
 #include <cstdlib>
 #include <cstdint>
@@ -39,8 +43,11 @@
 #include <atomic>
 #include <mutex>
 #include <algorithm>
+#include <random>
+#include <array>
 #include <intrin.h>
 #include <omp.h>
+static std::vector<std::array<unsigned, 5>> g_reps;   // --reps: searched cores, sorted; empty means every core
 
 typedef uint64_t u64;
 typedef uint32_t u32;
@@ -223,6 +230,23 @@ struct Search {
     }
     void pop(const PS& svcov, int svncov, int svcovered) { nel /= 2; dim--; cov = svcov; ncov = svncov; covered = svcovered; }
 
+    // --reps: this core's span in five_orbits' key (reduced echelon, descending), looked up in the list of orbit representatives
+    bool is_rep() {
+        unsigned b[5]; int r = 0;
+        for (int i = 1; i < nel && r < dim; i++) {
+            unsigned x = (unsigned)to_coef(elems[i]);
+            for (int k = 0; k < r; k++) { unsigned long p; _BitScanReverse(&p, b[k]); if (x >> p & 1) x ^= b[k]; }
+            if (!x) continue;
+            unsigned long h; _BitScanReverse(&h, x);
+            for (int k = 0; k < r; k++) if (b[k] >> h & 1) b[k] ^= x;
+            b[r++] = x;
+        }
+        std::sort(b, b + r, [](unsigned a, unsigned c) { return a > c; });
+        std::array<unsigned, 5> key{};
+        for (int i = 0; i < r; i++) key[i] = b[i];
+        return std::binary_search(g_reps.begin(), g_reps.end(), key);
+    }
+
     void report(const char* what) {
         u64 piv[28] = {0}; std::vector<u64> basis;
         for (int i = 1; i < nel && (int)basis.size() < dim; i++) {
@@ -258,8 +282,12 @@ struct Search {
         if (covered != all) {
             int s = _tzcnt_u32(~covered & all);
             for (u64 B : C->sforms[s]) if (push(B, sc, sn, sd)) {
-                if (covered == all && ncov < 256) { nears++; report("NEAR"); }  // every solid a radical, holes left
-                dfs(); pop(sc, sn, sd);
+                bool go = true;
+                if (covered == all && ncov < 256) {   // every solid a radical, holes left
+                    if (g_reps.empty() || is_rep()) { nears++; report("NEAR"); } else go = false;
+                }
+                if (go) dfs();
+                pop(sc, sn, sd);
             }
             return;
         }
@@ -458,12 +486,22 @@ struct Search {
 };
 
 int main(int argc, char** argv) {
-    if (argc < 2) { fprintf(stderr, "usage: cover <input> [maxlines|-1] [splitdim] [--old|--gray] [--only TAG] [--frange A B]\n"); return 2; }
-    std::vector<char*> pos; int hm = 0; const char* only = nullptr; long fa = -1, fb = -1;
+    if (argc < 2) { fprintf(stderr, "usage: cover <input> [maxlines|-1] [splitdim] [--old|--gray] [--p1all] [--only TAG] [--frange A B] [--fsample N SEED]\n"); return 2; }
+    std::vector<char*> pos; int hm = 0; bool p1all = false; const char* only = nullptr; long fa = -1, fb = -1, fsample = 0; unsigned long long fseed = 0;
     for (int i = 1; i < argc; i++) {
         if (!strcmp(argv[i], "--old")) hm = 2;
+        else if (!strcmp(argv[i], "--reps") && i + 1 < argc) {   // five_orbits' output for the one configuration given by --only
+            FILE* rf = fopen(argv[++i], "r"); if (!rf) { perror(argv[i]); return 1; }
+            int d; std::array<unsigned, 5> k;
+            while (fscanf(rf, "%d %x %x %x %x %x", &d, &k[0], &k[1], &k[2], &k[3], &k[4]) == 6) g_reps.push_back(k);
+            fclose(rf);
+            std::sort(g_reps.begin(), g_reps.end());
+            if (g_reps.empty()) { fprintf(stderr, "empty reps file\n"); return 1; }
+        }
+        else if (!strcmp(argv[i], "--p1all")) p1all = true;   // --frange/--fsample keep the hole stage in phase 1: without it, cores below the split dimension never reach the frontier
         else if (!strcmp(argv[i], "--gray")) hm = 1;
         else if (!strcmp(argv[i], "--only") && i + 1 < argc) only = argv[++i];
+        else if (!strcmp(argv[i], "--fsample") && i + 2 < argc) { fsample = atol(argv[i + 1]); fseed = strtoull(argv[i + 2], nullptr, 10); fa = 0; fb = 2000000000L; i += 2; }
         else if (!strcmp(argv[i], "--frange") && i + 2 < argc) { fa = atol(argv[i + 1]); fb = atol(argv[i + 2]); i += 2; }
         else pos.push_back(argv[i]);
     }
@@ -505,7 +543,7 @@ int main(int argc, char** argv) {
     for (long t = 0; t < (long)tasks.size(); t++) {
         Search se; se.C = &cv[tasks[t].first]; se.elems[0] = 0;
         std::vector<std::vector<u64>> fr;
-        se.split = splitdim; se.frontier = &fr; se.hmode = hm; se.p1only = profile;
+        se.split = splitdim; se.frontier = &fr; se.hmode = hm; se.p1only = profile && !p1all;
         bool ok = true;
         PS sc; int sn, sd;
         for (u64 B : se.C->seeds) if (!se.push(B, sc, sn, sd)) { ok = false; break; }
@@ -532,9 +570,28 @@ int main(int argc, char** argv) {
         printf("phase 1 done %.0f s: frontier %zu items at dim %d\n", omp_get_wtime() - t0, front.size(), splitdim);
         if (profile) {
             fb = std::min<long>(fb, (long)front.size()); fa = std::min(fa, fb);
+            printf("phase 1 counts: nodes %lld, by dimension", nodes.load());   // the reset below drops them from the totals
+            for (int k = 1; k < 9; k++) printf(" %lld", bydim[k].load());
+            printf(", near misses %lld, candidates %lld, passed %lld\n", nears.load(), cand.load(), passed.load());
             front = std::vector<std::pair<int, std::vector<u64>>>(front.begin() + fa, front.begin() + fb);
             nodes = 0; for (auto& b : bydim) b = 0; cand = 0; passed = 0;
             printf("profiling frontier items [%ld, %ld)\n", fa, fb);
+        }
+        if (fsample > 0) {   // fsample items per cover, chosen from the sorted frontier by a fixed seed, so every mode runs the same ones
+            std::vector<std::pair<int, std::vector<u64>>> pick;
+            std::mt19937_64 rng(fseed);
+            for (size_t i = 0, j; i < front.size(); i = j) {
+                for (j = i; j < front.size() && front[j].first == front[i].first; j++) {}
+                std::vector<size_t> idx;
+                for (size_t q = i; q < j; q++) idx.push_back(q);
+                for (size_t q = idx.size(); q > 1; q--) std::swap(idx[q - 1], idx[rng() % q]);
+                idx.resize(std::min<size_t>(idx.size(), fsample));
+                std::sort(idx.begin(), idx.end());
+                for (size_t q : idx) pick.push_back(front[q]);
+            }
+            front = std::move(pick);
+            nodes = 0; for (auto& b : bydim) b = 0; cand = 0; passed = 0;
+            printf("sampling %ld frontier items per cover (seed %llu): %zu items\n", fsample, (unsigned long long)fseed, front.size());
         }
         double t1 = omp_get_wtime();
         for (size_t i = 0; i < cv.size(); i++) if (per[i] >= 100) printf("  frontier %s %d\n", cv[i].tag.c_str(), per[i]);
@@ -548,6 +605,13 @@ int main(int argc, char** argv) {
             for (u64 B : front[t].second) if (!se.push(B, sc, sn, sd)) { fprintf(stderr, "frontier push failed\n"); exit(1); }
             se.dfs();
             add_counts(se);
+            if (fsample > 0) {   // per item, for comparing modes
+                std::string g; char hx[32];
+                for (u64 b : front[t].second) { snprintf(hx, sizeof hx, " %07llx", (unsigned long long)to_coef(b)); g += hx; }
+                std::string by; for (int k = 1; k < 9; k++) { snprintf(hx, sizeof hx, " %lld", se.bydim[k]); by += hx; }
+                std::lock_guard<std::mutex> lk(g_mu);
+                printf("ITEM %s gens%s nodes%s sols %lld full %lld nonapn %lld\n", se.C->tag.c_str(), g.c_str(), by.c_str(), se.sols, se.fulls, se.nonapn);
+            }
             long long d = ++fdone;
             if (d % step == 0) {
                 std::lock_guard<std::mutex> g(g_mu);

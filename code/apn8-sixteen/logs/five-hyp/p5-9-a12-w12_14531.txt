@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 14531 forms 251a8142428158a4 02274a0c3459e146 160b098e7190d068 0301182c331188cc 0000000001020408
+G5 387
+iter 0 subset 387 -> core 230 nodes 9839488
+iter 1 subset 230 -> core 230 nodes 9839488
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

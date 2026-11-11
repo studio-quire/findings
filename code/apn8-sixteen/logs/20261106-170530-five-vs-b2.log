@@ -1,0 +1,3 @@
+
+# command: cmd /c "runs\bin\five_vs_b.exe runs\i12\p5.txt runs\i12\vs-b.txt > runs\i12\vs-b.out 2>&1"
+

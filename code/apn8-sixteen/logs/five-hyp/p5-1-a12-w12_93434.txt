@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 93434 forms 4886192fb55b543c 2e2cc40dd1f08018 16071eab35ebf45c 061a1d6264abd424 0000000002010906
+G5 379
+iter 0 subset 379 -> core 231 nodes 148548560
+iter 1 subset 231 -> core 231 nodes 148548560
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,21 @@
+core p5-21-a21600-w12 line 181 forms 4090106000000000 2210804402118804 1309018c511080e8 0601080221809048 000000000509010e
+G5 355
+iter 0 subset 355 -> core 233 nodes 99609912
+iter 1 subset 233 -> core 233 nodes 99609912
+core rank 22 a0 1
+H 1 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 8 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 9 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 16 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 17 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 24 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 25 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 128 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 129 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 136 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 137 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 144 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 145 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 152 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+H 153 0 planes 99 rank 16 forced 3 -> UNSAT nodes 104
+sat 240 unsat 15 cap 0

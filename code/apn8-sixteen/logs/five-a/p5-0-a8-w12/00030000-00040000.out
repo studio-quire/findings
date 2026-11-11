@@ -1,0 +1,11 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 1, tasks 28, threads 20, split 5, hole stage affine tree, profiling a frontier range (counts partial)
+phase 1 done 1 s: frontier 152723 items at dim 5
+phase 1 counts: nodes 244107, by dimension 28 784 17284 226011 0 0 0 0, near misses 152723, candidates 0, passed 0
+profiling frontier items [30000, 40000)
+  frontier p5-0-a8-w12 152723
+phase 2: 10000 items, 479.60 s, 0.959 s per item per thread
+done: covers 1, tasks 28, nodes 2679071, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 481 s
+nodes by span dimension 1..8: 0 0 0 0 10000 2667003 2068 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 152723
+hole-stage candidates 1994150980, passing the filter (sent to push) 2693530

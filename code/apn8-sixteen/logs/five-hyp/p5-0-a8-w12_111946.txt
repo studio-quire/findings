@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 111946 forms 42811a252419a156 281d9866e4591146 0b2f470dd070e0f0 1a1c12e3c040b010 000000000103050e
+G5 387
+iter 0 subset 387 -> core 233 nodes 10409088
+iter 1 subset 233 -> core 233 nodes 10409088
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

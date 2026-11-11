@@ -1,0 +1,6 @@
+core p5-4-a1-w12 line 529114 forms 459d014a55cb14ec 221188442113844c 153d41ca55cb14ec 0f02192cb091c1a6 0000000003020c08
+G5 387
+iter 0 subset 387 -> core 232 nodes 251806408
+iter 1 subset 232 -> core 232 nodes 251806408
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

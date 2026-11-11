@@ -1,0 +1,6 @@
+core p5-18-a36-w12 line 14564 forms 4783040813a2cdca 220a95264032d420 121a15e64032d420 0e0b0103c381d87c 0000000006090804
+G5 371
+iter 0 subset 371 -> core 228 nodes 48865976
+iter 1 subset 228 -> core 228 nodes 48865976
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

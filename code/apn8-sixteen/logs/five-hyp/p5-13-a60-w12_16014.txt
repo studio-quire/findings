@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 16014 forms 41830f09312061fa 21138f49312061fa 173a4cc872a2cd82 080c1b25e2522c30 000000000508010a
+G5 379
+iter 0 subset 379 -> core 232 nodes 697209424
+iter 1 subset 232 -> core 232 nodes 697209424
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

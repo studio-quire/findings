@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 85703 forms 478f050f51f3d4fc 2102840811224488 0f3a5b66e49af5a2 1e181feef5b8b12a 0000000002010906
+G5 387
+iter 0 subset 387 -> core 226 nodes 6475840
+iter 1 subset 226 -> core 226 nodes 6475840
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

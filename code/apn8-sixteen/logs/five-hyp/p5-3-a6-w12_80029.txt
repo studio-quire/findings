@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 80029 forms 468d070f51f3b57e 261b8f4663b3fc6c 032456210163a59e 131416e10163a59e 000000000509010e
+G5 379
+iter 0 subset 379 -> core 234 nodes 18630816
+iter 1 subset 234 -> core 234 nodes 18630816
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

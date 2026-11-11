@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 72574 forms 43851029104181d6 351f9deb77e859fa 103050e000000000 0a05060d9070a050 000000000103050e
+G5 395
+iter 0 subset 395 -> core 227 nodes 9901008
+iter 1 subset 227 -> core 227 nodes 9901008
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

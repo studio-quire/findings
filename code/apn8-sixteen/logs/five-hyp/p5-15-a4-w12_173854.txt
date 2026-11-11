@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 173854 forms 4682152102a3cc34 2632d56102a3cc34 181716e083606848 020a04034121d11e 00000000070a0c08
+G5 379
+iter 0 subset 379 -> core 225 nodes 6884000
+iter 1 subset 225 -> core 225 nodes 6884000
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

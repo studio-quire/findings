@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 49555 forms 438a05014023c4b4 2211884422118844 032a55214023c4b4 181e12e3c3427d1a 00000000060b0c04
+G5 387
+iter 0 subset 387 -> core 230 nodes 16742296
+iter 1 subset 230 -> core 230 nodes 16742296
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

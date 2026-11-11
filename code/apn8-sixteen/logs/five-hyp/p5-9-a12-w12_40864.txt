@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 40864 forms 40820a0d3112651a 251a9b67649a74b0 150a1ba7649a74b0 0e0b0604c1b2e448 000000000301090e
+G5 379
+iter 0 subset 379 -> core 228 nodes 37161176
+iter 1 subset 228 -> core 228 nodes 37161176
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

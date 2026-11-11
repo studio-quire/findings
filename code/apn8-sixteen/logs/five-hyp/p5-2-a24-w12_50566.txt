@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 50566 forms 4080102000000000 371998ec719080c8 04334b4520936474 0c0f0a0df3d36d5e 0000000006090804
+G5 379
+iter 0 subset 379 -> core 233 nodes 32178432
+iter 1 subset 233 -> core 233 nodes 32178432
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

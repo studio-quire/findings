@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 182134 forms 4f8b090ff090d1f2 26138e4120a2e450 1502068d13b36c9c 0a091f22e323bd6e 00000000050a0408
+G5 387
+iter 0 subset 387 -> core 232 nodes 30684232
+iter 1 subset 232 -> core 232 nodes 30684232
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

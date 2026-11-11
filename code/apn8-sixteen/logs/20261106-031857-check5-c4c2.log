@@ -1,0 +1,96 @@
+
+# command: cmd /c "apn\fivecheck_c4.cmd 02 2"
+326 tuples
+tuple 7: k4 f1 810569 nodes 49826 12428865 23693 0 found 0 APN 0, 8768.0 s
+tuple 6: k4 f1 752367 nodes 141920 17537484 13556 0 found 0 APN 0, 9260.7 s
+tuple 5: k4 f1 841239 nodes 50583 12784023 45272 0 found 0 APN 0, 9675.6 s
+tuple 2: k4 f1 782956 nodes 139808 17133571 251226 2238 found 48 APN 48, 10064.9 s
+tuple 3: k4 f1 837585 nodes 141162 17338790 35341 0 found 0 APN 0, 10805.9 s
+tuple 1: k4 f1 812700 nodes 144688 19032874 33096 0 found 0 APN 0, 11249.0 s
+tuple 13: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 0: k4 f1 749712 nodes 146508 22861362 849414 0 found 0 APN 0, 12027.1 s
+tuple 8: k4 f1 636751 nodes 50893 11583592 4353 0 found 0 APN 0, 3638.2 s
+tuple 16: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 17: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 4: k4 f1 911094 nodes 52764 14257754 445196 2079 found 48 APN 48, 13137.6 s
+tuple 12: k4 f1 614773 nodes 50227 11246035 3305 0 found 0 APN 0, 3494.6 s
+tuple 14: k4 f1 620371 nodes 49790 10946744 3403 0 found 0 APN 0, 3574.8 s
+tuple 18: k4 f1 487616 nodes 123742 12358108 1311 0 found 0 APN 0, 2658.5 s
+tuple 9: k4 f1 724085 nodes 139930 16744887 11224 0 found 0 APN 0, 6578.0 s
+tuple 15: k4 f1 622386 nodes 50722 11384618 3505 0 found 0 APN 0, 3999.2 s
+tuple 10: k4 f1 743664 nodes 138762 16410106 11557 0 found 0 APN 0, 6969.5 s
+tuple 25: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 11: k4 f1 796592 nodes 48705 11675178 19593 0 found 0 APN 0, 6640.6 s
+tuple 27: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 20: k4 f1 560923 nodes 132069 14170911 1845 0 found 0 APN 0, 3508.8 s
+tuple 21: k4 f1 545501 nodes 133899 14702804 1280 0 found 0 APN 0, 3417.0 s
+tuple 22: k4 f1 628810 nodes 50202 11122949 4061 0 found 0 APN 0, 3756.1 s
+tuple 31: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 19: k4 f1 748797 nodes 139674 16644152 11839 0 found 0 APN 0, 7350.1 s
+tuple 33: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 32: k4 f1 554205 nodes 132433 14296273 1691 0 found 0 APN 0, 3464.5 s
+tuple 26: k4 f1 707638 nodes 137597 15999353 9316 0 found 0 APN 0, 6188.6 s
+tuple 23: k4 f1 815938 nodes 48819 11785230 27144 0 found 0 APN 0, 7174.2 s
+tuple 28: k4 f1 713750 nodes 138317 16235221 11061 0 found 0 APN 0, 6426.8 s
+
+
+tuple 24: k4 f1 814262 nodes 137938 16363228 20986 0 found 0 APN 0, 10741.1 s
+tuple 39: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 36: k4 f1 429384 nodes 129919 13503063 641 0 found 0 APN 0, 3961.3 s
+tuple 30: k4 f1 787108 nodes 48470 11536280 19385 0 found 0 APN 0, 8587.0 s
+tuple 38: k4 f1 427718 nodes 129567 13391252 998 0 found 0 APN 0, 4131.2 s
+tuple 43: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 35: k4 f1 611802 nodes 50503 11320159 3917 0 found 0 APN 0, 6688.0 s
+tuple 37: k4 f1 607998 nodes 50806 11570986 4088 0 found 0 APN 0, 7212.6 s
+tuple 34: k4 f1 823475 nodes 47866 11399863 31029 0 found 0 APN 0, 11882.8 s
+tuple 47: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 41: k4 f1 541826 nodes 133949 14699074 1402 0 found 0 APN 0, 5903.9 s
+tuple 29: k4 f1 884726 nodes 50150 12519732 105033 0 found 0 APN 0, 15273.2 s
+tuple 44: k4 f1 610359 nodes 50293 11243697 3411 0 found 0 APN 0, 6224.1 s
+tuple 51: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 45: k4 f1 606187 nodes 49762 11030957 2865 0 found 0 APN 0, 5798.0 s
+tuple 46: k4 f1 547905 nodes 133643 14640031 1449 0 found 0 APN 0, 5744.5 s
+tuple 49: k4 f1 463658 nodes 125384 12290720 532 0 found 0 APN 0, 3474.5 s
+tuple 55: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 56: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+
+
+tuple 42: k4 f1 718017 nodes 140199 16757296 10067 0 found 0 APN 0, 11761.1 s
+tuple 40: k4 f1 698174 nodes 141822 17415048 9354 0 found 0 APN 0, 12061.3 s
+tuple 50: k4 f1 614840 nodes 50926 11569273 3702 0 found 0 APN 0, 5983.2 s
+tuple 53: k4 f1 603354 nodes 49832 11088864 2908 0 found 0 APN 0, 5247.3 s
+tuple 54: k4 f1 606619 nodes 49578 10857962 2871 0 found 0 APN 0, 4830.1 s
+tuple 57: k4 f1 536387 nodes 135069 14973551 1107 0 found 0 APN 0, 4879.8 s
+tuple 59: k4 f1 605182 nodes 49830 11079368 3088 0 found 0 APN 0, 4140.1 s
+tuple 63: k4 f1 472082 nodes 50983 10193462 498 0 found 0 APN 0, 2051.4 s
+tuple 52: k4 f1 696155 nodes 140845 17020387 8884 0 found 0 APN 0, 9668.1 s
+tuple 66: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 67: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 60: k4 f1 607362 nodes 50289 11481264 3721 0 found 0 APN 0, 4133.9 s
+tuple 64: k4 f1 337690 nodes 15432 4636973 58 0 found 0 APN 0, 320.3 s
+tuple 70: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 61: k4 f1 533695 nodes 133754 14571083 1016 0 found 0 APN 0, 3667.8 s
+tuple 48: k4 f1 761732 nodes 141710 17705280 20177 0 found 0 APN 0, 11433.6 s
+tuple 73: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 62: k4 f1 524652 nodes 135501 15125076 1109 0 found 0 APN 0, 3528.7 s
+tuple 58: k4 f1 688706 nodes 139455 16417938 6845 0 found 0 APN 0, 7123.0 s
+tuple 65: k4 f1 546751 nodes 133459 14475704 1137 0 found 0 APN 0, 3491.8 s
+tuple 69: k4 f1 606224 nodes 49245 10726822 2919 0 found 0 APN 0, 3460.8 s
+tuple 78: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 68: k4 f1 545172 nodes 136575 15582338 1331 0 found 0 APN 0, 3742.3 s
+tuple 71: k4 f1 605118 nodes 49843 11042323 2816 0 found 0 APN 0, 3621.2 s
+tuple 74: k4 f1 607074 nodes 49393 10772961 2724 0 found 0 APN 0, 3520.1 s
+tuple 82: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 72: k4 f1 536077 nodes 136737 15564189 1238 0 found 0 APN 0, 3662.9 s
+tuple 84: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 75: k4 f1 542739 nodes 133076 14351315 1105 0 found 0 APN 0, 3469.5 s
+tuple 76: k4 f1 533129 nodes 135005 14879627 1135 0 found 0 APN 0, 2880.3 s
+tuple 87: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 88: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 83: k4 f1 473997 nodes 50982 10173910 386 0 found 0 APN 0, 1373.7 s
+tuple 90: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 91: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 79: k4 f1 602276 nodes 49450 10875066 2775 0 found 0 APN 0, 2593.8 s
+tuple 93: k5 f1 0 nodes 0 0 0 0 found 0 APN 0, 0.0 s
+tuple 77: k4 f1 527930 nodes 137034 15603702 1165 0 found 0 APN 0, 2676.4 s
+

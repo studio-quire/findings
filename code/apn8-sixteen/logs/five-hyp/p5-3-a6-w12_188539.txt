@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 188539 forms 4090106000000000 251a8142428158a4 0a3d5d6bf361987c 160b18ac7190c14a 000000000708090a
+G5 379
+iter 0 subset 379 -> core 233 nodes 48199672
+iter 1 subset 233 -> core 233 nodes 48199672
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

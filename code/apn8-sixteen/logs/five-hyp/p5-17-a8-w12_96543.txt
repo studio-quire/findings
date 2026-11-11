@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 96543 forms 4d820b07a69978b4 301090e000000000 1a3643c28341f92e 020f0c097160c058 000000000103050e
+G5 379
+iter 0 subset 379 -> core 229 nodes 8018872
+iter 1 subset 229 -> core 229 nodes 8018872
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

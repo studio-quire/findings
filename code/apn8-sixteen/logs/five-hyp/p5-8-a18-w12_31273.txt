@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 31273 forms 4183070f143970f4 3020c08000000000 03021d2a3123d4ac 010d0806655b15ce 0000000002010906
+G5 387
+iter 0 subset 387 -> core 230 nodes 24473896
+iter 1 subset 230 -> core 230 nodes 24473896
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

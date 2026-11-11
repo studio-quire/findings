@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 24926 forms 2d1c834ed7d939ae 0f264c08b4e9c186 1e1508c4a4d88142 020a1f266330f828 0000000001020408
+G5 395
+iter 0 subset 395 -> core 233 nodes 7446320
+iter 1 subset 233 -> core 233 nodes 7446320
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

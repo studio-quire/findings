@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 36963 forms 408f0a06655b754e 2e078c0eb5fbd44c 1f2a4382c182f4a8 0e081628d0a0a102 0000000002030d06
+G5 371
+iter 0 subset 371 -> core 229 nodes 48627232
+iter 1 subset 229 -> core 229 nodes 48627232
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

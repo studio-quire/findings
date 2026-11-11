@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 30310 forms 2d36c44281e3548c 1d1604c281e3548c 0f051924a3d089ea 07090c0a71a295ca 000000000709080c
+G5 379
+iter 0 subset 379 -> core 227 nodes 14437712
+iter 1 subset 227 -> core 227 nodes 14437712
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

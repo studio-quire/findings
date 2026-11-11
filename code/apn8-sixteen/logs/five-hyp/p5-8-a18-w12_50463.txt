@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 50463 forms 478a0b036380f9ba 3e0995afd3b1987c 102050a000000000 0113146c103041c2 000000000103050e
+G5 379
+iter 0 subset 379 -> core 229 nodes 128795864
+iter 1 subset 229 -> core 229 nodes 128795864
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

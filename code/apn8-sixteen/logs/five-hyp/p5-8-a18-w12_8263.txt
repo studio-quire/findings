@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 8263 forms 230d912443538dee 033d414443538dee 121f05cc5271c966 0d0a0c08f2a04982 0000000004080102
+G5 379
+iter 0 subset 379 -> core 232 nodes 15726312
+iter 1 subset 232 -> core 232 nodes 15726312
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

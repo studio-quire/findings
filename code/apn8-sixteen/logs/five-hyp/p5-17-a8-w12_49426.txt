@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 49426 forms 42830c042032c542 251b8142408050e0 07284d0660b295a2 160d13aa55cab468 0000000002010906
+G5 387
+iter 0 subset 387 -> core 230 nodes 32647912
+iter 1 subset 230 -> core 230 nodes 32647912
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

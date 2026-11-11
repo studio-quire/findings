@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 8350 forms 32038c842233cc44 172d418d52d38cf4 071d014d52d38cf4 0c081829f183051e 000000000709080c
+G5 379
+iter 0 subset 379 -> core 230 nodes 364362648
+iter 1 subset 230 -> core 230 nodes 364362648
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

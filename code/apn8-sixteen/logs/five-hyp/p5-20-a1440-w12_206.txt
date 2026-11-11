@@ -1,0 +1,6 @@
+core p5-20-a1440-w12 line 206 forms 1c254b81a4c92176 0c150b41a4c92176 0d071e2bb5eb74dc 0408050e50b01020 0000000002010906
+G5 387
+iter 0 subset 387 -> core 226 nodes 37621792
+iter 1 subset 226 -> core 226 nodes 37621792
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

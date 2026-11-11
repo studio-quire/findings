@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 1893 forms 270d860445faa5ca 0331494e301090e0 151f09c764d851f2 0103162d113264d8 000000000301090e
+G5 387
+iter 0 subset 387 -> core 227 nodes 74807120
+iter 1 subset 227 -> core 227 nodes 74807120
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

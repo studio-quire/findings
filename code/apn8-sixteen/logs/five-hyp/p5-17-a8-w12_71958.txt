@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 71958 forms 418d0409536008d8 2f05870180e2a5f2 180c1fadf2702932 011d1469536008d8 00000000050b040c
+G5 371
+iter 0 subset 371 -> core 231 nodes 17563792
+iter 1 subset 231 -> core 231 nodes 17563792
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

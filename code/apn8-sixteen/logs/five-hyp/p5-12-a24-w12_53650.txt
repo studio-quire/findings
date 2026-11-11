@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 53650 forms 459e084764da5490 221188442113854e 072f502345c9d1de 15140ec835ea2488 0000000003020d0a
+G5 371
+iter 0 subset 371 -> core 233 nodes 102731168
+iter 1 subset 233 -> core 233 nodes 102731168
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

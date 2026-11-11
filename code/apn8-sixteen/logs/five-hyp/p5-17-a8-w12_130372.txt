@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 130372 forms 46851b2420d0a060 280c8603c0613014 0a3f4a47e351f95e 12131ce42330c94a 000000000103050e
+G5 379
+iter 0 subset 379 -> core 229 nodes 58638040
+iter 1 subset 229 -> core 229 nodes 58638040
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

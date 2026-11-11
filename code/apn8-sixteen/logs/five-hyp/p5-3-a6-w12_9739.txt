@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 9739 forms 2e0b810cd092c562 1a2542818142a458 0c1a0948f182452a 060f1b2970c0e172 000000000301080c
+G5 379
+iter 0 subset 379 -> core 226 nodes 54937928
+iter 1 subset 226 -> core 226 nodes 54937928
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

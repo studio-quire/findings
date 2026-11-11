@@ -1,0 +1,3 @@
+Comparing files RUNS\CHECK5\BUNDLE\configs-rerun.txt and RUNS\CHECK5\CONFIGS.TXT
+FC: no differences encountered
+

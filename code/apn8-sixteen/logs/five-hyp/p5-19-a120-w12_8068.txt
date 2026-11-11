@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 8068 forms 4485010b12c01972 26198e4b73a2bd5a 0538576540b324b4 150817a540b324b4 0000000004090106
+G5 379
+iter 0 subset 379 -> core 229 nodes 10935088
+iter 1 subset 229 -> core 229 nodes 10935088
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

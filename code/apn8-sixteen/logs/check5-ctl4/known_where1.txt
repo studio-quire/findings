@@ -1,0 +1,27 @@
+line 1: not in this class of solids
+line 2: not in this class of solids
+line 3: not in this class of solids
+line 4: not in this class of solids
+line 5: not in this class of solids
+line 6: not in this class of solids
+line 7: not in this class of solids
+line 8: not in this class of solids
+line 9: not in this class of solids
+line 10: not in this class of solids
+line 11: not in this class of solids
+line 12: not in this class of solids
+line 13: not in this class of solids
+line 14: not in this class of solids
+line 15: not in this class of solids
+line 16: not in this class of solids
+line 17: not in this class of solids
+line 18: not in this class of solids
+line 19: not in this class of solids
+line 20: not in this class of solids
+line 21: not in this class of solids
+line 22: not in this class of solids
+line 23: not in this class of solids
+line 24: not in this class of solids
+line 25: not in this class of solids
+line 26 class 0 rep 5203 id 00000000040a0502 0825440482720c40 18224087841a5410 1e0212ac9598e008 4880060c943b2404 60b0c04000000000 648c932e56da3c20 69848c0ab66a1c80
+26 lines, 1 classes

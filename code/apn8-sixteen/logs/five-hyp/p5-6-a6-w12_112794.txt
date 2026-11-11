@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 112794 forms 4a810a05a111a05c 2233cc442330c94a 151605c002e149a6 02031c242330c94a 000000000103050e
+G5 379
+iter 0 subset 379 -> core 230 nodes 138365272
+iter 1 subset 230 -> core 230 nodes 138365272
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

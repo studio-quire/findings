@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 3241 forms 210c800340411196 033f4c476272ddd2 1d160fc5a3f068b8 0f05132181c3a4fc 0000000006090804
+G5 387
+iter 0 subset 387 -> core 231 nodes 64236400
+iter 1 subset 231 -> core 231 nodes 64236400
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

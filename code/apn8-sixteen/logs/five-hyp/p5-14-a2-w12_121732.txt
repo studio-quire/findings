@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 121732 forms 4c84030181c3253e 260d850242e29d62 043e494660d15126 12130cc42233cc44 000000000708090a
+G5 379
+iter 0 subset 379 -> core 235 nodes 95310800
+iter 1 subset 235 -> core 235 nodes 95310800
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

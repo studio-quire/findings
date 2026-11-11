@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 54559 forms 408d010e50511064 331199ee331199ee 0331596e331199ee 0f05030181c3a4fc 000000000508010a
+G5 379
+iter 0 subset 379 -> core 231 nodes 39919592
+iter 1 subset 231 -> core 231 nodes 39919592
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

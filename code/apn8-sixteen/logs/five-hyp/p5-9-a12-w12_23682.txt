@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 23682 forms 4582070301a374bc 230a9e21642ae592 0532576301a374bc 191d0ac3e44a35d2 000000000301080c
+G5 379
+iter 0 subset 379 -> core 232 nodes 145272432
+iter 1 subset 232 -> core 232 nodes 145272432
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 6020 forms 2b0380099102c4d8 1a2542818142a458 0a1502418142a458 03071b2e3251f9e6 0000000006080902
+G5 371
+iter 0 subset 371 -> core 224 nodes 9717104
+iter 1 subset 224 -> core 224 nodes 9717104
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

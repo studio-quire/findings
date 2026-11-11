@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 4529 forms 251a8142428158a4 113344cc113344cc 0103142c113344cc 090f0e03e26178d4 000000000509010e
+G5 387
+iter 0 subset 387 -> core 229 nodes 161273128
+iter 1 subset 229 -> core 229 nodes 161273128
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

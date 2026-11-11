@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 8761 forms 2c0e8b0df3d26c38 0a275d22a061d166 150b1aa7609171d6 0915116a93431dee 00000000070b0d0e
+G5 371
+iter 0 subset 371 -> core 227 nodes 8256784
+iter 1 subset 227 -> core 227 nodes 8256784
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

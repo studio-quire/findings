@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 219808 forms 42811a252312ad5a 2409830743923d7a 1c2e5dacf0f34526 0419034743923d7a 0000000006080902
+G5 387
+iter 0 subset 387 -> core 229 nodes 7991568
+iter 1 subset 229 -> core 229 nodes 7991568
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

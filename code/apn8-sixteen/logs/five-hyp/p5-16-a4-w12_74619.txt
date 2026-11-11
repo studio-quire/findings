@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 74619 forms 478f030241c2f5ea 220c8d0e747b9424 023c4d4e747b9424 111d05c2446b14e4 000000000301080c
+G5 379
+iter 0 subset 379 -> core 227 nodes 59516520
+iter 1 subset 227 -> core 227 nodes 59516520
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

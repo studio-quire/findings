@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 33866 forms 4183070d153b65fe 340893a140802132 1a2558a4a4588142 0e1d1b65e4d8a070 0000000003020d0a
+G5 387
+iter 0 subset 387 -> core 231 nodes 40365616
+iter 1 subset 231 -> core 231 nodes 40365616
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

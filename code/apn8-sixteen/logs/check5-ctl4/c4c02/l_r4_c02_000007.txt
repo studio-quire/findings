@@ -1,0 +1,6 @@
+tuple 0 0 1 2 processed 1
+tuples 1 sets 1 k4 1 k5 0 skippedK3 0 f0 810569 f1 810569 f0max 810569 f1max 810569 nodes 49826 12428865 23693 0 found 0
+hist 20:1
+APN 0 of 0
+seconds 8768.0
+DONE

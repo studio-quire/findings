@@ -1,0 +1,6 @@
+core p5-20-a1440-w12 line 409 forms 2102850a102050a0 112255aa102050a0 0f17024780d1f0d4 070a0c0874a8c182 000000000102050a
+G5 387
+iter 0 subset 387 -> core 223 nodes 5469944
+iter 1 subset 223 -> core 223 nodes 5469944
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

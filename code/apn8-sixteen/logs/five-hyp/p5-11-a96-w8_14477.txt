@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 14477 forms 4789060141a0a1da 241f946143e34d5e 052d5e2463f32dce 130612a00243ec84 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 227 nodes 140996200
+iter 1 subset 227 -> core 227 nodes 140996200
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 10539 forms 4187172a116375ee 261d966853e2ad4a 042e5a2c71d1610e 140e0a8c71d1610e 00000000050a0408
+G5 387
+iter 0 subset 387 -> core 228 nodes 4371560
+iter 1 subset 228 -> core 228 nodes 4371560
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

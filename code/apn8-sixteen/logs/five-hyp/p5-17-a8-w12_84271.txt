@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 84271 forms 448e0a0c71d26408 281a9463c2215916 0b2b5d2df130c0f8 1b0b0d8df130c0f8 0000000004080102
+G5 379
+iter 0 subset 379 -> core 231 nodes 66683256
+iter 1 subset 231 -> core 231 nodes 66683256
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

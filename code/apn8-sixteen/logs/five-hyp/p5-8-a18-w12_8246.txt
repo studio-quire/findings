@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 8246 forms 230d9124435089ea 023f454c5272cd62 131d01c4435089ea 0d0a0c08f2a04982 00000000040b0506
+G5 379
+iter 0 subset 379 -> core 235 nodes 21082416
+iter 1 subset 235 -> core 235 nodes 21082416
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 123026 forms 4e85060f95f8b15a 2e05962f95f8b15a 092a5d22e02051a2 12141fe12063a434 000000000301080c
+G5 379
+iter 0 subset 379 -> core 231 nodes 30533264
+iter 1 subset 231 -> core 231 nodes 30533264
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

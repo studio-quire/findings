@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 43141 forms 4080102000000000 2a028d09b429c136 0c2c532bd4ca3430 1508018a558811aa 000000000301090e
+G5 379
+iter 0 subset 379 -> core 232 nodes 46090200
+iter 1 subset 232 -> core 232 nodes 46090200
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

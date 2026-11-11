@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 6214 forms 201083410103243c 113344cc113344cc 0103172d103060f0 0a0d060fd173b45c 0000000003020d0a
+G5 363
+iter 0 subset 363 -> core 234 nodes 43011440
+iter 1 subset 234 -> core 234 nodes 43011440
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

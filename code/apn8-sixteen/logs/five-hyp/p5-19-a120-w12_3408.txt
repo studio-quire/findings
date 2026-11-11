@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 3408 forms 2b0f8a03e041f0d4 102050a000000000 0e14106485da8408 0102050a112255aa 0000000002010804
+G5 379
+iter 0 subset 379 -> core 229 nodes 18413488
+iter 1 subset 229 -> core 229 nodes 18413488
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

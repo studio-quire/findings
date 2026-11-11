@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 103111 forms 4f8e0703c3e2fdba 2f1e8743c3e2fdba 0b2452218343ad9e 16141ce521f28418 00000000040b0506
+G5 387
+iter 0 subset 387 -> core 232 nodes 17850968
+iter 1 subset 232 -> core 232 nodes 17850968
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 8418 forms 280c850ed3731d2e 1122448811224488 0b1d064bd260b8d0 0102142811224488 0000000006080902
+G5 379
+iter 0 subset 379 -> core 223 nodes 5402360
+iter 1 subset 223 -> core 223 nodes 5402360
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,12 @@
+ITEM p5-0-a8-w12 gens 0000102 c400000 5cc5377 76b7073 a5cb87b start r4 5 r6 10 nodes 0 0 0 0 1 99 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000085 3c00000 f1eb9c4 f2304df 3efb835 start r4 5 r6 8 nodes 0 0 0 0 1 159 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000086 8400000 a52aa91 3697021 cb1168f start r4 5 r6 8 nodes 0 0 0 0 1 153 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000182 d800000 a52aa91 84874ac 6a10bfb start r4 5 r6 6 nodes 0 0 0 0 1 251 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000087 9400000 e9af9a2 72314fe 6a10bfb start r4 5 r6 6 nodes 0 0 0 0 1 245 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000087 fc00000 f1eb9c4 c921b73 ba3057b start r4 5 r6 6 nodes 0 0 0 0 1 229 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000102 fc00000 58c5166 4920b52 6edaef4 start r4 5 r6 6 nodes 0 0 0 0 1 182 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000102 d800000 688d9a2 ffb6b52 75eb6fb start r4 5 r6 6 nodes 0 0 0 0 1 171 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000103 d800000 fdefbf7 96864a1 3a31d3a start r4 5 r6 6 nodes 0 0 0 0 1 186 0 0 sols 0 full 0 nonapn 0
+ITEM p5-0-a8-w12 gens 0000103 7400000 4885122 72314fe fcfa535 start r4 5 r6 6 nodes 0 0 0 0 1 196 0 0 sols 0 full 0 nonapn 0
+done: items 10
+# exit 0

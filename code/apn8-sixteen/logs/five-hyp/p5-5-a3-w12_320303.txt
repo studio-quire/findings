@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 320303 forms 449a0f4e70b17126 29079f2bb26079f2 043a5f6e70b17126 1e1f1deff1f3d57e 000000000509010e
+G5 379
+iter 0 subset 379 -> core 233 nodes 6895856
+iter 1 subset 233 -> core 233 nodes 6895856
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

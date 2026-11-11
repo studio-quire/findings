@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 4002 forms 2212814e151bd52e 123241ce151bd52e 03011420042880c0 0f05030181c3a4fc 0000000002010804
+G5 387
+iter 0 subset 387 -> core 222 nodes 14497000
+iter 1 subset 222 -> core 222 nodes 14497000
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

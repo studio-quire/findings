@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 151530 forms 528a16a3452bf41c 321a96e3452bf41c 10295aa7651b345c 0a0c0203c143b51e 0000000002030c04
+G5 379
+iter 0 subset 379 -> core 229 nodes 27364144
+iter 1 subset 229 -> core 229 nodes 27364144
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

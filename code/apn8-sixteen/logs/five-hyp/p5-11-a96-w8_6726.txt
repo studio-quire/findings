@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 6726 forms 2110874f103334b4 0e2a4c09f3a1c91e 1d0b0280c18364cc 03011e293222add2 000000000509010e
+G5 387
+iter 0 subset 387 -> core 226 nodes 7005872
+iter 1 subset 226 -> core 226 nodes 7005872
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

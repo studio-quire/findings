@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 80900 forms 42811a25251aa458 261b8f4761b0f17a 062b4f0761b0f17a 151a01c2408050a0 0000000003020c08
+G5 387
+iter 0 subset 387 -> core 231 nodes 63903424
+iter 1 subset 231 -> core 231 nodes 63903424
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

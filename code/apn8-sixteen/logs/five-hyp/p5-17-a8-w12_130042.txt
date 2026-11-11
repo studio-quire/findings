@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 130042 forms 41861925235048b8 2f23ca04a092e5c2 0f131a64a092e5c2 050e080760d15196 000000000709080c
+G5 387
+iter 0 subset 387 -> core 232 nodes 109469952
+iter 1 subset 232 -> core 232 nodes 109469952
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

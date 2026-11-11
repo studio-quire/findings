@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 19573 forms 301080c000000000 05374e4021e060c8 0f0a0103c381d9be 0605020812c2ac40 000000000508010a
+G5 387
+iter 0 subset 387 -> core 229 nodes 18454712
+iter 1 subset 229 -> core 229 nodes 18454712
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

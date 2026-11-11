@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 19755 forms 4b8e0d0af261d9a6 21088303400130b4 0a265e29b260e912 180c11a2c143152e 000000000708090a
+G5 379
+iter 0 subset 379 -> core 228 nodes 12316736
+iter 1 subset 228 -> core 228 nodes 12316736
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

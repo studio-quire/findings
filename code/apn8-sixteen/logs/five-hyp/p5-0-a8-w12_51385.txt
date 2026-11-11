@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 51385 forms 478e010340c0d0b0 270e912340c0d0b0 0832526c941b6506 121710ed1559c15e 000000000301090e
+G5 371
+iter 0 subset 371 -> core 226 nodes 150408112
+iter 1 subset 226 -> core 226 nodes 150408112
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

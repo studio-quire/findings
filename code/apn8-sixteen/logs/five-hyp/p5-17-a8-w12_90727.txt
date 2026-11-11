@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 90727 forms 4a8505099160817a 22018b052310a878 06180a436182b51a 08041e2cb2702902 00000000060b0c04
+G5 387
+iter 0 subset 387 -> core 229 nodes 29830544
+iter 1 subset 229 -> core 229 nodes 29830544
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

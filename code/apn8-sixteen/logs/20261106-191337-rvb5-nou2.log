@@ -1,0 +1,7 @@
+
+# command: cmd /c runs\check5\review\nou2.cmd
+c1 q5: tuples 614656 sets 36096 k4 0 k5 36096 skippedK3 0 f0 160122669 f1 160122669 f0max 6284 f1max 6284 nodes 160122669 28590499 0 0 found 0
+hist 12:4949 13:31147
+  APN 0 of 0, 1048.8 s
+NOU2DONE
+

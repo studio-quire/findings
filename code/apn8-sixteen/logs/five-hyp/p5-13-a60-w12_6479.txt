@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 6479 forms 2113864f103070d0 113344cc113344cc 0103162f103070d0 0408070d52b12936 00000000070a0c08
+G5 363
+iter 0 subset 363 -> core 232 nodes 33276992
+iter 1 subset 232 -> core 232 nodes 33276992
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

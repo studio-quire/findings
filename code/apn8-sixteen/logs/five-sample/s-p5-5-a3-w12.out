@@ -1,0 +1,112 @@
+nondegenerate alternating forms: dim 4 28 (expect 28), dim 6 13888 (expect 13888)
+covers 1, tasks 28, threads 20, split 5, hole stage affine tree, profiling a frontier range (counts partial)
+phase 1 done 8 s: frontier 1188360 items at dim 5
+phase 1 counts: nodes 243188, by dimension 28 784 17290 225086 0 0 0 0, near misses 1188360, candidates 0, passed 0
+profiling frontier items [0, 1188360)
+sampling 100 frontier items per cover (seed 1): 100 items
+  frontier p5-5-a3-w12 1188360
+ITEM p5-5-a3-w12 gens 0000087 9400000 3c4caf7 32114ac c6c6e4d nodes 0 0 0 0 1 82 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000086 8c00000 3448ad5 f2304df ea1c362 nodes 0 0 0 0 1 94 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000087 c400000 688d9a2 e931fd2 4b276c1 nodes 0 0 0 0 1 90 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000087 a400000 3c4caf7 c4a74fe 8de188c nodes 0 0 0 0 1 130 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000085 fc00000 70c99c4 96864a1 b33b6a3 nodes 0 0 0 0 1 154 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000103 a400000 b96e8e6 8d87fac 96e788c nodes 0 0 0 0 1 160 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000085 8c00000 6c8dbb3 b21048d 96e788c nodes 0 0 0 0 1 217 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000087 a400000 d5e3355 3697021 9fe1b8c nodes 0 0 0 0 1 242 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000102 c800000 b96e8e6 3b11fac 3a1cd23 nodes 0 0 0 0 1 175 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000086 9400000 688d9a2 4920b52 acfb5af nodes 0 0 0 0 1 249 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000102 4800000 70c99c4 3f97b21 cb06e41 nodes 0 0 0 0 1 235 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000085 e400000 ad2eab3 8d87fac fcda36e nodes 0 0 0 0 1 158 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000084 b800000 c5a3311 f2304df 5de16cd nodes 0 0 0 0 1 226 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000085 e800000 f1eb9c4 3f97b21 fcda36e nodes 0 0 0 0 1 255 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000087 c400000 c9a7122 b21048d 5de16cd nodes 0 0 0 0 1 262 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000103 c400000 fdefbf7 3697021 84e7b8c nodes 0 0 0 0 1 205 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000102 9c00000 9d66277 e4b705f 8de188c nodes 0 0 0 0 1 245 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000086 4c00000 b16a8c4 db20b7e c6c6e4d nodes 0 0 0 0 1 374 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000183 3000000 9562255 db20b7e 331ae23 nodes 0 0 0 0 1 294 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000085 4800000 384c8e6 8d87fac 59275c1 nodes 0 0 0 0 1 264 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000103 ac00000 3448ad5 e931fd2 6efb8ee nodes 0 0 0 0 1 240 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000085 4800000 e9af9a2 b21048d ba3d5a3 nodes 0 0 0 0 1 382 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000183 a400000 e5abb91 72314fe 5de16cd nodes 0 0 0 0 1 156 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000102 3c00000 3c4caf7 3697021 e7dc36e nodes 0 0 0 0 1 298 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000183 3c00000 74c9bd5 76b7073 713bbe2 nodes 0 0 0 0 1 156 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000183 d800000 a52aa91 5b21b5f e7dc36e nodes 0 0 0 0 1 147 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000184 4800000 a52aa91 c921b73 fcda36e nodes 0 0 0 0 1 186 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000185 3400000 384c8e6 96864a1 9fe1b8c nodes 0 0 0 0 1 103 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000183 d800000 b16a8c4 c921b73 96e788c nodes 0 0 0 0 1 123 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000107 5800000 e9af9a2 3f97b21 6a3dbe2 nodes 0 0 0 0 1 152 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000106 e800000 6c8dbb3 c4a74fe d906d41 nodes 0 0 0 0 1 248 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000103 d800000 74c9bd5 6db6b7e 75fd8ee nodes 0 0 0 0 1 239 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002003 5c00000 e9af9a2 db20b7e ea1c362 nodes 0 0 0 0 1 121 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000183 b800000 b96e8e6 4da6fdf 5de16cd nodes 0 0 0 0 1 276 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000103 e800000 30488c4 c921b73 75fd8ee nodes 0 0 0 0 1 358 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000107 a400000 74c9bd5 db20b7e 4b276c1 nodes 0 0 0 0 1 151 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000185 3800000 9d66277 8d87fac 3edae2f nodes 0 0 0 0 1 180 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002081 e800000 8d26233 c4a74fe acfb5af nodes 0 0 0 0 1 148 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000103 c400000 70c99c4 e4b705f c6c6e4d nodes 0 0 0 0 1 223 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000106 3c00000 3c4caf7 32114ac 713bbe2 nodes 0 0 0 0 1 147 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000183 7400000 3448ad5 b21048d 9fe1b8c nodes 0 0 0 0 1 260 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002081 8c00000 3448ad5 6930ff3 3edae2f nodes 0 0 0 0 1 110 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000184 3000000 6c8dbb3 4920b52 b33b6a3 nodes 0 0 0 0 1 170 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000106 3c00000 e5abb91 96864a1 ea1c362 nodes 0 0 0 0 1 186 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000183 6800000 b16a8c4 4920b52 331ae23 nodes 0 0 0 0 1 379 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002001 7000000 688d9a2 c4a74fe 4b276c1 nodes 0 0 0 0 1 181 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002003 fc00000 9562255 3b11fac c6c6e4d nodes 0 0 0 0 1 193 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002083 b800000 f1eb9c4 d6a64f3 fcda36e nodes 0 0 0 0 1 163 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002001 8c00000 3c4caf7 4920b52 cb06e41 nodes 0 0 0 0 1 271 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000182 e800000 c5a3311 c921b73 d906d41 nodes 0 0 0 0 1 369 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000185 ac00000 3c4caf7 6930ff3 a5fd6af nodes 0 0 0 0 1 325 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002007 6c00000 d5e3355 3b11fac b33b6a3 nodes 0 0 0 0 1 142 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002003 f000000 4c85333 c921b73 3edae2f nodes 0 0 0 0 1 213 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002084 3400000 384c8e6 5b21b5f 59275c1 nodes 0 0 0 0 1 166 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002081 fc00000 d9e7166 bb10f8d fcda36e nodes 0 0 0 0 1 243 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000182 e800000 fdefbf7 e931fd2 d906d41 nodes 0 0 0 0 1 288 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002005 3800000 b96e8e6 db20b7e 84e7b8c nodes 0 0 0 0 1 223 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002005 6c00000 c5a3311 76b7073 d4c6d4d nodes 0 0 0 0 1 115 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002084 4800000 58c5166 a49700d 6efb8ee nodes 0 0 0 0 1 105 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002007 3000000 688d9a2 a49700d 5de16cd nodes 0 0 0 0 1 158 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002005 e800000 a52aa91 9f86fa1 d4c6d4d nodes 0 0 0 0 1 243 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002081 d800000 c5a3311 3f97b21 37dcd2f nodes 0 0 0 0 1 249 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000185 fc00000 e9af9a2 84874ac 96e788c nodes 0 0 0 0 1 234 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002007 9400000 f1eb9c4 c921b73 96e788c nodes 0 0 0 0 1 261 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002084 8400000 9562255 a49700d ea1c362 nodes 0 0 0 0 1 150 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002007 a400000 9d66277 c4a74fe d4c6d4d nodes 0 0 0 0 1 198 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002083 e400000 384c8e6 a49700d cb06e41 nodes 0 0 0 0 1 341 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002084 e400000 c5a3311 84874ac 75fd8ee nodes 0 0 0 0 1 156 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002007 e400000 f1eb9c4 a49700d 5de16cd nodes 0 0 0 0 1 272 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000185 6800000 a52aa91 5fa7fd2 a5fd6af nodes 0 0 0 0 1 326 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002086 c400000 e5abb91 c4a74fe 8de188c nodes 0 0 0 0 1 167 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002084 9c00000 e9af9a2 ffb6b52 b33b6a3 nodes 0 0 0 0 1 191 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002086 8400000 b16a8c4 5b21b5f 3edae2f nodes 0 0 0 0 1 230 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002101 3800000 384c8e6 4920b52 d906d41 nodes 0 0 0 0 1 154 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002086 6c00000 d9e7166 ffb6b52 d4c6d4d nodes 0 0 0 0 1 305 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002005 ac00000 4c85333 f2304df 331ae23 nodes 0 0 0 0 1 357 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002181 b800000 e9af9a2 6930ff3 96e788c nodes 0 0 0 0 1 103 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002086 d400000 c9a7122 ad97b0d ea1c362 nodes 0 0 0 0 1 225 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002102 f000000 6c8dbb3 72314fe 8de188c nodes 0 0 0 0 1 166 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002102 7000000 5cc5377 5fa7fd2 b33b6a3 nodes 0 0 0 0 1 207 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002102 d800000 74c9bd5 5b21b5f a5fd6af nodes 0 0 0 0 1 221 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002181 5c00000 3448ad5 9f86fa1 5de16cd nodes 0 0 0 0 1 181 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002187 fc00000 b16a8c4 96864a1 4b276c1 nodes 0 0 0 0 1 194 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002106 5800000 8d26233 f2304df ba3d5a3 nodes 0 0 0 0 1 243 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002101 d400000 e5abb91 a49700d d906d41 nodes 0 0 0 0 1 250 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002086 3800000 fdefbf7 9f86fa1 a5fd6af nodes 0 0 0 0 1 370 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0000185 8400000 b96e8e6 db20b7e 37dcd2f nodes 0 0 0 0 1 647 1 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002184 b800000 688d9a2 db20b7e 713bbe2 nodes 0 0 0 0 1 192 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002181 e800000 e5abb91 db20b7e 713bbe2 nodes 0 0 0 0 1 174 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002102 d400000 b96e8e6 5b21b5f b33b6a3 nodes 0 0 0 0 1 347 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002106 3000000 b96e8e6 a49700d 3a1cd23 nodes 0 0 0 0 1 155 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002184 7000000 3c4caf7 4920b52 ea1c362 nodes 0 0 0 0 1 84 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002182 d400000 e9af9a2 4da6fdf 4fe15cd nodes 0 0 0 0 1 160 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002102 e800000 70c99c4 84874ac 6a3dbe2 nodes 0 0 0 0 1 250 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002106 8400000 9562255 72314fe fcda36e nodes 0 0 0 0 1 206 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002182 4c00000 30488c4 ffb6b52 331ae23 nodes 0 0 0 0 1 259 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002184 9c00000 30488c4 4da6fdf 59275c1 nodes 0 0 0 0 1 177 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002105 7000000 b96e8e6 ffb6b52 ba3d5a3 nodes 0 0 0 0 1 197 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002182 7000000 58c5166 72314fe 37dcd2f nodes 0 0 0 0 1 271 0 0 sols 0 full 0 nonapn 0
+ITEM p5-5-a3-w12 gens 0002105 3000000 ad2eab3 32114ac d906d41 nodes 0 0 0 0 1 294 0 0 sols 0 full 0 nonapn 0
+phase 2: 100 items, 9.66 s, 1.932 s per item per thread
+done: covers 1, tasks 28, nodes 21922, solutions 0, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 18 s
+nodes by span dimension 1..8: 0 0 0 0 100 21812 10 0
+near misses (every solid a radical, holes uncovered, below dim 8 or not): 1188360
+hole-stage candidates 16574466, passing the filter (sent to push) 21988

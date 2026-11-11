@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 42369 forms 448c030243c1382c 2b099a26e210b8c0 142c438243c1382c 051b044c50b345c6 000000000508010a
+G5 387
+iter 0 subset 387 -> core 224 nodes 4448848
+iter 1 subset 224 -> core 224 nodes 4448848
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

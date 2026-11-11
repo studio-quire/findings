@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 85599 forms 478e070b51e0f0b8 30069ea124696116 1b2559a4a45981e6 0718196a758991ae 0000000002010804
+G5 379
+iter 0 subset 379 -> core 235 nodes 166442544
+iter 1 subset 235 -> core 235 nodes 166442544
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 57018 forms 4e830b04a49be566 280b9226c111714e 0c27532181c3647c 1e131be4a49be566 0000000003020d0a
+G5 379
+iter 0 subset 379 -> core 228 nodes 41349032
+iter 1 subset 228 -> core 228 nodes 41349032
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

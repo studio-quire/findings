@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 7147 forms 2a058804a2528c40 16234c8a33a1d94e 0412054c11b04028 0c06142e91f3550e 00000000060a0d02
+G5 387
+iter 0 subset 387 -> core 232 nodes 85672288
+iter 1 subset 232 -> core 232 nodes 85672288
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

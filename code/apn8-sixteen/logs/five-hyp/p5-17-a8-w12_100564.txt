@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 100564 forms 498f0203c04071d2 1c25468b95ea355a 0c15064b95ea355a 0809172ad0233464 0000000003020d0a
+G5 387
+iter 0 subset 387 -> core 230 nodes 16046672
+iter 1 subset 230 -> core 230 nodes 16046672
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

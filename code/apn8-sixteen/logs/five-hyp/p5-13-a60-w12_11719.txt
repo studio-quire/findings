@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 11719 forms 4183040c113344cc 092a5b26e21179a6 130916ad5231a9d6 0b100947a11394bc 00000000040a0502
+G5 387
+iter 0 subset 387 -> core 226 nodes 6931376
+iter 1 subset 226 -> core 226 nodes 6931376
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

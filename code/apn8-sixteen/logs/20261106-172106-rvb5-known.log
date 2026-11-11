@@ -1,0 +1,4 @@
+
+# command: cmd /c "runs\check5\review\bin_rvb5_ref.exe known runs/check5/known4.txt"
+known: 26 functions, 78 cosets tried, S8 returned 78
+

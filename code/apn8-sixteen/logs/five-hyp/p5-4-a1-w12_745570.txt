@@ -1,0 +1,6 @@
+core p5-4-a1-w12 line 745570 forms 4b93146c9539c1ce 3e149fe1a5e8a038 15275bad30d161f6 060a0d0264a9d024 0000000002030d06
+G5 387
+iter 0 subset 387 -> core 229 nodes 85527312
+iter 1 subset 229 -> core 229 nodes 85527312
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

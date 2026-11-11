@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 90568 forms 4c87132182c16976 2506912d10d040b0 0e394b46e193b56e 1e091ba6e193b56e 00000000040a0502
+G5 387
+iter 0 subset 387 -> core 233 nodes 104654520
+iter 1 subset 233 -> core 233 nodes 104654520
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

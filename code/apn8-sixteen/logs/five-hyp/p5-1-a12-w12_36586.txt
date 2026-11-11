@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 36586 forms 408f09056351497e 310c9cab72621c90 182b4b84e2136c64 09181e6af320398a 00000000070a0c08
+G5 387
+iter 0 subset 387 -> core 225 nodes 40796360
+iter 1 subset 225 -> core 225 nodes 40796360
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

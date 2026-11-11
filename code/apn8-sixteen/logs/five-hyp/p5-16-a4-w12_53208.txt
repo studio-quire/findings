@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 53208 forms 43850f062373bdee 262bdc2461b0c14a 170619a621d1d0ac 03151f662373bdee 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 223 nodes 7591824
+iter 1 subset 223 -> core 223 nodes 7591824
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

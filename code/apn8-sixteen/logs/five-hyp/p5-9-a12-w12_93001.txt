@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 93001 forms 4080102000000000 2420d62301a1301c 1b03078e943af5e2 021b0a476418f152 0000000003020d0a
+G5 387
+iter 0 subset 387 -> core 229 nodes 70951304
+iter 1 subset 229 -> core 229 nodes 70951304
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

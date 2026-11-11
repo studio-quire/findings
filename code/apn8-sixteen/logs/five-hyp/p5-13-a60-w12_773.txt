@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 773 forms 102050a000000000 0f120a40a181e08c 040c030640d13024 0102050a112255aa 000000000709080c
+G5 379
+iter 0 subset 379 -> core 233 nodes 54582112
+iter 1 subset 233 -> core 233 nodes 54582112
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

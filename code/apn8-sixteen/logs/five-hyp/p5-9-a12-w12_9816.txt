@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 9816 forms 2010804000000000 0d2a4f0cf2b069a2 170f0d8d73f2cdfa 0f09122ad083b4c4 000000000709080c
+G5 387
+iter 0 subset 387 -> core 229 nodes 92530488
+iter 1 subset 229 -> core 229 nodes 92530488
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

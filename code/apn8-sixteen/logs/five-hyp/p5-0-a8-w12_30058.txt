@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 30058 forms 4484060f12f13814 23059d2a326098e0 07315b652091a0f4 110c17a542732db6 00000000050a0408
+G5 387
+iter 0 subset 387 -> core 230 nodes 13877480
+iter 1 subset 230 -> core 230 nodes 13877480
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

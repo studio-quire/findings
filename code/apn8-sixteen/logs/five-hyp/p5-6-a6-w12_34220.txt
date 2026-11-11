@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 34220 forms 311285ca112255aa 142d468853e1284c 050f132242c37de6 01070c09316141de 0000000006080902
+G5 371
+iter 0 subset 371 -> core 230 nodes 22040472
+iter 1 subset 230 -> core 230 nodes 22040472
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

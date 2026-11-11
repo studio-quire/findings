@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 62827 forms 46890804659b844c 2010804000000000 0c294d0af4a81162 170e1ca874e8c182 0000000003020c08
+G5 379
+iter 0 subset 379 -> core 233 nodes 27956048
+iter 1 subset 233 -> core 233 nodes 27956048
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

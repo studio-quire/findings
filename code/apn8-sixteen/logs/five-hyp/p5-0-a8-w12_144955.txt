@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 144955 forms 4090106000000000 26168f4835e9e02c 16275aa621d1f14e 030c0e0a746ab582 0000000003020d0a
+G5 387
+iter 0 subset 387 -> core 229 nodes 5172168
+iter 1 subset 229 -> core 229 nodes 5172168
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

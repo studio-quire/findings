@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 6828 forms 2f058904a4d981e6 06334f4d37b8e97a 17110bc52798a8f8 0102142810204182 000000000102050a
+G5 379
+iter 0 subset 379 -> core 233 nodes 63319736
+iter 1 subset 233 -> core 233 nodes 63319736
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

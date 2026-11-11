@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 21789 forms 2617884a30c3d444 0424552c12f00922 12131de62233dd66 070c040142e38d96 000000000709080c
+G5 379
+iter 0 subset 379 -> core 231 nodes 46783928
+iter 1 subset 231 -> core 231 nodes 46783928
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

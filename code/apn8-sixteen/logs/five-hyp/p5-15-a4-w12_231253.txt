@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 231253 forms 468c1b2065caa428 221a8e4f7032f512 03324d4a3020d0a0 120a1eaf7032f512 0000000003020d0a
+G5 395
+iter 0 subset 395 -> core 223 nodes 5465832
+iter 1 subset 223 -> core 223 nodes 5465832
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

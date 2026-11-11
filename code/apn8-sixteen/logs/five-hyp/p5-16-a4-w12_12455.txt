@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 12455 forms 2010804000000000 130119ae331199ee 0f07040e90f0d0c0 020d07064478b060 000000000103040c
+G5 371
+iter 0 subset 371 -> core 224 nodes 11604888
+iter 1 subset 224 -> core 224 nodes 11604888
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

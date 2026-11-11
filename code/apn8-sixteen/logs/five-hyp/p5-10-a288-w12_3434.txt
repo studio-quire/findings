@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 3434 forms 2507932812c26de2 0221582422118844 1d0b0987e19051fa 07161b6c30d3e5a6 000000000509010e
+G5 371
+iter 0 subset 371 -> core 232 nodes 23146984
+iter 1 subset 232 -> core 232 nodes 23146984
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

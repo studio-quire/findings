@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 18731 forms 448d0c0b73e1195e 340d9cab73e1195e 12214f893020a070 03120b452113e4bc 00000000050a0408
+G5 379
+iter 0 subset 379 -> core 234 nodes 289111904
+iter 1 subset 234 -> core 234 nodes 289111904
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

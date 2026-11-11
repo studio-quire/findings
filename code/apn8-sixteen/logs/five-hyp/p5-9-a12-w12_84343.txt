@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 84343 forms 498d060ed07234c0 2d17834c90d364e4 0d27532c90d364e4 17180bca7280b8a0 00000000040b0506
+G5 387
+iter 0 subset 387 -> core 231 nodes 78622096
+iter 1 subset 231 -> core 231 nodes 78622096
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 2737 forms 2703890c3698c9e2 16204c8226a89902 0d1e0e41e4e96196 0a0d172dd271a874 000000000103050e
+G5 371
+iter 0 subset 371 -> core 224 nodes 11077264
+iter 1 subset 224 -> core 224 nodes 11077264
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

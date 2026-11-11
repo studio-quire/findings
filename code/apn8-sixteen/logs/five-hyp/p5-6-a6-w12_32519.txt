@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 32519 forms 360798aa31c2d54a 132158ac331188cc 0516106602d35d86 0c0b090ff0905172 0000000006080902
+G5 379
+iter 0 subset 379 -> core 228 nodes 261271088
+iter 1 subset 228 -> core 228 nodes 261271088
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

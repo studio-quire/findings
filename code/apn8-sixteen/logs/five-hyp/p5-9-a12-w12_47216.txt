@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 47216 forms 41860e0c33736c8c 21168e4c33736c8c 0d275b29b1c161fe 171819ea72839da6 00000000050b040c
+G5 371
+iter 0 subset 371 -> core 231 nodes 31684128
+iter 1 subset 231 -> core 231 nodes 31684128
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

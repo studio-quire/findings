@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 87539 forms 458a1b27619170bc 251a9b67619170bc 0f2f5a24e3d2edca 19171ce9b16140dc 00000000060a0d02
+G5 371
+iter 0 subset 371 -> core 232 nodes 36079480
+iter 1 subset 232 -> core 232 nodes 36079480
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

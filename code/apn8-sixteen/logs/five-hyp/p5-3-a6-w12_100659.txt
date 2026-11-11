@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 100659 forms 4c84030482d02922 24048e0f32f33d16 04344e4f32f33d16 1b1e0fccf172e4a8 0000000004080102
+G5 379
+iter 0 subset 379 -> core 226 nodes 10970176
+iter 1 subset 226 -> core 226 nodes 10970176
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

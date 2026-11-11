@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 17292 forms 321383cf1519f17e 12234d862131d06c 0203132f1519f17e 050f0d0b75e951fe 0000000003020d0a
+G5 371
+iter 0 subset 371 -> core 232 nodes 160885856
+iter 1 subset 232 -> core 232 nodes 160885856
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

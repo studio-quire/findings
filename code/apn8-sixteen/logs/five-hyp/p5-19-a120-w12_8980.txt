@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 8980 forms 43820c083123c48c 2c07830990c16176 053d586f74db15d6 1a1817eed539b02c 0000000002010804
+G5 371
+iter 0 subset 371 -> core 229 nodes 41037888
+iter 1 subset 229 -> core 229 nodes 41037888
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

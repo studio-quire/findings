@@ -1,0 +1,6 @@
+core p5-7-a2-w12 line 356644 forms 4c821e2ab1a1700c 2c028e0ab1a1700c 0e26460f94f9f116 0608090266889922 000000000103050e
+G5 387
+iter 0 subset 387 -> core 232 nodes 98709640
+iter 1 subset 232 -> core 232 nodes 98709640
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

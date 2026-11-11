@@ -1,0 +1,6 @@
+core p5-20-a1440-w12 line 356 forms 2102840811224488 08335967a2115874 19111defb3331cfc 070a01024382dca8 00000000040b0506
+G5 379
+iter 0 subset 379 -> core 232 nodes 42279016
+iter 1 subset 232 -> core 232 nodes 42279016
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

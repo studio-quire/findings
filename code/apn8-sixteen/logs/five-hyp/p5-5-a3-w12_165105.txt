@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 165105 forms 4a8e070dd478e030 2010804000000000 1f3543c181c3a4fc 0f081a29f181a19e 0000000002030c04
+G5 387
+iter 0 subset 387 -> core 232 nodes 24064600
+iter 1 subset 232 -> core 232 nodes 24064600
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

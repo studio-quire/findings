@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 64776 forms 43861f2a3768f8a8 281e8243c2417814 072c4a0872c1a884 1c1417e187e82838 000000000103050e
+G5 371
+iter 0 subset 371 -> core 232 nodes 310686088
+iter 1 subset 232 -> core 232 nodes 310686088
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

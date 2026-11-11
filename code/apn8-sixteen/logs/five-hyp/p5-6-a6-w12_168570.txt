@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 168570 forms 4882162182216916 052a4d0b73a25dba 10030c8522304952 0d180b4af18334ac 00000000040b0506
+G5 387
+iter 0 subset 387 -> core 232 nodes 100545216
+iter 1 subset 232 -> core 232 nodes 100545216
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

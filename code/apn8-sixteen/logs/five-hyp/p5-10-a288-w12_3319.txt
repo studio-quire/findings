@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 3319 forms 270193210282adf2 0622562f13b1f81c 1e061caab2e3dc04 09171f6bb06171f6 000000000709080c
+G5 371
+iter 0 subset 371 -> core 232 nodes 115674320
+iter 1 subset 232 -> core 232 nodes 115674320
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

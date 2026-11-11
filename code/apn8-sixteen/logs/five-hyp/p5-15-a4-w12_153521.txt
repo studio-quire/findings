@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 153521 forms 4d8d0c0ef6f819c2 2010906000000000 0f2c5725c6f9a9b6 1e0e13add6d9e936 0000000001020408
+G5 387
+iter 0 subset 387 -> core 232 nodes 37063856
+iter 1 subset 232 -> core 232 nodes 37063856
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 18844 forms 4c84020380c13014 300598a7245b1556 0327450d1578c1fa 0f13176e95b9f1ee 0000000002010906
+G5 371
+iter 0 subset 371 -> core 231 nodes 135521744
+iter 1 subset 231 -> core 231 nodes 135521744
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

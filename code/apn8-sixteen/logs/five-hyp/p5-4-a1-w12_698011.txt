@@ -1,0 +1,6 @@
+core p5-4-a1-w12 line 698011 forms 4499116644991166 2a0a9e2ff43bf516 0a3a5e6ff43bf516 191708c0a04344c4 0000000002030d06
+G5 379
+iter 0 subset 379 -> core 224 nodes 49090824
+iter 1 subset 224 -> core 224 nodes 49090824
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

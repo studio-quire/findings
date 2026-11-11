@@ -1,0 +1,6 @@
+core p5-7-a2-w12 line 25522 forms 251e824f50d07192 043d464341e3355e 150e028f50d07192 0b080502c02091a2 0000000004080102
+G5 379
+iter 0 subset 379 -> core 231 nodes 20656792
+iter 1 subset 231 -> core 231 nodes 20656792
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

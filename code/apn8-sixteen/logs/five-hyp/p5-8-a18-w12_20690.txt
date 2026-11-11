@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 20690 forms 23129d6a3322ddaa 0720562e12b1b986 171016ee12b1b986 010d0806635019ca 00000000060b0c04
+G5 371
+iter 0 subset 371 -> core 233 nodes 52291064
+iter 1 subset 233 -> core 233 nodes 52291064
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

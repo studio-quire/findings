@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 12012 forms 2f08932ad283bda6 0221490622119966 15071bac33d36dee 0d190a4cf09224c0 000000000708090a
+G5 387
+iter 0 subset 387 -> core 229 nodes 16740168
+iter 1 subset 229 -> core 229 nodes 16740168
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 26771 forms 4183040c113344cc 370e838242c3fca4 132c5eaa7262bc80 021f1a666351f84c 0000000006080902
+G5 387
+iter 0 subset 387 -> core 232 nodes 53241040
+iter 1 subset 232 -> core 232 nodes 53241040
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 23043 forms 4087040103634c5c 2a059828b2428c40 02235c242233cc44 0a150848b2428c40 0000000004080102
+G5 387
+iter 0 subset 387 -> core 230 nodes 1742576
+iter 1 subset 230 -> core 230 nodes 1742576
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

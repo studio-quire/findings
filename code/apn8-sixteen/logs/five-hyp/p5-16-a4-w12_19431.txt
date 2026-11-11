@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 19431 forms 251b8142428159e6 07284d0660b295a2 150b11a2428159e6 0f020903a080d0b0 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 230 nodes 51553984
+iter 1 subset 230 -> core 230 nodes 51553984
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

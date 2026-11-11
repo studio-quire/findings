@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 80860 forms 468f0c0761f0d058 092a5b26e51a75aa 1d030a80a18364cc 02161d612569c13e 000000000301090e
+G5 379
+iter 0 subset 379 -> core 228 nodes 143488672
+iter 1 subset 228 -> core 228 nodes 143488672
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 134110 forms 498f0203c3427cd8 03225a272311f99e 13121ae72311f99e 0103040c113344cc 00000000050a0408
+G5 379
+iter 0 subset 379 -> core 234 nodes 21060280
+iter 1 subset 234 -> core 234 nodes 21060280
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

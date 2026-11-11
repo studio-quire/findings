@@ -1,0 +1,6 @@
+core p5-4-a1-w12 line 5077 forms 230d860f5579b0dc 0331586c301384c4 101c0ec3656a3418 0f050904a4d981e6 0000000003020c08
+G5 387
+iter 0 subset 387 -> core 228 nodes 14737920
+iter 1 subset 228 -> core 228 nodes 14737920
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

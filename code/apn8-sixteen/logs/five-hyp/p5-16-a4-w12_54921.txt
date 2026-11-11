@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 54921 forms 47830e0423b1e9ce 2609982466998844 1c2d4782c5e8316a 07131e6423b1e9ce 000000000103040c
+G5 387
+iter 0 subset 387 -> core 231 nodes 41090592
+iter 1 subset 231 -> core 231 nodes 41090592
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

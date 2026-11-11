@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 71650 forms 4183152e113355ee 0c2d5f2bf4eb3576 19020f8ab52970ac 041c054f50f11034 0000000002010804
+G5 395
+iter 0 subset 395 -> core 230 nodes 12769296
+iter 1 subset 230 -> core 230 nodes 12769296
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

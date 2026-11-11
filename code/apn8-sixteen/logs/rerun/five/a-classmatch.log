@@ -1,0 +1,24 @@
+p5-0-a8-w12 -> class 0 |Gamma| 8 OK
+p5-1-a12-w12 -> class 3 |Gamma| 12 OK
+p5-2-a24-w12 -> class 2 |Gamma| 24 OK
+p5-3-a6-w12 -> class 5 |Gamma| 6 OK
+p5-4-a1-w12 -> class 1 |Gamma| 1 OK
+p5-5-a3-w12 -> class 6 |Gamma| 3 OK
+p5-6-a6-w12 -> class 7 |Gamma| 6 OK
+p5-7-a2-w12 -> class 4 |Gamma| 2 OK
+p5-8-a18-w12 -> class 8 |Gamma| 18 OK
+p5-9-a12-w12 -> class 9 |Gamma| 12 OK
+p5-10-a288-w12 -> class 10 |Gamma| 288 OK
+p5-11-a96-w8 -> class 11 |Gamma| 96 OK
+p5-12-a24-w12 -> class 12 |Gamma| 24 OK
+p5-13-a60-w12 -> class 14 |Gamma| 60 OK
+p5-14-a2-w12 -> class 16 |Gamma| 2 OK
+p5-15-a4-w12 -> class 15 |Gamma| 4 OK
+p5-16-a4-w12 -> class 17 |Gamma| 4 OK
+p5-17-a8-w12 -> class 18 |Gamma| 8 OK
+p5-18-a36-w12 -> class 13 |Gamma| 36 OK
+p5-19-a120-w12 -> class 19 |Gamma| 120 OK
+p5-20-a1440-w12 -> class 20 |Gamma| 1440 OK
+p5-21-a21600-w12 -> class 21 |Gamma| 21600 OK
+B counts distinct 22; classes hit 22; mismatches 0
+# exit 0

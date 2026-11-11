@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 9528 forms 29079f2bb06375f6 08285129d50a0438 120d13a85448a060 09170f4bb06375f6 0000000002030c04
+G5 379
+iter 0 subset 379 -> core 230 nodes 75279496
+iter 1 subset 230 -> core 230 nodes 75279496
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

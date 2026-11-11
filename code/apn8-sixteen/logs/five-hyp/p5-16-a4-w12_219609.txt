@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 219609 forms 47821c2d31b3c59e 3b0d9aa0e043a5c6 1e265eacb0f1e004 0c1f064dd1f06058 000000000509010e
+G5 379
+iter 0 subset 379 -> core 231 nodes 36936688
+iter 1 subset 231 -> core 231 nodes 36936688
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

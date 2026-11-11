@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 91620 forms 4b86152f9170d1ba 36078e8b32e0f952 0e2043089081a024 0516064701f1719e 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 229 nodes 129097800
+iter 1 subset 229 -> core 229 nodes 129097800
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

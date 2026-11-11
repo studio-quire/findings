@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 58737 forms 43820c083322cc88 2a26cb07a053f434 1904078f937138bc 0118176f53333dbe 00000000070a0c08
+G5 371
+iter 0 subset 371 -> core 228 nodes 57877824
+iter 1 subset 228 -> core 228 nodes 57877824
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

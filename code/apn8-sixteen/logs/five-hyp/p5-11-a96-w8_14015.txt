@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 14015 forms 41860c0520714094 360e95af51f3d43c 092b562ed03070c0 01161c6520714094 00000000060a0d02
+G5 387
+iter 0 subset 387 -> core 239 nodes 25737920
+iter 1 subset 239 -> core 239 nodes 25737920
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

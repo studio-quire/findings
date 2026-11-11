@@ -1,0 +1,6 @@
+core p5-7-a2-w12 line 564077 forms 58811aa4a0122440 36089fab70a2b430 102050a000000000 041b034f52917874 0000000004080102
+G5 379
+iter 0 subset 379 -> core 230 nodes 7732744
+iter 1 subset 230 -> core 230 nodes 7732744
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

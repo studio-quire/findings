@@ -1,0 +1,16 @@
+  kept after own radicals: sieve 1239 direct 1239 same
+  assembly (full): planes brute 0 search 0 (with count prune 0), solids brute 0 search 0 same
+  assembly (solids only): planes brute 693 search 693 (with count prune 44), solids brute 0 search 0 same
+cfg 14 k 5: sieve 4433 flat 4433 same
+  kept after own radicals: sieve 1665 direct 1665 same
+  assembly (full): planes brute 2 search 2 (with count prune 0), solids brute 0 search 0 same
+  assembly (solids only): planes brute 580 search 580 (with count prune 30), solids brute 0 search 0 same
+cfg 14 k 5: sieve 4079 flat 4079 same
+  kept after own radicals: sieve 1372 direct 1372 same
+  assembly (full): planes brute 0 search 0 (with count prune 0), solids brute 0 search 0 same
+  assembly (solids only): planes brute 888 search 888 (with count prune 84), solids brute 0 search 0 same
+cfg 14 k 5: sieve 4707 flat 4707 same
+  kept after own radicals: sieve 1153 direct 1153 same
+  assembly (full): planes brute 1 search 1 (with count prune 0), solids brute 0 search 0 same
+  assembly (solids only): planes brute 582 search 582 (with count prune 49), solids brute 0 search 0 same
+cfg 14 k 5: sieve 4154 flat 4154 same

@@ -1,0 +1,8 @@
+configurations 22, hole-set classes 22 (Kurz 22)
+maximal (hole set contains no solid, w = 0): 0
+configurations per hole set: {1: 22}
+|Aut H| distribution vs Langevin-Hou: identical (16 orders)
+point sets: 20267057123180937216 vs Langevin-Hou 20267057123180937216: MATCH
+labelled partial spreads (sum |GL| / |Aut P|): 20267180920953372672
+problems: 0
+# exit 0

@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 121064 forms 4f810c0ab2a098c0 23078b032241f9f6 0c26572990e16136 1d0413a181c325be 00000000040a0502
+G5 387
+iter 0 subset 387 -> core 233 nodes 87693368
+iter 1 subset 233 -> core 233 nodes 87693368
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

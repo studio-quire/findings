@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 198664 forms 42811b252011a074 32018b852011a074 09295723c3223cf8 0e121a6db193e51e 00000000050a0408
+G5 363
+iter 0 subset 363 -> core 234 nodes 29637040
+iter 1 subset 234 -> core 234 nodes 29637040
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

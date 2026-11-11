@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 5970 forms 2c079f25a0f06172 102050a000000000 0e16176180e2e532 070b09066090d0e0 0000000002030c04
+G5 379
+iter 0 subset 379 -> core 226 nodes 25374512
+iter 1 subset 226 -> core 226 nodes 25374512
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

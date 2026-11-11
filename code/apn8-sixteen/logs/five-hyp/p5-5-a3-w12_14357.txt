@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 14357 forms 2a059824a0528440 1a2558a4a0528440 0b160d4ab161d1ae 020a06095323ed1e 00000000040a0502
+G5 387
+iter 0 subset 387 -> core 231 nodes 23125544
+iter 1 subset 231 -> core 231 nodes 23125544
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

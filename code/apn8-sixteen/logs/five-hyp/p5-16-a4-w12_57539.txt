@@ -1,0 +1,6 @@
+core p5-16-a4-w12 line 57539 forms 4381080c331188cc 331188cc331188cc 1d3040c68598118a 060e020547d9e81c 000000000103040c
+G5 371
+iter 0 subset 371 -> core 230 nodes 46996904
+iter 1 subset 230 -> core 230 nodes 46996904
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

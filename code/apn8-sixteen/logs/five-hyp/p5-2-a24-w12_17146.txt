@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 17146 forms 2211884422118844 032e53204140e1aa 130e03804140e1aa 0e050a07a0d0b050 0000000001020408
+G5 371
+iter 0 subset 371 -> core 232 nodes 78417496
+iter 1 subset 232 -> core 232 nodes 78417496
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

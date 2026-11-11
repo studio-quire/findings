@@ -1,0 +1,6 @@
+core p5-5-a3-w12 line 172098 forms 498c0c01e569019e 38168ec5a371681c 1a2542818040a050 02031c242331c84c 0000000001020408
+G5 387
+iter 0 subset 387 -> core 225 nodes 25571328
+iter 1 subset 225 -> core 225 nodes 25571328
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

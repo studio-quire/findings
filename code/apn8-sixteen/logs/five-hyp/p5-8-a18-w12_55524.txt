@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 55524 forms 4984010f915110bc 2b158849b34089da 1f354ac7a3d2bcd8 0904112f915110bc 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 226 nodes 116077688
+iter 1 subset 226 -> core 226 nodes 116077688
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 77184 forms 4e87030182c1e874 32038d862030d162 1e3743c182c1e874 040801024183142c 000000000708090a
+G5 395
+iter 0 subset 395 -> core 207 nodes 3697872
+iter 1 subset 207 -> core 207 nodes 3697872
+core rank 21 a0 1
+sat 255 unsat 0 cap 0

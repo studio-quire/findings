@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 86522 forms 408a0b0a72027d22 2a05830c9050a162 19274f84a3726dea 031817624120b1aa 00000000040a0502
+G5 387
+iter 0 subset 387 -> core 229 nodes 67852664
+iter 1 subset 229 -> core 229 nodes 67852664
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

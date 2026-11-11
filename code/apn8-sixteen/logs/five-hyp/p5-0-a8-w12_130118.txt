@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 130118 forms 40900e4834292106 2113956e103150e4 042c4c0977e80818 151f19e767d958fc 000000000102050a
+G5 387
+iter 0 subset 387 -> core 228 nodes 10118872
+iter 1 subset 228 -> core 228 nodes 10118872
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

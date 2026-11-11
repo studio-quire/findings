@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 77346 forms 4789040341a091da 24188d4d72b10834 083c5e6cf3722d0a 170914a341a091da 00000000070b0d0e
+G5 379
+iter 0 subset 379 -> core 227 nodes 9163944
+iter 1 subset 227 -> core 227 nodes 9163944
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

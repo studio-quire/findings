@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 20929 forms 4480040f12b11916 2113844c113344cc 063f5d6873e3cd6e 170c19a462d089a2 00000000060b0c04
+G5 379
+iter 0 subset 379 -> core 228 nodes 20986136
+iter 1 subset 228 -> core 228 nodes 20986136
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

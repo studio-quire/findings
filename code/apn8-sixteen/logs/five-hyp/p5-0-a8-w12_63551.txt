@@ -1,0 +1,6 @@
+core p5-0-a8-w12 line 63551 forms 458e0b0360c170b4 38158ac0a3402848 1d2b4183c38158fc 0c091429d2a30d56 000000000708090a
+G5 371
+iter 0 subset 371 -> core 234 nodes 27419072
+iter 1 subset 234 -> core 234 nodes 27419072
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

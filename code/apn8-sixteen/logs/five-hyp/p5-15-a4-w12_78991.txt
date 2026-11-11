@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 78991 forms 478f030241c2f4e8 2115874d117224f8 0125470d117224f8 03071220054ae5ca 000000000301090e
+G5 371
+iter 0 subset 371 -> core 230 nodes 22280696
+iter 1 subset 230 -> core 230 nodes 22280696
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

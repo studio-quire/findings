@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 94213 forms 438b0c0a7428d0c0 0d2b5e2cf1b061ca 1b0a16aed032f582 0611186221829448 000000000301080c
+G5 379
+iter 0 subset 379 -> core 222 nodes 2988528
+iter 1 subset 222 -> core 222 nodes 2988528
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

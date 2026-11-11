@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 20431 forms 251b8142428159e6 0d26440893e0498a 160a098e7190d12a 080d152ad161106c 00000000070a0c08
+G5 379
+iter 0 subset 379 -> core 227 nodes 132726192
+iter 1 subset 227 -> core 227 nodes 132726192
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 131461 forms 42861a28354be50e 2c1a9e67e4ba7512 09245d25a47a05b2 19141de5a47a05b2 0000000002030c04
+G5 387
+iter 0 subset 387 -> core 227 nodes 28152808
+iter 1 subset 227 -> core 227 nodes 28152808
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

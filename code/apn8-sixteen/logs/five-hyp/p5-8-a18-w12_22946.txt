@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 22946 forms 3a0f8283c043f454 1321488c301080c0 091e0a4ff0537494 070d142440f385c6 000000000301080c
+G5 387
+iter 0 subset 387 -> core 229 nodes 21411984
+iter 1 subset 229 -> core 229 nodes 21411984
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

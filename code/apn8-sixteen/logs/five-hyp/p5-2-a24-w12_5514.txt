@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 5514 forms 2a0582018142a458 1a2542818142a458 08141b67a3533d3e 06090e0b73a0b95a 00000000060b0c04
+G5 379
+iter 0 subset 379 -> core 229 nodes 5522552
+iter 1 subset 229 -> core 229 nodes 5522552
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 26254 forms 2c15854181e20478 093e4b4df05365b6 1301098e331199ee 0c05152181e20478 000000000708090a
+G5 371
+iter 0 subset 371 -> core 233 nodes 13756200
+iter 1 subset 233 -> core 233 nodes 13756200
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

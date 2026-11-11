@@ -1,0 +1,6 @@
+core p5-17-a8-w12 line 93461 forms 4e85060f92f0b850 20019a2e33133d4e 0b2f480df051c0d4 10110ace33133d4e 0000000004090106
+G5 395
+iter 0 subset 395 -> core 234 nodes 2462224
+iter 1 subset 234 -> core 234 nodes 2462224
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

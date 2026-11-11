@@ -1,0 +1,6 @@
+core p5-20-a1440-w12 line 907 forms 240f830347c9797e 0c3b4d4bf1a05078 1b1602c08448e182 08041e28b6692906 000000000103040c
+G5 379
+iter 0 subset 379 -> core 230 nodes 12100272
+iter 1 subset 230 -> core 230 nodes 12100272
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

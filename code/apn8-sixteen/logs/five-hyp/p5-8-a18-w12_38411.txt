@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 38411 forms 43860a012140e098 2c0c9b22e2c13926 18020889b0034516 0b1412689143a58e 00000000040a0502
+G5 379
+iter 0 subset 379 -> core 234 nodes 26832816
+iter 1 subset 234 -> core 234 nodes 26832816
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

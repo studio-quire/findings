@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 43307 forms 42850e0d3371a85c 350d97a740f334f4 1d275ba9b0c060f0 0718196a73829ca8 00000000040a0502
+G5 379
+iter 0 subset 379 -> core 233 nodes 49896400
+iter 1 subset 233 -> core 233 nodes 49896400
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

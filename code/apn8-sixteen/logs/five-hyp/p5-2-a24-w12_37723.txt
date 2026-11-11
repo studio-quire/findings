@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 37723 forms 43840f062270b8a0 261b9c6460b3c546 03245f262270b8a0 09070201834169de 0000000006080902
+G5 379
+iter 0 subset 379 -> core 228 nodes 11799856
+iter 1 subset 228 -> core 228 nodes 11799856
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

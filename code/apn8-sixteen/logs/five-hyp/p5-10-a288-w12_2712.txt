@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 2712 forms 2c04870181e1213e 1f264b89b2c3edb6 0a1f0846e252dc40 0f061b29b2c3edb6 00000000040a0502
+G5 379
+iter 0 subset 379 -> core 224 nodes 50018744
+iter 1 subset 224 -> core 224 nodes 50018744
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

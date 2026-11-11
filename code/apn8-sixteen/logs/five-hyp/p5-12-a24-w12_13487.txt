@@ -1,0 +1,6 @@
+core p5-12-a24-w12 line 13487 forms 37068d8122e3cdb6 102050a000000000 0417054d11f2457a 0f090c0bf3a098d8 00000000040b0506
+G5 387
+iter 0 subset 387 -> core 227 nodes 42004264
+iter 1 subset 227 -> core 227 nodes 42004264
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

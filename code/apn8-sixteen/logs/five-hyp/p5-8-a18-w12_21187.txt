@@ -1,0 +1,6 @@
+core p5-8-a18-w12 line 21187 forms 2c1c976ad4eb3526 0528562041a1218e 1c0c078ad4eb3526 0301090e311295ea 0000000002030c04
+G5 395
+iter 0 subset 395 -> core 233 nodes 103256328
+iter 1 subset 233 -> core 233 nodes 103256328
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

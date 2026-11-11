@@ -1,0 +1,126 @@
+== ctl_run.py on ctl4-6 (ctl/run-6.out)
+ctl4-6-k4-a120-x core ['0x6160d79', '0x1929e4b', '0x414038', '0x295638'] rep ['0x200401a', '0x1080700', '0x5f8ba3', '0x295af4'] different g ae5dead5b976aa55 |Sol(C)| 1
+phase 1 done 0 s: frontier 45078 items at dim 5
+phase 1 counts: nodes 20029, by dimension 28 784 19216 1 0 0 0 0, near misses 1, candidates 195062, passed 45637
+distinct images 1 in 1 frontier items of 45078
+item 2977 solutions 1 done: covers 1, tasks 28, nodes 622, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+images wanted 1 found 1 wanted and not found 0 found and not an image 0
+RESULT ctl4-6-k4-a120-x PASS
+== ctl_run.py on ctl4-73 (ctl/run-73.out)
+ctl4-73-k4-a4320-x core ['0x99e30bf', '0x48c8dec', '0x3885b5a', '0x7d4210'] rep ['0x40edb31', '0x3049dbb', '0x991a33', '0x23070e'] different g d56a6cb4f152283c |Sol(C)| 48
+phase 1 done 1 s: frontier 87817 items at dim 5
+phase 1 counts: nodes 20329, by dimension 28 784 19516 1 0 0 0 0, near misses 1, candidates 250570, passed 90270
+distinct images 48 in 41 frontier items of 87817
+item 1660 solutions 2 done: covers 1, tasks 28, nodes 1885, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4
+item 5113 solutions 3 done: covers 1, tasks 28, nodes 3469, solutions 3, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 5225 solutions 1 done: covers 1, tasks 28, nodes 3197, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 7824 solutions 1 done: covers 1, tasks 28, nodes 3748, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 9092 solutions 1 done: covers 1, tasks 28, nodes 1292, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 12435 solutions 1 done: covers 1, tasks 28, nodes 2624, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 8
+item 12462 solutions 1 done: covers 1, tasks 28, nodes 895, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 19637 solutions 1 done: covers 1, tasks 28, nodes 2088, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4
+item 28905 solutions 1 done: covers 1, tasks 28, nodes 3258, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 33425 solutions 1 done: covers 1, tasks 28, nodes 1201, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 39407 solutions 1 done: covers 1, tasks 28, nodes 3007, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 42318 solutions 3 done: covers 1, tasks 28, nodes 3017, solutions 3, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 9
+item 43127 solutions 1 done: covers 1, tasks 28, nodes 1726, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 47471 solutions 1 done: covers 1, tasks 28, nodes 975, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 47486 solutions 1 done: covers 1, tasks 28, nodes 1052, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 51280 solutions 1 done: covers 1, tasks 28, nodes 728, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 54427 solutions 1 done: covers 1, tasks 28, nodes 399, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 54469 solutions 1 done: covers 1, tasks 28, nodes 1218, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 59617 solutions 1 done: covers 1, tasks 28, nodes 1159, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 59618 solutions 2 done: covers 1, tasks 28, nodes 1103, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 61969 solutions 1 done: covers 1, tasks 28, nodes 1982, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4
+item 63320 solutions 1 done: covers 1, tasks 28, nodes 1432, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 65250 solutions 2 done: covers 1, tasks 28, nodes 1460, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 66224 solutions 1 done: covers 1, tasks 28, nodes 1077, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 66243 solutions 1 done: covers 1, tasks 28, nodes 1570, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 70083 solutions 1 done: covers 1, tasks 28, nodes 974, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 70717 solutions 1 done: covers 1, tasks 28, nodes 2032, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4
+item 74534 solutions 1 done: covers 1, tasks 28, nodes 618, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 76750 solutions 1 done: covers 1, tasks 28, nodes 580, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 76758 solutions 1 done: covers 1, tasks 28, nodes 897, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 76844 solutions 1 done: covers 1, tasks 28, nodes 2990, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 77777 solutions 1 done: covers 1, tasks 28, nodes 486, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 81541 solutions 1 done: covers 1, tasks 28, nodes 1995, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5
+item 81552 solutions 1 done: covers 1, tasks 28, nodes 1749, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5
+item 82353 solutions 1 done: covers 1, tasks 28, nodes 746, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 82370 solutions 1 done: covers 1, tasks 28, nodes 1310, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 82772 solutions 1 done: covers 1, tasks 28, nodes 1908, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 85143 solutions 1 done: covers 1, tasks 28, nodes 858, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 85181 solutions 1 done: covers 1, tasks 28, nodes 2854, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 85812 solutions 1 done: covers 1, tasks 28, nodes 550, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 85846 solutions 1 done: covers 1, tasks 28, nodes 696, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+images wanted 48 found 48 wanted and not found 0 found and not an image 0
+RESULT ctl4-73-k4-a4320-x PASS
+== ctl_run.py on ctl4-169 (ctl/run-169.out)
+ctl4-169-k4-a4320-x core ['0x5c01376', '0x312ed38', '0x85122', '0x4c8e6'] rep ['0x41e6e22', '0x31e74fc', '0x9e7996', '0x449ead'] different g 3c286ad5bb66a45c |Sol(C)| 48
+phase 1 done 1 s: frontier 96560 items at dim 5
+phase 1 counts: nodes 20329, by dimension 28 784 19516 1 0 0 0 0, near misses 1, candidates 279672, passed 99640
+distinct images 48 in 42 frontier items of 96560
+item 776 solutions 2 done: covers 1, tasks 28, nodes 1292, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 5468 solutions 1 done: covers 1, tasks 28, nodes 1652, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6
+item 5479 solutions 1 done: covers 1, tasks 28, nodes 2809, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 7740 solutions 1 done: covers 1, tasks 28, nodes 2073, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 17990 solutions 1 done: covers 1, tasks 28, nodes 1183, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 18781 solutions 1 done: covers 1, tasks 28, nodes 1660, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 21181 solutions 1 done: covers 1, tasks 28, nodes 1117, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 22075 solutions 1 done: covers 1, tasks 28, nodes 739, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 24346 solutions 1 done: covers 1, tasks 28, nodes 763, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 25015 solutions 1 done: covers 1, tasks 28, nodes 694, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 25071 solutions 1 done: covers 1, tasks 28, nodes 746, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 28946 solutions 1 done: covers 1, tasks 28, nodes 911, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 31980 solutions 1 done: covers 1, tasks 28, nodes 4508, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1
+item 34930 solutions 1 done: covers 1, tasks 28, nodes 810, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 37035 solutions 1 done: covers 1, tasks 28, nodes 1593, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 43197 solutions 2 done: covers 1, tasks 28, nodes 1141, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 46052 solutions 1 done: covers 1, tasks 28, nodes 4732, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 47268 solutions 1 done: covers 1, tasks 28, nodes 988, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 48593 solutions 1 done: covers 1, tasks 28, nodes 1382, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 51925 solutions 3 done: covers 1, tasks 28, nodes 2440, solutions 3, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5
+item 52901 solutions 1 done: covers 1, tasks 28, nodes 757, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 52920 solutions 1 done: covers 1, tasks 28, nodes 721, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 54221 solutions 1 done: covers 1, tasks 28, nodes 1789, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 5
+item 57835 solutions 1 done: covers 1, tasks 28, nodes 1141, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 60888 solutions 1 done: covers 1, tasks 28, nodes 2152, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6
+item 61655 solutions 1 done: covers 1, tasks 28, nodes 1551, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 62845 solutions 1 done: covers 1, tasks 28, nodes 2674, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 8
+item 64336 solutions 1 done: covers 1, tasks 28, nodes 1254, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 64376 solutions 2 done: covers 1, tasks 28, nodes 1051, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 66394 solutions 1 done: covers 1, tasks 28, nodes 663, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 67275 solutions 1 done: covers 1, tasks 28, nodes 686, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 72556 solutions 1 done: covers 1, tasks 28, nodes 706, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 73685 solutions 1 done: covers 1, tasks 28, nodes 777, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 80850 solutions 1 done: covers 1, tasks 28, nodes 602, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 83131 solutions 2 done: covers 1, tasks 28, nodes 953, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 88120 solutions 1 done: covers 1, tasks 28, nodes 1241, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 88141 solutions 1 done: covers 1, tasks 28, nodes 999, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 88172 solutions 1 done: covers 1, tasks 28, nodes 1768, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 91325 solutions 1 done: covers 1, tasks 28, nodes 2026, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 6
+item 93920 solutions 1 done: covers 1, tasks 28, nodes 2549, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 8
+item 94776 solutions 1 done: covers 1, tasks 28, nodes 1657, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 95123 solutions 1 done: covers 1, tasks 28, nodes 1786, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+images wanted 48 found 48 wanted and not found 0 found and not an image 0
+RESULT ctl4-169-k4-a4320-x PASS
+== ctl_run.py on ctl4-204 (ctl/run-204.out)
+ctl4-204-k4-a4320-x core ['0x90298a8', '0x490800c', '0x397c696', '0x39c316'] rep ['0x3071937', '0x4abb3f', '0x25c218', '0x1f8610'] different g 789c1b2de87c7a9f |Sol(C)| 20
+phase 1 done 0 s: frontier 58917 items at dim 5
+phase 1 counts: nodes 20329, by dimension 28 784 19516 1 0 0 0 0, near misses 1, candidates 215967, passed 59996
+distinct images 20 in 14 frontier items of 58917
+item 73 solutions 1 done: covers 1, tasks 28, nodes 1912, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 4
+item 82 solutions 3 done: covers 1, tasks 28, nodes 1520, solutions 3, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 3071 solutions 1 done: covers 1, tasks 28, nodes 495, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 6235 solutions 1 done: covers 1, tasks 28, nodes 633, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 7376 solutions 1 done: covers 1, tasks 28, nodes 445, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 8403 solutions 2 done: covers 1, tasks 28, nodes 1842, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 15577 solutions 2 done: covers 1, tasks 28, nodes 1711, solutions 2, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 16630 solutions 1 done: covers 1, tasks 28, nodes 464, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 17521 solutions 3 done: covers 1, tasks 28, nodes 1482, solutions 3, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2
+item 26665 solutions 1 done: covers 1, tasks 28, nodes 765, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 34686 solutions 1 done: covers 1, tasks 28, nodes 650, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+item 35817 solutions 1 done: covers 1, tasks 28, nodes 775, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 2 
+item 54773 solutions 1 done: covers 1, tasks 28, nodes 1573, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 3
+item 58361 solutions 1 done: covers 1, tasks 28, nodes 480, solutions 1, full (dim < 8) 0, dim 8 non-APN 0, bad seeds 0, 1 
+images wanted 20 found 20 wanted and not found 0 found and not an image 0
+RESULT ctl4-204-k4-a4320-x PASS

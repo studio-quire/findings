@@ -1,0 +1,6 @@
+core p5-18-a36-w12 line 2453 forms 260883054093a434 112255aa112255aa 0112156a112255aa 090f0e0bf56970dc 0000000002030d06
+G5 379
+iter 0 subset 379 -> core 236 nodes 104398824
+iter 1 subset 236 -> core 236 nodes 104398824
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

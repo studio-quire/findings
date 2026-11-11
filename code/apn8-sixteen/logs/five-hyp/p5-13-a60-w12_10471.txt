@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 10471 forms 4481070301a0317a 2820c809b103041c 0a1a034ed519f02c 0c011f2ab0a33566 000000000301090e
+G5 379
+iter 0 subset 379 -> core 227 nodes 251106624
+iter 1 subset 227 -> core 227 nodes 251106624
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

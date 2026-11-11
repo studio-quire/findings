@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 48861 forms 44860c0e30f05102 260d8f0a71e1b16e 03324c483322cc88 161d0fca71e1b16e 0000000004090106
+G5 379
+iter 0 subset 379 -> core 228 nodes 37884488
+iter 1 subset 228 -> core 228 nodes 37884488
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

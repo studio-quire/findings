@@ -1,0 +1,6 @@
+core p5-7-a2-w12 line 190694 forms 4f8f0b09f0c1e1f6 29079f2bb06374f4 1a2542818142a458 0a1512618142a458 0000000002030d06
+G5 379
+iter 0 subset 379 -> core 224 nodes 5001320
+iter 1 subset 224 -> core 224 nodes 5001320
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

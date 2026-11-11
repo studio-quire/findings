@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 13544 forms 4783030f1799f8fc 260b9c2467b9c84c 0733536f1799f8fc 1e0218abb280d912 0000000001020408
+G5 379
+iter 0 subset 379 -> core 230 nodes 13074720
+iter 1 subset 230 -> core 230 nodes 13074720
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 22323 forms 251a8142418051aa 052a4102418051aa 170c038645d9b0ac 01070a08344960c4 000000000301090e
+G5 387
+iter 0 subset 387 -> core 232 nodes 6295240
+iter 1 subset 232 -> core 232 nodes 6295240
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-4-a1-w12 line 401325 forms 458b142c55bb44cc 220a8f097020e030 132d56af547ab5d2 031d064f547ab5d2 0000000002010906
+G5 379
+iter 0 subset 379 -> core 228 nodes 66220424
+iter 1 subset 228 -> core 228 nodes 66220424
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

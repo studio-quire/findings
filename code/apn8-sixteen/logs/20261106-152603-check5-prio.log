@@ -1,0 +1,12 @@
+
+# command: cmd /c apn\fivecheck_prio.cmd
+3 tuples
+1 tuples
+tuple 2: k4 f1 513255 nodes 53843 11581285 192692 1696 found 36 APN 36, 1262.9 s
+tuple 0: k4 f1 489396 nodes 52217 10685241 682 42 found 1 APN 1, 2176.8 s
+LISTDONE
+tuple 1: k4 f1 689849 nodes 132812 14854855 180815 847 found 24 APN 24, 3087.1 s
+tuple 0: k4 f1 621760 nodes 135140 15490670 195133 975 found 20 APN 20, 4810.3 s
+LISTDONE
+ALLDONE
+

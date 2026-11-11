@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 6901 forms 2113844c113344cc 0c3b454fd4b95176 1d080183c58a15ba 0b0c1c2af5689088 0000000002030d06
+G5 379
+iter 0 subset 379 -> core 230 nodes 24801104
+iter 1 subset 230 -> core 230 nodes 24801104
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

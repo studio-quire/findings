@@ -1,0 +1,6 @@
+core p5-14-a2-w12 line 386664 forms 4193044c103040c0 3d09858fd3b119fe 113344cc103040c0 0506142203e1588c 000000000103040c
+G5 387
+iter 0 subset 387 -> core 227 nodes 52755184
+iter 1 subset 227 -> core 227 nodes 52755184
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

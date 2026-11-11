@@ -1,0 +1,6 @@
+core p5-10-a288-w12 line 3681 forms 2c04972183e32d3e 07294d0660b294e0 17090d8660b294e0 091e1663c162759a 0000000006080902
+G5 379
+iter 0 subset 379 -> core 233 nodes 29890728
+iter 1 subset 233 -> core 233 nodes 29890728
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

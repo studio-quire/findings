@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 5563 forms 240e922044c96004 03325d6a3221d9a6 141e12e044c96004 0c07040e96f85840 000000000103040c
+G5 379
+iter 0 subset 379 -> core 226 nodes 17434152
+iter 1 subset 226 -> core 226 nodes 17434152
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

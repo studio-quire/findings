@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 75332 forms 448e070345e8713a 3e1989c6e59b956e 1c2a4582c4aa5420 02031c242131c14e 0000000003020d0a
+G5 387
+iter 0 subset 387 -> core 228 nodes 74549640
+iter 1 subset 228 -> core 228 nodes 74549640
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

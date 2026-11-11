@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 8444 forms 2010804000000000 0729430e5191b1ee 1d1601cd92d34db6 050a1e2873a26c88 00000000070b0d0e
+G5 371
+iter 0 subset 371 -> core 235 nodes 89336424
+iter 1 subset 235 -> core 235 nodes 89336424
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

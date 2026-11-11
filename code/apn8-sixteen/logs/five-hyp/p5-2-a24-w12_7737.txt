@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 7737 forms 2b098003c2029cd0 142c438243c1382c 0f05132181c3a4fc 03020d0a3322ddaa 0000000006090804
+G5 371
+iter 0 subset 371 -> core 225 nodes 9083424
+iter 1 subset 225 -> core 225 nodes 9083424
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

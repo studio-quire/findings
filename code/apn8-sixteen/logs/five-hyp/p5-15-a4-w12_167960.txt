@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 167960 forms 4080102000000000 3f079fa8b5ebe4ec 192d52aad04335c6 03140e402469a186 0000000003020c08
+G5 387
+iter 0 subset 387 -> core 229 nodes 32933232
+iter 1 subset 229 -> core 229 nodes 32933232
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

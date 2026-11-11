@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 33361 forms 340d96ac53f0294a 152e53a242c37ca4 041d064c53f0294a 0a0204078231d916 000000000709080c
+G5 379
+iter 0 subset 379 -> core 231 nodes 146794512
+iter 1 subset 231 -> core 231 nodes 146794512
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

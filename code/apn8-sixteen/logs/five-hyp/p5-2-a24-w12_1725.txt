@@ -1,0 +1,6 @@
+core p5-2-a24-w12 line 1725 forms 27018b05249ba5f6 0c34404a95c9100c 1f1509c4a4d981e6 0b051b2fb152b5fa 0000000002010804
+G5 395
+iter 0 subset 395 -> core 208 nodes 2475192
+iter 1 subset 208 -> core 208 nodes 2475192
+core rank 21 a0 1
+sat 255 unsat 0 cap 0

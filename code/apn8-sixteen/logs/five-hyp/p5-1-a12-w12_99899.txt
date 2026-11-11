@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 99899 forms 429b1a676010f050 241b854643b1596e 06204f0123a1a93e 09080e0af320398a 00000000070a0c08
+G5 371
+iter 0 subset 371 -> core 229 nodes 32980208
+iter 1 subset 229 -> core 229 nodes 32980208
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

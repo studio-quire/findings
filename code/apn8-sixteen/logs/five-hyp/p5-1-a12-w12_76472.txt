@@ -1,0 +1,6 @@
+core p5-1-a12-w12 line 76472 forms 42811a252012a552 2010906000000000 043c474f52f23c30 150f12a143c169de 000000000508010a
+G5 387
+iter 0 subset 387 -> core 224 nodes 12842632
+iter 1 subset 224 -> core 224 nodes 12842632
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-13-a60-w12 line 2702 forms 200e820240417004 0e35434181c3a47c 101e02c240417004 0f091429d0a081d2 000000000301090e
+G5 371
+iter 0 subset 371 -> core 228 nodes 93838280
+iter 1 subset 228 -> core 228 nodes 93838280
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

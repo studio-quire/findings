@@ -1,0 +1,6 @@
+core p5-6-a6-w12 line 95297 forms 438f0d0c7073c4e4 2715986e30d090c0 0725582e30d090c0 1b0e17a8d060e0a0 0000000004090106
+G5 371
+iter 0 subset 371 -> core 227 nodes 7558512
+iter 1 subset 227 -> core 227 nodes 7558512
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

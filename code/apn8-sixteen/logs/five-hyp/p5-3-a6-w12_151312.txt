@@ -1,0 +1,6 @@
+core p5-3-a6-w12 line 151312 forms 47831d2021a1c0ec 350b848c55bb44cc 123859ec741a8420 0d05060f95f831da 000000000301080c
+G5 371
+iter 0 subset 371 -> core 224 nodes 7147768
+iter 1 subset 224 -> core 224 nodes 7147768
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

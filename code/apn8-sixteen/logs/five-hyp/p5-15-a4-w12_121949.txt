@@ -1,0 +1,6 @@
+core p5-15-a4-w12 line 121949 forms 4b840b05a351a9be 09315b64a21128e4 120510a10140815a 060e050743f1d93e 00000000060a0d02
+G5 371
+iter 0 subset 371 -> core 232 nodes 48168624
+iter 1 subset 232 -> core 232 nodes 48168624
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

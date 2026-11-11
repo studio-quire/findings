@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 2747 forms 26098102458b946c 0f24552281e191ae 1f04058281e191ae 0b1e0946e45ad5a2 0000000002030d06
+G5 379
+iter 0 subset 379 -> core 233 nodes 66241616
+iter 1 subset 233 -> core 233 nodes 66241616
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

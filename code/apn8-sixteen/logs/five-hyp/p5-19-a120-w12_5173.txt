@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 5173 forms 301080c000000000 12234c842233cc44 0b051d28b06384e4 070d0f0660f0b0e0 00000000060a0d02
+G5 379
+iter 0 subset 379 -> core 227 nodes 8155312
+iter 1 subset 227 -> core 227 nodes 8155312
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

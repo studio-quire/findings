@@ -1,0 +1,6 @@
+core p5-11-a96-w8 line 1980 forms 26028d0423b1c92e 1a2542818142a458 08140b47a3533d3e 0c071f25a2f36d76 00000000040a0502
+G5 379
+iter 0 subset 379 -> core 232 nodes 30846480
+iter 1 subset 232 -> core 232 nodes 30846480
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

@@ -1,0 +1,6 @@
+core p5-9-a12-w12 line 288 forms 1c214c83a4a91054 061e0e4066e9e804 0a0f1223c240f850 0103050e103151e6 0000000001020408
+G5 379
+iter 0 subset 379 -> core 231 nodes 10187592
+iter 1 subset 231 -> core 231 nodes 10187592
+core rank 22 a0 1
+sat 255 unsat 0 cap 0

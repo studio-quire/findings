@@ -1,0 +1,6 @@
+core p5-19-a120-w12 line 7690 forms 438606081362ec88 230696281362ec88 063b5c6460b3c546 1b1809cdf2128db2 0000000006080902
+G5 387
+iter 0 subset 387 -> core 232 nodes 271508104
+iter 1 subset 232 -> core 232 nodes 271508104
+core rank 22 a0 1
+sat 255 unsat 0 cap 0
