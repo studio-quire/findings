@@ -12,6 +12,8 @@ Plain Python 3 with numpy. A few minutes in all.
    Smallest non-MNBC |N_F| for m = 4..7 against Theorem 2's bound.
 4. A quadratic (6,5)-function with 5 non-bent components (Theorem 2's bound), padded to (6,6) and (6,7).
 5. Theorem 4 on the APN functions of item 1: |N_F| >= 2^(n/2+1) - 3.
+6. The (8,6)-function (xy, Tr(alpha x^3), Tr(alpha^2 y^3)) on F_16 x F_16 with 5 non-bent components (Theorem 2's bound),
+   padded to (8,7) and (8,8); and every (xy, q1(x), q2(y)) with q1, q2 quadratic forms on F_16: which have 5.
 """
 import itertools, random, re, sys
 import numpy as np
@@ -179,6 +181,70 @@ def check5(apn):
         print(f'  n = {n}: |N_F| = {nf} >= {2 ** (n // 2 + 1) - 3}: {nf >= 2 ** (n // 2 + 1) - 3}')
 
 
+def check6():
+    print("== 6. an (8,6)-function on Theorem 2's bound: (xy, Tr(alpha x^3), Tr(alpha^2 y^3)) on F_16 x F_16, and its paddings")
+    def mul(a, b):  # F_16 = F_2[t]/(t^4 + t + 1); t = 2 is primitive
+        r = 0
+        while b:
+            if b & 1:
+                r ^= a
+            b >>= 1
+            a <<= 1
+            if a & 16:
+                a ^= 0b10011
+        return r
+    def tr(a):
+        s, x = 0, a
+        for _ in range(4):
+            s ^= x
+            x = mul(x, x)
+        return s
+    cube = lambda x: mul(x, mul(x, x))
+    al, al2 = 2, 4
+    lut = [mul(v & 15, v >> 4) | tr(mul(al, cube(v & 15))) << 4 | tr(mul(al2, cube(v >> 4))) << 5 for v in range(256)]
+    forms = forms_of_lut(lut, 8)[:6]
+    P8 = pairs(8)
+    for extra in (0, 1, 2):
+        f = forms + [0] * extra
+        m = len(f)
+        g = bent_indicator(f, 8)
+        nb = [b for b in range(1, 1 << m) if not g[b]]
+        print(f'  (8,{m}): |N_F| = {len(nb)}, bound 3*2^(m-5)-1 = {3 * 2 ** (m - 5) - 1}, MNBC would be {2 ** (m - 4) - 1}')
+        if extra == 0:
+            def form(b):
+                c = 0
+                for k in range(m):
+                    if b >> k & 1:
+                        c ^= f[k]
+                return c
+            print(f'  its non-bent components have ranks {sorted(rank2(rows_of(form(b), 8, P8)) for b in nb)}')
+            # component b = (b_xy, c1, c2): b_xy . (xy) = Tr(a xy) with b_xy[i] = Tr(a t^i)
+            bvec = lambda a: sum(tr(mul(a, 1 << i)) << i for i in range(4))
+            expect = {bvec(0) | 1 << 4, bvec(0) | 1 << 5} | {bvec(a) | 3 << 4 for a in range(16) if cube(a) == cube(al)}
+            print(f'  non-bent are exactly Tr(alpha x^3), Tr(alpha^2 y^3) and the three Tr(axy) + Tr(alpha x^3) + Tr(alpha^2 y^3) with a^3 = alpha^3: '
+                  f'{set(nb) == expect}')
+    # the family (xy, q1(x), q2(y)): q1, q2 range over all 64 x 64 alternating forms on F_2^4 (linear terms don't matter)
+    P4 = pairs(4)
+    lift = lambda q, off: sum(1 << P8.index((i + off, j + off)) for k, (i, j) in enumerate(P4) if q >> k & 1)
+    xy = forms[:4]
+    def polar4(fun):
+        beta = [[fun((1 << i) ^ (1 << j)) ^ fun(1 << i) ^ fun(1 << j) ^ fun(0) for j in range(4)] for i in range(4)]
+        return sum(beta[i][j] << k for k, (i, j) in enumerate(P4))
+    tr3 = {polar4(lambda x, l=l: tr(mul(l, cube(x)))): l for l in range(16)}
+    cubes = {cube(x) for x in range(1, 16)}
+    hits = []
+    for q1 in range(64):
+        for q2 in range(64):
+            g = bent_indicator(xy + [lift(q1, 0), lift(q2, 4)], 8)
+            if sum(1 for b in range(1, 64) if not g[b]) == 5:
+                hits.append((q1, q2))
+    ok = all(q1 in tr3 and q2 in tr3 and tr3[q1] not in cubes and tr3[q2] not in cubes and mul(tr3[q1], tr3[q2]) in cubes
+             for q1, q2 in hits)
+    want = sum(1 for l in range(1, 16) for u in range(1, 16) if l not in cubes and u not in cubes and mul(l, u) in cubes)
+    print(f'  family (xy, q1(x), q2(y)), all 64 x 64 pairs of forms: {len(hits)} give |N_F| = 5; each is Tr(l x^3), Tr(u y^3) with '
+          f'l, u not cubes and l*u a cube: {ok}; pairs of that kind: {want}')
+
+
 if __name__ == '__main__':
     args = sys.argv[1:]
     luts = None
@@ -186,7 +252,7 @@ if __name__ == '__main__':
         i = args.index('--luts')
         luts = args[i + 1]
         del args[i:i + 2]
-    which = set(args) or {'1', '2', '3', '4', '5'}
+    which = set(args) or {'1', '2', '3', '4', '5', '6'}
     apn = check1(luts) if '1' in which or '5' in which else []
     if '2' in which:
         check2()
@@ -196,3 +262,5 @@ if __name__ == '__main__':
         check4()
     if '5' in which:
         check5(apn)
+    if '6' in which:
+        check6()

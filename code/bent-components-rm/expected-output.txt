@@ -25,3 +25,10 @@
   n = 6: |N_F| = 21 >= 13: True
   n = 8: |N_F| = 85 >= 29: True
   n = 10: |N_F| = 341 >= 61: True
+== 6. an (8,6)-function on Theorem 2's bound: (xy, Tr(alpha x^3), Tr(alpha^2 y^3)) on F_16 x F_16, and its paddings
+  (8,6): |N_F| = 5, bound 3*2^(m-5)-1 = 5, MNBC would be 3
+  its non-bent components have ranks [4, 4, 6, 6, 6]
+  non-bent are exactly Tr(alpha x^3), Tr(alpha^2 y^3) and the three Tr(axy) + Tr(alpha x^3) + Tr(alpha^2 y^3) with a^3 = alpha^3: True
+  (8,7): |N_F| = 11, bound 3*2^(m-5)-1 = 11, MNBC would be 7
+  (8,8): |N_F| = 23, bound 3*2^(m-5)-1 = 23, MNBC would be 15
+  family (xy, q1(x), q2(y)), all 64 x 64 pairs of forms: 50 give |N_F| = 5; each is Tr(l x^3), Tr(u y^3) with l, u not cubes and l*u a cube: True; pairs of that kind: 50
