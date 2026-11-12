@@ -1,6 +1,6 @@
 # Checks for "The non-bent components of a quadratic function form a Reed–Muller codeword"
 
-`checks.py` (Python 3 with numpy, a few minutes) runs six checks; `expected-output.txt` is its output.
+`checks.py` (Python 3 with numpy, a few minutes) runs seven checks; `expected-output.txt` is its output.
 
 | Check | What it tests | Expected |
 |---|---|---|
@@ -10,6 +10,9 @@
 | 4 | a quadratic (6,5)-function with 5 non-bent components, and the same with one or two zero coordinates appended | 5, 11, 23 = Theorem 2's bound |
 | 5 | Theorem 4 on the APN functions of check 1 | holds |
 | 6 | the (8,6)-function (xy, Tr(αx³), Tr(α²y³)) on F₁₆ × F₁₆ and its paddings to (8,7), (8,8); which components are not bent; every (xy, q₁(x), q₂(y)) with q₁, q₂ quadratic forms on F₁₆ | 5, 11, 23 = Theorem 2's bound; Tr(αx³), Tr(α²y³) and the three with a³ = α³; 50 choices, all Tr(λx³), Tr(μy³) with λ, μ not cubes and λμ a cube |
+| 7 | Theorem 5: the inequality of its steps 1 and 6 for n = 8, 12, …, 48; for n = 8, step 4's condition by brute force over every set T of size ≥ 12 in F₂⁴ ∖ 0 and every word of RM(2,4) | contradiction for every n; at most 4 points of any T meet the condition, where all of T would have to |
 
 `python checks.py 1 --luts FILE` also runs check 1 on every 8-bit LUT in FILE (one LUT per line, any separators), for
 instance Beierle and Leander's `apn_8bit.txt` (Zenodo 4738942).
+
+`python checks.py 7 --luts FILE` also checks, on every 8-bit APN function in FILE, the radical partition and, on every pair of rank-4 components, the two facts of Theorem 5's steps 3 and 4 (their sum is bent; the Pfaffian of each form on the other's radical is 1). On 521 functions from Beierle and Leander's and Beierle, Leander and Perrin's lists, 517 of them with two to four rank-4 components: 1,878 pairs, all as stated.

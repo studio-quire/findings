@@ -32,3 +32,10 @@
   (8,7): |N_F| = 11, bound 3*2^(m-5)-1 = 11, MNBC would be 7
   (8,8): |N_F| = 23, bound 3*2^(m-5)-1 = 23, MNBC would be 15
   family (xy, q1(x), q2(y)), all 64 x 64 pairs of forms: 50 give |N_F| = 5; each is Tr(l x^3), Tr(u y^3) with l, u not cubes and l*u a cube: True; pairs of that kind: 50
+== 7. Theorem 5: Theorem 4 is not attained for n = 4t >= 8
+  steps 2 and 7: a = #radicals of dimension n/2 >= 2M/3 + 11/3 - 16/(3M) (M = 2^(n/2)), |G| <= M + 2 - a, and |G| >= dim RM(t-1, 2t) is needed
+    n = 8: a >= 14, |G| <= 4, needed 5: contradiction True
+    n = 12: a >= 47, |G| <= 19, needed 22: contradiction True
+    n = 16: a >= 175, |G| <= 83, needed 93: contradiction True
+    n = 20 .. 48: contradiction True (each checked)
+  n = 8, all 576 sets T of size >= 12 in F_2^4 - 0: at most 4 points of T have a word of RM(2,4) through u and off the rest of T (all of T would be needed)

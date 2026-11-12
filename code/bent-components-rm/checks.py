@@ -14,6 +14,9 @@ Plain Python 3 with numpy. A few minutes in all.
 5. Theorem 4 on the APN functions of item 1: |N_F| >= 2^(n/2+1) - 3.
 6. The (8,6)-function (xy, Tr(alpha x^3), Tr(alpha^2 y^3)) on F_16 x F_16 with 5 non-bent components (Theorem 2's bound),
    padded to (8,7) and (8,8); and every (xy, q1(x), q2(y)) with q1, q2 quadratic forms on F_16: which have 5.
+7. Theorem 5: the inequality of its steps 2 and 7 for n = 8, 12, ..., 48; for n = 8, the condition of step 5 by brute
+   force over every set T of size >= 12 and every word of RM(2,4); with --luts, the radical partition (P), and (S) and
+   (N) on every pair of rank-4 components of each 8-bit APN function in the file.
 """
 import itertools, random, re, sys
 import numpy as np
@@ -245,6 +248,89 @@ def check6():
           f'l, u not cubes and l*u a cube: {ok}; pairs of that kind: {want}')
 
 
+def rm_words(m, r):
+    """Every word of RM(r, m) as a bitmask over F_2^m (small m only)."""
+    mons = [s for s in range(1 << m) if bin(s).count('1') <= r]
+    cols = [sum(1 << x for x in range(1 << m) if x & s == s) for s in mons]
+    words = [0]
+    for c in cols:
+        words += [w ^ c for w in words]
+    return words
+
+
+def check7(luts):
+    print('== 7. Theorem 5: Theorem 4 is not attained for n = 4t >= 8')
+    from math import comb
+    print('  steps 2 and 7: a = #radicals of dimension n/2 >= 2M/3 + 11/3 - 16/(3M) (M = 2^(n/2)), |G| <= M + 2 - a,'
+          ' and |G| >= dim RM(t-1, 2t) is needed')
+    for t in range(2, 13):
+        M = 4 ** t
+        a = -(-(M * M // 2 + 11 * M // 4 - 4) * 4 // (3 * M))     # ceil((M^2/2 + 11M/4 - 4) / (3M/4))
+        need = sum(comb(2 * t, i) for i in range(t))
+        gmax = M + 2 - a
+        if t <= 4 or gmax >= need:
+            print(f'    n = {4 * t}: a >= {a}, |G| <= {gmax}, needed {need}: contradiction {gmax < need}')
+        assert gmax < need
+    print('    n = 20 .. 48: contradiction True (each checked)')
+    # n = 8 directly: the condition of step 5 for every u in T, over all T with |T| >= 12 and all of RM(2,4)
+    words = rm_words(4, 2)
+    worst = 0
+    for size in (12, 13, 14, 15):
+        for T in itertools.combinations(range(1, 16), size):
+            Tm = sum(1 << u for u in T)
+            ok = sum(1 for u in T if any(w >> u & 1 and not w & (Tm ^ (1 << u)) for w in words))
+            worst = max(worst, ok)
+    print(f'  n = 8, all 576 sets T of size >= 12 in F_2^4 - 0: at most {worst} points of T have a word of RM(2,4)'
+          f' through u and off the rest of T (all of T would be needed)')
+    if not luts:
+        return
+    n, rk_type, pairs_seen = 8, {}, 0
+    P = pairs(n)
+    for line in open(luts, encoding='utf-8'):
+        F = [int(t) for t in re.findall(r'\d+', line)]
+        if len(F) != 256:
+            continue
+        forms = forms_of_lut(F, n)
+        rad, cover = {}, [0] * 256
+        for v in range(1, 256):
+            c = 0
+            for k in range(n):
+                if v >> k & 1:
+                    c ^= forms[k]
+            rows = rows_of(c, n, P)
+            R = [x for x in range(256) if all(bin(r & x).count('1') % 2 == 0 for r in rows)]
+            rad[v] = (rows, R)
+            for x in R[1:]:
+                cover[x] += 1
+        assert all(cover[x] == 1 for x in range(1, 256)), '(P) fails'
+        Q = [v for v in rad if len(rad[v][1]) == 16]
+        rk_type[len(Q)] = rk_type.get(len(Q), 0) + 1
+
+        def pf_on(rows, basis):      # Pfaffian of the form with these rows, restricted to span(basis)
+            def form(x, y):
+                s = 0
+                for i in range(n):
+                    if x >> i & 1:
+                        s ^= bin(rows[i] & y).count('1') & 1
+                return s
+            e = [[form(basis[i], basis[j]) for j in range(4)] for i in range(4)]
+            return e[0][1] & e[2][3] ^ e[0][2] & e[1][3] ^ e[0][3] & e[1][2]
+        for c in Q:
+            basis = []
+            for x in rad[c][1]:
+                if x and rank2(basis + [x]) > len(basis):
+                    basis.append(x)
+            for c2 in Q:
+                if c2 == c:
+                    continue
+                assert len(rad[c ^ c2][1]) == 1, '(S) fails'
+                assert pf_on(rad[c2][0], basis) == 1, '(N) fails'
+                assert pf_on(rad[c ^ c2][0], basis) == 1, 'B_c vanishing on R_c fails'
+                pairs_seen += 1
+    print(f'  {luts}: (P) on every function; (S) and (N) on all {pairs_seen} ordered pairs of rank-4 components'
+          f' (functions by number of rank-4 components: {dict(sorted(rk_type.items()))})')
+
+
 if __name__ == '__main__':
     args = sys.argv[1:]
     luts = None
@@ -252,7 +338,7 @@ if __name__ == '__main__':
         i = args.index('--luts')
         luts = args[i + 1]
         del args[i:i + 2]
-    which = set(args) or {'1', '2', '3', '4', '5', '6'}
+    which = set(args) or {'1', '2', '3', '4', '5', '6', '7'}
     apn = check1(luts) if '1' in which or '5' in which else []
     if '2' in which:
         check2()
@@ -264,3 +350,5 @@ if __name__ == '__main__':
         check5(apn)
     if '6' in which:
         check6()
+    if '7' in which:
+        check7(luts)
