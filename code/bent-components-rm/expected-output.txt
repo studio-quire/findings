@@ -39,3 +39,16 @@
     n = 16: a >= 175, |G| <= 83, needed 93: contradiction True
     n = 20 .. 48: contradiction True (each checked)
   n = 8, all 576 sets T of size >= 12 in F_2^4 - 0: at most 4 points of T have a word of RM(2,4) through u and off the rest of T (all of T would be needed)
+== 8. Theorem 6: weights of RM(r, 2r) in [2d, 2.5d) that are 2 mod 4
+  r = 5, d = 32: listed weights that are 2 mod 4: [74, 78] = 2.5d - [6, 2]
+  r = 6, d = 64: listed weights that are 2 mod 4: [154, 158] = 2.5d - [6, 2]
+  r = 7, d = 128: listed weights that are 2 mod 4: [314, 318] = 2.5d - [6, 2]
+  r = 8, d = 256: listed weights that are 2 mod 4: [634, 638] = 2.5d - [6, 2]
+  r = 9, d = 512: listed weights that are 2 mod 4: [1274, 1278] = 2.5d - [6, 2]
+  r = 10, d = 1024: listed weights that are 2 mod 4: [2554, 2558] = 2.5d - [6, 2]
+  r = 11, d = 2048: listed weights that are 2 mod 4: [5114, 5118] = 2.5d - [6, 2]
+  r = 12, d = 4096: listed weights that are 2 mod 4: [10234, 10238] = 2.5d - [6, 2]
+  r = 5: Table I entries (number, weight) [(11, 64), (20, 72), (21, 76), (22, 76), (24, 78), (26, 74), (15, 76), (18, 78)], all as stated; 2 mod 4: [(24, 78), (26, 74), (18, 78)]
+  r = 6: Table I entries (number, weight) [(11, 128), (19, 152), (20, 152), (21, 156), (22, 156), (24, 158), (26, 154)], all as stated; 2 mod 4: [(24, 158), (26, 154)]
+  r = 7: Table I entries (number, weight) [(11, 256), (19, 312), (20, 312), (21, 316), (22, 316), (24, 318), (26, 314)], all as stated; 2 mod 4: [(24, 318), (26, 314)]
+  RM(4,8): x1x2x3x4 + x5x6(x7x8 + x3x4) has weight 34, affine stabilizer of order 663552, orbit 2063296207257600; Kasami-Tokura-Azumi count of weight-34 words 2063296207257600: one orbit True

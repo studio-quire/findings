@@ -17,6 +17,9 @@ Plain Python 3 with numpy. A few minutes in all.
 7. Theorem 5: the inequality of its steps 2 and 7 for n = 8, 12, ..., 48; for n = 8, the condition of step 5 by brute
    force over every set T of size >= 12 and every word of RM(2,4); with --luts, the radical partition (P), and (S) and
    (N) on every pair of rank-4 components of each 8-bit APN function in the file.
+8. Theorem 6: which weights of Kasami-Tokura-Azumi's list for [2d, 2.5d) are 2 mod 4 when m = 2r (r = 5..12); their
+   Table I entries of degree r evaluated directly for r = 5, 6, 7; and the affine stabilizer of
+   x1x2x3x4 + x5x6(x7x8 + x3x4), whose orbit is all weight-34 words of RM(4,8) by their count (a few minutes).
 """
 import itertools, random, re, sys
 import numpy as np
@@ -331,6 +334,134 @@ def check7(luts):
           f' (functions by number of rank-4 components: {dict(sorted(rk_type.items()))})')
 
 
+def table1_entries(r):
+    """Kasami-Tokura-Azumi Table I entries of degree r: (number, variables used, f(X), stated weight as f(m))."""
+    def pr(X, lo, hi):
+        out = np.ones_like(X[1])
+        for i in range(lo, hi + 1):
+            out &= X[i]
+        return out
+    A = lambda X: pr(X, 1, r)                     # X1...Xr
+    B = lambda X: pr(X, r + 1, 2 * r - 2)         # X(r+1)...X(2r-2)
+    E = [(11, 2 * r - 1, lambda X: A(X) ^ ((X[1] ^ 1) & pr(X, r + 1, 2 * r - 1)), lambda m: 2 ** (m - r + 1))]
+    if r >= 6:
+        E.append((19, 2 * r - 2, lambda X: A(X) ^ (B(X) & ((X[r - 3] & X[r - 2]) ^ (X[r - 1] & (X[r] ^ 1)))),
+                  lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 3)))
+    if r >= 5:
+        E += [(20, 2 * r - 1, lambda X: A(X) ^ (B(X) & ((X[2 * r - 1] & (X[r] ^ 1)) ^ (X[r - 2] & X[r - 1]))),
+               lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 3)),
+              (21, 2 * r - 1, lambda X: A(X) ^ (B(X) & ((X[2 * r - 1] & X[r - 2]) ^ (X[r - 1] & X[r]))),
+               lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 2)),
+              (22, 2 * r, lambda X: A(X) ^ (B(X) & ((X[2 * r - 1] & X[r - 1]) ^ (X[2 * r] & X[r]))),
+               lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 2)),
+              (24, 2 * r, lambda X: A(X) ^ (B(X) & ((X[2 * r - 1] & X[2 * r]) ^ (X[r - 1] & (X[r] ^ 1)))),
+               lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 1)),
+              (26, 2 * r, lambda X: A(X) ^ (B(X) & ((X[2 * r - 1] & X[2 * r]) ^ (X[r - 1] & X[r]))),
+               lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 3) + 2 ** (m - 2 * r + 1))]
+    E += [(23, 2 * r + 1, lambda X: A(X) ^ (B(X) & ((X[2 * r - 1] & X[2 * r]) ^ (X[2 * r + 1] & X[r]))),
+           lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 2)),
+          (25, 2 * r + 1, lambda X: A(X) ^ (B(X) & ((X[2 * r - 1] & X[2 * r]) ^ (X[2 * r + 1] & (X[r] ^ 1)))),
+           lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 1)),
+          (27, 2 * r + 2, lambda X: A(X) ^ (B(X) & ((X[2 * r - 1] & X[2 * r]) ^ (X[2 * r + 1] & X[2 * r + 2]))),
+           lambda m: 2 ** (m - r + 1) + 2 ** (m - r - 1) - 2 ** (m - 2 * r + 2) + 2 ** (m - 2 * r))]
+    if r == 5:
+        E += [(15, 9, lambda X: pr(X, 1, 5) ^ (X[6] & X[7] & ((X[3] & X[4] & X[8]) ^ (X[2] & (X[5] ^ X[8]) & X[9]))),
+               lambda m: 2 ** (m - 4) + 2 ** (m - 7) + 2 ** (m - 8)),
+              (18, 10, lambda X: pr(X, 1, 5) ^ (X[6] & X[7] & ((X[3] & X[4] & X[8]) ^ ((X[5] ^ X[8]) & X[9] & X[10]))),
+               lambda m: 2 ** (m - 4) + 2 ** (m - 7) + 2 ** (m - 8) + 2 ** (m - 9))]
+    return E
+
+
+def affine_stabilizer_order(S, m):
+    """Number of affine maps of F_2^m mapping the point set S onto itself (S must span F_2^m affinely)."""
+    pts = sorted(S)
+    p0, vs = pts[0], []
+    for p in pts[1:]:
+        if rank2(vs + [p ^ p0]) > len(vs):
+            vs.append(p ^ p0)
+    assert len(vs) == m
+    coef = {}
+    for c in range(1 << m):
+        y = p0
+        for i in range(m):
+            if c >> i & 1:
+                y ^= vs[i]
+        coef[y] = c
+    level = [[x for x in range(1 << m) if coef[x].bit_length() == k] for k in range(m + 1)]
+    count = 0
+
+    def image(x, q0, ws):
+        y, c, i = q0, coef[x], 0
+        while c:
+            if c & 1:
+                y ^= ws[i]
+            c >>= 1
+            i += 1
+        return y
+
+    def rec(k, q0, ws, red):
+        nonlocal count
+        if k > m:
+            count += 1
+            return
+        for q in pts:
+            w = v = q ^ q0
+            for b in red:                 # reduce against the images so far: independent iff something is left
+                v = min(v, v ^ b)
+            if not v:
+                continue
+            ws2 = ws + [w]
+            for x in level[k]:
+                if (x in S) != (image(x, q0, ws2) in S):
+                    break
+            else:
+                rec(k + 1, q0, ws2, red + [v])
+
+    for q0 in pts:
+        rec(1, q0, [], [])
+    return count
+
+
+def check8():
+    print('== 8. Theorem 6: weights of RM(r, 2r) in [2d, 2.5d) that are 2 mod 4')
+    from fractions import Fraction as Fr
+    from math import prod
+    # (a) Kasami-Tokura-Azumi's list of all weights in [2d, 2.5d) (pp. 392-394), in units of d; m = 2r, ceil(m/r) = 2
+    for r in range(5, 13):
+        m, d = 2 * r, 2 ** r
+        pats = [Fr(2), Fr(17, 8), Fr(9, 4), Fr(37, 16), Fr(19, 8), Fr(39, 16)]                        # (a)-(f)
+        pats += [Fr(5, 2) - Fr(1, 2 ** (k + 1)) for k in range(4, m - r - 2 + 1)]                     # (g)
+        pats += [Fr(5, 2) - Fr(1, 2 ** (k + 1)) + Fr(1, 2 ** (k + 3)) for k in range(2, m - r - 4 + 1)]  # (h)
+        two = sorted({int(p * d) for p in pats if (p * d) % 4 == 2})
+        print(f'  r = {r}, d = {d}: listed weights that are 2 mod 4: {two} = 2.5d - {[5 * d // 2 - w for w in two]}')
+        assert [5 * d // 2 - w for w in two] == [6, 2]
+    # (b) Table I's degree-r entries in at most 2r variables, evaluated directly
+    for r in (5, 6, 7):
+        m = 2 * r
+        idx = np.arange(1 << m, dtype=np.uint32)
+        X = [None] + [((idx >> (i - 1)) & 1).astype(np.uint8) for i in range(1, m + 1)]
+        got = []
+        for no, nv, f, stated in table1_entries(r):
+            if nv > m:
+                continue
+            w = int(f(X).sum())
+            assert w == stated(m), (r, no, w, stated(m))
+            got.append((no, w))
+        two = [(no, w) for no, w in got if w % 4 == 2]
+        print(f'  r = {r}: Table I entries (number, weight) {got}, all as stated; 2 mod 4: {two}')
+    # (c) dimension 8: KTA's count of weight-34 words of RM(4,8) (formula (b), last term) is one affine orbit
+    S = set()
+    for p in range(256):
+        x = [None] + [p >> i & 1 for i in range(8)]
+        if (x[1] & x[2] & x[3] & x[4]) ^ (x[5] & x[6] & ((x[7] & x[8]) ^ (x[3] & x[4]))):
+            S.add(p)
+    st = affine_stabilizer_order(S, 8)
+    agl = 2 ** 8 * prod(2 ** 8 - 2 ** i for i in range(8))
+    N = 2 ** 23 * 3 * 5 ** 2 * 7 ** 2 * 17 * 31 * 127
+    print(f'  RM(4,8): x1x2x3x4 + x5x6(x7x8 + x3x4) has weight {len(S)}, affine stabilizer of order {st},'
+          f' orbit {agl // st}; Kasami-Tokura-Azumi count of weight-34 words {N}: one orbit {agl // st == N}')
+
+
 if __name__ == '__main__':
     args = sys.argv[1:]
     luts = None
@@ -338,7 +469,7 @@ if __name__ == '__main__':
         i = args.index('--luts')
         luts = args[i + 1]
         del args[i:i + 2]
-    which = set(args) or {'1', '2', '3', '4', '5', '6', '7'}
+    which = set(args) or {'1', '2', '3', '4', '5', '6', '7', '8'}
     apn = check1(luts) if '1' in which or '5' in which else []
     if '2' in which:
         check2()
@@ -352,3 +483,5 @@ if __name__ == '__main__':
         check6()
     if '7' in which:
         check7(luts)
+    if '8' in which:
+        check8()
